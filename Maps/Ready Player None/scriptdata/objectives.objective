@@ -1,0 +1,15 @@
+<table>
+	<objective description="Pain_obj_01_desc" id="Pain_obj_01" prio="1" text="Pain_obj_01" xp_weight="1"/>
+	<objective description="Pain_obj_02_desc" id="Pain_obj_02" prio="1" text="Pain_obj_02" xp_weight="1"/>
+	<objective description="Pain_obj_03_desc" id="Pain_obj_03" prio="1" text="Pain_obj_03" xp_weight="1"/>
+	<objective description="Pain_obj_04_desc" id="Pain_obj_04" prio="1" text="Pain_obj_04" xp_weight="1"/>
+	<objective description="Pain_obj_05_desc" id="Pain_obj_05" prio="1" text="Pain_obj_05" xp_weight="1"/>
+	<objective description="Pain_obj_06_desc" id="Pain_obj_06" prio="1" text="Pain_obj_06" xp_weight="1"/>
+	<objective description="Pain_obj_07_desc" id="Pain_obj_07" prio="1" text="Pain_obj_07" xp_weight="1"/>
+	<objective description="Pain_obj_08_desc" id="Pain_obj_08" prio="1" text="Pain_obj_08" xp_weight="1"/>
+	<objective description="Pain_obj_09_desc" id="Pain_obj_09" prio="1" text="Pain_obj_09" xp_weight="1"/>
+	<objective description="Pain_obj_010_desc" id="Pain_obj_010" prio="1" text="Pain_obj_010" xp_weight="1"/>
+	<objective description="Pain_obj_11_desc" id="Pain_obj_11" prio="1" text="Pain_obj_11" xp_weight="1"/>
+	<objective description="Pain_obj_07b_desc" id="Pain_obj_07b" prio="1" text="Pain_obj_07b" xp_weight="1"/>
+	<objective description="Pain_obj_08b_desc" id="Pain_obj_08b" prio="1" text="Pain_obj_08b" xp_weight="1"/>
+</table>

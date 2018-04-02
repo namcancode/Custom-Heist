@@ -1,0 +1,142 @@
+<table name="Virtual">
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Pain" name_id="contract_pain" package="packages/contact_bain"/>
+	<Localization default="english.txt" directory="loc"/>
+	<narrative briefing_event="" contact="Pain" icon="guis/textures/Ready_Player_None_icon" id="Virtual">
+		<chain>
+			<table level_id="Victor Romeo" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="2"/>
+			<value_node value="2"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="1"/>
+			<value_node value="2"/>
+			<value_node value="3"/>
+			<value_node value="4"/>
+			<value_node value="5"/>
+			<value_node value="6"/>
+			<value_node value="7"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="1"/>
+			<value_node value="2"/>
+			<value_node value="3"/>
+			<value_node value="4"/>
+			<value_node value="5"/>
+			<value_node value="6"/>
+			<value_node value="7"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="5.7314542857142e+004"/>
+			<value_node value=""/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+		</payout>
+	</narrative>
+	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
+	<level ai_group_type="America" briefing_dialog="" ghost_bonus="0.1" id="Victor Romeo" load_screen="guis/textures/Ready_Player_None_loading" max_bags="54">
+		<add file="levels/Victor Romeo/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="camera_access"/>
+			<asset name="bodybags_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="pain_chair_hallway"/>
+			<asset name="pain_double_money"/>
+			<asset name="pain_door_open"/>
+		</assets>
+		<hooks>
+			<hook file="hooks/copbase.lua" source_file="lib/units/enemies/cop/copbase"/>
+			<hook file="hooks/charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="hooks/assetstweakdata.lua" source_file="lib/tweak_data/assetstweakdata"/>
+		</hooks>
+		<include directory="levels/Victor Romeo">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/Virtualis.environment" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<intro_event>
+			<value_node value=""/>
+		</intro_event>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="levels/narratives/bain/roberts/editor_only/editor_only"/>
+			<value_node value="levels/narratives/classics/red2/world/world"/>
+			<value_node value="levels/narratives/dentist/mia/stage1/world/world"/>
+			<value_node value="levels/narratives/elephant/born/art_erik/art_erik"/>
+			<value_node value="levels/narratives/vlad/moon/world/world"/>
+			<value_node value="levels/instances/unique/are_exfil_puzzle/world"/>
+			<value_node value="levels/narratives/dentist/mia/stage2/editor_only/editor_only"/>
+			<value_node value="levels/narratives/bain/big/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/holly_2/group_force_spawn/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_sewer_enemies/world/world"/>
+			<value_node value="levels/narratives/classics/dah/editor only/editor only"/>
+			<value_node value="levels/narratives/bain/nail/editor_only/editor_only"/>
+			<value_node value="levels/narratives/pbr/jerry/editor_only/editor_only"/>
+			<value_node value="levels/narratives/continental/spa/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/pet_fan/world/world"/>
+			<value_node value="levels/narratives/pbr/berry/world/world"/>
+			<value_node value="levels/instances/unique/hlm_box_contraband002/world/world"/>
+			<value_node value="levels/narratives/vlad/shout/world/world"/>
+			<value_node value="levels/instances/unique/brb/brb_deposit_room/world/world"/>
+			<value_node value="levels/instances/unique/hvh/hvh_event/world/world"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_1/world/world"/>
+			<value_node value="levels/instances/unique/man/man_circuit_breaker/world/world"/>
+			<value_node value="packages/narr_red2"/>
+			<value_node value="levels/instances/unique/dark/keycard/world/world"/>
+			<value_node value="levels/narratives/classics/man/world_sounds"/>
+			<value_node value="levels/instances/unique/hox_fbi_armory/world/world"/>
+			<value_node value="packages/narr_shoutout"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<AddFiles directory="assets">
+		<texture load="true" path="guis/textures/Ready_Player_None_icon"/>
+		<texture load="true" path="guis/textures/Ready_Player_None_loading"/>
+	</AddFiles>
+</table>
