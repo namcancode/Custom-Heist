@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/vegetation/jungle/brushes/brush_grass" orientation_object="rp_brush_grass_01" />
+  <graphics>
+    <object name="g_brush_grass_01" enabled="true"   />
+  </graphics>
+</dynamic_object>

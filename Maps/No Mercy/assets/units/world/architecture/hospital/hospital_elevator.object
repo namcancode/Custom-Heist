@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/hospital_elevator" orientation_object="rp_hospital_elevator" />
+	<sequence_manager file="units/world/architecture/hospital/hospital_elevator" />	
+	<animations>
+		<animation_group name="hatch_1" enabled="false">
+			<object name="a_floor_hatch_1" />
+		</animation_group>
+		<animation_group name="hatch_2" enabled="false">
+			<object name="a_arm_1" />
+			<object name="a_arm_2" />
+			<object name="a_floor_hatch_2" />
+			<object name="a_handle" />
+		</animation_group>
+		<animation_group name="ladder" enabled="false">
+			<object name="a_ladder" />
+		</animation_group>
+	</animations>	
+	
+	<bodies>
+		<!-- Elevator -->
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_hospital_elevator" />
+			<object name="c_mesh_mopp_elevator" collision_type="mesh_mopp" />
+		</body>
+		
+		<!-- Hatch Bodies -->
+		<body name="arm_1" enabled="true" template="raycoll">
+			<object name="a_arm_1" />
+			<object name="c_box_arm_1_01" collision_type="box" padding="-2.5"/> 
+			<object name="c_box_arm_1_02" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="arm_2" enabled="true" template="raycoll">
+			<object name="a_arm_2" />
+			<object name="c_box_arm_2_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_arm_2_02" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="hatch_1" enabled="false" template="raycoll">
+			<object name="a_floor_hatch_1" />
+			<object name="c_box_hatch_1" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="hatch_2" enabled="true" template="raycoll">
+			<object name="a_floor_hatch_2" />
+			<object name="c_box_hatch_2" collision_type="box" padding="-2.5"/>
+		</body>
+		<!-- -->		
+		<body name="hatch_blocker" enabled="true" template="static">
+			<object name="c_box_hatch_blocker" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="hatch_2_walkway" enabled="false" template="nav_walk">	
+			<object name="c_mesh_hatch_walkway" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="dm_plastic_hatch_1" enabled="true" material="plastic"/>
+		<decal_mesh name="dm_wood_hatch_1" enabled="true" material="wood"/>
+		<decal_mesh name="dm_metal_hatch_2" enabled="true" material="metal"/>
+		<decal_mesh name="dm_wood_hatch_2" enabled="true" material="wood"/>
+		<decal_mesh name="dm_metal_elevator" enabled="true" material="metal"/>
+		<decal_mesh name="dm_plastic" enabled="true" material="plastic"/>
+		<decal_mesh name="dm_rubber_padding" enabled="true" material="rubber"/>
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_arm_1" 		enabled="true"/>
+		<object name="g_arm_2" 		enabled="true"/>		
+		<object name="g_hatch_1" 	enabled="true"/>
+		<object name="g_hatch_1_outline" enabled="false"/>		
+		<object name="g_hatch_2" 	enabled="true"/>
+		<object name="g_ladder" 	enabled="true"/>
+		<object name="g_handle" 	enabled="true"/>		
+		<object name="g_elevator" 	enabled="true"/>
+		<object name="g_metal_bars" enabled="true"/>		
+		<object name="g_bar" 		enabled="true"/>
+	</graphics>
+</dynamic_object> 

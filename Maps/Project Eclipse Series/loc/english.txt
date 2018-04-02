@@ -1,0 +1,6 @@
+{
+	"heist_project_eclipse_serie_name_name" : "Project Eclipse Series",
+	"heist_project_eclipse_serie_name_brief" : "Hello... Nepgearsy here.\n\nYou can find all my released custom heists in this pack. I hope you will enjoy as much as I enjoyed creating them. Have fun!",
+	"contact_nepgearsy_name" : "Nepgearsy",
+	"contact_nepgearsy_desc" : "This guy. I've never seen his face. He's also talking through a bad voice filter. I suggest you to be careful when you're going to fulfill his requests. Something bad might happen..."
+}

@@ -1,0 +1,6 @@
+<unit type="Hosp" slot="1" >
+    <object file="units/world/architecture/hospital/props/decals/hospital_decal_06" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

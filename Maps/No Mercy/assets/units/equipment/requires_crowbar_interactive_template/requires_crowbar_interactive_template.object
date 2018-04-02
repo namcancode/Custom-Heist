@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template" orientation_object="rp_secret_stash_limo_trunk_crowbar_interaction" />
+	<sequence_manager file="units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template" />
+	<bodies>
+		<body name="editor" enabled="true" template="editor">
+			<object name="rp_secret_stash_limo_trunk_crowbar_interaction" />
+			<object name="c_box_c" collision_type="box" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_g" enabled="true" />
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="ground_grass" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/world/vegetation/ground_grass/ground_grass_df"/>
+    </material>
+</materials>

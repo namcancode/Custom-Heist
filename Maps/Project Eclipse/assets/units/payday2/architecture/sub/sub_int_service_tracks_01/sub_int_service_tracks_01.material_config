@@ -1,0 +1,10 @@
+<materials version="3">
+    <material name="gp_service_trsn_flr" version="2" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP">
+        <diffuse_texture file="units/payday2/architecture/sub/shared_textures/sub_int_service_gravel_df"/>
+        <bump_normal_texture file="units/payday2/architecture/sub/shared_textures/sub_int_service_gravel_nm"/>
+    </material>
+    <material name="gp_service_trns_trx" version="2" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP">
+        <diffuse_texture file="units/payday2/architecture/sub/shared_textures/sub_int_service_tracks_df"/>
+        <bump_normal_texture file="units/payday2/architecture/sub/shared_textures/sub_int_service_tracks_nm"/>
+    </material>
+</materials>

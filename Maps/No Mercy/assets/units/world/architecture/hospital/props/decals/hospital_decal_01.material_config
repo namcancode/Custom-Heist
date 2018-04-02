@@ -1,0 +1,44 @@
+<materials version="3">
+    <material name="decal_01" render_template="decal:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/decals/decal_01_df"/>
+    </material>
+    <material name="decal_02" render_template="decal:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/decals/decal_02_df"/>
+    </material>
+    <material name="decal_03" render_template="decal:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/decals/decal_03_df"/>
+    </material>
+    <material name="decal_04" render_template="decal:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/decals/decal_04_df"/>
+    </material>
+    <material name="decal_05" render_template="decal:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/decals/decal_05_df"/>
+    </material>
+    <material name="decal_06" render_template="decal:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/decals/decal_06_df"/>
+    </material>
+    <material name="decal_07" render_template="decal:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/decals/decal_07_df"/>
+    </material>
+    <material name="decal_08" render_template="decal:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/decals/decal_08_df"/>
+    </material>
+    <material name="decal_09" render_template="decal:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/decals/decal_09_df"/>
+    </material>
+    <material name="decal_10" render_template="decal:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/decals/decal_10_df"/>
+    </material>
+    <material name="decal_11" render_template="decal:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/decals/decal_11_df"/>
+    </material>
+    <material name="decal_12" render_template="decal:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/decals/decal_12_df"/>
+    </material>
+    <material name="decal_13" render_template="decal:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/decals/decal_13_df"/>
+    </material>
+    <material name="decal_14" render_template="decal:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/decals/decal_14_df"/>
+    </material>
+</materials>

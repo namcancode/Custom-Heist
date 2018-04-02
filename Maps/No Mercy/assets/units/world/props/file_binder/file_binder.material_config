@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="file_binder" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/props/file_binder/file_binder_df"/>
+    </material>
+</materials>

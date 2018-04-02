@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/parking_garage_signs/sign_park_pole" orientation_object="rp_sign_park_pole" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_sign_park_pole" />
+      <object name="c_sign_park_pole" collision_type="mesh_mopp" />
+      <object name="g_glass" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  
+  <decal_surfaces default_material="metal_hollow" static="true">
+	  <decal_mesh name="dm_sign_park_pole" enabled="true" material="metal_hollow" />
+	  <decal_mesh name="g_glass" enabled="true" material="glass_unbreakable" />
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="s_sign_park_pole" enabled="true" shadow_caster="true" />
+    <object name="g_sign_park_pole" enabled="true" />
+    <object name="g_glass" enabled="true" />
+  </graphics>
+</dynamic_object>

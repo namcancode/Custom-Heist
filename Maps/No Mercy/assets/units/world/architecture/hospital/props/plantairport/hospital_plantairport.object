@@ -1,0 +1,15 @@
+<dynamic_object>
+    <diesel orientation_object="rp_hospital_plantairport" materials="units/world/architecture/hospital/props/plantairport/hospital_plantairport" />
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="g_g" enabled="true" material="metal" />
+	</decal_surfaces>
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_hospital_plantairport" />
+			<object name="c_capsule" collision_type="capsule" />
+		</body>
+	</bodies>
+</dynamic_object>

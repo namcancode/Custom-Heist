@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="styrofoam_cups_p4" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/styrofoamcups/styrofoam_cups_01_df"/>
+    </material>
+</materials>

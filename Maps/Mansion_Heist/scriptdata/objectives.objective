@@ -1,0 +1,9 @@
+<table>
+	<objective description="elmsworth_secure_bags_desc" id="elmsworth_secure_bags" prio="1" text="elmsworth_secure_bags" xp_weight="1"/>
+	<objective description="elmsworth_loud_escape_desc" id="elmsworth_loud_escape" prio="1" text="elmsworth_loud_escape" xp_weight="1"/>
+	<objective description="elmsworth_stealth_escape_desc" id="elmsworth_stealth_escape" prio="1" text="elmsworth_stealth_escape" xp_weight="1"/>
+	<objective description="elmsworth_loud_drill_desc" id="elmsworth_loud_drill" prio="1" text="elmsworth_loud_drill" xp_weight="1"/>
+	<objective description="elmsworth_enter_mansion_desc" id="elmsworth_enter_mansion" prio="1" text="elmsworth_enter_mansion" xp_weight="1"/>
+	<objective description="elmsworth_stealth_vault_desc" id="elmsworth_stealth_vault" prio="1" text="elmsworth_stealth_vault" xp_weight="1"/>
+	<objective description="elmsworth_loud_secure_basement_desc" id="elmsworth_loud_secure_basement" prio="1" text="elmsworth_loud_secure_basement" xp_weight="1"/>
+</table>

@@ -1,0 +1,31 @@
+<dynamic_object>
+    <diesel orientation_object="rp_shelf_aluminium" materials="units/world/props/shelf_aluminium/shelf_aluminium" />
+	
+	 <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object name="rp_shelf_aluminium" />
+			<object collision_type="box" name="c_box_000" padding="-2"/>
+			<object collision_type="box" name="c_box_001" padding="-2"/>
+			<object collision_type="box" name="c_box_002" padding="-2"/>
+			<object collision_type="box" name="c_box_003" padding="-2"/>
+			<object collision_type="box" name="c_box_004" padding="-2"/>
+			<object collision_type="capsule" name="c_cylinder_000" padding="-2"/>
+			<object collision_type="capsule" name="c_cylinder_001" padding="-2"/>
+			<object collision_type="capsule" name="c_cylinder_002" padding="-2"/>
+			<object collision_type="capsule" name="c_cylinder_003" padding="-2"/>
+        </body>
+		<body name="blocker" enabled="true" template="mover_blocker">
+			<object name="rp_shelf_aluminium" />
+			<object name="c_blocker" collision_type="mesh_mopp" padding="-2.5"/>
+		</body>
+    </bodies>
+	
+		<decal_surfaces default_material="sheet_metal" static="true">
+		<decal_mesh name="dm_metal" enabled="true" material="sheet_metal" />		
+	</decal_surfaces>
+	
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+	
+</dynamic_object>

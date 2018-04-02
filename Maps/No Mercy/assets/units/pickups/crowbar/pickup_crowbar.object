@@ -1,0 +1,13 @@
+<dynamic_object>
+    <diesel orientation_object="rp_crowbar" materials="units/pickups/crowbar/pickup_crowbar" />
+	<sequence_manager file="units/pickups/crowbar/pickup_crowbar" />
+	<bodies>
+    <body name="static_body" enabled="true" collides_with_mover="false" template="raycoll_static">
+      <object name="g_crowbar" collision_type="box" />
+    </body>
+	</bodies>
+	<decal_surfaces default_material="steel"/>
+    <graphics>
+        <object enabled="true" name="g_crowbar" />
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,45 @@
+<materials version="3">
+    <material name="mat_nuke_metaltrims_01" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/nuke_metaltrims_01_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_milwall002" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/milwall002_df"/>
+    </material>
+    <material name="urban_tilefloor02a" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/urban_tilefloor02a_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/urban_tilefloor02a_nm"/>
+    </material>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" name="urban_tilefloor02b">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/urban_tilefloor02b_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 4.2999997138977" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/urban_tilefloor02a_nm"/>
+    </material>
+    <material name="mat_ceiling_popcorn02" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/ceiling_popcorn02_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/ceiling_popcorn02_nm"/>
+    </material>
+    <material name="mat_elevator_panel" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/elevator_panel_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material version="2" name="mat_urban_plasterwall_05a" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/urban_plasterwall_05a_df"/>
+    </material>
+    <material name="mat_chrome" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/chrome_df"/>
+        <reflection_texture file="environments/cubemaps/cubemap_steel" type="cubemap"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:VERTEX_COLOR" unique="true" version="2" name="mat_outline">
+        <diffuse_texture file="units/world/props/toy_plushies/toy_plushies_df"/>
+        <variable value="1 0.5 0.0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+    </material>
+</materials>

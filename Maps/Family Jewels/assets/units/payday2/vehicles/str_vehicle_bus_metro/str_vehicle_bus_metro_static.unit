@@ -1,0 +1,6 @@
+<unit type="str" slot="1">
+	<object file="units/payday2/vehicles/str_vehicle_bus_metro/str_vehicle_bus_metro_static" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

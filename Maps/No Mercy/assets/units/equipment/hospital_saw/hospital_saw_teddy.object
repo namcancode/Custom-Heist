@@ -1,0 +1,19 @@
+<dynamic_object>
+    <diesel orientation_object="rp_hospital_saw_teddy" materials="units/equipment/hospital_saw/hospital_saw_teddy" />
+    <sequence_manager file="units/equipment/hospital_saw/hospital_saw_teddy" />
+
+	<bodies>
+		<body name="static_body" enabled="true" template="static" collides_with_mover="false" pushed_by_mover="false" >
+			<object name="rp_hospital_saw_teddy" />
+			<object name="c_editor" collision_type="box" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="cloth">
+		<decal_mesh name="g_donkey" enabled="true" material="cloth" />
+	</decal_surfaces>
+
+	<graphics>
+        <object enabled="true" name="g_donkey" />
+    </graphics>
+</dynamic_object>

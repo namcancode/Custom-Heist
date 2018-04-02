@@ -1,0 +1,15 @@
+<dynamic_object>
+    <diesel orientation_object="rp_hospital_styrofoam_cups_01" materials="units/world/architecture/hospital/props/styrofoamcups/hospital_styrofoam_cups_01" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_hospital_styrofoam_cups_01" />
+			<object name="c_box" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="thin_layer" static="true">
+		<decal_mesh name="g_g" enabled="true" material="thin_layer" />
+	</decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

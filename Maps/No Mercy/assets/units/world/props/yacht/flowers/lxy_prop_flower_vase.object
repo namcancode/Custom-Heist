@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/yacht/flowers/flowers" orientation_object="rp_lxy_prop_flower_vase" />
+  <sequence_manager file="units/world/props/yacht/flowers/lxy_prop_flower_vase" />
+  <bodies>
+    <body name="vase" enabled="true" template="raycoll_static">
+      <object name="rp_lxy_prop_flower_vase" />
+      <object name="c_capsule_lxy_prop_flower_vase" collision_type="capsule" padding="-1"/>
+    </body>
+	
+	<body name="foot" enabled="false" template="static">
+      <object name="c_convex_foot" collision_type="convex" />
+    </body>
+	
+	 <body name="part1" template="debris" pushed_by_mover="false">
+      <object name="c_convex_part_1" collision_type="convex" mass="2" />
+      <object name="g_part_1" />
+    </body>
+	
+	<body name="part2" template="debris" pushed_by_mover="false">
+      <object name="c_convex_part_2" collision_type="convex" mass="2" />
+      <object name="g_part_2" />
+    </body>
+	
+	<body name="part3" template="debris" pushed_by_mover="false">
+      <object name="c_convex_part_3" collision_type="convex" mass="2" />
+      <object name="g_part_3" />
+    </body>
+	
+	<body name="part4" template="debris" pushed_by_mover="false">
+      <object name="c_convex_part_4" collision_type="convex" mass="2" />
+      <object name="g_part_4" />
+    </body>
+	
+	<body name="part5" template="debris" pushed_by_mover="false">
+      <object name="c_convex_part_5" collision_type="convex" mass="2" />
+      <object name="g_part_5" />
+    </body>
+	
+	<body name="part6" template="debris" pushed_by_mover="false">
+      <object name="c_convex_part_6" collision_type="convex" mass="2" />
+      <object name="g_part_6" />
+    </body>
+	
+	<body name="part7" template="debris" pushed_by_mover="false">
+      <object name="c_convex_part_7" collision_type="convex" mass="2" />
+      <object name="g_part_7" />
+    </body>	
+  </bodies>
+  
+  <decal_surfaces default_material="glass_breakable"/>
+  
+  <graphics>
+    <object name="g_lxy_prop_flower_vase" enabled="true"/>
+    <object name="g_foot"    enabled="false"/>
+    <object name="g_part_1" enabled="false"/>
+    <object name="g_part_2" enabled="false"/>
+    <object name="g_part_3" enabled="false"/>
+    <object name="g_part_4" enabled="false"/>
+    <object name="g_part_5" enabled="false"/>
+    <object name="g_part_6" enabled="false"/>
+    <object name="g_part_7" enabled="false"/>
+  </graphics>
+  <objects>
+    <align_point name="e_vase" parent="rp_lxy_prop_flower_vase" position="0 0 0" rotation="0 0 0" />
+  </objects>
+</dynamic_object> 

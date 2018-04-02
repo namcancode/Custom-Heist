@@ -1,0 +1,686 @@
+<generic_scriptdata type="table" metatable="sequence_manager">
+	<entry index="1" type="table" _id="65" metatable="unit">
+		<entry index="1" type="table" _id="64" metatable="variables">
+			<entry index="1" type="table" _id="1" metatable="var_int">
+				<entry key="value" type="number" value="0"/>
+			</entry>
+			<entry key="var_int" type="table" _ref="1"/>
+		</entry>
+		<entry index="2" type="table" _id="62" metatable="filter">
+			<entry index="1" type="table" _id="2" metatable="check">
+				<entry key="value" type="string" value="vars.var_int == 0"/>
+			</entry>
+			<entry key="check" type="table" _ref="2"/>
+			<entry key="name" type="string" value="'check_state_0'"/>
+		</entry>
+		<entry index="3" type="table" metatable="filter">
+			<entry index="1" type="table" _id="3" metatable="check">
+				<entry key="value" type="string" value="vars.var_int == 1"/>
+			</entry>
+			<entry key="check" type="table" _ref="3"/>
+			<entry key="name" type="string" value="'check_state_1'"/>
+		</entry>
+		<entry index="4" type="table" metatable="filter">
+			<entry index="1" type="table" _id="4" metatable="check">
+				<entry key="value" type="string" value="vars.var_int == 2"/>
+			</entry>
+			<entry key="check" type="table" _ref="4"/>
+			<entry key="name" type="string" value="'check_state_2'"/>
+		</entry>
+		<entry index="5" type="table" metatable="filter">
+			<entry index="1" type="table" _id="5" metatable="check">
+				<entry key="value" type="string" value="vars.var_int == 3"/>
+			</entry>
+			<entry key="check" type="table" _ref="5"/>
+			<entry key="name" type="string" value="'check_state_3'"/>
+		</entry>
+		<entry index="6" type="table" metatable="filter">
+			<entry index="1" type="table" _id="6" metatable="check">
+				<entry key="value" type="string" value="vars.var_int == 4"/>
+			</entry>
+			<entry key="check" type="table" _ref="6"/>
+			<entry key="name" type="string" value="'check_state_4'"/>
+		</entry>
+		<entry index="7" type="table" metatable="filter">
+			<entry index="1" type="table" _id="7" metatable="check">
+				<entry key="value" type="string" value="vars.var_int == 5"/>
+			</entry>
+			<entry key="check" type="table" _ref="7"/>
+			<entry key="name" type="string" value="'check_state_5'"/>
+		</entry>
+		<entry index="8" type="table" metatable="filter">
+			<entry index="1" type="table" _id="8" metatable="check">
+				<entry key="value" type="string" value="vars.var_int == 6"/>
+			</entry>
+			<entry key="check" type="table" _ref="8"/>
+			<entry key="name" type="string" value="'check_state_6'"/>
+		</entry>
+		<entry index="9" type="table" metatable="filter">
+			<entry index="1" type="table" _id="9" metatable="check">
+				<entry key="value" type="string" value="vars.var_int == 7"/>
+			</entry>
+			<entry key="check" type="table" _ref="9"/>
+			<entry key="name" type="string" value="'check_state_7'"/>
+		</entry>
+		<entry index="10" type="table" metatable="filter">
+			<entry index="1" type="table" _id="10" metatable="check">
+				<entry key="value" type="string" value="vars.var_int == 8"/>
+			</entry>
+			<entry key="check" type="table" _ref="10"/>
+			<entry key="name" type="string" value="'check_state_8'"/>
+		</entry>
+		<entry index="11" type="table" metatable="filter">
+			<entry index="1" type="table" _id="11" metatable="check">
+				<entry key="value" type="string" value="vars.var_int == 9"/>
+			</entry>
+			<entry key="check" type="table" _ref="11"/>
+			<entry key="name" type="string" value="'check_state_9'"/>
+		</entry>
+		<entry index="12" type="table" metatable="filter">
+			<entry index="1" type="table" _id="12" metatable="check">
+				<entry key="value" type="string" value="vars.var_int == 10"/>
+			</entry>
+			<entry key="check" type="table" _ref="12"/>
+			<entry key="name" type="string" value="'check_state_10'"/>
+		</entry>
+		<entry index="13" type="table" _id="63" metatable="sequence">
+			<entry index="1" type="table" _id="13" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'set_visible'"/>
+				<entry key="param1" type="boolean" value="false"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="function" type="table" _ref="13"/>
+			<entry key="name" type="string" value="'starup_seq'"/>
+			<entry key="startup" type="boolean" value="true"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="14" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="15" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'set_visible'"/>
+				<entry key="param1" type="boolean" value="true"/>
+			</entry>
+			<entry index="2" type="table" _id="16" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_0'"/>
+				<entry key="name" type="string" value="'int_seq_state_0'"/>
+			</entry>
+			<entry index="3" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_1'"/>
+				<entry key="name" type="string" value="'int_seq_state_1'"/>
+			</entry>
+			<entry index="4" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_2'"/>
+				<entry key="name" type="string" value="'int_seq_state_2'"/>
+			</entry>
+			<entry index="5" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_3'"/>
+				<entry key="name" type="string" value="'int_seq_state_3'"/>
+			</entry>
+			<entry index="6" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_4'"/>
+				<entry key="name" type="string" value="'int_seq_state_4'"/>
+			</entry>
+			<entry index="7" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_5'"/>
+				<entry key="name" type="string" value="'int_seq_state_5'"/>
+			</entry>
+			<entry index="8" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_6'"/>
+				<entry key="name" type="string" value="'int_seq_state_6'"/>
+			</entry>
+			<entry index="9" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_7'"/>
+				<entry key="name" type="string" value="'int_seq_state_7'"/>
+			</entry>
+			<entry index="10" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_8'"/>
+				<entry key="name" type="string" value="'int_seq_state_8'"/>
+			</entry>
+			<entry index="11" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_9'"/>
+				<entry key="name" type="string" value="'int_seq_state_9'"/>
+			</entry>
+			<entry index="12" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_10'"/>
+				<entry key="name" type="string" value="'int_seq_state_10'"/>
+			</entry>
+			<entry index="13" type="table" _id="14" metatable="attention">
+				<entry key="giveaway" type="string" value="'computer'"/>
+				<entry key="operation" type="string" value="'add'"/>
+				<entry key="preset_name" type="string" value="'prop_law_scary'"/>
+			</entry>
+			<entry key="attention" type="table" _ref="14"/>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="function" type="table" _ref="15"/>
+			<entry key="name" type="string" value="'interact'"/>
+			<entry key="run_sequence" type="table" _ref="16"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="15" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="17" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'start'"/>
+				<entry key="param1" type="string" value="'100'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="function" type="table" _ref="17"/>
+			<entry key="name" type="string" value="'int_seq_state_0'"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="16" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="18" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'start'"/>
+				<entry key="param1" type="string" value="'200'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="function" type="table" _ref="18"/>
+			<entry key="name" type="string" value="'int_seq_state_1'"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="17" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="19" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'start'"/>
+				<entry key="param1" type="string" value="'240'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="function" type="table" _ref="19"/>
+			<entry key="name" type="string" value="'int_seq_state_2'"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="18" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="20" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'start'"/>
+				<entry key="param1" type="string" value="'400'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="function" type="table" _ref="20"/>
+			<entry key="name" type="string" value="'int_seq_state_3'"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="19" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="21" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'start'"/>
+				<entry key="param1" type="string" value="'30'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="function" type="table" _ref="21"/>
+			<entry key="name" type="string" value="'int_seq_state_4'"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="20" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="22" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'start'"/>
+				<entry key="param1" type="string" value="'30'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="function" type="table" _ref="22"/>
+			<entry key="name" type="string" value="'int_seq_state_5'"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="21" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="23" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'start'"/>
+				<entry key="param1" type="string" value="'60'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="function" type="table" _ref="23"/>
+			<entry key="name" type="string" value="'int_seq_state_6'"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="22" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="24" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'start'"/>
+				<entry key="param1" type="string" value="'100'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="function" type="table" _ref="24"/>
+			<entry key="name" type="string" value="'int_seq_state_7'"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="23" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="25" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'start'"/>
+				<entry key="param1" type="string" value="'125'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="function" type="table" _ref="25"/>
+			<entry key="name" type="string" value="'int_seq_state_8'"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="24" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="26" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'start'"/>
+				<entry key="param1" type="string" value="'150'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="function" type="table" _ref="26"/>
+			<entry key="name" type="string" value="'int_seq_state_9'"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="25" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="27" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'start'"/>
+				<entry key="param1" type="string" value="'175'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="function" type="table" _ref="27"/>
+			<entry key="name" type="string" value="'int_seq_state_10'"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="26" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="28" metatable="interaction">
+				<entry key="enabled" type="boolean" value="false"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="interaction" type="table" _ref="28"/>
+			<entry key="name" type="string" value="'state_interaction_disabled'"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="27" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="29" metatable="interaction">
+				<entry key="enabled" type="boolean" value="true"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="interaction" type="table" _ref="29"/>
+			<entry key="name" type="string" value="'state_interaction_enabled'"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="28" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="30" metatable="set_variables">
+				<entry key="var_int" type="number" value="0"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'set_hack_time_state_0'"/>
+			<entry key="set_variables" type="table" _ref="30"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="29" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="31" metatable="set_variables">
+				<entry key="var_int" type="number" value="1"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'set_hack_time_state_1'"/>
+			<entry key="set_variables" type="table" _ref="31"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="30" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="32" metatable="set_variables">
+				<entry key="var_int" type="number" value="2"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'set_hack_time_state_2'"/>
+			<entry key="set_variables" type="table" _ref="32"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="31" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="33" metatable="set_variables">
+				<entry key="var_int" type="number" value="3"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'set_hack_time_state_3'"/>
+			<entry key="set_variables" type="table" _ref="33"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="32" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="34" metatable="set_variables">
+				<entry key="var_int" type="number" value="4"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'set_hack_time_state_4'"/>
+			<entry key="set_variables" type="table" _ref="34"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="33" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="35" metatable="set_variables">
+				<entry key="var_int" type="number" value="5"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'set_hack_time_state_5'"/>
+			<entry key="set_variables" type="table" _ref="35"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="34" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="36" metatable="set_variables">
+				<entry key="var_int" type="number" value="6"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'set_hack_time_state_6'"/>
+			<entry key="set_variables" type="table" _ref="36"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="35" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="37" metatable="set_variables">
+				<entry key="var_int" type="number" value="7"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'set_hack_time_state_7'"/>
+			<entry key="set_variables" type="table" _ref="37"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="36" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="38" metatable="set_variables">
+				<entry key="var_int" type="number" value="8"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'set_hack_time_state_8'"/>
+			<entry key="set_variables" type="table" _ref="38"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="37" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="39" metatable="set_variables">
+				<entry key="var_int" type="number" value="9"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'set_hack_time_state_9'"/>
+			<entry key="set_variables" type="table" _ref="39"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="38" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="40" metatable="set_variables">
+				<entry key="var_int" type="number" value="10"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'set_hack_time_state_10'"/>
+			<entry key="set_variables" type="table" _ref="40"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="39" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="41" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'set_powered'"/>
+				<entry key="param1" type="boolean" value="false"/>
+			</entry>
+			<entry key="function" type="table" _ref="41"/>
+			<entry key="name" type="string" value="'power_off'"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="40" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="42" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'set_powered'"/>
+				<entry key="param1" type="boolean" value="true"/>
+			</entry>
+			<entry key="function" type="table" _ref="42"/>
+			<entry key="name" type="string" value="'power_on'"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="41" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="43" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'set_jammed'"/>
+				<entry key="param1" type="boolean" value="true"/>
+			</entry>
+			<entry key="function" type="table" _ref="43"/>
+			<entry key="name" type="string" value="'state_device_jammed'"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="42" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="44" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'set_jammed'"/>
+				<entry key="param1" type="boolean" value="false"/>
+			</entry>
+			<entry key="function" type="table" _ref="44"/>
+			<entry key="name" type="string" value="'state_device_resumed'"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="43" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="45" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'set_visible'"/>
+				<entry key="param1" type="boolean" value="true"/>
+			</entry>
+			<entry index="2" type="table" _id="46" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_0'"/>
+				<entry key="name" type="string" value="'int_seq_state_0'"/>
+			</entry>
+			<entry index="3" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_1'"/>
+				<entry key="name" type="string" value="'int_seq_state_1'"/>
+			</entry>
+			<entry index="4" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_2'"/>
+				<entry key="name" type="string" value="'int_seq_state_2'"/>
+			</entry>
+			<entry index="5" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_3'"/>
+				<entry key="name" type="string" value="'int_seq_state_3'"/>
+			</entry>
+			<entry index="6" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_4'"/>
+				<entry key="name" type="string" value="'int_seq_state_4'"/>
+			</entry>
+			<entry index="7" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_5'"/>
+				<entry key="name" type="string" value="'int_seq_state_5'"/>
+			</entry>
+			<entry index="8" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_6'"/>
+				<entry key="name" type="string" value="'int_seq_state_6'"/>
+			</entry>
+			<entry index="9" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_7'"/>
+				<entry key="name" type="string" value="'int_seq_state_7'"/>
+			</entry>
+			<entry index="10" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_8'"/>
+				<entry key="name" type="string" value="'int_seq_state_8'"/>
+			</entry>
+			<entry index="11" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_9'"/>
+				<entry key="name" type="string" value="'int_seq_state_9'"/>
+			</entry>
+			<entry index="12" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'check_state_10'"/>
+				<entry key="name" type="string" value="'int_seq_state_10'"/>
+			</entry>
+			<entry key="function" type="table" _ref="45"/>
+			<entry key="name" type="string" value="'state_device_start'"/>
+			<entry key="run_sequence" type="table" _ref="46"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="44" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="47" metatable="body">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'body0'"/>
+			</entry>
+			<entry index="2" type="table" _id="49" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_off' "/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_on_v1'"/>
+			</entry>
+			<entry index="4" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_on_v2'"/>
+			</entry>
+			<entry index="5" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_on_v3'"/>
+			</entry>
+			<entry index="6" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_on_v4'"/>
+			</entry>
+			<entry index="7" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_computerscreen' "/>
+			</entry>
+			<entry index="8" type="table" _id="48" metatable="interaction">
+				<entry key="enabled" type="boolean" value="false"/>
+			</entry>
+			<entry key="body" type="table" _ref="47"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="interaction" type="table" _ref="48"/>
+			<entry key="name" type="string" value=" 'state_hide' "/>
+			<entry key="object" type="table" _ref="49"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="45" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="50" metatable="body">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'body0'"/>
+			</entry>
+			<entry index="2" type="table" _id="51" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_off' "/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_computerscreen' "/>
+			</entry>
+			<entry key="body" type="table" _ref="50"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'state_show' "/>
+			<entry key="object" type="table" _ref="51"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="46" type="table" metatable="sequence">
+			<entry key="name" type="string" value="'jammed_trigger'"/>
+		</entry>
+		<entry index="47" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="52" metatable="attention">
+				<entry key="giveaway" type="string" value="'computer'"/>
+				<entry key="operation" type="string" value="'remove'"/>
+				<entry key="preset_name" type="string" value="'prop_law_scary'"/>
+			</entry>
+			<entry key="attention" type="table" _ref="52"/>
+			<entry key="name" type="string" value="'timer_done'"/>
+		</entry>
+		<entry index="48" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="53" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_off'"/>
+			</entry>
+			<entry index="2" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_on_v1'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_on_v2'"/>
+			</entry>
+			<entry index="4" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_on_v3'"/>
+			</entry>
+			<entry index="5" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_on_v4'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'main_screen_off'"/>
+			<entry key="object" type="table" _ref="53"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="49" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="55" metatable="run_sequence">
+				<entry key="name" type="string" value="'main_screen_off'"/>
+			</entry>
+			<entry index="2" type="table" _id="54" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_off'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_on_v1'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'main_screen_on_v1'"/>
+			<entry key="object" type="table" _ref="54"/>
+			<entry key="run_sequence" type="table" _ref="55"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="50" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="57" metatable="run_sequence">
+				<entry key="name" type="string" value="'main_screen_off'"/>
+			</entry>
+			<entry index="2" type="table" _id="56" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_off'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_on_v2'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'main_screen_on_v2'"/>
+			<entry key="object" type="table" _ref="56"/>
+			<entry key="run_sequence" type="table" _ref="57"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="51" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="59" metatable="run_sequence">
+				<entry key="name" type="string" value="'main_screen_off'"/>
+			</entry>
+			<entry index="2" type="table" _id="58" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_off'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_on_v3'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'main_screen_on_v3'"/>
+			<entry key="object" type="table" _ref="58"/>
+			<entry key="run_sequence" type="table" _ref="59"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="52" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="61" metatable="run_sequence">
+				<entry key="name" type="string" value="'main_screen_off'"/>
+			</entry>
+			<entry index="2" type="table" _id="60" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_off'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_on_v4'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'main_screen_on_v4'"/>
+			<entry key="object" type="table" _ref="60"/>
+			<entry key="run_sequence" type="table" _ref="61"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="53" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="66" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'set_visible'"/>
+				<entry key="param1" type="string" value="'false'"/>
+			</entry>
+			<entry key="function" type="table" _ref="66"/>
+			<entry key="name" type="string" value="'hide_timer'"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="54" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="67" metatable="function">
+				<entry key="extension" type="string" value="'timer_gui'"/>
+				<entry key="function" type="string" value="'_start'"/>
+				<entry key="param1" type="string" value="'400'"/>
+			</entry>
+			<entry key="function" type="table" _ref="67"/>
+			<entry key="name" type="string" value="'state_device_override'"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry key="filter" type="table" _ref="62"/>
+		<entry key="sequence" type="table" _ref="63"/>
+		<entry key="variables" type="table" _ref="64"/>
+	</entry>
+	<entry key="unit" type="table" _ref="65"/>
+</generic_scriptdata>

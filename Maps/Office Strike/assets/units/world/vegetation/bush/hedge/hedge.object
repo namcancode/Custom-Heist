@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/vegetation/bush/hedge/hedge" orientation_object="rp_vegetation_hedge" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_vegetation_hedge" />
+      <object name="c_vegetation_hedge" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces>
+    <decal_mesh name="g_vegetation_hedge" enabled="true" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_vegetation_hedge" enabled="true" shadow_caster="false"  />
+	<object name="g_vegetation_hedgealpha" enabled="true" shadow_caster="false"  />
+  </graphics>
+</dynamic_object>

@@ -1,0 +1,6 @@
+<table>
+	<objective description="cokehouse_1_desc" id="cokehouse_1" prio="1" text="cokehouse_1" xp_weight="1"/>
+	<objective description="cokehouse_2_desc" id="cokehouse_2" prio="1" text="cokehouse_2" xp_weight="1"/>
+	<objective description="cokehouse_3_desc" id="cokehouse_3" prio="1" text="cokehouse_3" xp_weight="1"/>
+	<objective description="cokehouse_4_desc" id="cokehouse_4" prio="1" text="cokehouse_4" xp_weight="1"/>
+</table>

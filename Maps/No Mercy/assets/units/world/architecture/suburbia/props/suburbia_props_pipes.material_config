@@ -1,0 +1,9 @@
+<materials version="3">
+    <material name="secret_props_pipes" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/architecture/suburbia/props/suburbia_props_pipes_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/world/architecture/suburbia/props/suburbia_props_pipes_nm"/>
+    </material>
+	<material version="2" render_template="shadow_caster_only" name="shadow_caster"/>
+</materials>

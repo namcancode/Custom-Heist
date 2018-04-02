@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/hospital_scene_1" orientation_object="rp_hospital_wall_hole_01" />
+	<sequence_manager file="units/world/architecture/hospital/hospital_wall_hole_01" />
+	<bodies>
+		<body name="static_body" remove_ray_type="walk" enabled="true" template="static">
+			<object name="rp_hospital_wall_hole_01"/>
+			<object name="c_box_solid_1" collision_type="box"/>
+			<object name="c_box_hole_1" collision_type="mesh_mopp"/>
+		</body>
+		<body name="body_var1" enabled="false" template="static">
+			<object name="c_box_hole_1" collision_type="mesh_mopp"/>             
+		</body>
+
+		<body name="body_solid" remove_ray_type="walk" enabled="true" template="static">
+			<object name="c_box_solid_1" collision_type="box"/>                
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="concrete" static="true">
+		<decal_mesh name="g_hospital_wall_hole_01_var1" material="concrete"/>
+		<decal_mesh name="g_hospital_wall_hole_01_solid" material="concrete"/>
+	</decal_surfaces>
+
+	
+	<graphics>
+		<object name="g_hospital_wall_hole_01_var1" enabled="true" shadow_caster="true" />
+		<object name="g_hospital_wall_hole_01_solid" enabled="true" shadow_caster="true" />
+
+	</graphics>
+</dynamic_object>

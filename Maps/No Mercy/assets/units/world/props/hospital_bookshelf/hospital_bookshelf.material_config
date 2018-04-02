@@ -1,0 +1,20 @@
+<materials version="3">
+    <material name="dmg_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <variable value="0 1 0" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/vehicles/window/hospital_glass_shattered_op"/>
+        <diffuse_texture file="units/vehicles/window/glass_shattered_dark_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/vehicles/window/glass_shattered_nm"/>
+    </material>
+    <material name="glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" version="2">
+        <variable value="2 0 0" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/glass/hospital_glass_indoors_op"/>
+        <diffuse_texture file="units/glass/hospital_glass_indoors_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material name="bookshelf" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/props/suburbia_bookshelf/suburbia_bookshelf_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="0.40000000596046 0 2" type="vector3" name="environment_settings"/>
+    </material>
+</materials>

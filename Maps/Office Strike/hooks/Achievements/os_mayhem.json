@@ -1,0 +1,1 @@
+{	"id":"office_strike_mayhem",	"desc":"os_mayhem_desc",	"rank":"gold",	"goal":0,	"hidden":false,	"number":0,	"reward_amount":0,	"unlocked":false,	"reward_type":"none",	"objective":"os_mayhem_objective",	"displayed":false,	"name":"os_mayhem_name",	"texture":"default"}

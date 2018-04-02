@@ -1,0 +1,21 @@
+<dynamic_object>
+    <diesel orientation_object="rp_hospital_laundry_basket" materials="units/world/architecture/hospital/props/hospital_laundry_basket/hospital_laundry_basket" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object collision_type="box" name="c_box1" />
+            <object collision_type="box" name="c_box2" />
+            <object collision_type="box" name="c_box3" />
+            <object collision_type="box" name="c_box4" />
+            <object collision_type="box" name="c_box5" />
+        </body>
+    </bodies>
+	
+    <decal_surfaces default_material="sheet_metal" static="true">
+        <decal_mesh enabled="true" name="dm_cloth" material="cloth" />
+        <decal_mesh enabled="true" name="dm_metal" material="metal" />
+    </decal_surfaces>
+	
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

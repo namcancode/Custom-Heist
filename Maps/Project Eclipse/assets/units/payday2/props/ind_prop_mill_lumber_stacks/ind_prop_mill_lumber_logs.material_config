@@ -1,0 +1,7 @@
+<materials version="3">
+	<material name="mat_logs" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_logs_df"/>
+        <bump_normal_texture file="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_logs_nm"/>
+    </material>
+	<material version="2" render_template="shadow_caster_only" name="shadow_caster"/>
+</materials>

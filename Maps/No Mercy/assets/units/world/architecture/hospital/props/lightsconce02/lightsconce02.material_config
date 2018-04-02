@@ -1,0 +1,10 @@
+<materials version="3" group="lightsconce02">
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" name="mat_lightsconce02">
+        <diffuse_texture file="units/world/architecture/hospital/props/lightsconce02/lightsconce02_df"/>
+        <self_illumination_texture file="units/world/architecture/hospital/props/lightsconce02/lightsconce02_df"/>
+        <variable value="streetlight" type="scalar" name="il_multiplier"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_lightsconce02_off">
+        <diffuse_texture file="units/world/architecture/hospital/props/lightsconce02/lightsconce02_df"/>
+    </material>
+</materials>

@@ -1,0 +1,10 @@
+<materials version="3" group="casual_male">
+    <material name="casual_set" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS:VERTEX_COLOR:VERTEX_COLOR_ALPHA:VERTEX_COLOR_CHARACTER" version="2">
+        <bump_normal_texture file="units/characters/civilians/textures/casual_set_1_nm"/>
+        <diffuse_texture file="units/characters/civilians/textures/casual_set_1_df"/>
+    </material>
+	<material name="casual_set_lod1" render_template="generic:DIFFUSE_TEXTURE:RL_CIVILIANS:SKINNED_3WEIGHTS:VERTEX_COLOR:VERTEX_COLOR_ALPHA:VERTEX_COLOR_CHARACTER" version="2">
+        <diffuse_texture file="units/characters/civilians/textures/casual_set_1_df"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+</materials>

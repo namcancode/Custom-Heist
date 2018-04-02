@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<unit type="storm" slot="1">
+  <object file="units/world/props/security_camera/security_camera_hospital" />
+  <network sync="spawn"/>
+  <dependencies>
+    <depends_on effect="effects/particles/dest/security_camera_dest" />
+	<depends_on bnk="soundbanks/emitters_office" />
+    <depends_on />
+  </dependencies>
+  <extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" 	class="UnitDamage" />
+		<extension name="base" class="SecurityCamera" >
+			<var name="security_camera" value="true" />
+		</extension>
+		<extension name="interaction" class="SecurityCameraInteractionExt">
+			<var name="tweak_data" value="sc_tape_loop" />
+			<var name="_interact_object" value="CameraPitch" />
+			<var name="_ray_object_names" type="table" >
+				<var value="CameraPitch"/>
+			</var>
+		</extension>
+		<extension name="contour" class="ContourExt" />
+		<!--<extension name="attention" class="AIAttentionObject" >
+			<var name="_attention_obj_name" value="attention" />
+		</extension>-->
+	</extensions>
+  
+   <sounds>
+  	<soundsource name="sound_source" source="rp_security_camera_hospital" />
+	  <spawn_event source="sound_source" name="emitter_security_camera" stop_when_killed="true"/>
+  </sounds>  
+  
+
+
+  
+</unit>

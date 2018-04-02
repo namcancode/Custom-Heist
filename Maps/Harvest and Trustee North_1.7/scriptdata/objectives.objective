@@ -1,0 +1,8 @@
+<table>
+	<objective description="q_hntn_drill_pickup_desc" id="q_hntn_drill_pickup" prio="1" text="q_hntn_drill_pickup" xp_weight="1"/>
+	<objective description="q_hntn_drill_place_desc" id="q_hntn_drill_place" prio="1" text="q_hntn_drill_place" xp_weight="1"/>
+	<objective description="q_hntn_drill_wait_desc" id="q_hntn_drill_wait" prio="1" text="q_hntn_drill_wait" xp_weight="1"/>
+	<objective description="q_hntn_drill_fix_desc" id="q_hntn_drill_fix" prio="1" text="q_hntn_drill_fix" xp_weight="1"/>
+	<objective description="q_hntn_loot_desc" id="q_hntn_loot" prio="1" text="q_hntn_loot" xp_weight="1"/>
+	<objective description="q_hntn_escape_desc" id="q_hntn_escape" prio="1" text="q_hntn_escape" xp_weight="1"/>
+</table>

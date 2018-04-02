@@ -1,0 +1,116 @@
+<table name="eclipse">
+	<Localization default="english.txt" directory="loc"/>
+	<AssetUpdates id="20441" provider="modworkshop" use_local_dir="true" version="6"/>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" desc_id="contact_nepgearsy_desc" id="nepgearsy" name_id="contact_nepgearsy_name" package="packages/contact_bain"/>
+	<narrative briefing_event="" contact="nepgearsy" id="eclipse" icon="icon/PEIcon">
+		<chain>
+			<table level_id="eclipse" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="8000"/>
+			<value_node value="12000"/>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="200000"/>
+			<value_node value="250000"/>
+			<value_node value="350000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="20000"/>
+			<value_node value="25000"/>
+			<value_node value="30000"/>
+			<value_node value="35000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="20000"/>
+			<value_node value="25000"/>
+			<value_node value="30000"/>
+			<value_node value="35000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="16000"/>
+			<value_node value="24000"/>
+			<value_node value="32000"/>
+			<value_node value="44000"/>
+			<value_node value="60000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="America" briefing_dialog="" ghost_bonus="0.15" id="eclipse" max_bags="54" load_screen="guis/loading">
+		<add file="levels/eclipse/add.xml"/>
+		<assets/>
+		<include directory="levels/eclipse">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/nepgearsy_eclipse.environment" type="custom_xml"/>
+			<file file="environments/nepgearsy_redclipse.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/editor_only/editor_only"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/pc_only/pc_only"/>
+			<value_node value="levels/narratives/bain/roberts/world/world"/>
+			<value_node value="levels/narratives/vlad/pines/world/world"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_3/marac/marac"/>
+			<value_node value="levels/narratives/pbr/jerry/terrain/terrain"/>
+			<value_node value="levels/narratives/vlad/peta/stage2/world/world"/>
+			<value_node value="levels/instances/shared/helicopter_secure_escape/world/world"/>
+			<value_node value="levels/instances/unique/chew/chew_train_car/world/world"/>
+			<value_node value="levels/narratives/vlad/shout/collision/collision"/>
+			<value_node value="levels/narratives/continental/spa/world"/>
+			<value_node value="packages/narr_cage"/>
+			<value_node value="levels/instances/unique/chew/chew_smuggle_crate/world/world"/>
+			<value_node value="levels/narratives/elephant/dark/player_collision/player_collision"/>
+		</packages>
+		<script_data_mods directory="/scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<AddFiles directory="assets">
+		<texture force="true" path="icon/PEIcon"/>
+		<texture force="true" path="guis/bd_pattern"/>
+		<texture force="true" path="guis/loading"/>
+	</AddFiles>
+	<Hooks directory="hooks">
+		<hook file="missionmanager.lua" source_file="lib/managers/missionmanager"/>
+		<hook file="hudsimplemessage.lua" source_file="lib/managers/hudmanagerpd2"/>
+		<hook file="hudmissionbriefing.lua" source_file="lib/managers/hud/hudmissionbriefing"/>
+	</Hooks>
+</table>

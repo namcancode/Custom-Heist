@@ -1,0 +1,24 @@
+<materials version="3">
+    <material decal_material="sheet_metal" name="drill_unit" unique="true" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <diffuse_texture file="units/equipment/apartment_saw/apartment_saw_df"/>
+        <bump_normal_texture file="units/equipment/apartment_saw/apartment_saw_nm"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+    </material>
+    <material decal_material="metal" name="drill_outline" unique="true" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <diffuse_texture file="units/gui/gui_color_use_df"/>
+        <bump_normal_texture file="units/equipment/apartment_saw/apartment_saw_nm"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+    </material>
+    <material version="2" unique="true" name="plushie_outline" render_template="generic:CONTOUR:DIFFUSE_TEXTURE">
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <diffuse_texture file="units/gui/gui_color_use_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+    </material>
+    <material version="2" unique="true" name="plushie" render_template="generic:CONTOUR:DIFFUSE_TEXTURE">
+        <diffuse_texture file="units/equipment/hospital_saw/hospital_saw_plush_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+    </material>
+</materials>

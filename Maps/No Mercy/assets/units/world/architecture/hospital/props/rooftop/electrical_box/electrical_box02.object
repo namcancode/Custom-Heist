@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/rooftop/props_rooftop" orientation_object="rp_electrical_box02" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_electrical_box02" />
+			<object name="g_electrical_box02" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="g_electrical_box02" enabled="true" material="metal" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_electrical_box02" enabled="true" shadow_caster="true"/>
+	</graphics>
+</dynamic_object>

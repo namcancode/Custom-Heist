@@ -1,0 +1,7 @@
+<unit type="str" slot="1" >
+    <object file="units/payday2/props/str_prop_street_cone/str_prop_street_cone" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+		<extension name="damage" class="UnitDamage" />
+    </extensions>
+</unit>

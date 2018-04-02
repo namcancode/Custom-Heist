@@ -1,0 +1,20 @@
+<dynamic_object>
+    <diesel orientation_object="rp_mop_bucket" materials="units/world/props/mop_bucket/mop_bucket" />
+    
+	<bodies>
+        <body enabled="true" template="static" name="body0" >
+			<object name="rp_mop_bucket"/>
+            <object collision_type="box" name="c_box" padding="-2" />
+
+        </body>
+    </bodies>
+	
+	 <decal_surfaces default_material="plastic">
+		<decal_mesh name="dm_plastic" enabled="true" material="plastic" />
+		<decal_mesh name="dm_cloth" enabled="true" material="cloth" />
+	</decal_surfaces>
+	
+	<graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,8 @@
+<table>
+	<objective description="quack_obj_tt2_001" id="quack_obj_tt2_001" level_id="turret_takedown" prio="1" text="quack_obj_tt2_001_short" xp_weight="1"/>
+	<objective description="quack_obj_tt2_002" id="quack_obj_tt2_002" level_id="turret_takedown" prio="1" text="quack_obj_tt2_002_short" xp_weight="1"/>
+	<objective description="quack_obj_tt2_003" id="quack_obj_tt2_003" level_id="turret_takedown" prio="1" text="quack_obj_tt2_003_short" xp_weight="1"/>
+	<objective description="quack_obj_tt2_004" id="quack_obj_tt2_004" level_id="turret_takedown" prio="1" text="quack_obj_tt2_004_short" xp_weight="1"/>
+	<objective description="quack_obj_tt2_005" id="quack_obj_tt2_005" level_id="turret_takedown" prio="1" text="quack_obj_tt2_005_short" xp_weight="1"/>
+	<objective description="quack_obj_tt2_006" id="quack_obj_tt2_006" level_id="turret_takedown" prio="1" text="quack_obj_tt2_006_short" xp_weight="1"/>
+</table>

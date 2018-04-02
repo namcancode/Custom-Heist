@@ -1,0 +1,17 @@
+<table>
+	<objective description="q009_cg_obj_000_desc" id="q009_cg_obj_000" prio="1" text="q009_cg_obj_000" xp_weight="1"/>
+	<objective description="q009_cg_obj_001_desc" id="q009_cg_obj_001" prio="1" text="q009_cg_obj_001" xp_weight="1"/>
+	<objective description="q009_cg_obj_001b_desc" id="q009_cg_obj_001b" prio="1" text="q009_cg_obj_001b" xp_weight="1"/>
+	<objective description="q009_cg_obj_001c_desc" id="q009_cg_obj_001c" prio="1" text="q009_cg_obj_001c" xp_weight="1"/>
+	<objective description="q009_cg_obj_002_desc" id="q009_cg_obj_002" prio="1" text="q009_cg_obj_002" xp_weight="1"/>
+	<objective description="q009_cg_obj_003_desc" id="q009_cg_obj_003" prio="1" text="q009_cg_obj_003" xp_weight="1"/>
+	<objective description="q009_cg_obj_004_desc" id="q009_cg_obj_004" prio="1" text="q009_cg_obj_004" xp_weight="1"/>
+	<objective description="q009_cg_obj_004b_desc" id="q009_cg_obj_004b" prio="1" text="q009_cg_obj_004b" xp_weight="1"/>
+	<objective description="q009_cg_obj_005_desc" id="q009_cg_obj_005" prio="1" text="q009_cg_obj_005" xp_weight="1"/>
+	<objective description="q009_cg_obj_005b_desc" id="q009_cg_obj_005b" prio="1" text="q009_cg_obj_005b" xp_weight="1"/>
+	<objective description="q009_cg_obj_005c_desc" id="q009_cg_obj_005c" prio="1" text="q009_cg_obj_005c" xp_weight="1"/>
+	<objective description="q009_cg_obj_006_desc" id="q009_cg_obj_006" prio="1" text="q009_cg_obj_006" xp_weight="1"/>
+	<objective description="q009_cg_obj_007_desc" id="q009_cg_obj_007" prio="1" text="q009_cg_obj_007" xp_weight="1"/>
+	<objective description="q009_cg_obj_008_desc" id="q009_cg_obj_008" prio="1" text="q009_cg_obj_008" xp_weight="1"/>
+	<objective description="q009_cg_obj_009_desc" id="q009_cg_obj_009" prio="1" text="q009_cg_obj_009" xp_weight="1"/>
+</table>

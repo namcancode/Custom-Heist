@@ -1,0 +1,5 @@
+<materials version="3" group="notebook">
+    <material name="mtr_notebook" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/custom/notebook_charles/notebook_charles_df"/>
+    </material>
+</materials>

@@ -1,0 +1,5 @@
+<materials version="3" group="clothes_tint_group">
+    <material render_template="generic:DIFFUSE_TEXTURE" decal_material="cloth" name="clothing" version="2">
+        <diffuse_texture file="units/world/props/apartment/clothes/clothing_df"/>
+    </material>
+</materials>

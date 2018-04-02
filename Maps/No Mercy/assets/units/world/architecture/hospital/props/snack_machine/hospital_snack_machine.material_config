@@ -1,0 +1,13 @@
+<materials version="3">
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE" decal_material="sheet_metal" version="2" name="snack_machine">
+        <variable value="0.5" type="scalar" name="alpha_ref"/>
+        <diffuse_texture file="units/world/architecture/hospital/props/snack_machine/snack_machine_df"/>
+        <opacity_texture file="units/world/architecture/hospital/props/snack_machine/snack_machine_op"/>
+    </material>
+    <material name="glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" version="2">
+        <variable value="1 -1.5 0.30000001192093" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/glass/hospital_glass_indoors_op"/>
+        <diffuse_texture file="units/glass/hospital_glass_indoors_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+</materials>

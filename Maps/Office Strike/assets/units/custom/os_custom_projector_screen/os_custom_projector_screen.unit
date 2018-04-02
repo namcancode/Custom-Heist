@@ -1,0 +1,6 @@
+<unit type="off" slot="1" >
+    <object file="units/custom/os_custom_projector_screen/os_custom_projector_screen" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

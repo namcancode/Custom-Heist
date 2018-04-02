@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/desk_executive/desk_executive" orientation_object="rp_desk_executive" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_desk_executive" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="hardwood" static="true">
+		<decal_mesh name="dm_hardwood" enabled="true" material="hardwood"/>
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_desk_executive" enabled="true"/>
+	</graphics>
+</dynamic_object>

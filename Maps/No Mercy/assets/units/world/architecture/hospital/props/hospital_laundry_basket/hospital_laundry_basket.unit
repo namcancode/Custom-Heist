@@ -1,0 +1,6 @@
+<unit type="static" slot="1" >
+    <object file="units/world/architecture/hospital/props/hospital_laundry_basket/hospital_laundry_basket" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

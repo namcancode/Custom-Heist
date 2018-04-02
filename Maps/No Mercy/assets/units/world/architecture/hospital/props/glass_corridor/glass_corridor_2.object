@@ -1,0 +1,30 @@
+<dynamic_object>
+    <diesel orientation_object="rp_glass_corridor_2" materials="units/world/architecture/hospital/hospital_scene_1" />
+	<sequence_manager file="units/world/architecture/hospital/props/glass_corridor/glass_corridor_2"/>
+    <bodies>
+        <body enabled="true" remove_ray_type="vis_graph ai_vision" template="static" name="1">
+            <object collision_type="box" name="c_box_1" padding="-2"/>
+        </body>
+        <body enabled="true" remove_ray_type="vis_graph ai_vision" template="static" name="2">
+            <object collision_type="box" name="c_box_2" padding="-2"/>
+        </body>
+        <body enabled="true" remove_ray_type="vis_graph ai_vision" template="static" name="3">
+            <object collision_type="box" name="c_box_3" padding="-2"/>
+        </body>
+        <body enabled="true" remove_ray_type="vis_graph ai_vision" template="static" name="4">
+            <object collision_type="box" name="c_box_4" padding="-2"/>
+        </body>
+    </bodies>
+    <decal_surfaces default_material="glass_breakable">
+        <decal_mesh enabled="true" name="dm_glass_breakable_1" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_glass_breakable_2" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_glass_breakable_3" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_glass_breakable_4" material="glass_breakable" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true"  name="g_1" /><object enabled="false" name="g_1_dmg" />
+        <object enabled="true"  name="g_2" /><object enabled="false" name="g_2_dmg" />
+        <object enabled="true"  name="g_3" /><object enabled="false" name="g_3_dmg" />
+        <object enabled="true"  name="g_4" /><object enabled="false" name="g_4_dmg" />
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="mat_zombie" render_template="generic:DIFFUSE_TEXTURE:SKINNED_3WEIGHTS" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/deadbodies/dead_male_civilian_draped_01/dead_male_civilian_draped_01_df"/>
+    </material>
+</materials>

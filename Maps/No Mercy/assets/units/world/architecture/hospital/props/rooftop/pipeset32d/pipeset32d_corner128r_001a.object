@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/rooftop/props_rooftop" orientation_object="rp_pipeset32d_corner128r_001a" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_pipeset32d_corner128r_001a" />
+			<object name="c_mesh" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="g_pipeset32d_corner128r_001a" enabled="true" material="metal" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="s_pipeset32d_corner128r_001a" enabled="true" shadow_caster="true"/>
+		<object name="g_pipeset32d_corner128r_001a" enabled="true"/>
+	</graphics>
+</dynamic_object> 

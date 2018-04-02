@@ -1,0 +1,140 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/thrd_vehicle_bike_1" orientation_object="rp_bor_prop_garage_bike_assembly" />
+	<sequence_manager file="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/bor_prop_garage_bike_assembly" />
+	<animations>
+		<animation_group name="anim" enabled="false">
+			<object name="anim_body" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_steering" enabled="true" template="static">
+			<object name="anim_body" />
+			<object name="c_convex_steering_1" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_steering_2" collision_type="convex" padding="-2.5" />
+			<object name="c_capsule_steering_2" collision_type="capsule" padding="-2.5" />
+			<object name="c_capsule_steering_1" collision_type="capsule" padding="-2.5" />
+			<object name="c_mesh_mopp_steering" collision_type="mesh_mopp" />
+		</body>
+
+		<body name="body_frame" enabled="true" template="static">
+			<object name="snap_body" />
+			<object name="c_convex_frame_1" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_frame_2" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_frame_3" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_frame_4" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_frame_5" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_frame_6" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_frame_7" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_frame_8" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_frame_10" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_frame_11" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_frame_12" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_frame_13" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_frame_14" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_frame_15" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_frame_16" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_frame_17" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_frame_18" collision_type="convex" padding="-2.5" />
+		</body>
+
+		<body name="body_tire_rear" enabled="true" template="static">
+			<object name="snap_body" />
+			<object name="c_convex_tire_rear" collision_type="convex" padding="-2.5" />
+		</body>
+
+		<body name="body_tire_front" enabled="true" template="static">
+			<object name="snap_body" />
+			<object name="c_convex_tire_front" collision_type="convex" padding="-2.5" />
+		</body>
+
+		<body name="body_engine" enabled="false" template="static">
+			<object name="snap_engine" />
+			<object name="c_convex_engine_1" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_engine_2" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_engine_3" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_engine_4" collision_type="convex" padding="-2.5" />
+		</body>
+
+		<body name="body_exaust" enabled="false" template="static">
+			<object name="snap_exaust" />
+			<object name="c_exaust" collision_type="mesh_mopp" />
+		</body>
+
+		<body name="body_fueltank" enabled="false" template="static">
+			<object name="snap_fueltank" />
+			<object name="c_convex_fueltank" collision_type="convex" padding="-2.5" />
+		</body>
+
+		<body name="body_seat" enabled="false" template="static">
+			<object name="snap_seat" />
+			<object name="c_convex_seat_1" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_seat_2" collision_type="convex" padding="-2.5" />
+		</body>
+
+		<body name="body_skull" enabled="false" template="static">
+			<object name="snap_skull" />
+			<object name="c_box_skull" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="steel">
+	</decal_surfaces>
+
+	<graphics>
+		<graphic_group name="grp_frame" enabled="true">
+			<lod_object name="lod_g_body">
+				<object name="g_body_lod0" enabled="true" max_distance="750" />
+				<object name="g_body_lod1" enabled="true" max_distance="1500" />
+				<object name="g_body_lod2" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+		<graphic_group name="grp_cables" enabled="false">
+			<lod_object name="lod_g_cables">
+				<object name="g_cables_lod0" enabled="true" max_distance="750" />
+				<object name="g_cables_lod1" enabled="true" max_distance="1500" />
+				<object name="g_cables_lod2" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+		<graphic_group name="grp_engine" enabled="false">
+			<lod_object name="lod_g_engine">
+				<object name="g_engine_lod0" enabled="true" max_distance="750" />
+				<object name="g_engine_lod1" enabled="true" max_distance="1500" />
+				<object name="g_engine_lod2" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+		<graphic_group name="grp_exaust" enabled="false">
+			<lod_object name="lod_g_exaust">
+				<object name="g_exaust_lod0" enabled="true" max_distance="750" />
+				<object name="g_exaust_lod1" enabled="true" max_distance="1500" />
+				<object name="g_exaust_lod2" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+		<graphic_group name="grp_fueltank" enabled="false">
+			<lod_object name="lod_g_fueltank">
+				<object name="g_fueltank_lod0" enabled="true" max_distance="750" />
+				<object name="g_fueltank_lod1" enabled="true" max_distance="1500" />
+				<object name="g_fueltank_lod2" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+		<graphic_group name="grp_seat" enabled="false">
+			<lod_object name="lod_g_seat">
+				<object name="g_seat_lod0" enabled="true" max_distance="750" />
+				<object name="g_seat_lod1" enabled="true" max_distance="1500" />
+				<object name="g_seat_lod2" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+		<graphic_group name="grp_skull" enabled="false">
+			<lod_object name="lod_skull">
+				<object name="g_skull_lod0" enabled="true" max_distance="750" />
+				<object name="g_skull_lod1" enabled="true" max_distance="1500" />
+				<object name="g_skull_lod2" enabled="true" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

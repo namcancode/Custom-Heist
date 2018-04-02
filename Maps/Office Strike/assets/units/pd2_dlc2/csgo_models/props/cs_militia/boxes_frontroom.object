@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+    <diesel materials="units/pd2_dlc2/csgo_models/props/cs_militia/boxes_frontroom" orientation_object="rp_boxes_frontroom" />
+    <bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_boxes_frontroom"/>
+            <object name="c_box_1" collision_type="box" padding="-2.5"/>
+            <object name="c_box_2" collision_type="box" padding="-2.5"/>
+            <object name="c_box_3" collision_type="box" padding="-2.5"/>
+            <object name="c_box_4" collision_type="box" padding="-2.5"/>
+            <object name="c_box_5" collision_type="box" padding="-2.5"/>
+            <object name="c_box_6" collision_type="box" padding="-2.5"/>
+            <object name="c_box_7" collision_type="box" padding="-2.5"/>
+            <object name="c_box_8" collision_type="box" padding="-2.5"/>
+            <object name="c_box_9" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+    
+    <decal_surfaces default_material="thin_layer" static="true">
+        <decal_mesh name="g_boxes_frontroom" material="thin_layer" enabled="true"/>
+    </decal_surfaces> 
+    
+    <graphics>
+        <object enabled="true" name="g_boxes_frontroom" shadow_caster="true"/>
+    </graphics>
+</dynamic_object> 

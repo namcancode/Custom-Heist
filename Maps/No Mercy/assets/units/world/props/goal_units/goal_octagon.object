@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/goal_units/goal_octagon" orientation_object="rp_goal_octagon" />
+  <sequence_manager file="units/world/props/goal_units/goal_octagon" />
+  <bodies>
+    <body name="static_body" enabled="true" template="editor">
+      <object name="rp_goal_octagon" />
+      <object name="c_cube" collision_type="box" />
+    </body>
+  </bodies>
+
+  <graphics>
+    <object name="g_goal" enabled="true" />
+  </graphics>
+</dynamic_object>

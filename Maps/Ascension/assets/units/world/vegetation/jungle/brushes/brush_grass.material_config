@@ -1,0 +1,37 @@
+<materials version="3">
+    <material name="grass_01" version="2" render_template="generic:ALIGN_NORMAL_WORLD_Z:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/world/vegetation/jungle/brushes/brush_grass_01_df"/>
+        <opacity_texture file="units/world/vegetation/jungle/brushes/brush_grass_01_op"/>
+        <variable value="0.074000000953674" type="scalar" name="alpha_ref"/>
+        <variable value="0" type="scalar" name="normal_world_z_blend"/>
+    </material>
+    <material name="grass_02" version="2" render_template="generic:ALIGN_NORMAL_WORLD_Z:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/world/vegetation/jungle/brushes/brush_grass_02_df"/>
+        <opacity_texture file="units/world/vegetation/jungle/brushes/brush_grass_02_op"/>
+        <variable value="0.060000002384186" type="scalar" name="alpha_ref"/>
+        <variable value="0" type="scalar" name="normal_world_z_blend"/>
+    </material>
+    <material name="grass_03" version="2" render_template="generic:ALIGN_NORMAL_WORLD_Z:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/world/vegetation/jungle/brushes/brush_grass_03_df"/>
+        <opacity_texture file="units/world/vegetation/jungle/brushes/brush_grass_03_op"/>
+        <variable value="0.11000000685453" type="scalar" name="alpha_ref"/>
+        <variable value="0" type="scalar" name="normal_world_z_blend"/>
+    </material>
+    <material name="grass_dry_01" version="2" render_template="generic:ALIGN_NORMAL_WORLD_Z:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/world/vegetation/jungle/brushes/brush_grass_dry_01_df"/>
+        <opacity_texture file="units/world/vegetation/jungle/brushes/brush_grass_dry_01_op"/>
+        <variable value="0.44000002741814" type="scalar" name="alpha_ref"/>
+        <variable value="0.89000004529953" type="scalar" name="normal_world_z_blend"/>
+    </material>
+    <material name="grass_dry_02" version="2" render_template="generic:ALIGN_NORMAL_WORLD_Z:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/world/vegetation/jungle/brushes/brush_grass_dry_02_df"/>
+        <opacity_texture file="units/world/vegetation/jungle/brushes/brush_grass_dry_02_op"/>
+        <variable value="0.19700001180172" type="scalar" name="alpha_ref"/>
+        <variable value="0.89000004529953" type="scalar" name="normal_world_z_blend"/>
+    </material>
+</materials>

@@ -1,0 +1,7 @@
+<materials version="3">
+    <material name="anim" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DIFFUSE_UVANIM:EXTERNAL_ALPHA_REF" version="2">
+        <diffuse_texture file="units/world/props/goal_units/goal_df"/>
+        <variable value="1.6360001564026 0 0" type="vector3" name="uv_speed"/>
+        <variable value="0.11500000208616" type="scalar" name="alpha_ref"/>
+    </material>
+</materials>

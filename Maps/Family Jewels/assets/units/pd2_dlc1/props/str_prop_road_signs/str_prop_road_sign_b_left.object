@@ -1,0 +1,20 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b_arrow" orientation_object="rp_str_prop_road_sign_b_left" />
+    <sequence_manager file="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="c_box"         collision_type="box"        padding="-2.5"/>
+            <object name="c_capsule"     collision_type="capsule"    padding="-2.5"/>
+        </body>
+        <body enabled="false" template="dynamic" name="dynamic_body" >
+            <object name="c_box"         collision_type="box"        padding="-2.5" mass="2" />
+            <object name="c_capsule"     collision_type="capsule"    padding="-2.5" mass="10"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" />
+        <object enabled="true" name="g_sign" />
+		<object name="s_sign" 	enabled="true" shadow_caster="true"/>
+		<object name="s_s" 		enabled="true" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

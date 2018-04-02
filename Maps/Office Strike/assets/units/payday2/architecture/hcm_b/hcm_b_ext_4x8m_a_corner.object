@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<diesel orientation_object="rp_hcm_b_ext_4x8m_a_corner" materials="units/payday2/architecture/hcm_b/hcm_b_ext" />
+    <bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_hcm_b_ext_4x8m_a_corner"/>
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_06" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="dm_glass_breakable" 	enabled="true" material="glass_breakable"/>
+		<decal_mesh name="dm_metal" 			enabled="true" material="metal"/>
+	</decal_surfaces> 
+	
+    <graphics>
+		<object name="g_g" enabled="true"/>
+		<object name="s_s" enabled="true" shadow_caster="true"/>
+		<object name="g_glass" enabled="true"/>
+    </graphics>
+</dynamic_object> 

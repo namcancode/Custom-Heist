@@ -1,0 +1,17 @@
+<dynamic_object>
+    <diesel orientation_object="rp_rp" materials="units/world/props/hospital_jars/jar_01" />
+	<sequence_manager file="units/world/props/hospital_jars/jar"/>
+    <bodies>
+		<body name="static" enabled="true" template="raycoll_static">
+			<object name="rp_rp" />
+			<object name="c_convex" collision_type="convex" padding="-2"/>
+		</body>
+        <body enabled="false" template="debris" name="dynamic">
+			<object collision_type="convex" name="c_convex" material="plastic" shell="3"/>
+		</body>
+    </bodies>
+	<decal_surfaces default_material="plastic"/>
+    <graphics>
+        <object enabled="true" name="g_g" instance_struct="world_tm" />
+    </graphics>
+</dynamic_object>

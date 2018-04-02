@@ -1,0 +1,27 @@
+{
+	"heist_nomercy" : "No Mercy",
+	"nomercy_briefing" : "We are hitting up the Mercy hospital in a heist for blood. The source is carrying some kind of rare virus and we need to get it out of him. Let nothing stop us as the paycheck is a hefty one. Spilling some blood for this kind of cash is not the end of the world.",
+	"no_mercy_intro" : "Bain: When you put your mask on you will have 7 seconds to take out the cameras. I will start counting down once you have put your mask on.",
+	"no_mercy_countdown_7" : "Bain: 7",
+	"no_mercy_countdown_6" : "Bain: 6",
+	"no_mercy_countdown_5" : "Bain: 5",
+	"no_mercy_countdown_4" : "Bain: 4",
+	"no_mercy_countdown_3" : "Bain: 3",
+	"no_mercy_countdown_2" : "Bain: 2",
+	"no_mercy_countdown_1" : "Bain: 1",
+	"no_mercy_stealth" : "Bain: Keep the civilians down and start the override.",
+	"no_mercy_loud" : "Bain: Looks like it went loud, you need to get the saw and saw through the doors.",
+	"no_mercy_phone" : "Bain: Answer the phone!",
+	"no_mercy_guard" : "Bain: A security guard is coming to your floor, don't let him see anything suspicious.",
+	"no_mercy_sentry" : "Bain: Place sentry guns to keep the civilians scared.",
+	"no_mercy_patient_paper" : "Bain: Find the correct patient file.",
+	"no_mercy_patient_paper_correct" : "Bain: You found the correct file.",
+	"no_mercy_finding_patient" : "Bain: There must be a way to know who it is. Look for a paper or something that explains their symptoms, maybe you can figure it out from there.",
+	"no_mercy_technician" : "Bain: A technician is coming to your floor, take care of him if he sees anything suspicious.",
+	"no_mercy_saw" : "Get the teddybear we planted in the reception! Set that saw up!",
+	"mission_hospital_cameras_hl" : "Saw open the ICU Doors"
+	"mission_hospital_cameras" : "Find the saw and saw open the ICU Doors"
+	"debug_interact_hospital_veil_hold" : "Hold $BTN_INTERACT to Take a Blood Sample",
+	"debug_interact_sample_validation" : "Press $BTN_INTERACT to Insert the Blood Sample",
+	"debug_interact_hospital_veil_take" : "Press $BTN_INTERACT to Take the Blood Sample"
+}

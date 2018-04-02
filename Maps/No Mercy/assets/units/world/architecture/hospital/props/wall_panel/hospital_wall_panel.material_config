@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<materials>
+    <material name="mat_wall_panel" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/wall_panel/hospital_wall_panel_df"/>
+    </material>
+</materials> 

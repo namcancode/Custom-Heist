@@ -1,0 +1,5 @@
+<materials version="3" group="light_ceiling">
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:INSTANCED" name="mat_light_ceiling">
+        <diffuse_texture file="units/world/architecture/hospital/props/light_ceiling/light_ceiling_df"/>
+    </material>
+</materials>

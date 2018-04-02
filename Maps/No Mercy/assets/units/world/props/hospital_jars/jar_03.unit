@@ -1,0 +1,7 @@
+<unit type="Hosp" slot="1" >
+    <object file="units/world/props/hospital_jars/jar_03" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+		<extension name="damage" class="UnitDamage"/>
+    </extensions>
+</unit>

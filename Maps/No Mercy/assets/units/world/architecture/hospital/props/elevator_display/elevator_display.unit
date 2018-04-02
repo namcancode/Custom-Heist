@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<unit type="Hosp" slot="1">
+	<network sync="spawn"/>
+	<object file="units/world/architecture/hospital/props/elevator_display/elevator_display" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData">
+			<var name="skip_occlusion" value="true" />
+		</extension>
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit> 

@@ -1,0 +1,5 @@
+<materials version="3">
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_projectorscreen">
+        <diffuse_texture file="units/custom/os_custom_projector_screen/os_custom_projector_screen_df"/>
+    </material>
+</materials>

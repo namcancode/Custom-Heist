@@ -1,0 +1,17 @@
+<materials version="3">
+    <material name="fst_bush_01" version="2" render_template="generic:ALIGN_NORMAL_WORLD_Z:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF">
+        <diffuse_texture file="units/world/vegetation/forest/zones/forest/brushes/fst_brush_bush_01/fst_brush_bush_01_df"/>
+        <variable value="0.02000000141561" type="scalar" name="alpha_ref"/>
+        <variable value="0.99900007247925" type="scalar" name="normal_world_z_blend"/>
+    </material>
+	
+	    <material render_template="generic:ALIGN_NORMAL_WORLD_Z:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:INSTANCED:VEGETATION_BENDING" decal_material="foliage" name="fst_bush" version="2">
+        <diffuse_texture file="units/world/vegetation/forest/zones/forest/brushes/fst_brush_bush_01/fst_brush_bush_01_df"/>
+        <variable value="4.6080002784729 0.25800001621246 0" type="vector3" name="branch_settings"/>
+        <variable value="0.038000002503395" type="scalar" name="alpha_ref"/>
+        <variable value="0.82900005578995" type="scalar" name="speed"/>
+        <variable value="10.138000488281 0.092000007629395 0" type="vector3" name="detail_settings"/>
+        <variable value="0.69999998807907" type="scalar" name="normal_world_z_blend"/>
+    </material>
+	
+</materials>

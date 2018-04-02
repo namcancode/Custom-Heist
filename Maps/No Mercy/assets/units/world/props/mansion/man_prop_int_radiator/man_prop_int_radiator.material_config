@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="radiator" decal_material="metal" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/props/mansion/man_prop_int_radiator/g_man_prop_int_radiator_df"/>
+        <bump_normal_texture file="units/world/props/mansion/man_prop_int_radiator/g_man_prop_int_radiator_nm"/>
+    </material>
+</materials>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/pickups/ammo_test/ammo_test" orientation_object="rp_ammo_test" />
+  <graphics>
+    <object name="g_ammo_test" enabled="true" />
+  </graphics>
+  <lights>
+    <light name="l_omni" enabled="true" multiplier="identity" type="omni|specular" />
+  </lights>
+</dynamic_object>

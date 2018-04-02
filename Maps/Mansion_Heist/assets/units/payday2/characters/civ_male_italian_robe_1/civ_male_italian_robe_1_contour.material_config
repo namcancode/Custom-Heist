@@ -1,0 +1,15 @@
+<materials version="3" group="civ_male_italian_robe_1">
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_italian_head">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/italian_head_nm"/>
+        <diffuse_texture file="units/payday2/characters/shared_textures/italian_head_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2" name="mtr_italian">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/italian_body_nm"/>
+        <diffuse_texture file="units/payday2/characters/shared_textures/italian_body_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+</materials>

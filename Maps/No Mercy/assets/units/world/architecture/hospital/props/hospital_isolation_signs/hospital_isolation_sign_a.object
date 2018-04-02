@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/props" orientation_object="rp_hospital_isolation_sign_a" />
+	<bodies>
+		<body name="static_body" enabled="true" template="editor">
+			<object name="rp_hospital_isolation_sign_a" />
+			<object name="g_hospital_isolation_sign_a" collision_type="box" />
+		</body>
+	</bodies>
+	
+	<graphics>
+		<object name="g_hospital_isolation_sign_a" enabled="true"/>
+	</graphics>
+</dynamic_object> 

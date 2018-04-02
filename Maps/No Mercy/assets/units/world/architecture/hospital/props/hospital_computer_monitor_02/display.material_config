@@ -1,0 +1,16 @@
+<materials version="3">
+    <material version="2" decal_material="glass_breakable" name="screen" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION">
+        <diffuse_texture file="units/world/architecture/hospital/props/hospital_computer_monitor_02/computer_display_df"/>
+        <self_illumination_texture file="units/world/architecture/hospital/props/hospital_computer_monitor_02/computer_display_il"/>
+        <variable value="identity" type="scalar" name="il_multiplier"/>
+    </material>
+    <material version="2" decal_material="glass_breakable" name="screen_rolling" render_template="generic:DIFFUSE_TEXTURE:DIFFUSE_UVANIM:SELF_ILLUMINATION">
+        <diffuse_texture file="units/world/architecture/hospital/props/hospital_computer_monitor_02/computer_display_df"/>
+        <variable value="0 1.2000002861023 0" type="vector3" name="uv_speed"/>
+        <self_illumination_texture file="units/world/architecture/hospital/props/hospital_computer_monitor_02/computer_display_il"/>
+        <variable value="identity" type="scalar" name="il_multiplier"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="display">
+        <diffuse_texture file="units/world/architecture/secret_stash/props_textures/secret_stash_interaction_screen_df"/>
+    </material>
+</materials>

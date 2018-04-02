@@ -1,0 +1,9 @@
+<materials version="3" group="female">
+    <material name="casual_set" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS:VERTEX_COLOR:VERTEX_COLOR_ALPHA:VERTEX_COLOR_CHARACTER" version="2">
+        <bump_normal_texture file="units/characters/civilians/textures/female_set1_nm"/>
+        <diffuse_texture file="units/characters/civilians/textures/female_set1_df"/>
+    </material>
+    <material name="casual_set_lod1" render_template="generic:DIFFUSE_TEXTURE:RL_CIVILIANS:SKINNED_3WEIGHTS:VERTEX_COLOR:VERTEX_COLOR_ALPHA:VERTEX_COLOR_CHARACTER" version="2">
+        <diffuse_texture file="units/characters/civilians/textures/female_set1_df"/>
+    </material>
+</materials>

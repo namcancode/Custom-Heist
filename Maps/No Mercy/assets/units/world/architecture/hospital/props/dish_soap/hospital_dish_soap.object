@@ -1,0 +1,21 @@
+<dynamic_object>
+    <diesel orientation_object="rp_hospital_dish_soap" materials="units/world/architecture/hospital/props/dish_soap/hospital_dish_soap" />
+	<sequence_manager file="units/world/props/small_prop" />	
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_hospital_dish_soap" />
+			<object name="c_convex" collision_type="convex"/>
+		</body>
+		<body name="dynamic_body" enabled="false" template="small_prop" pushed_by_mover="false" friction="0.2">
+			<object name="rp_hospital_dish_soap"/>
+			<object name="c_convex" collision_type="convex"/>
+			<object name="g_g"/>
+		</body>			
+	</bodies>
+	<decal_surfaces default_material="plastic" static="true">
+		<decal_mesh name="g_g" enabled="true" material="plastic" />
+	</decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

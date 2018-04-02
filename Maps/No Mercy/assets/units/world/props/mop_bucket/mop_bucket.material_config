@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="mop_bucket" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/props/mop_bucket/mop_bucket_df"/>
+    </material>
+</materials>

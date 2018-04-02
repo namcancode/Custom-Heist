@@ -1,0 +1,9 @@
+<materials version="3">
+    <material name="hospital_gear" version="2" render_template="generic:DIFFUSE_TEXTURE:DOUBLE_SIDED:INSTANCED">
+        <diffuse_texture file="units/world/architecture/hospital/props/hospital_gear/hospital_gear_df"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:INSTANCED" version="2" name="hospital_gear_alpha">
+        <diffuse_texture file="units/world/architecture/hospital/props/hospital_gear/hospital_gear_df"/>
+        <variable value="0.090000003576279" type="scalar" name="alpha_ref"/>
+    </material>
+</materials>

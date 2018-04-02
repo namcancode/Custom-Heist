@@ -1,0 +1,18 @@
+<table>
+	<objective description="q006_obj_loud_001_desc" id="q006_obj_loud_001" level_id="heist_q006" prio="1" text="q006_obj_loud_001" xp_weight="1"/>
+	<objective description="q006_obj_loud_001b_desc" id="q006_obj_loud_001b" level_id="heist_q006" prio="1" text="q006_obj_loud_001b" xp_weight="1"/>
+	<objective description="q006_obj_loud_002_desc" id="q006_obj_loud_002" level_id="heist_q006" prio="1" text="q006_obj_loud_002" xp_weight="1"/>
+	<objective description="q006_obj_loud_003_desc" id="q006_obj_loud_003" level_id="heist_q006" prio="1" text="q006_obj_loud_003" xp_weight="1"/>
+	<objective description="q006_obj_loud_004a_desc" id="q006_obj_loud_004a" level_id="heist_q006" prio="1" text="q006_obj_loud_004a" xp_weight="1"/>
+	<objective description="q006_obj_loud_004b_desc" id="q006_obj_loud_004b" level_id="heist_q006" prio="1" text="q006_obj_loud_004b" xp_weight="1"/>
+	<objective description="q006_obj_loud_005_desc" id="q006_obj_loud_005" level_id="heist_q006" prio="1" text="q006_obj_loud_005" xp_weight="1"/>
+	<objective description="q006_obj_loud_006_desc" id="q006_obj_loud_006a" level_id="heist_q006" prio="1" text="q006_obj_loud_006a" xp_weight="1"/>
+	<objective description="q006_obj_loud_006_desc" id="q006_obj_loud_006b" level_id="heist_q006" prio="1" text="q006_obj_loud_006b" xp_weight="1"/>
+	<objective description="q006_obj_loud_006_desc" id="q006_obj_loud_006c" level_id="heist_q006" prio="1" text="q006_obj_loud_006c" xp_weight="1"/>
+	<objective description="q006_obj_loud_007_desc" id="q006_obj_loud_007" level_id="heist_q006" prio="1" text="q006_obj_loud_007" xp_weight="1"/>
+	<objective description="q006_obj_loud_008_desc" id="q006_obj_loud_008" level_id="heist_q006" prio="1" text="q006_obj_loud_008" xp_weight="1"/>
+	<objective description="q006_obj_loud_escape_desc" id="q006_obj_loud_escape" level_id="heist_q006" prio="1" text="q006_obj_loud_escape" xp_weight="1"/>
+	<objective description="q006_obj_loud_eqp_desc" id="q006_obj_loud_eqp" level_id="heist_q006" prio="1" text="q006_obj_loud_eqp" xp_weight="1"/>
+	<objective description="q006_obj_loud_chopper_away_desc" id="q006_obj_loud_chopper_away" level_id="heist_q006" prio="1" text="q006_obj_loud_chopper_away" xp_weight="1"/>
+	<objective description="q006_obj_loud_clear_area_desc" id="q006_obj_loud_clear_area" level_id="heist_q006" prio="1" text="q006_obj_loud_clear_area" xp_weight="1"/>
+</table>

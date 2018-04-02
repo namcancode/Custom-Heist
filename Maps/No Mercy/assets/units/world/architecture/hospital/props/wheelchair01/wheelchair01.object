@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/props" orientation_object="rp_wheelchair01" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_wheelchair01" />
+			<object name="c_mesh_mopp_bullet" collision_type="mesh_mopp" />
+		</body>
+		<body name="blocker" enabled="true" template="mover_blocker">
+			<object name="rp_wheelchair01" />
+			<object name="c_convex_player" collision_type="mesh_mopp" padding="-2.5"/>
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="dm_wheelchair01_plastic" enabled="true" material="plastic" />
+		<decal_mesh name="dm_wheelchair01_metal" enabled="true" material="metal" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_wheelchair01" enabled="true"/>
+	</graphics>
+</dynamic_object>

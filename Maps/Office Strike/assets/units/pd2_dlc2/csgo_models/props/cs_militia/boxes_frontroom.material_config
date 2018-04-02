@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="mat_boxes_frontroom" render_template="generic:DIFFUSE_TEXTURE:RL_BIGPROPS" version="2">
+        <diffuse_texture file="units/pd2_dlc2/csgo_models/props/cs_militia/boxes_frontroom_df"/>
+    </material>
+</materials>

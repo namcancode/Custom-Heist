@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<unit type="hsp" slot="1">	
+	<object file="units/world/props/hospital_phone/hospital_phone"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="hospital_phone" />
+		</extension>
+	</extensions>
+</unit>

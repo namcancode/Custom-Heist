@@ -1,0 +1,1 @@
+{	"id":"mansion_heist_stealth_no_alerts",	"desc":"stealth_no_alerts_desc",	"rank":"gold",	"goal":0,	"hidden":false,	"number":0,	"reward_amount":0,	"unlocked":false,	"reward_type":"none",	"objective":"stealth_no_alerts_objective",	"displayed":false,	"name":"stealth_no_alerts_name",	"texture":"default"}

@@ -1,0 +1,185 @@
+<table name="Ascension">
+	<Localization default="english.txt" directory="loc"/>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" desc_id="contact_nepgearsy_desc" id="nepgearsy" name_id="contact_nepgearsy_name" package="packages/contact_bain"/>
+	<narrative contact="nepgearsy" icon="icons/AscensionIcon" id="ascension">
+		<chain>
+			<table level_id="ascension_III" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="23000"/>
+			<value_node value="45000"/>
+			<value_node value="125000"/>
+			<value_node value="150000"/>
+			<value_node value="200000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="45100"/>
+			<value_node value="45100"/>
+			<value_node value="45100"/>
+			<value_node value="45100"/>
+			<value_node value="45100"/>
+			<value_node value="45100"/>
+			<value_node value="45100"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="25000"/>
+			<value_node value="25000"/>
+			<value_node value="25000"/>
+			<value_node value="25000"/>
+			<value_node value="25000"/>
+			<value_node value="25000"/>
+			<value_node value="25000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="15000"/>
+			<value_node value="40000"/>
+			<value_node value="60000"/>
+			<value_node value="85000"/>
+			<value_node value="130000"/>
+			<value_node value="140000"/>
+			<value_node value="150000"/>
+		</payout>
+	</narrative>
+	<AssetUpdates id="21301" provider="modworkshop" use_local_dir="true" version="6"/>
+	<level ai_group_type="zombie" briefing_dialog="" id="ascension_III" load_screen="guis/ascension_loading" max_bags="50">
+		<add file="levels/ascension_III/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<include directory="levels/ascension_III">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="brushes/brushes.continent" type="binary"/>
+			<file file="brushes/brushes.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="collisions/collisions.continent" type="binary"/>
+			<file file="collisions/collisions.mission" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/nepgearsy_clearsky_secret_resolved.environment" type="custom_xml"/>
+			<file file="environments/nepgearsy_redclipse2.environment" type="custom_xml"/>
+			<file file="environments/nepgearsy_purpleclipse.environment" type="custom_xml"/>
+			<file file="environments/nepgearsy_greenclipse.environment" type="custom_xml"/>
+			<file file="environments/nepgearsy_redclipse.environment" type="custom_xml"/>
+			<file file="environments/nepgearsy_eclipse.environment" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<intro_event>
+			<value_node value=""/>
+		</intro_event>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/narratives/bain/hvh/world_sounds"/>
+			<value_node value="packages/narr_hvh"/>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_3/part_01/part_01"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_3/world"/>
+			<value_node value="levels/narratives/bain/cage/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/cane/civ_cook/world/world"/>
+			<value_node value="levels/instances/unique/chill/players_van/world/world"/>
+			<value_node value="levels/narratives/elephant/chew/world/world"/>
+			<value_node value="levels/narratives/h_watchdogs/stage_1/editor_only/editor_only"/>
+			<value_node value="levels/narratives/classics/run/world"/>
+			<value_node value="levels/narratives/vlad/mallcrasher/world/world"/>
+			<value_node value="levels/narratives/armadillo/arm_hcm/world"/>
+			<value_node value="levels/narratives/bain/diamond_store/world"/>
+			<value_node value="levels/narratives/elephant/mad/lights_underground_lab/lights_underground_lab"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_loot_crate/world/world"/>
+			<value_node value="levels/narratives/vlad/peta/stage2/world/world"/>
+			<value_node value="levels/narratives/bain/arena/art_temp/art_temp"/>
+			<value_node value="levels/narratives/elephant/mad/world/world"/>
+			<value_node value="levels/instances/unique/hox_estate_security_room_door/world/world"/>
+			<value_node value="levels/narratives/bain/big/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_flare/world/world"/>
+			<value_node value="levels/narratives/vlad/peta/stage2/world"/>
+			<value_node value="levels/narratives/continental/spa/world"/>
+			<value_node value="levels/narratives/short1/stage1/lighting/lighting"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_1/world"/>
+			<value_node value="levels/narratives/e_election_day/stage_3/world/world"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_3/marac/marac"/>
+			<value_node value="levels/narratives/short1/stage2/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<AddFiles directory="assets">
+		<texture force="true" path="icons/AscensionIcon"/>
+		<texture force="true" path="guis/ascension_bd"/>
+		<texture force="true" path="guis/ascension_loading"/>
+		<movie path="music/penumbra"/>
+		<movie path="music/rb_ascensionmusic/setup"/>
+		<movie path="music/rb_ascensionmusic/control"/>
+		<movie path="music/rb_ascensionmusic/anticipation_intro"/>
+		<movie path="music/rb_ascensionmusic/anticipation"/>
+		<movie path="music/rb_ascensionmusic/transition"/>
+		<movie path="music/rb_ascensionmusic/assault"/>
+	</AddFiles>
+	<Music assets_directory="assets" id="penumbra" menu="true" source="music/penumbra"/>
+	<Music directory="music/rb_ascensionmusic" heist="true" id="rb_ascensionmusic" source="assault">
+		<event name="setup" source="setup"/>
+		<event name="control" source="control"/>
+		<event name="anticipation" source="anticipation" start_source="anticipation_intro"/>
+		<event name="assault" source="assault" start_source="transition"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+		<event name="setup" source="setup"/>
+	</Music>
+	<Hooks directory="hooks">
+		<hook file="hudmissionbriefing.lua" source_file="lib/managers/hud/hudmissionbriefing"/>
+		<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+		<hook file="missionmanager.lua" source_file="lib/managers/missionmanager"/>
+		<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
+		<hook file="equipmentstweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
+	</Hooks>
+</table>

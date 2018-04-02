@@ -1,0 +1,79 @@
+<table>
+	<statics>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_001" position="4036.84 -19574.9 4230" rotation="-0 0 -0 -1" unit_id="700000"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_002" position="4106.42 -17969.30 4655" rotation="0 0 0.707107 0.707107" unit_id="700001"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_003" position="4053.89 -17175.4 4230" rotation="0 0 1 7.54979e-008" unit_id="700002"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_004" position="1699.84 -17222.9 4230" rotation="0 0 0.707107 -0.707107" unit_id="700003"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_005" position="-2699.74 -16995 4420" rotation="0 0 0.707107 -0.707107" unit_id="700004"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_006" position="-2699.79 -19685.8 4420" rotation="0 0 0.707107 -0.707107" unit_id="700005"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_007" position="-2175.45 -17318 3600" rotation="0 0 0.707107 -0.707107" unit_id="700006"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_008" position="1299.7 -18993.7 3390" rotation="0 0 -0.707107 -0.707107" unit_id="700007"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_009" position="-2981.58 -17661.3 2980" rotation="0 0 0.707107 -0.707107" unit_id="700008"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_010" position="-2981.84 -19067.9 2980" rotation="0 0 0.707107 -0.707107" unit_id="700009"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_011" position="-1399.67 -17795.3 2200" rotation="0 0 0.707107 -0.707107" unit_id="700010"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_012" position="-1292.91 -18574.9 2200" rotation="0 0 1 4.37114e-008" unit_id="700011"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_013" position="-410.538 -16213.1 3387.05" rotation="0 0 0 -1" unit_id="700012"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_014" position="405.443 -17174.8 3551.7" rotation="-0 0 -0 -1" unit_id="700013"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_015" position="-1520.82 -19574.5 3551.7" rotation="0 0 1 7.54979e-008" unit_id="700014"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_016" position="-2227.30 -19416.70 3600" rotation="0 0 0.707107 -0.707107" unit_id="700015"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_017" position="2070.62 -17200.2 3475" rotation="-0 0 -0 -1" unit_id="700016"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_018" position="1700.22 -17946.5 3390" rotation="0 0 0.707107 -0.707107" unit_id="700017"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_019" position="2070.62 -19550.2 3475" rotation="0 0 1 4.37114e-008" unit_id="700018"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" local_pos="0 0 0" local_rot="0 -0 0 -1" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_020" position="1698.76 -19519.9 4230" rotation="0 0 0.707107 -0.707107" unit_id="700019"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_021" position="-3110.34 -17723.9 3948.57" rotation="0 0 0.707107 -0.707107" unit_id="700020"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_022" position="-3110.34 -19003.9 3948.57" rotation="0 0 0.707107 -0.707107" unit_id="700021"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_023" position="2046.98 -17204.7 4332" rotation="-0 0 -0 -1" unit_id="700022"/>
+		</table>
+		<table>
+			<unit_data continent="stealth" name="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" name_id="gen_equipment_security_camera_024" position="2106.51 -19545.1 4332" rotation="0 0 1 7.54979e-008" unit_id="700023"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

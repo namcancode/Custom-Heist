@@ -1,0 +1,12 @@
+<table>
+	<objective description="a_obj1_stealth" id="a_obj1_stealth" level_id="Infiltration" prio="1" text="a_obj1_stealth_short" xp_weight="1"/>
+	<objective description="a_obj2_stealth" id="a_obj2_stealth" level_id="Infiltration" prio="1" text="a_obj2_stealth_short" xp_weight="1"/>
+	<objective description="a_obj3_stealth" id="a_obj3_stealth" level_id="Infiltration" prio="1" text="a_obj3_stealth_short" xp_weight="1"/>
+	<objective description="a_obj4_stealth" id="a_obj4_stealth" level_id="Infiltration" prio="1" text="a_obj4_stealth_short" xp_weight="1"/>
+	<objective description="a_obj5_stealth" id="a_obj5_stealth" level_id="Infiltration" prio="1" text="a_obj5_stealth_short" xp_weight="1"/>
+	<objective description="a_obj6_stealth" id="a_obj6_stealth" level_id="Infiltration" prio="1" text="a_obj6_stealth_short" xp_weight="1"/>
+	<objective description="a_obj7_stealth" id="a_obj7_stealth" level_id="Infiltration" prio="1" text="a_obj7_stealth_short" xp_weight="1"/>
+	<objective description="a_obj8_stealth" id="a_obj8_stealth" level_id="Infiltration" prio="1" text="a_obj8_stealth_short" xp_weight="1"/>
+	<objective description="a_obj9_stealth" id="a_obj9_stealth" level_id="Infiltration" prio="1" text="a_obj9_stealth_short" xp_weight="1"/>
+	<objective description="a_obj10_stealth" id="a_obj10_stealth" level_id="Infiltration" prio="1" text="a_obj10_stealth_short" xp_weight="1"/>
+</table>

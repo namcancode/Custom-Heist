@@ -1,0 +1,13 @@
+<dynamic_object>
+    <diesel orientation_object="rp_hcm_f_ext_top_corner_a_1x1m" materials="units/pd2_dlc1/architecture/hcm_f_ext/hcm_f_ext_mid" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_hcm_f_ext_top_corner_a_1x1m" />
+            <object collision_type="box" name="c_box_00" padding="-2.5"/>
+            <object collision_type="box" name="c_box_01" padding="-2.5"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

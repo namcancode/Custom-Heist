@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="vent_hotel" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/world/props/hotel/vent/vent_df"/>
+    </material>
+</materials>

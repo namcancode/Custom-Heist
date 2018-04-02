@@ -1,0 +1,129 @@
+<table name="Infiltration">
+	<Localization default="english.txt" directory="loc"/>
+	<contact assets_gui="guis/dlcs/big_bank/guis/preload_contact_the_dentist" id="Aurimenas" name_id="heist_contact_Aurimenas" package="packages/contact_the_dentist"/>
+	<narrative briefing="" contact="Aurimenas" id="Infiltration_wrapper">
+		<chain>
+			<table level_id="Infiltration" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="48000"/>
+			<value_node value="48000"/>
+			<value_node value="48000"/>
+			<value_node value="48000"/>
+			<value_node value="48000"/>
+			<value_node value="48000"/>
+			<value_node value="48000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="9800"/>
+			<value_node value="9800"/>
+			<value_node value="9800"/>
+			<value_node value="9800"/>
+			<value_node value="9800"/>
+			<value_node value="9800"/>
+			<value_node value="9800"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="6000"/>
+			<value_node value="12000"/>
+			<value_node value="30000"/>
+			<value_node value="50000"/>
+			<value_node value="60000"/>
+			<value_node value="750000"/>
+			<value_node value="1e+006"/>
+		</payout>
+	</narrative>
+	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
+	<level ai_group_type="america" ghost_bonus="0.05" id="Infiltration" max_bags="54">
+		<add directory="assets"/>
+		<assets>
+			<asset name="bodybags_bag"/>
+			<asset name="nightclub_lootpickup"/>
+		</assets>
+		<include directory="levels/Infiltration">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/ff.environment" type="custom_xml"/>
+			<file file="environments/ff3.environment" type="custom_xml"/>
+			<file file="environments/ff2.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/narratives/classics/red2/world/world"/>
+			<value_node value="levels/narratives/bain/big/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_plane_cargo/world/world"/>
+			<value_node value="levels/narratives/dentist/cas/level_art/level_art"/>
+			<value_node value="levels/narratives/dentist/mus/art/art"/>
+			<value_node value="levels/instances/unique/chill/living_room/world/world"/>
+			<value_node value="levels/narratives/dentist/mus/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_garage/world/world"/>
+			<value_node value="levels/narratives/e_election_day/stage_3/world/world"/>
+			<value_node value="levels/narratives/armadillo/arm_for/world/world"/>
+			<value_node value="levels/narratives/short1/stage1/editor_only/editor_only"/>
+			<value_node value="levels/narratives/e_election_day/stage_3/new_mall/new_mall"/>
+			<value_node value="levels/narratives/short1/stage2/world/world"/>
+			<value_node value="levels/narratives/elephant/mad/world/world"/>
+			<value_node value="levels/narratives/bain/help/env_art/env_art"/>
+			<value_node value="levels/narratives/e_election_day/stage_2/world/world"/>
+			<value_node value="levels/narratives/butcher/friend/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_2/pc_only/pc_only"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_vault/world/world"/>
+			<value_node value="levels/narratives/bain/cage/temp_art/temp_art"/>
+			<value_node value="levels/narratives/h_watchdogs/stage_1/editor_only/editor_only"/>
+			<value_node value="levels/narratives/h_alex_must_die/stage_1/interior_01/interior_01"/>
+			<value_node value="levels/instances/unique/spa/spa_corridor_door/world/world"/>
+			<value_node value="levels/narratives/e_election_day/stage_1/mt_art/mt_art"/>
+			<value_node value="levels/narratives/continental/spa/regin_art/regin_art"/>
+			<value_node value="packages/narr_red2"/>
+			<value_node value="packages/narr_jerry1"/>
+			<value_node value="packages/narr_framing_3"/>
+			<value_node value="levels/narratives/butcher/friend/world_sounds"/>
+			<value_node value="levels/narratives/bain/cage/world_sounds"/>
+			<value_node value="levels/narratives/bain/big/world_sounds"/>
+			<value_node value="levels/narratives/dentist/hox/stage_2/art/art"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_2/world/world"/>
+			<value_node value="levels/narratives/bain/shadow_raid/world/world"/>
+			<value_node value="levels/narratives/short1/stage1/world/world"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_1/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+</table>

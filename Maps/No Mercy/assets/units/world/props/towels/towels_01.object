@@ -1,0 +1,18 @@
+<dynamic_object>
+    <diesel orientation_object="rp_towels_01" materials="units/world/props/towels/towels" />
+   
+	<bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object name="rp_towels_01" />
+			<object collision_type="convex" name="c_convex_000" padding="-2"/>
+        </body>
+    </bodies>
+
+	 <decal_surfaces default_material="cloth">
+		<decal_mesh name="dm_cloth" enabled="true" material="cloth" />
+	</decal_surfaces>
+	
+   <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

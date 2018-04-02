@@ -1,0 +1,8 @@
+<materials version="3">
+    <material name="elevator_details" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/props/hotel/elevator/elevator_details_df"/>
+        <bump_normal_texture file="units/world/props/hotel/elevator/elevator_details_nm"/>
+        <variable value="0" type="scalar" name="specular_power"/>
+    </material>
+    <material name="lambert1" render_template="generic" version="2"/>
+</materials>

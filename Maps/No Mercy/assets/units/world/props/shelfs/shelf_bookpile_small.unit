@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<unit type="fwb" slot="1">
+	<mass>
+		<spawn in="3000" method="enable" out="3500" />
+	</mass>
+  <object file="units/world/props/shelfs/shelf_bookpile_small" />
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+  </extensions>
+</unit>

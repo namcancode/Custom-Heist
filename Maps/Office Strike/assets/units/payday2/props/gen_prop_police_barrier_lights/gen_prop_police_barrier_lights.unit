@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<unit type="str" slot="1">
+  <object file="units/payday2/props/gen_prop_police_barrier_lights/gen_prop_police_barrier_lights" />
+  <network sync="spawn"/>
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+	<extension name="damage" class="UnitDamage" />
+  </extensions>
+</unit>

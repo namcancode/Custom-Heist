@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/diamond_heist/apartment/apartment_livingroom/office_visitorchair/office_visitorchair" orientation_object="rp_office_visitorchair" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="c_office_visitorchair" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces>
+    <decal_mesh name="dm_metal" enabled="true" material="metal" />
+    <decal_mesh name="dm_plastic" enabled="true" material="plastic" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_office_visitorchair" enabled="true" />
+  </graphics>
+</dynamic_object>

@@ -1,0 +1,37 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_barista_chair" materials="units/payday2/props/com_prop_barista_chair/com_prop_barista_chair" />
+	<!-- <sequence_manager file="units/payday2/props/com_prop_barista_chair/com_prop_barista_chair" /> :( -->
+    <bodies>
+		<body name="bullet" enabled="true" template="raycoll" collides_with_mover="false">
+			<object name="c_convex_physics" collision_type="convex" padding="-2.5" mass="20"/>
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_capsule_01" collision_type="capsule" padding="-2.5" mass="8" />
+			<object name="c_capsule_02" collision_type="capsule" padding="-2.5" mass="8" />
+			<object name="c_capsule_03" collision_type="capsule" padding="-2.5" mass="8" />
+			<object name="c_capsule_04" collision_type="capsule" padding="-2.5" mass="8" />
+			<object name="c_capsule_05" collision_type="capsule" padding="-2.5" mass="8" />
+			<object name="c_capsule_06" collision_type="capsule" padding="-2.5" mass="8" />
+			<object name="c_convex_01" collision_type="convex"   padding="-2.5" mass="2" />
+			<object name="g_g" />
+        </body>
+		<!--
+		:(
+		<body name="dynamic_body" enabled="false" template="small_prop" ray="ignore" collides_with_mover="false">
+			<object name="rp_com_prop_barista_chair"/>
+			<object name="c_convex_physics" collision_type="convex" mass="4" />
+			<object name="g_g" />
+		</body>
+		-->
+		<body name="static_body_player" enabled="true" editable="true" template="static" remove_ray_type="bullet body">
+            <object name="rp_com_prop_barista_chair" />
+			<object name="c_convex_physics" collision_type="convex" padding="-2.5"/>
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_plastic" material="plastic" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" instance_struct="world_tm" />
+        <object enabled="true" shadow_caster="true" name="s_s" instance_struct="world_tm" />
+    </graphics>
+</dynamic_object>

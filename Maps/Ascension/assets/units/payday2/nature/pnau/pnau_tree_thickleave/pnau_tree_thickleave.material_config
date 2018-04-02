@@ -1,0 +1,12 @@
+<materials version="3">
+    <material name="mat_pnau_tree_thickleave_trunk" version="2" render_template="generic:DIFFUSE_TEXTURE:DOUBLE_SIDED:NORMALMAP:VERTEX_COLOR">
+        <bump_normal_texture file="units/payday2/nature/pnau/pnau_tree_thickleave/pnau_tree_thickleave_nm"/>
+        <diffuse_texture file="units/payday2/nature/pnau/pnau_tree_thickleave/pnau_tree_thickleave_df"/>
+    </material>
+    <material name="mat_pnau_tree_thickleave_leafs" version="2" render_template="generic:ALIGN_NORMAL_WORLD_Z:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE">
+        <variable value="0.5" type="scalar" name="alpha_ref"/>
+        <diffuse_texture file="units/payday2/nature/pnau/pnau_tree_thickleave/pnau_tree_thickleave_df"/>
+        <opacity_texture file="units/payday2/nature/pnau/pnau_tree_thickleave/pnau_tree_thickleave_op"/>
+        <variable value="0.72000002861023" type="scalar" name="normal_world_z_blend"/>
+    </material>
+</materials>

@@ -1,0 +1,29 @@
+<materials version="3">
+    <material version="2" decal_material="wood" name="mat_pnau_tree_pine_trunk_01_a" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <bump_normal_texture file="units/payday2/nature/pnau/pnau_tree_pine/pnau_tree_pine_trunk_01_a_nm"/>
+        <diffuse_texture file="units/payday2/nature/pnau/pnau_tree_pine/pnau_tree_pine_trunk_01_a_df"/>
+    </material>
+    <material version="2" decal_material="wood" name="mat_pnau_tree_pine_trunk_01_c" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <bump_normal_texture file="units/payday2/nature/pnau/pnau_tree_pine/pnau_tree_pine_trunk_01_a_nm"/>
+        <diffuse_texture file="units/payday2/nature/pnau/pnau_tree_pine/pnau_tree_pine_trunk_01_c_df"/>
+    </material>
+    <material version="2" decal_material="foliage" name="mat_pnau_tree_pine_needles_01_a" render_template="generic:ALIGN_NORMAL_WORLD_Z:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE">
+        <opacity_texture file="units/payday2/nature/pnau/pnau_tree_pine/pnau_tree_pine_needles_01_a_op"/>
+        <diffuse_texture file="units/payday2/nature/pnau/pnau_tree_pine/pnau_tree_pine_needles_01_a_df"/>
+        <variable value="0.5" type="scalar" name="alpha_ref"/>
+        <variable value="0" type="scalar" name="normal_world_z_blend"/>
+    </material>
+    <material version="2" decal_material="foliage" name="mat_pnau_tree_pine_needles_01_b" render_template="generic:ALIGN_NORMAL_WORLD_Z:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE">
+        <opacity_texture file="units/payday2/nature/pnau/pnau_tree_pine/pnau_tree_pine_needles_01_b_op"/>
+        <diffuse_texture file="units/payday2/nature/pnau/pnau_tree_pine/pnau_tree_pine_needles_01_b_df"/>
+        <variable value="0.5" type="scalar" name="alpha_ref"/>
+        <variable value="0" type="scalar" name="normal_world_z_blend"/>
+    </material>
+    <material version="2" decal_material="foliage" name="mat_pnau_tree_pine_needles_01_c" render_template="generic:ALIGN_NORMAL_WORLD_Z:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE">
+        <opacity_texture file="units/payday2/nature/pnau/pnau_tree_pine/pnau_tree_pine_needles_01_c_op"/>
+        <diffuse_texture file="units/payday2/nature/pnau/pnau_tree_pine/pnau_tree_pine_needles_01_c_df"/>
+        <variable value="0.5" type="scalar" name="alpha_ref"/>
+        <variable value="0" type="scalar" name="normal_world_z_blend"/>
+    </material>
+    <material version="2" render_template="shadow_caster_only" name="shadow_caster"/>
+</materials>

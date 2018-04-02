@@ -1,0 +1,12 @@
+<unit type="Hosp" slot="1" >
+    <object file="units/world/props/hospital_bookshelf/hospital_bookshelf_double_doors" />
+    
+	<dependencies>
+    <depends_on effect="effects/particles/window/window_small_descreet" />
+	</dependencies>
+	
+	<extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+	<extension name="damage" class="UnitDamage" />
+  </extensions>
+</unit>

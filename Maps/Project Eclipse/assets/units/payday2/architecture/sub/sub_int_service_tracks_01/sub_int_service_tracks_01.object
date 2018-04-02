@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/payday2/architecture/sub/sub_int_service_tracks_01/sub_int_service_tracks_01" orientation_object="rp_sub_int_service_tracks_01" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_sub_int_service_tracks_01" />
+			<object name="c_box_ground" collision_type="box" padding="-2.5"/>
+			<object name="c_mesh_ground" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal_catwalk">
+		<decal_mesh name="dm_gravel" enabled="true" material="gravel"/>
+		<decal_mesh name="dm_metal" enabled="true" material="metal"/>
+		<decal_mesh name="dm_wood" enabled="true" material="wood"/>
+	</decal_surfaces>
+	<graphics>
+		<object name="g_g" enabled="true" instance_struct="world_tm"/>
+	</graphics>
+</dynamic_object>

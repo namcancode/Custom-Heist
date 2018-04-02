@@ -1,0 +1,5 @@
+<materials version="3" group="spotlight_celing_small">
+    <material name="spotlight_celing_small" decal_material="sheet_metal" render_template="generic:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/world/props/office/light/spotlight_celing_small_df"/>
+    </material>
+</materials>

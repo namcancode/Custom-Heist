@@ -1,0 +1,21 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_barista_fence_2m" materials="units/payday2/props/com_prop_barista_fence/com_prop_barista_fence" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object name="rp_com_prop_barista_fence_2m" />
+            <object collision_type="box" name="c_box_01" padding="-2.5" />
+            <object collision_type="box" name="c_box_02" padding="-2.5" />
+            <object collision_type="box" name="c_box_03" padding="-2.5" />
+            <object collision_type="box" name="c_box_04" padding="-2.5" />
+            <object collision_type="box" name="c_box_05" padding="-2.5" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_metal" material="sheet_metal" />
+        <decal_mesh enabled="true" name="dm_plastic" material="plastic" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" instance_struct="world_tm" />
+		<object enabled="true" shadow_caster="true" name="s_s" instance_struct="world_tm" />
+    </graphics>
+</dynamic_object>

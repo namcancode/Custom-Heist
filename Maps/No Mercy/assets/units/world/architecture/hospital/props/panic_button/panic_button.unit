@@ -1,0 +1,6 @@
+<unit type="static" slot="1" >
+    <object file="units/world/architecture/hospital/props/panic_button/panic_button" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

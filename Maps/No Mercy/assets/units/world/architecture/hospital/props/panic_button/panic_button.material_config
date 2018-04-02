@@ -1,0 +1,11 @@
+<materials version="3">
+    <material name="panic_button" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/panic_button/panic_button_df"/>
+    </material>
+	
+	<material name="panic_button_il" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/panic_button/panic_button_il"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+    </material>
+	
+</materials>

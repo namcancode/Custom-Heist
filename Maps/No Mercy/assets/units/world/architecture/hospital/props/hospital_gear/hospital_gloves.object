@@ -1,0 +1,16 @@
+<dynamic_object>
+    <diesel orientation_object="rp_gloves" materials="units/world/architecture/hospital/props/hospital_gear/hospital_gear" />
+    
+	<bodies>
+		<body name="static_body" enabled="true" template="editor">
+			<object name="rp_gloves" />
+			<object name="g_mesh" collision_type="box" />
+		</body>
+	</bodies>
+		
+
+	<graphics>
+        <object enabled="true" name="g_mesh" instance_struct="world_tm"/>
+    </graphics>
+
+</dynamic_object>

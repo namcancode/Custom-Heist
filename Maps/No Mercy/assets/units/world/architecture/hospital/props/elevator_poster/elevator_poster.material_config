@@ -1,0 +1,21 @@
+<materials version="3">
+    <material name="background" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/decals/decal_06_df"/>
+    </material>
+    <material name="decal_06" render_template="decal:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/decals/decal_06_df"/>
+    </material>
+    <material name="glasswindow_2_dmg" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <variable value="0 1 0" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/vehicles/window/glass_shattered_2_op"/>
+        <diffuse_texture file="units/vehicles/window/glass_shattered_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/glasswindow007a_dmg_nm"/>
+    </material>
+    <material name="glasswindow_2" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" version="2">
+        <variable value="0 1 0" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/glass/vehicle_glass_op"/>
+        <diffuse_texture file="units/glass/vehicle_glass_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+    </material>
+</materials>

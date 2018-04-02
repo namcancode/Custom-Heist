@@ -1,0 +1,11 @@
+<materials version="3" group="hospital_bill">
+    <material name="mtr_body" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <diffuse_texture file="units/characters/civilians/textures/hospital_bill_body_df"/>
+        <bump_normal_texture file="units/characters/civilians/textures/hospital_bill_body_nm"/>
+    </material>
+    <material name="mtr_beard" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <diffuse_texture file="units/characters/civilians/textures/hospital_bill_beard_df"/>
+        <opacity_texture file="units/characters/civilians/textures/hospital_bill_beard_op"/>
+        <variable value="0.30600002408028" type="scalar" name="alpha_ref"/>
+    </material>
+</materials>

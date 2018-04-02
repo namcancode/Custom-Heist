@@ -1,0 +1,36 @@
+<materials version="3" group="securitycables" >
+    <material render_template="generic:DIFFUSE_TEXTURE" version="2" name="securitycables">
+        <diffuse_texture file="units/world/architecture/hospital/props/securitycables/securitycables_df"/>
+    </material>
+	
+	<material render_template="generic:DIFFUSE_TEXTURE" version="2" name="cable_1">
+        <diffuse_texture file="units/world/architecture/hospital/props/securitycables/cable_green_df"/>
+    </material>
+	
+	<material render_template="generic:DIFFUSE_TEXTURE" version="2" name="cable_2">
+        <diffuse_texture file="units/world/architecture/hospital/props/securitycables/cable_red_df"/>
+    </material>
+	
+	<material render_template="generic:DIFFUSE_TEXTURE" version="2" name="cable_3">
+        <diffuse_texture file="units/world/architecture/hospital/props/securitycables/cable_blue_df"/>
+    </material>
+
+	 <material version="2" decal_material="plastic" name="cable_light_1" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION">
+        <diffuse_texture file="units/world/architecture/hospital/props/securitycables/cable_green_df"/>
+        <self_illumination_texture file="units/white_df"/>
+        <variable value="match" type="scalar" name="il_multiplier"/>
+    </material>
+	
+    <material version="2" decal_material="plastic" name="cable_light_2" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION">
+        <diffuse_texture file="units/world/architecture/hospital/props/securitycables/cable_red_df"/>
+        <self_illumination_texture file="units/white_df"/>
+        <variable value="match" type="scalar" name="il_multiplier"/>
+    </material>
+	
+	 <material version="2" decal_material="plastic" name="cable_light_3" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION">
+        <diffuse_texture file="units/world/architecture/hospital/props/securitycables/cable_blue_df"/>
+        <self_illumination_texture file="units/white_df"/>
+        <variable value="match" type="scalar" name="il_multiplier"/>
+    </material>
+	
+</materials>

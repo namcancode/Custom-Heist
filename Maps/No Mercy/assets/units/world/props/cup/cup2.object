@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/cup/cup" orientation_object="rp_cup2" />
+  <sequence_manager file="units/world/props/small_prop" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+	  <object name="rp_cup2" />
+      <object name="c_cup2" collision_type="convex"  padding="-2"/>
+    </body>
+    <body name="dynamic_body" enabled="false" template="small_prop" pushed_by_mover="false">
+    	<object name="rp_cup2"/>
+		<object name="c_cup2" collision_type="convex" material="wood" padding="-2"/>
+		<object name="g_cup2"/>
+    </body>
+  </bodies>
+  
+  <decal_surfaces default_material="thin_layer">
+    <decal_mesh name="g_cup2" enabled="true" material="thin_layer"/>
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_cup2" enabled="true" shadow_caster="false" instance_struct="world_tm" />
+  </graphics>
+</dynamic_object>

@@ -1,0 +1,10 @@
+<unit type="static" slot="1" >
+    <object file="units/world/architecture/hospital/hospital_interior_ceiling" />
+	<dependencies>
+		<depends_on physic_effect="core/physic_effects/sequencemanager_push"/>
+	</dependencies>	
+    <extensions>
+		<extension name="damage" class="UnitDamage" />
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

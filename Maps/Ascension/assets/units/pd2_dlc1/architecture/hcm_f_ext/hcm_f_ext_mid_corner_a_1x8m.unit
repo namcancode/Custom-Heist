@@ -1,0 +1,6 @@
+<unit type="com" slot="1" >
+    <object file="units/pd2_dlc1/architecture/hcm_f_ext/hcm_f_ext_mid_corner_a_1x8m" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

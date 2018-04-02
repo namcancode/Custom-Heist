@@ -1,0 +1,16 @@
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/hospital_scene_1" orientation_object="rp_rp"/>
+	<sequence_manager file="units/world/architecture/hospital/hospital_interior_ceiling_single"/>
+    <bodies>
+        <body enabled="true" template="raycoll_static" name="static"><object collision_type="box" name="c_box" padding="-2"/></body>
+		
+        <body enabled="false" template="dynamic" name="dynamic"><object collision_type="box" name="c_box" material="bamboo"/></body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_plaster" material="plaster"/>
+    </decal_surfaces>
+    <graphics>
+        <object enabled="false" name="g_black"/>
+        <object enabled="false" name="g_g"/>
+    </graphics>
+</dynamic_object>

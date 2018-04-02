@@ -1,0 +1,120 @@
+<table name="Transfer Frenzy">
+	<contact assets_gui="guis/dlcs/big_bank/guis/preload_contact_the_dentist" id="quackertree" name_id="heist_contact_quackertree" package="packages/contact_the_dentist"/>
+	<Localization default="english.txt" directory="loc"/>
+	<Hooks>
+		<hook file="hooks/CrimeSpreeHook.lua" source_file="lib/tweak_data/crimespreetweakdata"/>
+	</Hooks>
+	<narrative contact="quackertree" id="transfer_frenzy_wrapper">
+		<chain>
+			<table level_id="transfer_frenzy" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="6000"/>
+			<value_node value="12000"/>
+			<value_node value="30000"/>
+			<value_node value="50000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="America" briefing_dialog="" ghost_bonus="0.1" id="transfer_frenzy" max_bags="1">
+		<add directory="assets"/>
+		<assets>
+			<asset name="grenade_crate"/>
+			<asset name="bodybags_bag"/>
+		</assets>
+		<hooks>
+			<hook file="hooks/Interactiontweak.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="hooks/Equipmenttweak.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
+		</hooks>
+		<include directory="levels/transfer_frenzy">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/soft_blue.environment" type="custom_xml"/>
+		</include>
+		<intro_event>
+			<value_node value=""/>
+		</intro_event>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="packages/narr_cage"/>
+			<value_node value="packages/escape_street"/>
+			<value_node value="levels/narratives/escapes/escape_street/world"/>
+			<value_node value="levels/narratives/escapes/escape_street/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_street/editor_only/editor_only"/>
+			<value_node value="levels/narratives/escapes/escape_street/pc_only/pc_only"/>
+			<value_node value="levels/narratives/escapes/escape_street/cube_lights/cube_lights"/>
+			<value_node value="levels/narratives/escapes/escape_street/backdrop/backdrop"/>
+			<value_node value="levels/narratives/escapes/escape_street/world_sounds"/>
+			<value_node value="levels/narratives/bain/cage/world"/>
+			<value_node value="levels/narratives/bain/cage/world/world"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world/world"/>
+			<value_node value="levels/narratives/bain/cage/world_sounds"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world_sounds"/>
+			<value_node value="levels/narratives/e_election_day/stage_2/world_sounds"/>
+		</packages>
+		<script_data_mods directory="/scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="pc.sequence_manager" replacement_type="generic_xml" target_ext="sequence_manager" target_path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b"/>
+		</script_data_mods>
+	</level>
+	<AssetUpdates id="20533" provider="modworkshop" use_local_dir="true" version="1.2"/>
+</table>

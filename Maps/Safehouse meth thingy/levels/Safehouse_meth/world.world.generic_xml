@@ -1,0 +1,290 @@
+<generic_scriptdata type="table">
+	<entry key="ai" type="table">
+		<entry index="1" type="table">
+			<entry key="ai_editor_data" type="table">
+				<entry key="detection_mul" type="number" value="1"/>
+				<entry key="location_id" type="string" value="location_unknown"/>
+				<entry key="suspicion_mul" type="number" value="1"/>
+				<entry key="visibilty_exlude_filter" type="table">
+				</entry>
+				<entry key="visibilty_include_filter" type="table">
+				</entry>
+			</entry>
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1479.83 2288.16 1.52588e-005"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
+				<entry key="name_id" type="string" value="nav_surface_001"/>
+				<entry key="position" type="vector3" value="-1479.83 2288.16 1.52588e-005"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="1"/>
+			</entry>
+		</entry>
+	</entry>
+	<entry key="ai_nav_graphs" type="table">
+		<entry key="file" type="string" value="nav_manager_data"/>
+	</entry>
+	<entry key="ai_settings" type="table">
+		<entry key="ai_data" type="table">
+			<entry key="patrol_paths" type="table">
+			</entry>
+		</entry>
+		<entry key="ai_settings" type="table">
+			<entry key="group_state" type="string" value="besiege"/>
+		</entry>
+	</entry>
+	<entry key="environment" type="table">
+		<entry key="cubemap_gizmos" type="table">
+		</entry>
+		<entry key="dome_occ_shapes" type="table">
+			<entry index="1" type="table">
+				<entry key="depth" type="number" value="12800"/>
+				<entry key="height" type="number" value="1800"/>
+				<entry key="position" type="vector3" value="-8675 9250 -500"/>
+				<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+				<entry key="type" type="string" value="none"/>
+				<entry key="width" type="number" value="12800"/>
+			</entry>
+			<entry index="2" type="table">
+				<entry key="depth" type="number" value="12800"/>
+				<entry key="height" type="number" value="1800"/>
+				<entry key="position" type="vector3" value="-8675 9250 -500"/>
+				<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+				<entry key="type" type="string" value="none"/>
+				<entry key="width" type="number" value="12800"/>
+			</entry>
+		</entry>
+		<entry key="effects" type="table">
+		</entry>
+		<entry key="environment_areas" type="table">
+		</entry>
+		<entry key="environment_values" type="table">
+			<entry key="color_grading" type="string" value="color_payday"/>
+			<entry key="dome_occ_resolution" type="number" value="256"/>
+			<entry key="environment" type="string" value="environments/pd2_env_mid_day/pd2_env_mid_day"/>
+			<entry key="sky_rot" type="number" value="112"/>
+		</entry>
+		<entry key="wind" type="table">
+			<entry key="angle" type="number" value="0"/>
+			<entry key="angle_var" type="number" value="0"/>
+			<entry key="speed" type="number" value="6"/>
+			<entry key="speed_variation" type="number" value="1"/>
+			<entry key="tilt" type="number" value="-0"/>
+			<entry key="tilt_var" type="number" value="0"/>
+		</entry>
+	</entry>
+	<entry key="level_settings" type="table">
+		<entry key="settings" type="table">
+			<entry key="chunk_name" type="string" value="init"/>
+		</entry>
+	</entry>
+	<entry key="portal" type="table">
+		<entry key="portals" type="table">
+		</entry>
+		<entry key="unit_groups" type="table">
+		</entry>
+	</entry>
+	<entry key="sounds" type="table">
+		<entry key="file" type="string" value="world_sounds"/>
+	</entry>
+	<entry key="wires" type="table">
+		<entry index="1" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="name" type="string" value="units/wire/wire_01"/>
+				<entry key="name_id" type="string" value="wire_01_002"/>
+				<entry key="position" type="vector3" value="-5966.61 6803.33 1177.33"/>
+				<entry key="rotation" type="quaternion" value="8.42936e-008 -0.707107 0 -0.707107"/>
+				<entry key="unit_id" type="number" value="3"/>
+			</entry>
+			<entry key="wire_data" type="table">
+				<entry key="slack" type="number" value="140"/>
+				<entry key="target_pos" type="vector3" value="-4168.41 7632.14 1173.83"/>
+				<entry key="target_rot" type="quaternion" value="-0.284358 0.340225 -0.0798517 -0.892755"/>
+			</entry>
+		</entry>
+		<entry index="2" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="name" type="string" value="units/wire/wire_01"/>
+				<entry key="name_id" type="string" value="wire_01_005"/>
+				<entry key="position" type="vector3" value="-5824.09 6476.43 1204.53"/>
+				<entry key="rotation" type="quaternion" value="0.918727 0.0801435 0.248628 0.296145"/>
+				<entry key="unit_id" type="number" value="6"/>
+			</entry>
+			<entry key="wire_data" type="table">
+				<entry key="slack" type="number" value="128"/>
+				<entry key="target_pos" type="vector3" value="-3690.73 4567.81 593.942"/>
+				<entry key="target_rot" type="quaternion" value="0.662754 -0.502392 -0.550113 -0.0757357"/>
+			</entry>
+		</entry>
+		<entry index="3" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="name" type="string" value="units/wire/wire_01"/>
+				<entry key="name_id" type="string" value="wire_01_006"/>
+				<entry key="position" type="vector3" value="-6248.68 6532.25 1203.78"/>
+				<entry key="rotation" type="quaternion" value="0.923352 1.62269e-008 3.90232e-008 0.383954"/>
+				<entry key="unit_id" type="number" value="7"/>
+			</entry>
+			<entry key="wire_data" type="table">
+				<entry key="slack" type="number" value="89"/>
+				<entry key="target_pos" type="vector3" value="-4449.97 5152 1183.88"/>
+				<entry key="target_rot" type="quaternion" value="-0.16018 0.688725 0.688725 0.16018"/>
+			</entry>
+		</entry>
+		<entry index="4" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="name" type="string" value="units/wire/wire_01"/>
+				<entry key="name_id" type="string" value="wire_01_007"/>
+				<entry key="position" type="vector3" value="-6710.99 6584.91 1081.2"/>
+				<entry key="rotation" type="quaternion" value="1.20583e-012 0.707109 1.83926e-006 -0.707105"/>
+				<entry key="unit_id" type="number" value="8"/>
+			</entry>
+			<entry key="wire_data" type="table">
+				<entry key="slack" type="number" value="179"/>
+				<entry key="target_pos" type="vector3" value="-9125 4463.08 959.404"/>
+				<entry key="target_rot" type="quaternion" value="1.87382e-011 -0.707107 1.87229e-011 -0.707107"/>
+			</entry>
+		</entry>
+		<entry index="5" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="name" type="string" value="units/wire/wire_01"/>
+				<entry key="name_id" type="string" value="wire_01_008"/>
+				<entry key="position" type="vector3" value="-6771.16 4507.07 931.68"/>
+				<entry key="rotation" type="quaternion" value="0.578734 -0.276015 0.217019 -0.736061"/>
+				<entry key="unit_id" type="number" value="9"/>
+			</entry>
+			<entry key="wire_data" type="table">
+				<entry key="slack" type="number" value="166"/>
+				<entry key="target_pos" type="vector3" value="-10121.8 6455.62 766.403"/>
+				<entry key="target_rot" type="quaternion" value="0.0156787 -0.706929 0.706937 0.0156798"/>
+			</entry>
+		</entry>
+		<entry index="6" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="name" type="string" value="units/wire/wire_01"/>
+				<entry key="name_id" type="string" value="wire_01_009"/>
+				<entry key="position" type="vector3" value="-5071.07 1064.37 943.98"/>
+				<entry key="rotation" type="quaternion" value="-9.69378e-007 0.707107 0 -0.707107"/>
+				<entry key="unit_id" type="number" value="11"/>
+			</entry>
+			<entry key="wire_data" type="table">
+				<entry key="slack" type="number" value="64"/>
+				<entry key="target_pos" type="vector3" value="-6633 1265.98 1181.8"/>
+				<entry key="target_rot" type="quaternion" value="4.21468e-008 -0.707107 4.01944e-014 -0.707107"/>
+			</entry>
+		</entry>
+		<entry index="7" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="name" type="string" value="units/wire/wire_01"/>
+				<entry key="name_id" type="string" value="wire_01_001"/>
+				<entry key="position" type="vector3" value="-4704.78 1350 1585.52"/>
+				<entry key="rotation" type="quaternion" value="-0.707107 2.10734e-008 2.10734e-008 -0.707107"/>
+				<entry key="unit_id" type="number" value="4"/>
+			</entry>
+			<entry key="wire_data" type="table">
+				<entry key="slack" type="number" value="140"/>
+				<entry key="target_pos" type="vector3" value="-2443.53 -149 1188.21"/>
+				<entry key="target_rot" type="quaternion" value="-3.23116e-008 0.707107 0.707107 -9.41288e-008"/>
+			</entry>
+		</entry>
+		<entry index="8" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="name" type="string" value="units/wire/wire_01"/>
+				<entry key="name_id" type="string" value="wire_01_003"/>
+				<entry key="position" type="vector3" value="-4710.78 1350 1581.4"/>
+				<entry key="rotation" type="quaternion" value="-0.707107 2.10734e-008 2.10734e-008 -0.707107"/>
+				<entry key="unit_id" type="number" value="10"/>
+			</entry>
+			<entry key="wire_data" type="table">
+				<entry key="slack" type="number" value="140"/>
+				<entry key="target_pos" type="vector3" value="-6633 1256.57 1183.41"/>
+				<entry key="target_rot" type="quaternion" value="-0.5 -0.5 -0.5 -0.5"/>
+			</entry>
+		</entry>
+		<entry index="9" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="name" type="string" value="units/wire/wire_01"/>
+				<entry key="name_id" type="string" value="wire_01_004"/>
+				<entry key="position" type="vector3" value="-3603 7779.88 1190.8"/>
+				<entry key="rotation" type="quaternion" value="0 -0.707107 0 -0.707107"/>
+				<entry key="unit_id" type="number" value="18"/>
+			</entry>
+			<entry key="wire_data" type="table">
+				<entry key="slack" type="number" value="77"/>
+				<entry key="target_pos" type="vector3" value="-2700 6611.06 1185.19"/>
+				<entry key="target_rot" type="quaternion" value="-8.42937e-008 0.707107 6.02915e-014 -0.707107"/>
+			</entry>
+		</entry>
+		<entry index="10" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="name" type="string" value="units/wire/wire_01"/>
+				<entry key="name_id" type="string" value="wire_01_010"/>
+				<entry key="position" type="vector3" value="-2221.13 651 1186.47"/>
+				<entry key="rotation" type="quaternion" value="0.707107 4.21468e-008 -4.21468e-008 -0.707107"/>
+				<entry key="unit_id" type="number" value="19"/>
+			</entry>
+			<entry key="wire_data" type="table">
+				<entry key="slack" type="number" value="115"/>
+				<entry key="target_pos" type="vector3" value="-3153.56 2412.75 749.915"/>
+				<entry key="target_rot" type="quaternion" value="-0.392848 0.587937 -0.587937 0.392848"/>
+			</entry>
+		</entry>
+		<entry index="11" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="name" type="string" value="units/wire/wire_01"/>
+				<entry key="name_id" type="string" value="wire_01_011"/>
+				<entry key="position" type="vector3" value="-2436.45 -149 1188.72"/>
+				<entry key="rotation" type="quaternion" value="0.707107 6.32202e-008 -6.32202e-008 -0.707107"/>
+				<entry key="unit_id" type="number" value="20"/>
+			</entry>
+			<entry key="wire_data" type="table">
+				<entry key="slack" type="number" value="102"/>
+				<entry key="target_pos" type="vector3" value="-3350.88 1371.84 600"/>
+				<entry key="target_rot" type="quaternion" value="-7.6357e-013 -1.27077e-012 -0.707107 -0.707107"/>
+			</entry>
+		</entry>
+		<entry index="12" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="name" type="string" value="units/wire/wire_01"/>
+				<entry key="name_id" type="string" value="wire_01_012"/>
+				<entry key="position" type="vector3" value="-2605 446.016 782.543"/>
+				<entry key="rotation" type="quaternion" value="-8.42936e-008 0.707107 0 -0.707107"/>
+				<entry key="unit_id" type="number" value="21"/>
+			</entry>
+			<entry key="wire_data" type="table">
+				<entry key="slack" type="number" value="51"/>
+				<entry key="target_pos" type="vector3" value="-4030 504.492 886.871"/>
+				<entry key="target_rot" type="quaternion" value="-8.42937e-008 -0.707107 2.02228e-012 -0.707107"/>
+			</entry>
+		</entry>
+		<entry index="13" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="name" type="string" value="units/wire/wire_01"/>
+				<entry key="name_id" type="string" value="wire_01_013"/>
+				<entry key="position" type="vector3" value="-5110.84 3350 1583.42"/>
+				<entry key="rotation" type="quaternion" value="0.707107 -4.21468e-008 4.21469e-008 -0.707107"/>
+				<entry key="unit_id" type="number" value="22"/>
+			</entry>
+			<entry key="wire_data" type="table">
+				<entry key="slack" type="number" value="89"/>
+				<entry key="target_pos" type="vector3" value="-4669.86 4723.83 1411.57"/>
+				<entry key="target_rot" type="quaternion" value="7.30555e-008 0.707107 -0.707107 -1.12382e-008"/>
+			</entry>
+		</entry>
+	</entry>
+	<entry key="world_camera" type="table">
+		<entry key="file" type="string" value="world_cameras"/>
+	</entry>
+	<entry key="world_data" type="table">
+		<entry key="continents_file" type="string" value="continents"/>
+		<entry key="markers" type="table">
+		</entry>
+		<entry key="max_id" type="number" value="1"/>
+		<entry key="values" type="table">
+			<entry key="workviews" type="table">
+			</entry>
+		</entry>
+	</entry>
+</generic_scriptdata>

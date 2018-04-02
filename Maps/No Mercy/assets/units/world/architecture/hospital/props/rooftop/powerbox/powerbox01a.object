@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/rooftop/props_rooftop" orientation_object="rp_powerbox01a" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_powerbox01a" />
+			<object name="c_box" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="g_powerbox01a" enabled="true" material="metal" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_powerbox01a" enabled="true"/>
+		<object name="s_powerbox01a" enabled="true" shadow_caster="true"/>		
+	</graphics>
+</dynamic_object> 

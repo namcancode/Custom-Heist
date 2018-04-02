@@ -1,0 +1,15 @@
+<dynamic_object>
+    <diesel orientation_object="rp_off_prop_fbi_carpet_a" materials="units/payday2/props/off_prop_fbi_carpet/off_prop_fbi_carpet" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+		<object name="rp_off_prop_fbi_carpet_a"/>
+            <object name="c_box_000" collision_type="box" padding="-2.5" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_carpet" material="carpet" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,1 @@
+{	"id":"office_strike_overkill",	"desc":"os_overkill_desc",	"rank":"silver",	"goal":0,	"hidden":false,	"number":0,	"reward_amount":0,	"unlocked":false,	"reward_type":"none",	"objective":"os_overkill_objective",	"displayed":false,	"name":"os_overkill_name",	"texture":"default"}

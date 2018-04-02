@@ -1,0 +1,6 @@
+<materials version="3">
+	 <material name="str_bdrop_power_tower_a_mat" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/str_bdrop_mechanical_power_tower/str_bdrop_mechanical_power_tower_a_df"/>
+        <bump_normal_texture file="units/payday2/props/str_bdrop_mechanical_power_tower/str_bdrop_mechanical_power_tower_a_nm"/>
+    </material>
+</materials>

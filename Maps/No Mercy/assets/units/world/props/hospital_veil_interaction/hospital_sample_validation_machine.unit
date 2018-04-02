@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<unit type="Hosp" slot="1">
+<network sync="spawn"/>
+  <object file="units/world/props/hospital_veil_interaction/hospital_sample_validation_machine" />
+  <dependencies>
+  	<depends_on effect="effects/particles/bullet_hit/glass_unbreakable/bullet_hit_glass_unbreakable" />
+    <depends_on bnk="soundbanks/lvl_hos_sfx" />
+  </dependencies>
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+	<extension name="damage" class="UnitDamage"/>
+	<extension name="interaction" class="UseInteractionExt">
+		<var name="tweak_data" value="hospital_sample_validation_machine"/>
+	</extension>
+  </extensions>
+</unit>

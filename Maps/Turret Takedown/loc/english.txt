@@ -1,0 +1,18 @@
+{
+	"quack_obj_tt2_001" : "To enter the warehouse, you need to cut some security boxes. Hack the computer; You'll be able to see exactly where to find the wireboxes.\n\nOr... try to find them without hacking the computer..",
+	"quack_obj_tt2_001_short" : "Locate the security boxes",
+	"quack_obj_tt2_002" : "Now we need to disable all the security boxes. Just snip the red wire and you've done it.",
+	"quack_obj_tt2_002_short" : "Cut the wires",
+	"quack_obj_tt2_003" : "Time to do some rewiring to those turrets. Get onto them in the warehouse and mess a bit with their internals.",
+	"quack_obj_tt2_003_short" : "Rewire the turrets",
+	"quack_obj_tt2_004" : "Now get the server from the server room. We don't want ourselves to be seen here, now do we?",
+	"quack_obj_tt2_004_short" : "Grab the server",
+	"quack_obj_tt2_005" : "Now let's destroy that server and get rid of all the evidence. Throwing it off the shore will do the job.",
+	"quack_obj_tt2_005_short" : "Destroy the server",
+	"quack_obj_tt2_006" : "Alright, you're all set to leave.\n\nUnless you want to go for more loot, naturally...",
+	"quack_obj_tt2_006_short" : "Escape or secure more loot",
+	"heist_turret_takedown_wrapper_name" : "Turret Takedown",
+	"heist_turret_takedown_wrapper_brief" : "I've traced some FBI turrets to a warehouse near the docks. We should be able to get in there and do some mischief on those turrets to get them off the road for a bit.\n\n»Get into the warehouse\n»Hack the turrets\n»Escape",
+	"heist_turret_takedown_name" : "FBI Warehouse",
+	"heist_turret_takedown_brief" : "The turrets are stored in an FBI warehouse, next to an unloading dock. They're heavily guarded, so make sure to scout the place before masking up.\n\nWe need to do some stuff before we get into the warehouse itself, but once you're in, it'll be a piece of cake to dismantle those bad boys.\n\nMake sure to keep it silent. If they find out the turrets have been messed with, all is in vein!"
+}

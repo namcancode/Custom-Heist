@@ -1,0 +1,6 @@
+<unit type="static" slot="1" >
+    <object file="units/world/props/hospital_morgue_fridge/morgue_fridge_01" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

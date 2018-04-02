@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<unit type="Hosp" slot="1">
+<network sync="spawn"/>
+  <object file="units/world/architecture/hospital/props/light_ceiling/light_ceiling" />
+  <dependencies>
+    <depends_on effect="effects/particles/dest/sparks_roof_lamp_break" />
+  </dependencies>
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+    <extension name="damage" class="UnitDamage" />
+  </extensions>
+</unit>

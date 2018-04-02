@@ -1,0 +1,30 @@
+<table>
+	<objective description="obj_q_fmjw_001_intro_desc" id="obj_q_fmjw_001_intro" prio="1" text="obj_q_fmjw_001_intro" xp_weight="1"/>
+	<objective description="obj_q_fmjw_001_listen_desc" id="obj_q_fmjw_001_listen" prio="1" text="obj_q_fmjw_001_listen" xp_weight="1"/>
+	<objective description="obj_q_fmjw_001_listen2_desc" id="obj_q_fmjw_001_listen2" prio="1" text="obj_q_fmjw_001_listen2" xp_weight="1"/>
+	<objective description="obj_q_fmjw_001_tools_desc" id="obj_q_fmjw_001_tools" prio="1" text="obj_q_fmjw_001_tools" xp_weight="1"/>
+	<objective description="obj_q_fmjw_002_intro_desc" id="obj_q_fmjw_002_intro" prio="1" text="obj_q_fmjw_002_intro" xp_weight="1"/>
+	<objective description="obj_q_fmjw_002_findvault_desc" id="obj_q_fmjw_002_findvault" prio="1" text="obj_q_fmjw_002_findvault" xp_weight="1"/>
+	<objective description="obj_q_fmjw_002_openvault_desc" id="obj_q_fmjw_002_openvault" prio="1" text="obj_q_fmjw_002_openvault" xp_weight="1"/>
+	<objective description="obj_q_fmjw_002_checkvault_desc" id="obj_q_fmjw_002_checkvault" prio="1" text="obj_q_fmjw_002_checkvault" xp_weight="1"/>
+	<objective description="obj_q_fmjw_002_findkeycards_desc" id="obj_q_fmjw_002_findkeycards" prio="1" text="obj_q_fmjw_002_findkeycards" xp_weight="1"/>
+	<objective description="obj_q_fmjw_002_usekeypad_desc" id="obj_q_fmjw_002_usekeypad" prio="1" text="obj_q_fmjw_002_usekeypad" xp_weight="1"/>
+	<objective description="obj_q_fmjw_002_disablelasers_desc" id="obj_q_fmjw_002_disablelasers" prio="1" text="obj_q_fmjw_002_disablelasers" xp_weight="1"/>
+	<objective description="obj_q_fmjw_002_findphone_desc" id="obj_q_fmjw_002_findphone" prio="1" text="obj_q_fmjw_002_findphone" xp_weight="1"/>
+	<objective description="obj_q_fmjw_002_disablecam_desc" id="obj_q_fmjw_002_disablecam" prio="1" text="obj_q_fmjw_002_disablecam" xp_weight="1"/>
+	<objective description="obj_q_fmjw_002_doloot_desc" id="obj_q_fmjw_002_doloot" prio="1" text="obj_q_fmjw_002_doloot" xp_weight="1"/>
+	<objective description="obj_q_fmjw_002_waittimelock_desc" id="obj_q_fmjw_002_waittimelock" prio="1" text="obj_q_fmjw_002_waittimelock" xp_weight="1"/>
+	<objective description="obj_q_fmjw_002_getcode_desc" id="obj_q_fmjw_002_getcode" prio="1" text="obj_q_fmjw_002_getcode" xp_weight="1"/>
+	<objective description="obj_q_fmjw_002_hackbox_desc" id="obj_q_fmjw_002_hackbox" prio="1" text="obj_q_fmjw_002_hackbox" xp_weight="1"/>
+	<objective description="obj_q_fmjw_002_leave_desc" id="obj_q_fmjw_002_leave" prio="1" text="obj_q_fmjw_002_leave" xp_weight="1"/>
+	<objective description="obj_q_fmjw_003_trade_desc" id="obj_q_fmjw_003_trade" prio="1" text="obj_q_fmjw_003_trade" xp_weight="1"/>
+	<objective description="obj_q_fmjw_003_survive_desc" id="obj_q_fmjw_003_survive" prio="1" text="obj_q_fmjw_003_survive" xp_weight="1"/>
+	<objective description="obj_q_fmjw_003_lightsoff_desc" id="obj_q_fmjw_003_lightsoff" prio="1" text="obj_q_fmjw_003_lightsoff" xp_weight="1"/>
+	<objective description="obj_q_fmjw_003_hide_desc" id="obj_q_fmjw_003_hide" prio="1" text="obj_q_fmjw_003_hide" xp_weight="1"/>
+	<objective description="obj_q_fmjw_003_getbags_desc" id="obj_q_fmjw_003_getbags" prio="1" text="obj_q_fmjw_003_getbags" xp_weight="1"/>
+	<objective description="obj_q_fmjw_003_toharbour_desc" id="obj_q_fmjw_003_toharbour" prio="1" text="obj_q_fmjw_003_toharbour" xp_weight="1"/>
+	<objective description="obj_q_fmjw_003_winters_desc" id="obj_q_fmjw_003_winters" prio="1" text="obj_q_fmjw_003_winters" xp_weight="1"/>
+	<objective description="obj_q_fmjw_003_escape_desc" id="obj_q_fmjw_003_escape" prio="1" text="obj_q_fmjw_003_escape" xp_weight="1"/>
+	<objective description="obj_q_fmjw_003_wfa_desc" id="obj_q_fmjw_003_wfa" prio="1" text="obj_q_fmjw_003_wfa" xp_weight="1"/>
+	<objective description="obj_q_fmjw_002_extrabags_desc" id="obj_q_fmjw_002_extrabags" prio="1" text="obj_q_fmjw_002_extrabags" xp_weight="1"/>
+</table>

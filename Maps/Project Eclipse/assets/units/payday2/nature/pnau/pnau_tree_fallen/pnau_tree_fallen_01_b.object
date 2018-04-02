@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/payday2/nature/pnau/pnau_tree_elm/pnau_tree_elm" orientation_object="rp_pnau_tree_fallen_01_b" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="c_pnau_tree_fallen_01_b" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces>
+    <decal_mesh name="dm_pnau_tree_fallen_01_b" enabled="true" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_pnau_tree_fallen_01_b" enabled="true" shadow_caster="false"  />
+    <object name="s_pnau_tree_fallen_01_b" enabled="true" shadow_caster="true"  />
+  </graphics>
+</dynamic_object>

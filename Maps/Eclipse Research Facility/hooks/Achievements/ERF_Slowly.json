@@ -1,0 +1,15 @@
+{
+   "id":"ERF_Slowly",
+   "name":"ERF_Slowly_name",
+   "desc":"ERF_Slowly_desc",
+   "rank":"gold",
+   "objective":"ERF_Slowly_objective",
+   "reward_type":"cc",
+   "reward_amount":2,
+   "number":0,
+   "goal":0,
+   "displayed":true,
+   "unlocked":false,
+   "texture":"default",
+   "hidden":false
+}

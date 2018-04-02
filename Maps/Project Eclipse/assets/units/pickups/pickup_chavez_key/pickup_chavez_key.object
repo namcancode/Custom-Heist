@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/pickups/pickup_chavez_key/pickup_chavez_key" orientation_object="rp_pickup_chavez_key" />
+  <sequence_manager file="units/pickups/pickup_chavez_key/pickup_chavez_key" />
+	<bodies>
+		<body name="editor" enabled="true" template="editor">
+			<object name="rp_pickup_chavez_key" />
+			<object name="g_pickup_chavez_key" collision_type="box" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_pickup_chavez_key" enabled="true" />
+	</graphics>
+</dynamic_object> 

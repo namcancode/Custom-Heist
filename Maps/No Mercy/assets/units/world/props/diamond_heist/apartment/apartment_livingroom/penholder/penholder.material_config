@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="mtr_penholder" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/props/diamond_heist/apartment/apartment_livingroom/textures/t_penholder_df"/>
+    </material>
+</materials>

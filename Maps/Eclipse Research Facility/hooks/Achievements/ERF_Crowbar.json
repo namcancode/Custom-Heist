@@ -1,0 +1,15 @@
+{	
+	"id":"ERF_Crowbar",	
+	"desc":"ERF_Crowbar_desc",	
+	"rank":"bronze",	
+	"goal":0,	
+	"hidden":false,	
+	"number":0,	
+	"reward_amount":0,	
+	"unlocked":false,	
+	"reward_type":"none",	
+	"objective":"ERF_Crowbar_objective",	
+	"displayed":true,	
+	"name":"ERF_Crowbar_name",	
+	"texture":"default"
+}

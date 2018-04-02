@@ -1,0 +1,34 @@
+<dynamic_object>
+    <diesel orientation_object="rp_gov_c_int_elevator_inside" materials="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_elevator" />
+    <sequence_manager file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_elevator_inside" />
+
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="rp_gov_c_int_elevator_inside" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_08" collision_type="box" padding="-2.5"/>
+        </body>
+        <body enabled="true" template="static" name="static_hatch" >
+			<object name="rp_gov_c_int_elevator_inside" />
+			<object name="c_box_09" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+		
+	<decal_surfaces>
+		<decal_mesh name="dm_marble" enabled="true" material="marble"/>
+		<decal_mesh name="dm_wood" enabled="true" material="wood"/>
+		<decal_mesh name="dm_metal" enabled="true" material="metal"/>
+	</decal_surfaces>
+
+    <graphics>
+		<object name="g_g" enabled="true"/>
+		<object name="g_hatch" enabled="true"/>
+    </graphics>
+
+</dynamic_object>

@@ -1,0 +1,7 @@
+<materials version="3">
+    <material name="flowerpot" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:OPACITY_TEXTURE" version="2">
+        <diffuse_texture file="units/world/props/diamond_heist/apartment/apartment_room/flowerpot/flowerpot_df"/>
+        <variable value="0" type="scalar" name="specular_power"/>
+        <opacity_texture file="units/world/props/diamond_heist/apartment/apartment_room/flowerpot/flowerpot_op"/>
+    </material>
+</materials>

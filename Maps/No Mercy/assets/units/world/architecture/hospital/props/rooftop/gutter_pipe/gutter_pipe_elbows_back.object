@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/rooftop/props_rooftop" orientation_object="rp_gutter_pipe_elbows_back" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_gutter_pipe_elbows_back" />
+			<object name="c_box" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="g_gutter_pipe_elbows_back" enabled="true" material="metal" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_gutter_pipe_elbows_back" enabled="true"/>
+		<object name="s_gutter_pipe_elbows_back" enabled="true" shadow_caster="true"/>			
+	</graphics>
+</dynamic_object> 

@@ -1,0 +1,6 @@
+<materials version="3">
+    <material version="2" decal_material="glass_unbreakable" name="flower" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF">
+        <diffuse_texture file="units/world/props/yacht/flowers/lxy_prop_flower_vase_master_df"/>
+        <variable value="0.019999999552965" type="scalar" name="alpha_ref"/>
+    </material>
+</materials>

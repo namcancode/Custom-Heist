@@ -1,0 +1,1 @@
+{	"id":"office_strike_normal",	"desc":"os_normal_desc",	"rank":"bronze",	"goal":0,	"hidden":false,	"number":0,	"reward_amount":0,	"unlocked":false,	"reward_type":"none",	"objective":"os_normal_objective",	"displayed":false,	"name":"os_normal_name",	"texture":"default"}

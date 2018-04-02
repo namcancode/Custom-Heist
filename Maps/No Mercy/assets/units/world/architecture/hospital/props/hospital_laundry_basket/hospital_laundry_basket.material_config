@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="laundry_basket" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/hospital_laundry_basket/laundry_basket_df"/>
+    </material>
+</materials>

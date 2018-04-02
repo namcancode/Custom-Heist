@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="mat_desk_executive" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/desk_executive/desk_executive_df"/>
+    </material>
+</materials>

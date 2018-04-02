@@ -1,0 +1,11 @@
+<materials version="3">
+    <material name="mat_counter" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_counter_reception/com_prop_counter_reception_df"/> 
+		<reflection_texture type="cubemap" file="environments/cubemaps/cubemap_quick_diamond_ext"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_counter_il" version="2" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE">
+        <diffuse_texture file="units/payday2/props/com_prop_counter_reception/com_prop_counter_reception_op"/>
+        <variable value="monitor" type="scalar" name="intensity"/>
+    </material>
+</materials>

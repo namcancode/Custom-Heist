@@ -1,0 +1,219 @@
+<table name="GoldenCruise">
+    <contact id="quackertree" name_id="heist_contact_quackertree" package="packages/contact_the_dentist" assets_gui="guis/dlcs/big_bank/guis/preload_contact_the_dentist"/>
+    <Localization directory="Localizations" default="english.txt">
+    </Localization>
+	<narrative id="heist_q006" name_id="heist_q006" brief_id="heist_q006_crimenet" contact="quackertree" briefing_event="">
+        <chain>
+            <table level_id="quack_heist006" type_id="heist_type_assault" type="d">
+            </table>
+        </chain>
+        <crimenet_callouts>
+			<value_node value="Play_bot_watchdogs_new_stage2_02"/>
+        </crimenet_callouts>
+        <crimenet_videos>
+            <value_node value="cn_big1"/>
+            <value_node value="cn_big2"/>
+            <value_node value="cn_big3"/>
+        </crimenet_videos>
+        <payout>
+            <value_node value="22000"/>
+            <value_node value="25000"/>
+            <value_node value="44000"/>
+            <value_node value="66000"/>
+            <value_node value="99000"/>
+			<value_node value="120000"/>
+			<value_node value="140000"/>
+        </payout>
+        <contract_cost>
+            <value_node value="0"/>
+            <value_node value="0"/>
+            <value_node value="0"/>
+            <value_node value="0"/>
+            <value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+        </contract_cost>
+        <experience_mul>
+            <value_node value="1"/>
+            <value_node value="1"/>
+            <value_node value="1"/>
+            <value_node value="1.5"/>
+            <value_node value="2"/>
+			<value_node value="2.5"/>
+			<value_node value="3"/>
+        </experience_mul>
+        <min_mission_xp>
+            <value_node value="30000"/>
+            <value_node value="30000"/>
+            <value_node value="30000"/>
+            <value_node value="30000"/>
+            <value_node value="30000"/>
+            <value_node value="30000"/>
+            <value_node value="30000"/>
+        </min_mission_xp>
+        <max_mission_xp>
+            <value_node value="44000"/>
+            <value_node value="44000"/>
+            <value_node value="44000"/>
+            <value_node value="44000"/>
+            <value_node value="44000"/>
+            <value_node value="44000"/>
+            <value_node value="44000"/>
+        </max_mission_xp>
+    </narrative>
+	
+	<GlobalValue id="GoldenCruise" color="Color(1, 0.5, 0)"/>
+    <!--Mask id="GoldenCruise" unit="units/mods/masks/msk_q_deadgrin/msk_q_deadgrin" texture_bundle_folder="mods" global_value="GoldenCruise"/-->
+	
+	<Hooks>
+		<hook file="Hooks/Sound.lua" source_file="lib/tweak_data/tweakdata"/>
+	</Hooks>
+	
+	<AddFiles directory="assets">
+		<stream path="soundbanks/streamed/music/63713215" force="true"/>
+		<stream path="soundbanks/streamed/music/489152767" force="true"/>
+		<stream path="soundbanks/streamed/music/498827173" force="true"/>
+		<stream path="soundbanks/streamed/music/654175704" force="true"/>
+		<stream path="soundbanks/streamed/music/833956024" force="true"/>
+		<stream path="soundbanks/streamed/music/917027013" force="true"/>
+		
+		<texture path="guis/mods/Golden_Cruise/pre_planning/quack_heist_006_loc_a_df" force="false"/>
+		<texture path="guis/textures/mods/pre_planning/mission_briefing_cruise" force="false"/>
+		
+		<texture path="guis/textures/mods/mission_briefing/quackertree/contact" force="false"/>
+		
+		<!--cooked_physics path="units/mods/masks/msk_q_deadgrin/msk_q_deadgrin"/>
+        <model path="units/mods/masks/msk_q_deadgrin/msk_q_deadgrin"/>
+        <object path="units/mods/masks/msk_q_deadgrin/msk_q_deadgrin"/>
+        <unit path="units/mods/masks/msk_q_deadgrin/msk_q_deadgrin"/>
+        <material_config path="units/mods/masks/msk_q_deadgrin/msk_q_deadgrin"/>
+        
+        <texture path="units/mods/masks/msk_q_deadgrin/msk_q_deadgrin_df"/>
+        <texture path="units/mods/masks/msk_q_deadgrin/msk_q_deadgrin_nm"/>
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/GoldenCruise"/-->
+	</AddFiles>
+	
+	<Options name="Options" auto_build_menu="true" auto_load="true">
+        <options>
+            <!--Ingame the option menu background will be halved-->
+            <merge_data area_bg="half">
+            </merge_data>
+            <option type="bool" default_value="true" name="SoundOption"/>
+        </options>
+	</Options>
+
+    <level id="quack_heist006" name_id="quack_heist006_header" brief_id="quack_heist006_desc" max_bags="20" ai_group_type="america" ghost_bonus="0">
+        <include directory="world">
+            <file type="generic_xml" file="nav_manager_data.nav_data"/>
+            <file type="generic_xml" file="world.world"/>
+            <file type="custom_xml" file="world_sounds.world_sounds"/>
+            <file type="custom_xml" file="mission.mission"/>
+            <file type="custom_xml" file="cover_data.cover_data"/>
+            <file type="custom_xml" file="continents.continents"/>
+
+            <file type="custom_xml" file="world/world.continent"/>
+            <file type="generic_xml" file="world/world.mission"/>
+			<file type="custom_xml" file="pc_only/pc_only.continent"/>
+            <file type="generic_xml" file="pc_only/pc_only.mission"/>
+            <file type="custom_xml" file="stealth/stealth.continent"/>
+            <file type="generic_xml" file="stealth/stealth.mission"/>
+			<file type="custom_xml" file="preplanning/preplanning.continent"/>
+            <file type="generic_xml" file="preplanning/preplanning.mission"/>
+			<file type="custom_xml" file="editor_only/editor_only.continent"/>
+        </include>
+		<add directory="assets">
+			<gui path="guis/dlcs/big_bank/guis/preload_contact_the_dentist" force="true"/>
+			<texture path="guis/dlcs/big_bank/textures/pd2/pre_planning/preplan_icon_types" force="true"/>
+			
+			<material_config path="units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard" force="false"/>
+			<texture path="units/mods/props/gen_prop_lab_clipboards/clipboard_1_df" force="false"/>
+			<material_config path="units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard2" force="false"/>
+			<texture path="units/mods/props/gen_prop_lab_clipboards/clipboard_2_df" force="false"/>
+			<material_config path="units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard3" force="false"/>
+			<texture path="units/mods/props/gen_prop_lab_clipboards/clipboard_3_df" force="false"/>
+			<material_config path="units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard4" force="false"/>
+			<texture path="units/mods/props/gen_prop_lab_clipboards/clipboard_4_df" force="false"/>
+			<material_config path="units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard5" force="false"/>
+			<texture path="units/mods/props/gen_prop_lab_clipboards/clipboard_5_df" force="false"/>
+			<material_config path="units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard6" force="false"/>
+			<texture path="units/mods/props/gen_prop_lab_clipboards/clipboard_6_df" force="false"/>
+			<material_config path="units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard7" force="false"/>
+			<texture path="units/mods/props/gen_prop_lab_clipboards/clipboard_7_df" force="false"/>
+			<material_config path="units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard8" force="false"/>
+			<texture path="units/mods/props/gen_prop_lab_clipboards/clipboard_8_df" force="false"/>
+			<material_config path="units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard9" force="false"/>
+			<texture path="units/mods/props/gen_prop_lab_clipboards/clipboard_9_df" force="false"/>
+			<material_config path="units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard10" force="false"/>
+			<texture path="units/mods/props/gen_prop_lab_clipboards/clipboard_10_df" force="false"/>
+			<material_config path="units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard11" force="false"/>
+			<texture path="units/mods/props/gen_prop_lab_clipboards/clipboard_11_df" force="false"/>
+			<material_config path="units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard12" force="false"/>
+			<texture path="units/mods/props/gen_prop_lab_clipboards/clipboard_12_df" force="false"/>
+		</add>
+        <hooks>
+			<hook file="Hooks/Interactiontweak.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="Hooks/Equipmentstweak.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
+			<hook file="Hooks/Preplanningtweak.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+			<hook file="Hooks/Carrytweak.lua" source_file="lib/tweak_data/carrytweakdata"/>
+		</hooks>
+        <script_data_mods>
+            <mod replacement="scriptdata/objectives.objective" replacement_type="custom_xml" target_path="gamedata/objectives" target_ext="objective">
+                <options merge_mode="add"/>
+            </mod>
+            <mod replacement="scriptdata/pd2_pal_indoor.environment" replacement_type="generic_xml" target_path="environments/pd2_pal_indoor/pd2_pal_indoor" target_ext="environment"/>
+			<mod replacement="scriptdata/glass_wall.sequence_manager.generic_xml" replacement_type="generic_xml" target_path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_wall" target_ext="sequence_manager" />
+			<mod replacement="scriptdata/chopper.sequence_manager.generic_xml" replacement_type="generic_xml" target_path="units/payday2/vehicles/air_vehicle_blackhawk/helicopter_cops_ref" target_ext="sequence_manager" />
+			<mod replacement="scriptdata/saw.sequence_manager.generic_xml" replacement_type="generic_xml" target_path="units/pd2_dlc_jolly/equipment/gen_interactable_saw/gen_interactable_saw" target_ext="sequence_manager" />
+			<mod replacement="scriptdata/gen_prop_lab_clipboard.sequence_manager.generic_xml" replacement_type="generic_xml" target_path="units/payday2/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard" target_ext="sequence_manager" />
+		</script_data_mods>
+        <packages>
+            <value_node value="packages/narr_jungle2"/>
+            <value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/pc_only/pc_only"/>
+            <value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/pc_only/pc_only_init"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world/world"/>
+            <value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world/world_init"/>
+            <value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world"/>
+            <value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world_init"/>
+            <value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world_sounds"/>
+			<value_node value="packages/kenaz"/>
+            <value_node value="levels/narratives/dentist/cas/world"/>
+            <value_node value="levels/narratives/dentist/cas/world/world"/>
+            <value_node value="levels/instances/unique/kenaz/slot_machine/world"/>
+            <value_node value="levels/instances/unique/kenaz/slot_machine/world_init"/>
+            <value_node value="levels/instances/unique/kenaz/slot_machine/world/world"/>
+            <value_node value="levels/instances/unique/kenaz/slot_machine/world/world_init"/>
+            <value_node value="levels/instances/unique/kenaz/gear_case/world"/>
+            <value_node value="levels/instances/unique/kenaz/gear_case/world_init"/>
+            <value_node value="levels/instances/unique/kenaz/gear_case/world/world"/>
+            <value_node value="levels/instances/unique/kenaz/gear_case/world/world_init"/>
+            <value_node value="levels/narratives/dentist/cas/level_art/level_art"/>
+            <value_node value="packages/narr_cage"/>
+            <value_node value="packages/job_crojob"/>
+            <value_node value="levels/narratives/bain/cage/world"/>
+            <value_node value="levels/narratives/bain/cage/world/world"/>
+            <value_node value="levels/narratives/butcher/thebomb/stage_2/world"/>
+            <value_node value="levels/narratives/butcher/thebomb/stage_2/world_sounds"/>
+            <value_node value="levels/narratives/butcher/thebomb/stage_2/world/world"/>
+            <value_node value="levels/narratives/butcher/thebomb/stage_2/editor_only/editor_only"/>
+            <value_node value="levels/narratives/butcher/thebomb/stage_2/editor_only/editor_only_init"/>
+            <value_node value="packages/narr_pal"/>
+            <value_node value="levels/narratives/classics/pal/world"/>
+            <value_node value="levels/narratives/classics/pal/world/world"/>
+            <value_node value="levels/narratives/classics/pal/art_prop/art_prop"/>
+			<value_node value="packages/narr_pines"/>
+			<value_node value="packages/narr_mia_2"/>
+			<value_node value="packages/narr_rat"/>
+			<value_node value="levels/instances/unique/holly_2/safe_van/world/world"/>
+			<value_node value="levels/instances/unique/dark/blowtorch/world"/>
+			<value_node value="levels/instances/unique/dark/blowtorch/world_init"/>
+			<value_node value="levels/instances/unique/dark/blowtorch/world/world"/>
+			<value_node value="levels/instances/unique/dark/blowtorch/world/world_init"/>
+			<value_node value="levels/instances/unique/mus_flare/world/world"/>
+			<value_node value="levels/instances/unique/pet_planecage/world/world"/>
+			<value_node value="packages/narr_jerry2"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_3/world/world"/>
+        </packages>
+		<assets>
+		</assets>
+    </level>
+</table>

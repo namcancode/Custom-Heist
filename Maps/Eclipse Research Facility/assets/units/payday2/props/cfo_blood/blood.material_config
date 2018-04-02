@@ -1,0 +1,7 @@
+<materials version="3">
+    <material name="blood" render_template="decal:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_TEXTURE" version="2">
+        <diffuse_texture file="units/payday2/props/cfo_blood/cfo_blood_df"/>
+        <opacity_texture file="units/payday2/props/cfo_blood/cfo_blood_op"/>
+        <bump_normal_texture file="units/payday2/props/cfo_blood/cfo_blood_nm"/>
+    </material>
+</materials>

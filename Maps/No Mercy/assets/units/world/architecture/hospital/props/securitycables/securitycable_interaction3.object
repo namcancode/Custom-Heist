@@ -1,0 +1,24 @@
+<dynamic_object>
+    <diesel orientation_object="rp_securitycable_interaction3" materials="units/world/architecture/hospital/props/securitycables/securitycables" />
+    <sequence_manager file="units/world/architecture/hospital/props/securitycables/securitycable_interaction" />
+    
+	<bodies>
+		<body name="static_body" enabled="true" template="editor">
+			<object name="rp_securitycable_interaction3" />
+			<object name="g_cable_red_whole" collision_type="box" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="plastic" >
+	</decal_surfaces>
+
+	<graphics>
+		<object enabled="true" name="g_cable_red_whole" />
+		<object enabled="true" name="g_cable_red_cut" />
+		<object enabled="true" name="g_cable_green_whole" />
+		<object enabled="true" name="g_cable_green_cut" />
+		<object enabled="true" name="g_cable_blue_whole" />
+		<object enabled="true" name="g_cable_blue_cut" />
+	</graphics>
+
+</dynamic_object>

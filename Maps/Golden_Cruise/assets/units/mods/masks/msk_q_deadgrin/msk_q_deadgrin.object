@@ -1,0 +1,6 @@
+<dynamic_object>
+    <diesel orientation_object="rp_alienware_mask" materials="units/mods/masks/msk_q_deadgrin/msk_q_deadgrin" />
+    <graphics>
+        <object enabled="true" name="g_alienware" />
+    </graphics>
+</dynamic_object>

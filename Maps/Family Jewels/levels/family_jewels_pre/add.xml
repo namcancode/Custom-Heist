@@ -1,0 +1,8 @@
+<table directory="assets">
+	<unit_load name="units/world/props/western/wst_prop_int_shop/wst_prop_int_shop_coffeegrinder">
+		<cooked_physics force="true" path="units/world/props/western/wst_prop_int_shop/wst_prop_int_shop_coffeegrinder" unload="true"/>
+		<unit force="true" path="units/world/props/western/wst_prop_int_shop/wst_prop_int_shop_coffeegrinder" unload="true"/>
+		<object force="true" path="units/world/props/western/wst_prop_int_shop/wst_prop_int_shop_coffeegrinder" unload="true"/>
+		<material_config force="true" path="units/world/props/western/wst_prop_int_shop/wst_prop_int_shop" unload="true"/>
+	</unit_load>
+</table>

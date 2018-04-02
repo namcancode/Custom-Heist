@@ -1,0 +1,1 @@
+{	"id":"ERF_Keycard",	"desc":"ERF_Keycard_desc",	"rank":"bronze",	"goal":0,	"hidden":false,	"number":0,	"reward_amount":0,	"unlocked":false,	"reward_type":"none",	"objective":"ERF_Keycard_objective",	"displayed":true,	"name":"ERF_Keycard_name",	"texture":"default"}

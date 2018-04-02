@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="pizza_box" render_template="generic:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/world/props/apartment/pizza_box/pizza_box_df" />
+    </material>
+</materials>

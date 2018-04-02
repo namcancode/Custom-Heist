@@ -1,0 +1,5 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE" version="2" name="patientpaper">
+        <diffuse_texture file="units/world/architecture/hospital/props/patientpaper/patientpaper_df"/>
+    </material>
+</materials>

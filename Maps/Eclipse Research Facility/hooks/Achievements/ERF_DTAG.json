@@ -1,0 +1,15 @@
+{
+   "id":"ERF_DTAG",
+   "name":"ERF_DTAG_name",
+   "desc":"ERF_DTAG_desc",
+   "rank":"platinum",
+   "objective":"ERF_DTAG_objective",
+   "reward_type":"cc",
+   "reward_amount":10,
+   "number":0,
+   "goal":0,
+   "displayed":true,
+   "unlocked":false,
+   "texture":"default",
+   "hidden":false
+}

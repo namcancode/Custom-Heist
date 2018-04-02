@@ -1,0 +1,7 @@
+<materials version="3">
+    <material version="2" decal_material="metal" name="plantairport" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE">
+        <variable value="0.5" type="scalar" name="alpha_ref"/>
+        <diffuse_texture file="units/world/architecture/hospital/props/plantairport/hospital_plantairport_df"/>
+        <opacity_texture file="units/world/architecture/hospital/props/plantairport/hospital_plantairport_op"/>
+    </material>
+</materials>

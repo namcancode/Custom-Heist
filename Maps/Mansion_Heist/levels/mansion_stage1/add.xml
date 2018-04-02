@@ -1,0 +1,38 @@
+<table directory="assets">
+	<unit_load name="units/pd2_indiana/props/mus_prop_exhibit_crate_open/mus_prop_exhibit_crate_open">
+		<cooked_physics force="true" path="units/pd2_indiana/props/mus_prop_exhibit_crate_open/mus_prop_exhibit_crate_open" unload="true"/>
+		<unit force="true" path="units/pd2_indiana/props/mus_prop_exhibit_crate_open/mus_prop_exhibit_crate_open" unload="true"/>
+		<object force="true" path="units/pd2_indiana/props/mus_prop_exhibit_crate_open/mus_prop_exhibit_crate_open" unload="true"/>
+		<material_config force="true" path="units/pd2_indiana/props/mus_prop_exhibit_crate/mus_prop_exhibit_crate" unload="true"/>
+	</unit_load>
+	<unit_load name="units/pd2_indiana/props/mus_prop_exhibit_crate_lid/mus_prop_exhibit_crate_lid">
+		<cooked_physics force="true" path="units/pd2_indiana/props/mus_prop_exhibit_crate_lid/mus_prop_exhibit_crate_lid" unload="true"/>
+		<unit force="true" path="units/pd2_indiana/props/mus_prop_exhibit_crate_lid/mus_prop_exhibit_crate_lid" unload="true"/>
+		<object force="true" path="units/pd2_indiana/props/mus_prop_exhibit_crate_lid/mus_prop_exhibit_crate_lid" unload="true"/>
+		<material_config force="true" path="units/pd2_indiana/props/mus_prop_exhibit_crate/mus_prop_exhibit_crate" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/com_int_construction_floor/com_int_construction_floor_paper_4x1m">
+		<cooked_physics force="true" path="units/payday2/architecture/com_int_construction_floor/com_int_construction_floor_paper_4x1m" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/com_int_construction_floor/com_int_construction_floor_paper_4x1m" unload="true"/>
+		<object force="true" path="units/payday2/architecture/com_int_construction_floor/com_int_construction_floor_paper_4x1m" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/com_int_construction_floor/com_int_construction_walls" unload="true"/>
+	</unit_load>
+	<unit_load name="units/pd2_indiana/props/mus_prop_construction_paint/mus_prop_construction_paint_bucket_closed">
+		<cooked_physics force="true" path="units/pd2_indiana/props/mus_prop_construction_paint/mus_prop_construction_paint_bucket_closed" unload="true"/>
+		<unit force="true" path="units/pd2_indiana/props/mus_prop_construction_paint/mus_prop_construction_paint_bucket_closed" unload="true"/>
+		<object force="true" path="units/pd2_indiana/props/mus_prop_construction_paint/mus_prop_construction_paint_bucket_closed" unload="true"/>
+		<material_config force="true" path="units/pd2_indiana/props/mus_prop_construction_paint/mus_prop_construction_paint" unload="true"/>
+	</unit_load>
+	<unit_load name="units/pd2_indiana/props/mus_prop_construction_paint/mus_prop_construction_paint_bucket_open">
+		<cooked_physics force="true" path="units/pd2_indiana/props/mus_prop_construction_paint/mus_prop_construction_paint_bucket_open" unload="true"/>
+		<unit force="true" path="units/pd2_indiana/props/mus_prop_construction_paint/mus_prop_construction_paint_bucket_open" unload="true"/>
+		<object force="true" path="units/pd2_indiana/props/mus_prop_construction_paint/mus_prop_construction_paint_bucket_open" unload="true"/>
+		<material_config force="true" path="units/pd2_indiana/props/mus_prop_construction_paint/mus_prop_construction_paint" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/characters/npc_acc_canvas_bag_1/npc_acc_canvas_bag_1">
+		<cooked_physics force="true" path="units/payday2/characters/npc_acc_canvas_bag_1/npc_acc_canvas_bag_1" unload="true"/>
+		<unit force="true" path="units/payday2/characters/npc_acc_canvas_bag_1/npc_acc_canvas_bag_1" unload="true"/>
+		<object force="true" path="units/payday2/characters/npc_acc_canvas_bag_1/npc_acc_canvas_bag_1" unload="true"/>
+		<material_config force="true" path="units/payday2/characters/npc_acc_canvas_bag_1/npc_acc_canvas_bag_1" unload="true"/>
+	</unit_load>
+</table>

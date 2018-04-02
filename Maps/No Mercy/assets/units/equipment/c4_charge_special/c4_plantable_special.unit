@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<unit type="storm" slot="1">
+  <object file="units/equipment/c4_charge_special/c4_plantable_special" />
+  <network sync="spawn"/>
+   <dependencies>
+	<depends_on bnk="soundbanks/effects" />
+  </dependencies>
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+	<extension name="damage" class="UnitDamage" />
+	<extension name="interaction" class="UseInteractionExt">
+      <var name="tweak_data" value="c4_special" />
+	  </extension>
+  </extensions>
+  <sounds>
+	<default_soundsource source="e_sound"/>
+  	<soundsource name="sound" source="e_sound" />
+  </sounds>
+</unit>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/props" orientation_object="rp_gurney_flat" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_gurney_flat" />
+			<object name="c_mesh_gurney" collision_type="mesh_mopp" />
+		</body>
+		<body name="blocker" enabled="true" template="mover_blocker">
+			<object name="rp_gurney_flat" />
+			<object name="c_blocker" collision_type="mesh_mopp" padding="-2.5"/>
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="dm_gurney_flat_metal" enabled="true" material="metal" />
+		<decal_mesh name="dm_gurney_flat_cloth" enabled="true" material="cloth" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_gurney_flat" enabled="true"/>
+	</graphics>
+</dynamic_object>

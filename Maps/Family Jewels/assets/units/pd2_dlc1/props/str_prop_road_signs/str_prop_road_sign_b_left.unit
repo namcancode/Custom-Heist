@@ -1,0 +1,7 @@
+<unit type="str" slot="1">
+	<object file="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b_left" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+        <extension class="UnitDamage" name="damage" />
+	</extensions>
+</unit>

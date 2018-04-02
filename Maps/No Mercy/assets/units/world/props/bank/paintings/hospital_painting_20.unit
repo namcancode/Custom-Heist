@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<unit type="Hosp" slot="1">
+<network sync="spawn"/>
+  <object file="units/world/props/bank/paintings/hospital_painting_20" />
+	<dependencies>
+		<depends_on physic_effect="core/physic_effects/sequencemanager_push"/>
+		<depends_on effect="effects/particles/window/bank_window_small" />
+		<depends_on bnk="soundbanks/effects" />
+	</dependencies>	
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit> 

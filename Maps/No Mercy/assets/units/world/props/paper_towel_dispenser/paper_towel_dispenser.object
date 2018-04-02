@@ -1,0 +1,19 @@
+<dynamic_object>
+    <diesel orientation_object="rp_paper_towel_dispenser" materials="units/world/props/paper_towel_dispenser/paper_towel_dispenser" />
+     <bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_paper_towel_dispenser"/>
+            <object collision_type="box" name="c_box_000" padding="-2"/>
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="plastic" static="true">
+		<decal_mesh enabled="true" material="thin_layer" 	name="dm_thin_layer"/>
+		<decal_mesh enabled="true" material="sheet_metal" 	name="dm_sheet_metal"/>
+		<decal_mesh enabled="true" material="plastic" 	name="dm_plastic"/>
+	</decal_surfaces>
+	
+	<graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

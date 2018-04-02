@@ -1,0 +1,19 @@
+<materials version="3">
+	<material name="mat_pnau_stone_01" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+		<bump_normal_texture file="units/payday2/nature/pnau/pnau_stone/pnau_stone_01_nm"/>
+		<diffuse_texture file="units/payday2/nature/pnau/pnau_stone/pnau_stone_01_df"/>
+	</material>
+	<material version="2" render_template="shadow_caster_only" name="shadow_caster"/>
+	<material version="2" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP" name="mat_pnau_stone_01_instanced">
+		<bump_normal_texture file="units/payday2/nature/pnau/pnau_stone/pnau_stone_01_nm"/>
+		<diffuse_texture file="units/payday2/nature/pnau/pnau_stone/pnau_stone_01_df"/>
+	</material>
+	<material name="mat_pnau_stone_terrain_rockmoss" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/payday2/nature/pnau/pnau_terrain/pnau_terrain_stone_01_df"/>
+		<diffuse_layer0_texture file="units/payday2/nature/pnau/pnau_terrain/pnau_terrain_mossy_01_df"/>
+		<diffuse_layer1_texture file="units/payday2/nature/pnau/pnau_terrain/pnau_terrain_mossystone_01_mask_df"/>
+		<reflection_texture file="environments/cubemaps/cubemap_suburbia_01" type="cubemap"/>
+		<bump_normal_texture file="units/payday2/nature/pnau/pnau_terrain/pnau_terrain_stone_01_nm"/>
+		<normal_layer0_texture file="units/payday2/nature/pnau/pnau_terrain/pnau_terrain_mossy_01_nm"/>
+	</material>
+</materials>

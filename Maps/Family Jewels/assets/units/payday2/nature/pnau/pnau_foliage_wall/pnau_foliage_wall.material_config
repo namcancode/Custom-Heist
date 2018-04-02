@@ -1,0 +1,7 @@
+<materials version="3">
+    <material name="mat_foliage_wall" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE" version="2">
+        <variable value="0.5" type="scalar" name="alpha_ref"/>
+        <diffuse_texture file="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_wall_df"/>
+        <opacity_texture file="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_wall_op"/>
+    </material>
+</materials>

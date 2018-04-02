@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/office/light/spotlight_celing_small" orientation_object="rp_spotlight_celing_small" />
+  <sequence_manager file="units/world/props/office/light/spotlight_celing_small" />
+	<bodies>
+		<body name="static_body" enabled="true" template="editor">
+			<object name="rp_spotlight_celing_small"/>
+			<object name="c_box" collision_type="box" padding="-2"/>
+		</body>
+	</bodies>
+	<!--decal_surfaces default_material="glass_breakable" static="true">
+		<decal_mesh name="dm_metal" material="sheet_metal" enabled="true" />
+		<decal_mesh name="dm_glass" material="glass_breakable" enabled="true" />
+	</decal_surfaces-->
+	<graphics>
+		<object name="g_spotlight_celing_small" enabled="true" instance_struct="world_tm" />
+	</graphics>
+</dynamic_object> 

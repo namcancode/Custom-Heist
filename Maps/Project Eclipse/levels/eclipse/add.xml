@@ -1,0 +1,32 @@
+<table directory="assets">
+	<movie path="music/riese"/>
+	<movie path="music/it_has_to_be_this_way"/>
+	<movie path="music/chasing_inspiration"/>
+	<movie path="sound/windy_winter"/>
+	<texture force="true" path="environments/sky_eclipse" unload="true"/>
+	<texture force="true" path="environments/sky_redclipse" unload="true"/>
+	<cooked_physics path="units/ecl_paper_hint/hint"/>
+	<material_config path="units/ecl_paper_hint/hint"/>
+	<model path="units/ecl_paper_hint/hint"/>
+	<object path="units/ecl_paper_hint/hint"/>
+	<unit path="units/ecl_paper_hint/hint"/>
+	<texture path="units/ecl_paper_hint/hint_1"/>
+	<cooked_physics path="units/ecl_paper_letter/letter"/>
+	<material_config path="units/ecl_paper_letter/letter"/>
+	<model path="units/ecl_paper_letter/letter"/>
+	<object path="units/ecl_paper_letter/letter"/>
+	<unit path="units/ecl_paper_letter/letter"/>
+	<texture path="units/ecl_paper_letter/letter_1"/>
+	<cooked_physics path="units/ecl_paper_hint/hint_2"/>
+	<material_config path="units/ecl_paper_hint/hint_2"/>
+	<model path="units/ecl_paper_hint/hint_2"/>
+	<object path="units/ecl_paper_hint/hint_2"/>
+	<unit path="units/ecl_paper_hint/hint_2"/>
+	<texture path="units/ecl_paper_hint/hint_2"/>
+	<cooked_physics path="units/ecl_paper_hint/hint_3"/>
+	<material_config path="units/ecl_paper_hint/hint_3"/>
+	<model path="units/ecl_paper_hint/hint_3"/>
+	<object path="units/ecl_paper_hint/hint_3"/>
+	<unit path="units/ecl_paper_hint/hint_3"/>
+	<texture path="units/ecl_paper_hint/hint_3"/>
+</table>

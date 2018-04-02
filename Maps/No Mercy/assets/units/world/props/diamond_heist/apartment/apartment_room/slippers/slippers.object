@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/props/diamond_heist/apartment/apartment_room/slippers/slippers" orientation_object="rp_slippers" />
+	<bodies>
+		<body name="static_body" enabled="true" template="editor">
+			<object name="c_slippers" collision_type="box" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_slippers" enabled="true"  />
+	</graphics>
+</dynamic_object> 

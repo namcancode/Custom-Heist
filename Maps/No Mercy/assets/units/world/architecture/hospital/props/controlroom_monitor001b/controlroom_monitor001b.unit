@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<unit type="Hosp" slot="1">
+<network sync="spawn"/>
+  <object file="units/world/architecture/hospital/props/controlroom_monitor001b/controlroom_monitor001b" />
+  <dependencies>
+  	<depends_on bnk="soundbanks/lvl_hos_sfx" />
+  </dependencies>
+  <extensions>
+	<extension name="damage" class="UnitDamage" />
+    <extension name="unit_data" class="ScriptUnitData" />
+  </extensions>
+  <sounds>
+  	<default_soundsource source="rp_controlroom_monitor001b"/>
+  	<soundsource name="snd_src" source="rp_controlroom_monitor001b" />
+  </sounds>
+</unit>

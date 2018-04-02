@@ -1,0 +1,20 @@
+{
+	"heist_contact_pd2concepts" : "PD2Concepts",
+	"heist_contact_pd2concepts_desc" : "Custom heists created as collaborations by the ModWorkshop community!",
+	"heist_harvest_north_name" : "Harvest & Trustee North",
+	"heist_harvest_north_brief" : "There's another Harvest & Trustee bank up in the northern areas of DC. Let's hit it.\n\n»Locate the vault\n»Drill the vault\n»Get the loot out\n»Escape",
+	"heist_hntn_name" : "Harvest & Trustee Northern Branch",
+	"heist_hntn_brief" : "Crew, It's time to rob a new bank.\n\nIn the north of Washington, a new branch has opened of the Harvest and Trustee Bank. This is a new goal for us.\n\nThe plan is simple. You go in the bank, find the security room and the vault. The vault is in the back of the bank. The driver's gonna wait at the parking lot outside. There are many civilians in the bank, so be careful not to shoot them!",
+	"q_hntn_drill_pickup" : "Get the thermal drill",
+	"q_hntn_drill_pickup_desc" : "Grab the thermal drill from the van. We'll need it to get into the vault.",
+	"q_hntn_drill_place" : "Place the thermal drill",
+	"q_hntn_drill_place_desc" : "Now place the thermal drill and get it going.",
+	"q_hntn_drill_wait" : "Wait for the drill to finish",
+	"q_hntn_drill_wait_desc" : "And now we wait...",
+	"q_hntn_drill_fix" : "Fix the drill",
+	"q_hntn_drill_fix_desc" : "Seems like the drill has jammed! Get to fixing it!",
+	"q_hntn_loot" : "Loot the vault",
+	"q_hntn_loot_desc" : "Get the loot from the vault! We need at least one bag of stuff!",
+	"q_hntn_escape" : "Escape or grab more loot",
+	"q_hntn_escape_desc" : "Time to escape!\n\n...unless you want to grab more loot, of course."
+}

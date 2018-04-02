@@ -1,0 +1,14 @@
+<dynamic_object>
+    <diesel orientation_object="rp_off_prop_fbi_flag" materials="units/payday2/props/off_prop_fbi_flags/off_prop_fbi_flag" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object collision_type="mesh_mopp" name="c_meshmopp" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_cloth" material="cloth" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

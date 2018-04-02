@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<unit type="yacht" slot="1">
+  <object file="units/world/props/yacht/flowers/lxy_prop_flower_vase" />
+  <dependencies>
+    <depends_on effect="effects/particles/dest/ceramic_cup_dest" />
+  </dependencies>
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+	 <extension name="damage" class="UnitDamage" />
+  </extensions>
+</unit>

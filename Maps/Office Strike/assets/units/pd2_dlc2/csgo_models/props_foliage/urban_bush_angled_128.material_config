@@ -1,0 +1,16 @@
+<materials version="3">
+    <material name="mat_urban_bush_angled_128" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:VEGETATION_BENDING" version="2">
+        <diffuse_texture file="units/pd2_dlc2/csgo_models/props_foliage/urban_balcony_planter01_1_df"/>
+        <variable value="0.02900000102818" type="scalar" name="alpha_ref"/>
+        <variable value="0.19200000166893" type="scalar" name="speed"/>
+        <variable value="5 0.19200000166893 0" type="vector3" name="detail_settings"/>
+        <variable value="29.999000549316 0 0" type="vector3" name="branch_settings"/>
+    </material>
+	    <material name="mat_urban_bush_angled_128_lod1" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:VEGETATION_BENDING" version="2">
+        <diffuse_texture file="units/pd2_dlc2/csgo_models/props_foliage/urban_balcony_planter01_1_df" mip="5"/>
+        <variable value="0.02900000102818" type="scalar" name="alpha_ref"/>
+        <variable value="0.19200000166893" type="scalar" name="speed"/>
+        <variable value="5 0.19200000166893 0" type="vector3" name="detail_settings"/>
+        <variable value="29.999000549316 0 0" type="vector3" name="branch_settings"/>
+    </material>
+</materials>

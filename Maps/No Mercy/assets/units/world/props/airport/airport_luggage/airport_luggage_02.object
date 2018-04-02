@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/airport/airport_luggage/airport_luggage_01" orientation_object="rp_airport_luggage_02" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="c_airport_luggage_02" enabled="true" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <graphics>
+    <object name="g_airport_luggage_02" enabled="true" shadow_caster="false" />
+  </graphics>
+</dynamic_object>

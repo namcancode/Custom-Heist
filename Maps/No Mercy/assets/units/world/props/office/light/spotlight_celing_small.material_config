@@ -1,0 +1,7 @@
+<materials version="3" group="spotlight_celing_small">
+    <material version="2" decal_material="sheet_metal" name="spotlight_celing_small" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:SELF_ILLUMINATION">
+        <variable value="identity" type="scalar" name="il_multiplier"/>
+        <diffuse_texture file="units/world/props/office/light/spotlight_celing_small_df"/>
+        <self_illumination_texture file="units/world/props/office/light/spotlight_celing_small_il"/>
+    </material>
+</materials>

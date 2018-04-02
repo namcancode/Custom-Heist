@@ -1,0 +1,27 @@
+<dynamic_object>
+    <diesel orientation_object="rp_washing_detergent_01" materials="units/world/props/washing_detergent/washing_detergent_01" />
+	<sequence_manager file="units/world/props/small_prop" />
+	
+	<bodies>
+        <body enabled="true" remove_ray_type="walk" template="static" name="static_body" >
+            <object name="rp_washing_detergent_01"/>
+			<object collision_type="box" name="c_box_000" padding="-2"/>
+        </body>
+		
+		<body name="dynamic_body" enabled="false" template="small_prop" pushed_by_mover="false" friction="0.2">
+			<object name="rp_washing_detergent_01"/>
+			<object name="c_box_000" collision_type="box" padding="2" mass="0.1"/>
+			<object name="g_g"/>
+		</body>	
+		
+    </bodies>
+
+	<decal_surfaces default_material="cloth">
+		<decal_mesh name="dm_thin_layer" enabled="true" material="thin_layer" />
+	</decal_surfaces>
+	
+   <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+	
+</dynamic_object>

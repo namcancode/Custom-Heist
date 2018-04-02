@@ -1,0 +1,85 @@
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/hospital_scene_1" orientation_object="rp_rp"/>
+	<sequence_manager file="units/world/architecture/hospital/hospital_interior_ceiling"/>
+    <bodies>
+        <body enabled="true" template="static" name="static">
+			<object name="c_mesh_mopp" collision_type="mesh_mopp" />
+		</body>
+		<body name="phys_body" enabled="true" template="graph_blocker">
+			<object name="c_box_navigation" collision_type="box" padding="-2.5"/>
+		</body>
+		
+        <body enabled="true" template="static" name="static_01"><object collision_type="box" name="c_01"/></body>
+		<body enabled="true" template="static" name="static_02"><object collision_type="box" name="c_02"/></body>
+		<body enabled="true" template="static" name="static_03"><object collision_type="box" name="c_03"/></body>
+		<body enabled="true" template="static" name="static_04"><object collision_type="box" name="c_04"/></body>
+		<body enabled="true" template="static" name="static_05"><object collision_type="box" name="c_05"/></body>
+		<body enabled="true" template="static" name="static_06"><object collision_type="box" name="c_06"/></body>
+		<body enabled="true" template="static" name="static_07"><object collision_type="box" name="c_07"/></body>
+		<body enabled="true" template="static" name="static_08"><object collision_type="box" name="c_08"/></body>
+		<body enabled="true" template="static" name="static_09"><object collision_type="box" name="c_09"/></body>
+		<body enabled="true" template="static" name="static_10"><object collision_type="box" name="c_10"/></body>
+		<body enabled="true" template="static" name="static_11"><object collision_type="box" name="c_11"/></body>
+		<body enabled="true" template="static" name="static_12"><object collision_type="box" name="c_12"/></body>
+		<body enabled="true" template="static" name="static_13"><object collision_type="box" name="c_13"/></body>
+		<body enabled="true" template="static" name="static_14"><object collision_type="box" name="c_14"/></body>
+		<body enabled="true" template="static" name="static_15"><object collision_type="box" name="c_15"/></body>
+		<body enabled="true" template="static" name="static_16"><object collision_type="box" name="c_16"/></body>
+		
+        <body enabled="false" template="dynamic" name="dynamic_01" collides_with_mover="false" lin_damping="0.2"><object collision_type="box" name="c_01" material="bamboo"/></body>
+		<body enabled="false" template="dynamic" name="dynamic_02" collides_with_mover="false" lin_damping="0.2"><object collision_type="box" name="c_02" material="bamboo"/></body>
+		<body enabled="false" template="dynamic" name="dynamic_03" collides_with_mover="false" lin_damping="0.2"><object collision_type="box" name="c_03" material="bamboo"/></body>
+		<body enabled="false" template="dynamic" name="dynamic_04" collides_with_mover="false" lin_damping="0.2"><object collision_type="box" name="c_04" material="bamboo"/></body>
+		<body enabled="false" template="dynamic" name="dynamic_05" collides_with_mover="false" lin_damping="0.2"><object collision_type="box" name="c_05" material="bamboo"/></body>
+		<body enabled="false" template="dynamic" name="dynamic_06" collides_with_mover="false" lin_damping="0.2"><object collision_type="box" name="c_06" material="bamboo"/></body>
+		<body enabled="false" template="dynamic" name="dynamic_07" collides_with_mover="false" lin_damping="0.2"><object collision_type="box" name="c_07" material="bamboo"/></body>
+		<body enabled="false" template="dynamic" name="dynamic_08" collides_with_mover="false" lin_damping="0.2"><object collision_type="box" name="c_08" material="bamboo"/></body>
+		<body enabled="false" template="dynamic" name="dynamic_09" collides_with_mover="false" lin_damping="0.2"><object collision_type="box" name="c_09" material="bamboo"/></body>
+		<body enabled="false" template="dynamic" name="dynamic_10" collides_with_mover="false" lin_damping="0.2"><object collision_type="box" name="c_10" material="bamboo"/></body>
+		<body enabled="false" template="dynamic" name="dynamic_11" collides_with_mover="false" lin_damping="0.2"><object collision_type="box" name="c_11" material="bamboo"/></body>
+		<body enabled="false" template="dynamic" name="dynamic_12" collides_with_mover="false" lin_damping="0.2"><object collision_type="box" name="c_12" material="bamboo"/></body>
+		<body enabled="false" template="dynamic" name="dynamic_13" collides_with_mover="false" lin_damping="0.2"><object collision_type="box" name="c_13" material="bamboo"/></body>
+		<body enabled="false" template="dynamic" name="dynamic_14" collides_with_mover="false" lin_damping="0.2"><object collision_type="box" name="c_14" material="bamboo"/></body>
+		<body enabled="false" template="dynamic" name="dynamic_15" collides_with_mover="false" lin_damping="0.2"><object collision_type="box" name="c_15" material="bamboo"/></body>
+		<body enabled="false" template="dynamic" name="dynamic_16" collides_with_mover="false" lin_damping="0.2"><object collision_type="box" name="c_16" material="bamboo"/></body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_01" material="plaster"/>
+        <decal_mesh enabled="true" name="dm_02" material="plaster"/>
+        <decal_mesh enabled="true" name="dm_03" material="plaster"/>
+        <decal_mesh enabled="true" name="dm_04" material="plaster"/>
+        <decal_mesh enabled="true" name="dm_05" material="plaster"/>
+        <decal_mesh enabled="true" name="dm_06" material="plaster"/>
+        <decal_mesh enabled="true" name="dm_07" material="plaster"/>
+        <decal_mesh enabled="true" name="dm_08" material="plaster"/>
+        <decal_mesh enabled="true" name="dm_09" material="plaster"/>
+        <decal_mesh enabled="true" name="dm_10" material="plaster"/>
+        <decal_mesh enabled="true" name="dm_11" material="plaster"/>
+        <decal_mesh enabled="true" name="dm_12" material="plaster"/>
+        <decal_mesh enabled="true" name="dm_13" material="plaster"/>
+        <decal_mesh enabled="true" name="dm_14" material="plaster"/>
+        <decal_mesh enabled="true" name="dm_15" material="plaster"/>
+        <decal_mesh enabled="true" name="dm_16" material="plaster"/>
+		<decal_mesh name="dm_metal_frame" enabled="true" material="metal"/>
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_mesh"/>
+        <object enabled="true" name="g_frame"/>
+        <object enabled="true" name="g_01"/>
+        <object enabled="true" name="g_02"/>
+        <object enabled="true" name="g_03"/>
+        <object enabled="true" name="g_04"/>
+        <object enabled="true" name="g_05"/>
+        <object enabled="true" name="g_06"/>
+        <object enabled="true" name="g_07"/>
+        <object enabled="true" name="g_08"/>
+        <object enabled="true" name="g_09"/>
+        <object enabled="true" name="g_10"/>
+        <object enabled="true" name="g_11"/>
+        <object enabled="true" name="g_12"/>
+        <object enabled="true" name="g_13"/>
+        <object enabled="true" name="g_14"/>
+        <object enabled="true" name="g_15"/>
+        <object enabled="true" name="g_16"/>
+    </graphics>
+</dynamic_object>

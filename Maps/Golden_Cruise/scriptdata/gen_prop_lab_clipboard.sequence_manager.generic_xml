@@ -1,0 +1,134 @@
+<generic_scriptdata type="table" metatable="sequence_manager">
+	<entry index="1" type="table" _id="16" metatable="unit">
+		<entry index="1" type="table" _id="15" metatable="sequence">
+			<entry index="1" type="table" _id="1" metatable="material_config">
+				<entry key="name" type="string" value=" 'units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard' "/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="material_config" type="table" _ref="1"/>
+			<entry key="name" type="string" value=" 'lamp_1' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="2" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="2" metatable="material_config">
+				<entry key="name" type="string" value=" 'units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard2' "/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="material_config" type="table" _ref="2"/>
+			<entry key="name" type="string" value=" 'lamp_2' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="3" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="3" metatable="material_config">
+				<entry key="name" type="string" value=" 'units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard3' "/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="material_config" type="table" _ref="3"/>
+			<entry key="name" type="string" value=" 'lamp_3' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="4" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="4" metatable="material_config">
+				<entry key="name" type="string" value=" 'units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard4' "/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="material_config" type="table" _ref="4"/>
+			<entry key="name" type="string" value=" 'lamp_4' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="5" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="5" metatable="material_config">
+				<entry key="name" type="string" value=" 'units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard5' "/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="material_config" type="table" _ref="5"/>
+			<entry key="name" type="string" value=" 'lamp_5' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="6" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="6" metatable="material_config">
+				<entry key="name" type="string" value=" 'units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard6' "/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="material_config" type="table" _ref="6"/>
+			<entry key="name" type="string" value=" 'lamp_6' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="7" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="7" metatable="material_config">
+				<entry key="name" type="string" value=" 'units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard7' "/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="material_config" type="table" _ref="7"/>
+			<entry key="name" type="string" value=" 'lamp_7' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="8" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="8" metatable="material_config">
+				<entry key="name" type="string" value=" 'units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard8' "/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="material_config" type="table" _ref="8"/>
+			<entry key="name" type="string" value=" 'lamp_8' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="9" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="9" metatable="material_config">
+				<entry key="name" type="string" value=" 'units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard9' "/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="material_config" type="table" _ref="9"/>
+			<entry key="name" type="string" value=" 'lamp_9' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="10" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="10" metatable="material_config">
+				<entry key="name" type="string" value=" 'units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard10' "/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="material_config" type="table" _ref="10"/>
+			<entry key="name" type="string" value=" 'lamp_10' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="11" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="11" metatable="material_config">
+				<entry key="name" type="string" value=" 'units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard11' "/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="material_config" type="table" _ref="11"/>
+			<entry key="name" type="string" value=" 'lamp_11' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="12" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="12" metatable="material_config">
+				<entry key="name" type="string" value=" 'units/mods/props/gen_prop_lab_clipboards/gen_prop_lab_clipboard12' "/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="material_config" type="table" _ref="12"/>
+			<entry key="name" type="string" value=" 'lamp_12' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="13" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="13" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_g'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'state_vis_hide'"/>
+			<entry key="object" type="table" _ref="13"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="14" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="14" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_g'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'state_vis_show'"/>
+			<entry key="object" type="table" _ref="14"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry key="sequence" type="table" _ref="15"/>
+	</entry>
+	<entry key="unit" type="table" _ref="16"/>
+</generic_scriptdata>

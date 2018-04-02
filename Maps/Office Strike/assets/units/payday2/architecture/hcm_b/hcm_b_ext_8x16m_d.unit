@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<unit type="hcm" slot="1">
+    <object file="units/payday2/architecture/hcm_b/hcm_b_ext_8x16m_d" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

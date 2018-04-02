@@ -1,0 +1,7 @@
+<materials version="3" group="light_ceiling">
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:SELF_ILLUMINATION" name="mat_light_ceiling">
+        <diffuse_texture file="units/world/architecture/hospital/props/light_ceiling/light_ceiling_df"/>
+        <self_illumination_texture file="units/world/architecture/hospital/props/light_ceiling/light_ceiling_il"/>
+        <variable value="identity" type="scalar" name="il_multiplier"/>
+    </material>
+</materials>

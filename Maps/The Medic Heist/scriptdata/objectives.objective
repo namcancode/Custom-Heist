@@ -1,0 +1,8 @@
+<table>
+	<objective description="benja_obj_medic_wait_AI_loud" id="benja_obj_medic_wait_AI_loud" level_id="medic_bag_heist" prio="1" text="benja_obj_medic_wait_AI_loud_short" xp_weight="1"/>
+	<objective description="benja_obj_medic_saw_wait_loud" id="benja_obj_medic_saw_wait_loud" level_id="medic_bag_heist" prio="1" text="benja_obj_medic_saw_wait_loud_short" xp_weight="1"/>
+	<objective description="benja_obj_medic_escape" id="benja_obj_medic_escape" level_id="medic_bag_heist" prio="1" text="benja_obj_medic_escape_short" xp_weight="1"/>
+	<objective description="benja_obj_medic_saw_loud" id="benja_obj_medic_saw_loud" level_id="medic_bag_heist" prio="1" text="benja_obj_medic_saw_loud_short" xp_weight="1"/>
+	<objective description="benja_obj_medic_find_medic_loud" id="benja_obj_medic_find_medic_loud" level_id="medic_bag_heist" prio="1" text="benja_obj_medic_find_medic_loud_short" xp_weight="1"/>
+	<objective description="benja_obj_medic_find_another_medic_loud" id="benja_obj_medic_find_another_medic_loud" level_id="medic_bag_heist" prio="1" text="benja_obj_medic_find_another_medic_loud_short" xp_weight="1"/>
+</table>

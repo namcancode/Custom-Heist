@@ -1,0 +1,7 @@
+<unit type="Hosp" slot="1" >
+    <object file="units/world/architecture/hospital/props/dish_soap/hospital_dish_soap" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+		<extension name="damage" class="UnitDamage"/>
+    </extensions>
+</unit>

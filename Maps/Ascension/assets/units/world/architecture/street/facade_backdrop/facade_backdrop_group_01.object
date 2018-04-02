@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/architecture/street/facade_backdrop/facade_backdrop" orientation_object="rp_facade_backdrop_group_01" />
+  <bodies>
+    <body name="facade_backdrop" enabled="true" template="editor">
+      <object name="rp_facade_backdrop_group_01"/>
+      <object name="g_facade_vtxc" collision_type="box" />
+    </body>
+  </bodies>
+  <graphics>
+    <object name="g_facade" enabled="true" instance_struct="world_tm"/>
+    <object name="g_facade_vtxc" enabled="true" instance_struct="world_tm"/>
+    <object name="g_window" enabled="true" instance_struct="world_tm"/>
+  </graphics>
+</dynamic_object>

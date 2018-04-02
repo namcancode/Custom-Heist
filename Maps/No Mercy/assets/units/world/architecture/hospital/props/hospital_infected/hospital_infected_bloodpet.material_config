@@ -1,0 +1,23 @@
+<materials version="3" group="escort_guy">
+    <material name="infected_boulders" version="2" render_template="generic:DIFFUSE_TEXTURE">
+        <diffuse_texture file="units/world/architecture/hospital/props/hospital_infected/boils_df"/>
+    </material>
+    <material name="infected" version="2" render_template="generic:DIFFUSE_TEXTURE:SKINNED_3WEIGHTS">
+        <diffuse_texture file="units/world/architecture/hospital/props/coma_guy/coma_guy_df"/>
+    </material>
+    <material name="infected_static" version="2" render_template="generic:DIFFUSE_TEXTURE">
+        <diffuse_texture file="units/world/architecture/hospital/props/coma_guy/coma_guy_df"/>
+    </material>
+    <material name="infected_decals" render_template="decal:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/hospital_infected/veins_tattoo_blush_df"/>
+    </material>
+    <material name="veins_body" render_template="decal:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/hospital_infected/veins_body_dcd"/>
+    </material>
+    <material name="mtr_poo" render_template="decal:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/hospital_infected/infected_puddle_kiss_dcd"/>
+    </material>
+    <material name="mtr_blood" render_template="decal:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/hospital_infected/infected_puddle_blood_dcd"/>
+    </material>
+</materials>

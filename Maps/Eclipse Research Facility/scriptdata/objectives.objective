@@ -1,0 +1,14 @@
+<table>
+	<objective description="1_the_factory_get_inside_desc" id="1_the_factory_get_inside" prio="1" text="1_the_factory_get_inside" xp_weight="1"/>
+	<objective description="2_the_factory_find_keycard_desc" id="2_the_factory_find_keycard" prio="1" text="2_the_factory_find_keycard" xp_weight="1"/>
+	<objective description="3_the_factory_get_in_erf_desc" id="3_the_factory_get_in_erf" prio="1" text="3_the_factory_get_in_erf" xp_weight="1"/>
+	<objective description="4_the_factory_look_around_desc" id="4_the_factory_look_around" prio="1" text="4_the_factory_look_around" xp_weight="1"/>
+	<objective description="5_the_factory_disable_4_powerboxes_desc" id="5_the_factory_disable_4_powerboxes" prio="1" text="5_the_factory_disable_4_powerboxes" xp_weight="1"/>
+	<objective description="7_the_factory_drill_vault_desc" id="7_the_factory_drill_vault" prio="1" text="7_the_factory_drill_vault" xp_weight="1"/>
+	<objective description="8_the_factory_secure_loot_4_desc" id="8_the_factory_secure_loot_4" prio="1" text="8_the_factory_secure_loot_4" xp_weight="1"/>
+	<objective description="8_the_factory_secure_loot_8_desc" id="8_the_factory_secure_loot_8" prio="1" text="8_the_factory_secure_loot_8" xp_weight="1"/>
+	<objective description="8_the_factory_secure_loot_12_desc" id="8_the_factory_secure_loot_12" prio="1" text="8_the_factory_secure_loot_12" xp_weight="1"/>
+	<objective description="8_the_factory_secure_loot_16_desc" id="8_the_factory_secure_loot_16" prio="1" text="8_the_factory_secure_loot_16" xp_weight="1"/>
+	<objective description="9_the_factory_escape_desc" id="9_the_factory_escape" prio="1" text="9_the_factory_escape" xp_weight="1"/>
+	<objective description="6_the_factory_drill_barrier_desc" id="6_the_factory_drill_barrier" prio="1" text="6_the_factory_drill_barrier" xp_weight="1"/>
+</table>

@@ -1,0 +1,7 @@
+<materials version="3">
+    <material version="2" decal_material="sheet_metal" name="trash_can_int" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:VERTEX_COLOR:VERTEX_COLOR_ALPHA">
+        <diffuse_texture file="units/world/props/trashcan/trash_can_int_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="0.5 0.24000000953674 0.5" type="vector3" name="environment_settings"/>
+    </material>
+</materials>

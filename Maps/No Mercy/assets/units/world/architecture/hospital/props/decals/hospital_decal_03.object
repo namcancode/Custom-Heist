@@ -1,0 +1,12 @@
+<dynamic_object>
+    <diesel orientation_object="rp_hospital_decal" materials="units/world/architecture/hospital/props/decals/hospital_decal_01" />
+    <graphics>
+        <object enabled="true" name="g_decal" instance_struct="world_tm" />
+    </graphics>
+	<bodies>
+		<body name="static_body" enabled="true" template="editor">
+			<object name="rp_hospital_decal" />
+			<object name="c_box" collision_type="box" />
+		</body>
+	</bodies>
+</dynamic_object>

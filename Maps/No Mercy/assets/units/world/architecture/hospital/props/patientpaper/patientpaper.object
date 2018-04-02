@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/architecture/hospital/props/patientpaper/patientpaper" orientation_object="rp_patientpaper" />
+   <sequence_manager file="units/world/architecture/hospital/props/patientpaper/patientpaper" />
+  <bodies>
+    <body name="body0" enabled="true" template="raycoll_static">
+      <object name="rp_patientpaper" />
+      <object name="c_patientpaper" collision_type="box" padding="-2"/>
+    </body>
+  </bodies>
+  
+  <decal_surfaces static="true" default_material="thin_layer">
+    <decal_mesh name="dm_thinlayer" enabled="true" material="thin_layer"/>
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_patientpaper" enabled="true" />
+  </graphics>
+</dynamic_object>

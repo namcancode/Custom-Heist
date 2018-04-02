@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="washing_detergent_2" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/props/washing_detergent/washing_detergent_2_df"/>
+    </material>
+</materials>

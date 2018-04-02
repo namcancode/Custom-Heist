@@ -1,0 +1,56 @@
+<materials version="3">
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+    <material name="mat_elevator_counterweight" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/elevator_counterweight_df"/>
+        <variable value="0.048000000417233" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="mat_cinderwall02" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/cinderwall02_df"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/cinderwall02_nm"/>
+    </material>
+    <material name="mat_concretefloor_construct01" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/concretefloor_construct01_df"/>
+    </material>
+    <material name="mat_nuke_metaltrims_01" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/nuke_metaltrims_01_df"/>
+    </material>
+    <material name="mat_elevator_doors" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/offelevdrsa_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_lights" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/offelevdrsa_df"/>
+        <self_illumination_texture file="units/world/architecture/hospital/env_textures/offelevdrsa_df"/>
+        <variable value="sun" type="scalar" name="il_multiplier"/>
+    </material>
+    <material name="mat_elevator_numbers" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/elevator_numbers_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <self_illumination_texture file="units/world/architecture/hospital/env_textures/elevator_numbers_df"/>
+        <variable value="identity" type="scalar" name="il_multiplier"/>
+    </material>
+    <material name="mat_drtrimb" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/drtrimb_df"/>
+    </material>
+    <material name="mat_door_wood22" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/door_wood22_df"/>
+    </material>
+    <material name="mat_metalbars" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/metalbars_df"/>
+    </material>
+    <material name="mat_elevator_pulley" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/elevator_pulley_df"/>
+    </material>
+    <material version="2" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP" name="cable_elevator">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/cables_elevator_df"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/cables_elevator_nm"/>
+        <variable value="0.048000000417233" type="scalar" name="alpha_ref"/>
+    </material>
+    <material version="2" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP" name="secret_stash_props_trash_1">
+        <diffuse_texture file="units/world/architecture/secret_stash/props_textures/secret_stash_trash_1_df"/>
+        <bump_normal_texture file="units/world/architecture/secret_stash/props_textures/secret_stash_trash_1_df"/>
+        <variable value="0.019999999552965" type="scalar" name="alpha_ref"/>
+    </material>
+</materials>

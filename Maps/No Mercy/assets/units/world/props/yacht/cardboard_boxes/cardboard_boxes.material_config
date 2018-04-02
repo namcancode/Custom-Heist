@@ -1,0 +1,7 @@
+<materials version="3">
+    <material version="2" decal_material="wood" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="lxy_int_cardboard_boxes">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/world/props/yacht/cardboard_boxes/lxy_int_cardboard_boxes_df"/>
+        <bump_normal_texture file="units/world/props/yacht/cardboard_boxes/lxy_int_cardboard_boxes_nm"/>
+    </material>
+</materials>

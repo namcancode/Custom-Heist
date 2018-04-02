@@ -1,0 +1,9 @@
+<unit type="static" slot="1" >
+    <object file="units/world/architecture/hospital/props/hospital_infected/hospital_infected_bloodpet2" />
+    <network sync="spawn"/>
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+    <extension name="damage" class="UnitDamage" />
+    <extension name="sync_unit_data" class="SyncUnitData" />
+  </extensions>
+</unit>

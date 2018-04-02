@@ -1,0 +1,9 @@
+<materials version="3">
+    <material name="skyscraper_construction_01" render_template="generic:DIFFUSE_TEXTURE:RL_BACKDROP" version="2">
+        <diffuse_texture file="units/world/architecture/street/skyscraper_construction/skyscraper_construction_01_df"/>
+    </material>
+    <material name="skyscraper_construction_planes" version="2" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:RL_BACKDROP">
+        <diffuse_texture file="units/world/architecture/street/skyscraper_construction/construction_building_planes_df"/>
+        <variable value="0.22100001573563" type="scalar" name="alpha_ref"/>
+    </material>
+</materials>

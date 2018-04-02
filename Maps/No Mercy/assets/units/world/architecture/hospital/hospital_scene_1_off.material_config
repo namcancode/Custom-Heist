@@ -1,0 +1,370 @@
+<materials version="3" group="hospital_scene_1">
+    <material name="add" version="2" render_template="opacity">
+        <opacity_texture file="units/transparent_op"/>
+    </material>
+    <material name="interior_props" render_template="generic:DIFFUSE_TEXTURE:RL_BIGPROPS" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/interior_props_df"/>
+    </material>
+    <material name="black" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/black_df"/>
+    </material>
+    <material name="reinforced_glass_dmg" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <variable value="2 1 -0.65000003576279" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/world/architecture/hospital/env_textures/glasswindow007a_dmg_op"/>
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/glasswindow007a_dmg_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/glasswindow007a_dmg_nm"/>
+    </material>
+    <material name="reinforced_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <variable value="2 1 -0.5" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/world/architecture/hospital/env_textures/glasswindow007a_op"/>
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/glasswindow007a_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/glasswindow007a_nm"/>
+    </material>
+    <material name="glasswindow_2_dmg" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <variable value="0 1 0" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/world/architecture/hospital/env_textures/glasswindow_2_dmg_op"/>
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/glasswindow_2_dmg_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/glasswindow007a_dmg_nm"/>
+    </material>
+    <material name="glasswindow_2" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <variable value="0 1 0" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/world/architecture/hospital/env_textures/glasswindow_2_op"/>
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/glasswindow_2_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/glasswindow007a_nm"/>
+    </material>
+    <material name="bio_sticker" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" version="2">
+        <variable value="0 1 0" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/world/architecture/hospital/env_textures/glass_biohazard_op"/>
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/glass_biohazard_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+    </material>
+    <material name="mat_tilewall_01" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/tilewall_01_df"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/tilewall_01_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_hospital_01" type="cubemap"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="urban_plasterwall_05f" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/urban_plasterwall_05f_df"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/urban_plasterwall_05f_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_hospital_01" type="cubemap"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="urban_tilefloor02a" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/urban_tilefloor02a_df"/>
+        <reflection_texture file="environments/cubemaps/cubemap_hospital_01" type="cubemap"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/urban_tilefloor02a_nm"/>
+    </material>
+    <material name="door03" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/door03_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/glasswindow007a_nm"/>
+    </material>
+    <material name="glasswindow007a" render_template="opacity:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <opacity_texture file="units/world/architecture/hospital/env_textures/glasswindow007a_op"/>
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/glasswindow007a_df"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/ceilingtiles01_nm"/>
+    </material>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" name="urban_tilefloor02b">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/urban_tilefloor02b_df"/>
+        <reflection_texture file="environments/cubemaps/cubemap_hospital_01" type="cubemap"/>
+        <variable value="1 0 4.2999997138977" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/urban_tilefloor02a_nm"/>
+    </material>
+    <material version="2" render_template="generic" name="roomnumbers_hospital_411_icu"/>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_cabinets03">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/cabinets03_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_cabinets04">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/cabinets04_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_countertop05">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/countertop05_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" name="mat_xray_board">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/xray_board_df"/>
+        <self_illumination_texture file="units/world/architecture/hospital/env_textures/xray_board_il"/>
+        <variable value="identity" type="scalar" name="il_multiplier"/>
+    </material>
+    <material name="mat_ceiling_popcorn02" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/ceiling_popcorn02_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/ceiling_popcorn02_nm"/>
+    </material>
+    <material name="mat_nuke_metaltrims_01" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/nuke_metaltrims_01_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_drtrimb">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/drtrimb_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_door_wood22">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/door_wood22_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_vent_commercial_00">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/vent_commercial_00_df"/>
+    </material>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" name="mat_doormainmetalwindow01">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/doormainmetalwindow01_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 1.6000000238419" type="vector3" name="environment_settings"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_doormain01_handle">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/doormain01_handle_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_doormain01">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/doormain01_df"/>
+    </material>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" name="mat_urban_plasterwall_05b">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/urban_plasterwall_05b_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 4.2999997138977" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/urban_plasterwall_05b_nm"/>
+    </material>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_desk02">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/desk02_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_door02">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/door02_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_sheetrock02">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/sheetrock02_df"/>
+    </material>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_urban_plasterwall_05a">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/urban_plasterwall_05a_df"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/urban_plasterwall_05a_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_cinderwall02">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/cinderwall02_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_security_door_1">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/security_door_1_df"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/security_door_1_nm"/>
+    </material>
+    <material name="mat_wall_hole_01" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_SMOOTH:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/urban_plasterwall_05f_df"/>
+        <diffuse_layer0_texture file="units/world/architecture/hospital/env_textures/plaster_dest_01_df"/>
+        <diffuse_layer1_texture file="units/world/architecture/hospital/env_textures/plaster_dest_01_mask"/>
+        <reflection_texture file="environments/cubemaps/cubemap_hospital_01" type="cubemap"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/urban_plasterwall_05f_nm"/>
+    </material>
+    <material name="mat_wall_hole_01_sheetrock" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_SMOOTH:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:RL_CORE_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/sheetrock02_df"/>
+        <diffuse_layer0_texture file="units/world/architecture/hospital/env_textures/plaster_dest_01_df"/>
+        <diffuse_layer1_texture file="units/world/architecture/hospital/env_textures/plaster_dest_01_mask"/>
+        <reflection_texture file="environments/cubemaps/cubemap_hospital_01" type="cubemap"/>
+    </material>
+    <material name="mat_wall_hole_01_plasterwall_05a" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_SMOOTH:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:RL_CORE_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/urban_plasterwall_05a_df"/>
+        <diffuse_layer0_texture file="units/world/architecture/hospital/env_textures/plaster_dest_01_df"/>
+        <diffuse_layer1_texture file="units/world/architecture/hospital/env_textures/plaster_dest_01_mask"/>
+        <reflection_texture file="environments/cubemaps/cubemap_hospital_01" type="cubemap"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_metalstair001a_light">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/metalstair001a_light_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_staircase_clean_beam_01">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/staircase_clean_beam_01_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_concretefloor_construct01">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/concretefloor_construct01_df"/>
+    </material>
+    <material version="2" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_SMOOTH:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" name="mat_wall_hole_02">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/urban_plasterwall_05a_df"/>
+        <diffuse_layer0_texture file="units/world/architecture/hospital/env_textures/plaster_dest_01_df"/>
+        <diffuse_layer1_texture file="units/world/architecture/hospital/env_textures/plaster_dest_01_mask"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/urban_plasterwall_05f_nm"/>
+    </material>
+    <material name="mat_wall_hole_03" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_SMOOTH:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/sheetrock02_df"/>
+        <diffuse_layer0_texture file="units/world/architecture/hospital/env_textures/plaster_dest_01_df"/>
+        <diffuse_layer1_texture file="units/world/architecture/hospital/env_textures/plaster_dest_01_mask"/>
+        <reflection_texture file="environments/cubemaps/cubemap_hospital_01" type="cubemap"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/urban_plasterwall_05f_nm"/>
+    </material>
+    <material version="2" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_SMOOTH:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" name="mat_wall_hole_04">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/urban_plasterwall_05b_df"/>
+        <diffuse_layer0_texture file="units/world/architecture/hospital/env_textures/plaster_dest_01_df"/>
+        <diffuse_layer1_texture file="units/world/architecture/hospital/env_textures/plaster_dest_01_mask"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/urban_plasterwall_05f_nm"/>
+    </material>
+    <material name="mat_morgue_tilewall_01" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/morgue_tilewall_01_df"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/morgue_tilewall_01_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_morgue_tilefloor_01" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/morgue_tilefloor_01_df"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/morgue_tilefloor_01_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_concretewall011c">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/concretewall011c_df"/>
+    </material>
+    <material version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_firedoor_double_01">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/firedoor_double_01_df"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/firedoor_double_01_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_morgue_details_01" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/morgue_details_01_df"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/morgue_details_01_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material version="2" decal_material="concrete" name="bank_ground_blend1" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_ENVIRONMENT:VERTEX_COLOR">
+        <diffuse_texture file="units/world/architecture/street/ground/ground_blend_df"/>
+        <diffuse_layer0_texture file="units/world/architecture/street/ground/ground_df"/>
+        <bump_normal_texture file="units/world/architecture/street/ground/ground_nm"/>
+        <diffuse_layer1_texture file="units/world/architecture/street/ground/ground_mask_df"/>
+    </material>
+    <material name="bank_ground_decals" render_template="decal:DIFFUSE_TEXTURE:OPACITY_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/street/ground/ground_lines_df"/>
+        <opacity_texture file="units/world/architecture/street/ground/ground_lines_op"/>
+    </material>
+    <material name="bank_facade_tile1" decal_material="concrete" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_D_A:BLEND_SMOOTH:BLEND_TINT_SECOND:DIFFUSE_TEXTURE:PIXEL_TILE:RL_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/world/architecture/street/facade_tile_df"/>
+        <diffuse_layer0_texture file="units/world/architecture/street/facade_blend_tile_df"/>
+        <variable value="0.25 0.25 10" type="vector3" name="size_density"/>
+        <variable value="0.99500000476837" type="scalar" name="texture_padding"/>
+    </material>
+    <material name="mat_chrome" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/chrome_df"/>
+        <reflection_texture file="environments/cubemaps/cubemap_steel" type="cubemap"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_blue03elevdoor">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/blue03elevdoor_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_concreteceiling001a">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/concreteceiling001a_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_concretewall043a">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/concretewall043a_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_drtrima">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/drtrima_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_drtrimc">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/drtrimc_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_metal_corrugated01a">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/metal_corrugated01a_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_metal_corrugated01b">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/metal_corrugated01b_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_metal_corrugated02b">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/metal_corrugated02b_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_metal_ibeam01">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/metal_ibeam01_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_metaldoor007a">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/metaldoor007a_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_metalgrate011a">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/metalgrate011a_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_metalwall058a">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/metalwall058a_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_nukconcretewalla">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/nukconcretewalla_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_nukconcretewallb">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/nukconcretewallb_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_nukconcretewallc">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/nukconcretewallc_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_nuke_metalfloor_01">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/nuke_metalfloor_01_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_nukmetwallab">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/nukmetwallab_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_plasterwall021a">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/plasterwall021a_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_prodventa">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/prodventa_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_roadparkinglot">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/roadparkinglot_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_rooffloor_tar01">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/rooffloor_tar01_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_sheetrock01">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/sheetrock01_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_trim21">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/trim21_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_tunnelwall001">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/tunnelwall001_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_metalvent001a">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/rooftop/metalvent001a_df"/>
+    </material>
+    <material version="2" render_template="shadow_caster_only" name="shadow_caster"/>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_plaster_dest_01">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/plaster_dest_01_df"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/plaster_dest_01_nm"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mat_ceilingtiles01_beams">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/ceilingtiles01_beams_df"/>
+    </material>
+    <material name="ceilingtiles01" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/ceilingtiles01_df"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/ceilingtiles01_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_elevator_numbers" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/elevator_numbers_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <self_illumination_texture file="units/world/architecture/hospital/env_textures/elevator_numbers_df"/>
+        <variable value="identity" type="scalar" name="il_multiplier"/>
+    </material>
+    <material name="mat_elevator_panel_2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/small_elevator_panel_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_elevator_floor_sign" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/elevator_floor_sign_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_elevator_doors" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/env_textures/offelevdrsa_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_hospital_01"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/world/architecture/hospital/env_textures/glasswindow007a_nm"/>
+    </material>
+</materials>

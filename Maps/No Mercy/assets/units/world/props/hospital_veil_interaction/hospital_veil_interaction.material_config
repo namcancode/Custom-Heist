@@ -1,0 +1,42 @@
+<materials version="3">
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE" unique="true" version="2" name="hospital_veil_material">
+        <diffuse_texture file="units/world/props/hospital_veil_interaction/hospital_veil_interaction_df"/>
+        <variable value="1 0.5 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+    </material>
+    <material name="hospital_blood_material_skinned" render_template="generic:DIFFUSE_TEXTURE:SKINNED_1WEIGHT" version="2">
+        <diffuse_texture file="units/world/props/hospital_veil_interaction/hospital_veil_interaction_df"/>
+    </material>
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" decal_material="glass_breakable" version="2" name="hospital_veil_glass_material">
+        <variable value="1.789999961853 0.87000000476837 0.099999994039536" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/glass/hospital_glass_indoors_op"/>
+        <diffuse_texture file="units/glass/hospital_glass_indoors_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+    <material name="sample_validation_machine_material" unique="true" render_template="generic:CONTOUR:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/props/hospital_veil_interaction/hospital_sample_validation_machine_df"/>
+        <variable value="1 0.5 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE" version="2" name="mat_failure">
+        <diffuse_texture file="units/world/props/hospital_veil_interaction/hospital_sample_validation_machine_failure_df"/>
+    </material>
+    <material name="sample_validation_machine_skinned" render_template="generic:DIFFUSE_TEXTURE:SKINNED_1WEIGHT" version="2">
+        <diffuse_texture file="units/world/props/hospital_veil_interaction/hospital_sample_validation_machine_df"/>
+    </material>
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" decal_material="glass_breakable" version="2" name="sample_validation_machine_tinted_glass">
+        <variable value="0 1 0.59999996423721" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/world/props/hospital_veil_interaction/hospital_sample_validation_machine_op"/>
+        <diffuse_texture file="units/world/props/hospital_veil_interaction/hospital_sample_validation_machine_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+    <material name="lid_outline" unique="true" version="2" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE">
+        <diffuse_texture file="units/white_df"/>
+        <variable value="1 0.5 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <opacity_texture file="units/transparent_op"/>
+    </material>
+    <material version="2" render_template="decal:DIFFUSE_TEXTURE" name="mat_blood_splatter">
+        <diffuse_texture file="units/world/props/hospital_veil_interaction/blood_splatter_df"/>
+    </material>
+</materials>

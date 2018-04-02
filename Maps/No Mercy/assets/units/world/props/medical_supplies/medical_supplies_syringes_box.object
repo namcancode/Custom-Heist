@@ -1,0 +1,17 @@
+<dynamic_object>
+    <diesel orientation_object="rp_medical_supplies_syringes_box" materials="units/world/props/medical_supplies/medical_supplies" />
+    
+	 <bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_medical_supplies_syringes_box"/>
+            <object collision_type="box" name="c_box_000" padding="-2"/>
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="plastic" static="true">
+	</decal_surfaces>
+	
+	<graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,8 @@
+<materials version="3">
+    <material name="mat_pnau_brush_leafs_01" render_template="generic:ALIGN_NORMAL_WORLD_Z:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:INSTANCED:OPACITY_TEXTURE" version="2">
+        <variable value="0.2790000140667" type="scalar" name="normal_world_z_blend"/>
+        <diffuse_texture file="units/payday2/nature/pnau/pnau_brush/pnau_brush_leafs/pnau_brush_leafs_01_df"/>
+        <opacity_texture file="units/payday2/nature/pnau/pnau_brush/pnau_brush_leafs/pnau_brush_leafs_01_op"/>
+        <variable value="0.24500000476837" type="scalar" name="alpha_ref"/>
+    </material>
+</materials>

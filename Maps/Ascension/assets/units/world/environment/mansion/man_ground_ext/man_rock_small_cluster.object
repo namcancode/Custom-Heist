@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/environment/mansion/man_ground_ext/rocks" orientation_object="rp_man_rock_small_cluster" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="g_man_rock_small_cluster" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces>
+    <decal_mesh name="g_man_rock_small_cluster" enabled="true" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_man_rock_small_cluster" enabled="true"  />
+  </graphics>
+</dynamic_object>

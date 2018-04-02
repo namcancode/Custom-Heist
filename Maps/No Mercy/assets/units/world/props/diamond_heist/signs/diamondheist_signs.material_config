@@ -1,0 +1,7 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" decal_material="metal" version="2" name="diamond_heist_signs">
+        <diffuse_texture file="units/world/props/diamond_heist/signs/diamond_heist_signs_df"/>
+        <self_illumination_texture file="units/world/props/diamond_heist/signs/diamond_heist_signs_il"/>
+        <variable value="identity" type="scalar" name="il_multiplier"/>
+    </material>
+</materials>

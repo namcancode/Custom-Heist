@@ -1,0 +1,4 @@
+{
+	"heist_medic_bag_heist_wrapper_name" : "The Medic Heist",
+	"heist_medic_bag_heist_wrapper_brief" : "Dallas needs medic bags! Quick, go get 'em!\n\n»Enter the parking garage which is clearly copied from Hox Day 1\n»Note that it's not exactly copied\n»Retrieve the medic bags\n»Win! :D"
+}

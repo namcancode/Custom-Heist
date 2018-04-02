@@ -1,0 +1,290 @@
+<table directory="assets">
+	<unit_load name="units/payday2/architecture/str/str_ext_sidewalk_16x16m_a">
+		<cooked_physics force="true" path="units/payday2/architecture/str/str_ext_sidewalk_16x16m_a" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/str/str_ext_sidewalk_16x16m_a" unload="true"/>
+		<object force="true" path="units/payday2/architecture/str/str_ext_sidewalk_16x16m_a" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/str/str_road" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/props/str_prop_street_planter/str_prop_street_planter_a">
+		<cooked_physics force="true" path="units/payday2/props/str_prop_street_planter/str_prop_street_planter_a" unload="true"/>
+		<unit force="true" path="units/payday2/props/str_prop_street_planter/str_prop_street_planter_a" unload="true"/>
+		<object force="true" path="units/payday2/props/str_prop_street_planter/str_prop_street_planter_a" unload="true"/>
+		<material_config force="true" path="units/payday2/props/str_prop_street_planter/str_prop_street_planter" unload="true"/>
+	</unit_load>
+	<unit_load name="units/world/props/flickering_light/flickering_light">
+		<cooked_physics force="true" path="units/world/props/flickering_light/flickering_light" unload="true"/>
+		<unit force="true" path="units/world/props/flickering_light/flickering_light" unload="true"/>
+		<object force="true" path="units/world/props/flickering_light/flickering_light" unload="true"/>
+		<material_config force="true" path="units/world/props/flickering_light/flickering_light" unload="true"/>
+		<sequence_manager force="true" path="units/world/props/flickering_light/flickering_light" unload="true"/>
+		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/hcm/hcm_bdrop_mid_road_onellane_32x32">
+		<cooked_physics force="true" path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_onellane_32x32" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_onellane_32x32" unload="true"/>
+		<object force="true" path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_onellane_32x32" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/hcm/hcm_backdrop_street" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/str/str_ext_road_16x16m_tcross_a">
+		<cooked_physics force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_tcross_a" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_tcross_a" unload="true"/>
+		<object force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_tcross_a" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/str/str_road" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/str/str_ext_road_16x16m_a_manhole">
+		<cooked_physics force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_a_manhole" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_a_manhole" unload="true"/>
+		<object force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_a_manhole" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/str/str_road" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/architecture/str/str_ext_road" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/str/str_ext_road_16x16m_a_parking_manhole">
+		<cooked_physics force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_a_parking_manhole" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_a_parking_manhole" unload="true"/>
+		<object force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_a_parking_manhole" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/str/str_road" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/architecture/str/str_ext_road" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/str/str_ext_road_16x16m_a_speedbump">
+		<cooked_physics force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_a_speedbump" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_a_speedbump" unload="true"/>
+		<object force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_a_speedbump" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/str/str_road" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/str/str_ext_road_16x16m_construction_b">
+		<cooked_physics force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_construction_b" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_construction_b" unload="true"/>
+		<object force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_construction_b" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/str/str" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/str/str_ext_road_16x16m_cross_a">
+		<cooked_physics force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_cross_a" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_cross_a" unload="true"/>
+		<object force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_cross_a" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/str/str_road" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/str/str_ext_road_16x16m_tcross_a_manhole">
+		<cooked_physics force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_tcross_a_manhole" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_tcross_a_manhole" unload="true"/>
+		<object force="true" path="units/payday2/architecture/str/str_ext_road_16x16m_tcross_a_manhole" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/str/str_road" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/architecture/str/str_ext_road" unload="true"/>
+	</unit_load>
+	<unit_load name="units/world/street/road_block/street_police_road_block">
+		<cooked_physics force="true" path="units/world/street/road_block/street_police_road_block" unload="true"/>
+		<unit force="true" path="units/world/street/road_block/street_police_road_block" unload="true"/>
+		<object force="true" path="units/world/street/road_block/street_police_road_block" unload="true"/>
+		<material_config force="true" path="units/world/street/road_block/street_police_road_block" unload="true"/>
+		<sequence_manager force="true" path="units/world/street/road_block/street_police_road_block" unload="true"/>
+	</unit_load>
+	<unit_load name="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_a_roadclosed">
+		<cooked_physics force="true" path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_a_roadclosed" unload="true"/>
+		<unit force="true" path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_a_roadclosed" unload="true"/>
+		<object force="true" path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_a_roadclosed" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_a_roadclosed" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_a" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/cdr/cdr_int_concrete_pillar_1m_a">
+		<cooked_physics force="true" path="units/payday2/architecture/cdr/cdr_int_concrete_pillar_1m_a" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/cdr/cdr_int_concrete_pillar_1m_a" unload="true"/>
+		<object force="true" path="units/payday2/architecture/cdr/cdr_int_concrete_pillar_1m_a" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/cdr/cdr_int" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/str/str_ext_concrete_ground_8x8m_a">
+		<cooked_physics force="true" path="units/payday2/architecture/str/str_ext_concrete_ground_8x8m_a" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/str/str_ext_concrete_ground_8x8m_a" unload="true"/>
+		<object force="true" path="units/payday2/architecture/str/str_ext_concrete_ground_8x8m_a" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/str/str" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_ivy_roof_c">
+		<cooked_physics force="true" path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_ivy_roof_c" unload="true"/>
+		<unit force="true" path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_ivy_roof_c" unload="true"/>
+		<object force="true" path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_ivy_roof_c" unload="true"/>
+		<material_config force="true" path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_wall" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/str/str_ext_concrete_ground_16x16m_a">
+		<cooked_physics force="true" path="units/payday2/architecture/str/str_ext_concrete_ground_16x16m_a" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/str/str_ext_concrete_ground_16x16m_a" unload="true"/>
+		<object force="true" path="units/payday2/architecture/str/str_ext_concrete_ground_16x16m_a" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/str/str" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_arrow">
+		<cooked_physics force="true" path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_arrow" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_arrow" unload="true"/>
+		<object force="true" path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_arrow" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_b_mirrored">
+		<cooked_physics force="true" path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_b_mirrored" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_b_mirrored" unload="true"/>
+		<object force="true" path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_b_mirrored" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_pillar">
+		<cooked_physics force="true" path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_pillar" unload="true"/>
+		<unit force="true" path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_pillar" unload="true"/>
+		<object force="true" path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_pillar" unload="true"/>
+		<material_config force="true" path="units/payday2/props/str_prop_park_fence/str_prop_park_fence" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/props/str_prop_street_cone/str_prop_street_cone">
+		<cooked_physics force="true" path="units/payday2/props/str_prop_street_cone/str_prop_street_cone" unload="true"/>
+		<unit force="true" path="units/payday2/props/str_prop_street_cone/str_prop_street_cone" unload="true"/>
+		<object force="true" path="units/payday2/props/str_prop_street_cone/str_prop_street_cone" unload="true"/>
+		<material_config force="true" path="units/payday2/props/str_prop_street_cone/str_prop_street_cone" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/props/str_prop_street_cone/str_prop_street_cone" unload="true"/>
+	</unit_load>
+	<unit_load name="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b_left">
+		<cooked_physics force="true" path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b_left" unload="true"/>
+		<unit force="true" path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b_left" unload="true"/>
+		<object force="true" path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b_left" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b_arrow" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b" unload="true"/>
+	</unit_load>
+	<unit_load name="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b_speed_45">
+		<cooked_physics force="true" path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b_speed_45" unload="true"/>
+		<unit force="true" path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b_speed_45" unload="true"/>
+		<object force="true" path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b_speed_45" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b_speed_45" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b" unload="true"/>
+	</unit_load>
+	<unit_load name="units/pd2_dlc_cro/ind_ext_harbour_side_bollard_small_orange/ind_ext_harbour_side_bollard_small_orange">
+		<cooked_physics force="true" path="units/pd2_dlc_cro/ind_ext_harbour_side_bollard_small_orange/ind_ext_harbour_side_bollard_small_orange" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_cro/ind_ext_harbour_side_bollard_small_orange/ind_ext_harbour_side_bollard_small_orange" unload="true"/>
+		<object force="true" path="units/pd2_dlc_cro/ind_ext_harbour_side_bollard_small_orange/ind_ext_harbour_side_bollard_small_orange" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_cro/ind_ext_harbour_side_stage_02/ind_ext_harbour_side_stage_02" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/props/shadow_mullplan/mullplan_vehicle">
+		<cooked_physics force="true" path="units/payday2/props/shadow_mullplan/mullplan_vehicle" unload="true"/>
+		<unit force="true" path="units/payday2/props/shadow_mullplan/mullplan_vehicle" unload="true"/>
+		<object force="true" path="units/payday2/props/shadow_mullplan/mullplan_vehicle" unload="true"/>
+		<material_config force="true" path="units/payday2/props/shadow_mullplan/mullplan_vehicle" unload="true"/>
+	</unit_load>
+	<unit_load name="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_decal_mull_3x3m">
+		<cooked_physics force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_decal_mull_3x3m" unload="true"/>
+		<unit force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_decal_mull_3x3m" unload="true"/>
+		<object force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_decal_mull_3x3m" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_decal_mull_desks" unload="true"/>
+	</unit_load>
+	<unit_load name="units/dev_tools/dev_ladder/dev_ladder">
+		<cooked_physics force="true" path="units/dev_tools/dev_ladder/dev_ladder" unload="true"/>
+		<unit force="true" path="units/dev_tools/dev_ladder/dev_ladder" unload="true"/>
+		<object force="true" path="units/dev_tools/dev_ladder/dev_ladder" unload="true"/>
+		<material_config force="true" path="units/dev_tools/dev_ladder/dev_ladder" unload="true"/>
+		<sequence_manager force="true" path="units/dev_tools/dev_ladder/dev_ladder" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid">
+		<cooked_physics force="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid" unload="true"/>
+		<object force="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/lcm_b/lcm_b_ext_vtile4_4x8m_c">
+		<cooked_physics force="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile4_4x8m_c" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile4_4x8m_c" unload="true"/>
+		<object force="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile4_4x8m_c" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/lcm_b/lcm_b" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/lcm_b/lcm_b_ext_vtile4_4x8m_d">
+		<cooked_physics force="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile4_4x8m_d" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile4_4x8m_d" unload="true"/>
+		<object force="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile4_4x8m_d" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/lcm_b/lcm_b" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_corner_1x1m_a">
+		<cooked_physics force="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_corner_1x1m_a" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_corner_1x1m_a" unload="true"/>
+		<object force="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_corner_1x1m_a" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/hwy/hwy_v2" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/hwy/hwy_ext_road_underpass_flat_a">
+		<cooked_physics force="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_flat_a" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_flat_a" unload="true"/>
+		<object force="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_flat_a" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/hwy/hwy" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_tile_8x6m_b">
+		<cooked_physics force="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_tile_8x6m_b" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_tile_8x6m_b" unload="true"/>
+		<object force="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_tile_8x6m_b" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/hwy/hwy" unload="true"/>
+	</unit_load>
+	<unit_load name="units/world/street/large_woodenfence/large_woodenfence_01_solid">
+		<cooked_physics force="true" path="units/world/street/large_woodenfence/large_woodenfence_01_solid" unload="true"/>
+		<unit force="true" path="units/world/street/large_woodenfence/large_woodenfence_01_solid" unload="true"/>
+		<object force="true" path="units/world/street/large_woodenfence/large_woodenfence_01_solid" unload="true"/>
+		<material_config force="true" path="units/world/street/large_woodenfence/large_woodenfence" unload="true"/>
+	</unit_load>
+	<unit_load name="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_ground_tiles_a_4x4m">
+		<cooked_physics force="true" path="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_ground_tiles_a_4x4m" unload="true"/>
+		<unit force="true" path="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_ground_tiles_a_4x4m" unload="true"/>
+		<object force="true" path="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_ground_tiles_a_4x4m" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc1/architecture/str_ext_park/str_ext_park_ground_tiles_a" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_cloth">
+		<cooked_physics force="true" path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_cloth" unload="true"/>
+		<unit force="true" path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_cloth" unload="true"/>
+		<object force="true" path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_cloth" unload="true"/>
+		<material_config force="true" path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_cloth" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_mid">
+		<cooked_physics force="true" path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_mid" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_mid" unload="true"/>
+		<object force="true" path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_mid" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_start">
+		<cooked_physics force="true" path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_start" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_start" unload="true"/>
+		<object force="true" path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_start" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_end">
+		<cooked_physics force="true" path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_end" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_end" unload="true"/>
+		<object force="true" path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_end" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/vehicles/str_vehicle_bus_metro/str_vehicle_bus_metro_static">
+		<cooked_physics force="true" path="units/payday2/vehicles/str_vehicle_bus_metro/str_vehicle_bus_metro_static" unload="true"/>
+		<unit force="true" path="units/payday2/vehicles/str_vehicle_bus_metro/str_vehicle_bus_metro_static" unload="true"/>
+		<object force="true" path="units/payday2/vehicles/str_vehicle_bus_metro/str_vehicle_bus_metro_static" unload="true"/>
+		<material_config force="true" path="units/payday2/vehicles/str_vehicle_bus_metro/str_vehicle_bus_metro_static" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/props/str_prop_parking_booth/str_prop_parking_booth">
+		<cooked_physics force="true" path="units/payday2/props/str_prop_parking_booth/str_prop_parking_booth" unload="true"/>
+		<unit force="true" path="units/payday2/props/str_prop_parking_booth/str_prop_parking_booth" unload="true"/>
+		<object force="true" path="units/payday2/props/str_prop_parking_booth/str_prop_parking_booth" unload="true"/>
+		<material_config force="true" path="units/payday2/props/str_prop_parking_booth/str_prop_parking_booth" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/props/str_prop_parking_booth/str_prop_parking_booth" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/props/com_prop_parking_garage_signs/com_prop_parking_garage_sign_pay_machine">
+		<cooked_physics force="true" path="units/payday2/props/com_prop_parking_garage_signs/com_prop_parking_garage_sign_pay_machine" unload="true"/>
+		<unit force="true" path="units/payday2/props/com_prop_parking_garage_signs/com_prop_parking_garage_sign_pay_machine" unload="true"/>
+		<object force="true" path="units/payday2/props/com_prop_parking_garage_signs/com_prop_parking_garage_sign_pay_machine" unload="true"/>
+		<material_config force="true" path="units/payday2/props/com_prop_parking_garage_signs/com_prop_parking_garage_signs" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/props/com_prop_parking_garage_signs/com_prop_parking_garage_sign_big_a">
+		<cooked_physics force="true" path="units/payday2/props/com_prop_parking_garage_signs/com_prop_parking_garage_sign_big_a" unload="true"/>
+		<unit force="true" path="units/payday2/props/com_prop_parking_garage_signs/com_prop_parking_garage_sign_big_a" unload="true"/>
+		<object force="true" path="units/payday2/props/com_prop_parking_garage_signs/com_prop_parking_garage_sign_big_a" unload="true"/>
+		<material_config force="true" path="units/payday2/props/com_prop_parking_garage_signs/com_prop_parking_garage_signs" unload="true"/>
+	</unit_load>
+	<unit_load name="units/world/props/signs/sign_wall_big_parking">
+		<cooked_physics force="true" path="units/world/props/signs/sign_wall_big_parking" unload="true"/>
+		<unit force="true" path="units/world/props/signs/sign_wall_big_parking" unload="true"/>
+		<object force="true" path="units/world/props/signs/sign_wall_big_parking" unload="true"/>
+		<material_config force="true" path="units/world/props/signs/sign_wall_big_parking" unload="true"/>
+	</unit_load>
+	<unit_load name="units/world/props/parking_garage_signs/sign_park_pole">
+		<cooked_physics force="true" path="units/world/props/parking_garage_signs/sign_park_pole" unload="true"/>
+		<unit force="true" path="units/world/props/parking_garage_signs/sign_park_pole" unload="true"/>
+		<object force="true" path="units/world/props/parking_garage_signs/sign_park_pole" unload="true"/>
+		<material_config force="true" path="units/world/props/parking_garage_signs/sign_park_pole" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/mockup/occluder_plane_4x8">
+		<cooked_physics force="true" path="units/payday2/mockup/occluder_plane_4x8" unload="true"/>
+		<unit force="true" path="units/payday2/mockup/occluder_plane_4x8" unload="true"/>
+		<object force="true" path="units/payday2/mockup/occluder_plane_4x8" unload="true"/>
+		<material_config force="true" path="units/payday2/mockup/occluder_plane" unload="true"/>
+	</unit_load>
+</table>

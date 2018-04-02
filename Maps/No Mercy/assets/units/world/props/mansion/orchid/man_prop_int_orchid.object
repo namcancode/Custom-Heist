@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/props/mansion/orchid/man_prop_int_orchid" orientation_object="rp_man_prop_int_orchid" />
+	<sequence_manager file="units/world/props/mansion/orchid/man_prop_int_orchid" />
+	<bodies>
+		<body name="static_body" enabled="true" template="raycoll_static">
+			<object name="rp_man_prop_int_orchid" />
+			<object name="c_convex_static" collision_type="convex" padding="-2.5"/>		  
+		</body>
+		<body name="dynamic_stem_1" enabled="false" template="small_prop" pushed_by_mover="false">
+			<object name="c_convex_stem_01" collision_type="convex" material="wood"/>
+			<object name="g_stem_1" />			
+		</body>
+		<body name="dynamic_stem_2" enabled="false" template="small_prop" pushed_by_mover="false">	
+			<object name="c_convex_stem_02" collision_type="convex" material="wood"/>
+			<object name="g_stem_2" />			
+		</body>
+	</bodies>
+	<decal_surfaces default_material="tile" static="true">
+		<decal_mesh name="dm_tile" enabled="true" material="tile" />
+		<decal_mesh name="dm_dirt" enabled="true" material="dirt"/>		
+	</decal_surfaces>
+	<graphics>
+		<object name="g_man_prop_int_orchid" enabled="true"  />
+	</graphics>
+</dynamic_object> 

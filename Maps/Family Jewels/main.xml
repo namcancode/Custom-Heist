@@ -1,0 +1,479 @@
+<table name="Family Jewels">
+	<contact assets_gui="guis/dlcs/big_bank/guis/preload_contact_the_dentist" id="quackertree" name_id="heist_contact_quackertree" package="packages/contact_the_dentist"/>
+	<Localization default="english.txt" directory="loc"/>
+	<Hooks>
+		<hook file="hooks/Assettweak.lua" source_file="lib/tweak_data/assetstweakdata"/>
+		<hook file="hooks/Interactiontweak.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+		<hook file="hooks/Hintshook.lua" source_file="lib/managers/hintmanager"/>
+		<hook file="hooks/CopBrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+		<hook file="hooks/MissionManager.lua" source_file="lib/managers/missionmanager"/>
+	</Hooks>
+	<AddFiles>
+		<texture force="true" path="assets/guis/loading/broker"/>
+		<texture force="true" path="assets/guis/loading/day0"/>
+		<texture force="true" path="assets/guis/loading/day1"/>
+		<texture force="true" path="assets/guis/loading/day2"/>
+		<movie force="true" path="vo/day0/alex/intro1"/>
+		<movie force="true" path="vo/day0/alex/intro1b"/>
+		<movie force="true" path="vo/day0/john/welcome"/>
+		<movie force="true" path="vo/day0/john/collection"/>
+		<movie force="true" path="vo/day0/john/statues1"/>
+		<movie force="true" path="vo/day0/john/statues2"/>
+		<movie force="true" path="vo/day0/john/coffeegrinder1"/>
+		<movie force="true" path="vo/day0/john/coffeegrinder2"/>
+		<movie force="true" path="vo/day0/john/emptydisplay"/>
+		<movie force="true" path="vo/day0/john/hurry1"/>
+		<movie force="true" path="vo/day0/john/hurry2"/>
+		<movie force="true" path="vo/day0/john/hurry3"/>
+		<movie force="true" path="vo/day0/john/hurry4"/>
+		<movie force="true" path="vo/day0/john/rambling"/>
+		<movie force="true" path="vo/day0/john/brief1"/>
+		<movie force="true" path="vo/day0/john/brief2"/>
+		<movie force="true" path="vo/day0/john/brief3"/>
+		<movie force="true" path="vo/day0/john/tool1"/>
+		<movie force="true" path="vo/day0/john/tool2"/>
+		<movie force="true" path="vo/day0/john/tool3"/>
+		<movie force="true" path="vo/day0/john/keycards1"/>
+		<movie force="true" path="vo/day0/john/keycards2"/>
+		<movie force="true" path="vo/day0/john/ESDAMP1"/>
+		<movie force="true" path="vo/day0/john/ESDAMP2"/>
+		<movie force="true" path="vo/day0/john/drone1"/>
+		<movie force="true" path="vo/day0/john/drone2"/>
+		<movie force="true" path="vo/day0/john/sensors1"/>
+		<movie force="true" path="vo/day0/john/sensors2"/>
+		<movie force="true" path="vo/day0/john/goodchoice"/>
+		<movie force="true" path="vo/day0/john/farewell"/>
+		<movie force="true" path="vo/day0/definta/briefing"/>
+		<movie force="true" path="vo/day0/definta/weird1"/>
+		<movie force="true" path="vo/day0/definta/weird2"/>
+		<movie force="true" path="vo/day0/definta/weird3"/>
+		<movie force="true" path="vo/day0/definta/bored1"/>
+		<movie force="true" path="vo/day0/definta/bored2"/>
+		<movie force="true" path="vo/day0/definta/bored3"/>
+		<movie force="true" path="vo/day0/definta/bored4"/>
+		<movie force="true" path="vo/day0/definta/ramble1"/>
+		<movie force="true" path="vo/day0/definta/ramble2"/>
+		<movie force="true" path="vo/day0/definta/ramble3"/>
+		<movie force="true" path="vo/day0/definta/ramble4"/>
+		<movie force="true" path="vo/day0/definta/ramble5"/>
+		<movie force="true" path="vo/day0/definta/ramble6"/>
+		<movie force="true" path="vo/day1/dragovich/callstart1"/>
+		<movie force="true" path="vo/day1/dragovich/callstart2"/>
+		<movie force="true" path="vo/day1/dragovich/thanks"/>
+		<movie force="true" path="vo/day1/dragovich/lastcontact1"/>
+		<movie force="true" path="vo/day1/dragovich/lastcontact2"/>
+		<movie force="true" path="vo/day1/dragovich/number1"/>
+		<movie force="true" path="vo/day1/dragovich/number2"/>
+		<movie force="true" path="vo/day1/dragovich/correct"/>
+		<movie force="true" path="vo/day1/dragovich/incorrect1"/>
+		<movie force="true" path="vo/day1/dragovich/incorrect2"/>
+		<movie force="true" path="vo/day1/dragovich/incorrect3"/>
+		<movie force="true" path="vo/day1/dragovich/allinorder1"/>
+		<movie force="true" path="vo/day1/dragovich/allinorder2"/>
+		<movie force="true" path="vo/day1/dragovich/allinorder3"/>
+		<movie force="true" path="vo/day1/dragovich/allinorder4"/>
+		<movie force="true" path="vo/day1/dragovich/tooktime1"/>
+		<movie force="true" path="vo/day1/dragovich/tooktime2"/>
+		<movie force="true" path="vo/day1/dragovich/tooktime3"/>
+		<movie force="true" path="vo/day1/dragovich/tooktime4"/>
+		<movie force="true" path="vo/day1/dragovich/monitorinclose1"/>
+		<movie force="true" path="vo/day1/dragovich/monitorinclose2"/>
+		<movie force="true" path="vo/day1/dragovich/monitorinclose3"/>
+		<movie force="true" path="vo/day1/dragovich/sendingguards1"/>
+		<movie force="true" path="vo/day1/dragovich/sendingguards2"/>
+		<movie force="true" path="vo/day1/dragovich/sendingguards3"/>
+		<movie force="true" path="vo/day1/dragovich/tooklong1"/>
+		<movie force="true" path="vo/day1/dragovich/tooklong2"/>
+		<movie force="true" path="vo/day1/dragovich/tooklong3"/>
+		<movie force="true" path="vo/day1/dragovich/tooklong4"/>
+		<movie force="true" path="vo/day1/dragovich/goodbye"/>
+		<movie force="true" path="vo/day1/pager/start1"/>
+		<movie force="true" path="vo/day1/pager/start2"/>
+		<movie force="true" path="vo/day1/pager/start3"/>
+		<movie force="true" path="vo/day1/pager/start4"/>
+		<movie force="true" path="vo/day1/pager/done1"/>
+		<movie force="true" path="vo/day1/pager/done2"/>
+		<movie force="true" path="vo/day1/pager/done3"/>
+		<movie force="true" path="vo/day1/pager/done4"/>
+		<movie force="true" path="vo/day1/pager/alarm1"/>
+		<movie force="true" path="vo/day1/pager/alarm2"/>
+		<movie force="true" path="vo/day1/pager/alarm3"/>
+		<movie force="true" path="vo/day1/pager/alarm4"/>
+		<movie force="true" path="vo/day1/pager/last1"/>
+		<movie force="true" path="vo/day1/pager/last2"/>
+		<movie force="true" path="vo/day1/pager/last3"/>
+		<movie force="true" path="vo/day1/pager/last4"/>
+		<movie force="true" path="vo/day1/john/patchedin1"/>
+		<movie force="true" path="vo/day1/john/patchedin2"/>
+		<movie force="true" path="vo/day1/john/patchedin3"/>
+		<movie force="true" path="vo/day1/john/briefing1"/>
+		<movie force="true" path="vo/day1/john/briefing2"/>
+		<movie force="true" path="vo/day1/john/briefing3"/>
+		<movie force="true" path="vo/day1/john/minbags3"/>
+		<movie force="true" path="vo/day1/john/minbags4"/>
+		<movie force="true" path="vo/day1/john/minbags6"/>
+		<movie force="true" path="vo/day1/john/minbags8"/>
+		<movie force="true" path="vo/day1/john/minbags10"/>
+		<movie force="true" path="vo/day1/john/findcomputer1"/>
+		<movie force="true" path="vo/day1/john/findcomputer2"/>
+		<movie force="true" path="vo/day1/john/findcomputer3"/>
+		<movie force="true" path="vo/day1/john/findcomputer4"/>
+		<movie force="true" path="vo/day1/john/hackfinished1"/>
+		<movie force="true" path="vo/day1/john/hackfinished2"/>
+		<movie force="true" path="vo/day1/john/hackfinished3"/>
+		<movie force="true" path="vo/day1/john/findphone1"/>
+		<movie force="true" path="vo/day1/john/findphone2"/>
+		<movie force="true" path="vo/day1/john/locationsmarked"/>
+		<movie force="true" path="vo/day1/john/findkeycards"/>
+		<movie force="true" path="vo/day1/john/keycode"/>
+		<movie force="true" path="vo/day1/john/greatfind1"/>
+		<movie force="true" path="vo/day1/john/greatfind2"/>
+		<movie force="true" path="vo/day1/john/greatfind3"/>
+		<movie force="true" path="vo/day1/john/greatfind4"/>
+		<movie force="true" path="vo/day1/john/greatfind5"/>
+		<movie force="true" path="vo/day1/john/greatfind6"/>
+		<movie force="true" path="vo/day1/john/greatfind7"/>
+		<movie force="true" path="vo/day1/john/holdit1"/>
+		<movie force="true" path="vo/day1/john/holdit2"/>
+		<movie force="true" path="vo/day1/john/holdit3"/>
+		<movie force="true" path="vo/day1/john/holdit4"/>
+		<movie force="true" path="vo/day1/john/nextkeycard"/>
+		<movie force="true" path="vo/day1/john/restarttimelock1"/>
+		<movie force="true" path="vo/day1/john/restarttimelock2"/>
+		<movie force="true" path="vo/day1/john/restarttimelock3"/>
+		<movie force="true" path="vo/day1/john/restarttimelock4"/>
+		<movie force="true" path="vo/day1/john/vaultcamera"/>
+		<movie force="true" path="vo/day1/john/flashdrive1"/>
+		<movie force="true" path="vo/day1/john/flashdrive2"/>
+		<movie force="true" path="vo/day1/john/vaultcameradown1"/>
+		<movie force="true" path="vo/day1/john/vaultcameradown2"/>
+		<movie force="true" path="vo/day1/john/vaultcameradown3"/>
+		<movie force="true" path="vo/day1/john/grabitall1"/>
+		<movie force="true" path="vo/day1/john/grabitall2"/>
+		<movie force="true" path="vo/day1/john/grabitall3"/>
+		<movie force="true" path="vo/day1/john/notenough1"/>
+		<movie force="true" path="vo/day1/john/enoughloot1"/>
+		<movie force="true" path="vo/day1/john/esdamp1"/>
+		<movie force="true" path="vo/day1/john/esdamp2"/>
+		<movie force="true" path="vo/day1/john/esdamp3"/>
+		<movie force="true" path="vo/day1/john/keycardasset"/>
+		<movie force="true" path="vo/day1/john/smallloot1"/>
+		<movie force="true" path="vo/day1/john/smallloot2"/>
+		<movie force="true" path="vo/day1/john/safeempty"/>
+		<movie force="true" path="vo/day1/john/alarm"/>
+		<movie force="true" path="vo/day1/john/alarm_ext"/>
+		<movie force="true" path="vo/day1/definta/alarm"/>
+		<movie force="true" path="vo/day1/definta/alarmedglass"/>
+		<movie force="true" path="vo/day1/definta/answerphone1"/>
+		<movie force="true" path="vo/day1/definta/answerphone2"/>
+		<movie force="true" path="vo/day1/definta/answerphone3"/>
+		<movie force="true" path="vo/day1/definta/assetdrone"/>
+		<movie force="true" path="vo/day1/definta/briefing"/>
+		<movie force="true" path="vo/day1/definta/camera"/>
+		<movie force="true" path="vo/day1/definta/codegotalready1"/>
+		<movie force="true" path="vo/day1/definta/codegotalready2"/>
+		<movie force="true" path="vo/day1/definta/ESDAMP"/>
+		<movie force="true" path="vo/day1/definta/findphone"/>
+		<movie force="true" path="vo/day1/definta/findusb"/>
+		<movie force="true" path="vo/day1/definta/findvault"/>
+		<movie force="true" path="vo/day1/definta/flashdrive1"/>
+		<movie force="true" path="vo/day1/definta/flashdrive2"/>
+		<movie force="true" path="vo/day1/definta/flashdrive3"/>
+		<movie force="true" path="vo/day1/definta/foundcellphoneearly"/>
+		<movie force="true" path="vo/day1/definta/foundcellphonelate"/>
+		<movie force="true" path="vo/day1/definta/genseccall1"/>
+		<movie force="true" path="vo/day1/definta/genseccall2"/>
+		<movie force="true" path="vo/day1/definta/genseccall3"/>
+		<movie force="true" path="vo/day1/definta/genseccode"/>
+		<movie force="true" path="vo/day1/definta/gensecdate"/>
+		<movie force="true" path="vo/day1/definta/gensecfindcode"/>
+		<movie force="true" path="vo/day1/definta/guarddown1"/>
+		<movie force="true" path="vo/day1/definta/guarddown2"/>
+		<movie force="true" path="vo/day1/definta/guarddown3"/>
+		<movie force="true" path="vo/day1/definta/harddrivefound"/>
+		<movie force="true" path="vo/day1/definta/harddriveinsert1"/>
+		<movie force="true" path="vo/day1/definta/harddriveinsert2"/>
+		<movie force="true" path="vo/day1/definta/introdrone"/>
+		<movie force="true" path="vo/day1/definta/introesdamp"/>
+		<movie force="true" path="vo/day1/definta/intromotiontrackers"/>
+		<movie force="true" path="vo/day1/definta/laptop1"/>
+		<movie force="true" path="vo/day1/definta/laptop2"/>
+		<movie force="true" path="vo/day1/definta/laptop3"/>
+		<movie force="true" path="vo/day1/definta/pager1"/>
+		<movie force="true" path="vo/day1/definta/pager2"/>
+		<movie force="true" path="vo/day1/definta/pager3"/>
+		<movie force="true" path="vo/day1/definta/pager4"/>
+		<movie force="true" path="vo/day1/definta/pagerbelieved"/>
+		<movie force="true" path="vo/day1/definta/patchin1"/>
+		<movie force="true" path="vo/day1/definta/patchin2"/>
+		<movie force="true" path="vo/day1/definta/patchisdifficult"/>
+		<movie force="true" path="vo/day1/definta/timelock1"/>
+		<movie force="true" path="vo/day1/definta/timelock2"/>
+		<movie force="true" path="vo/day1/definta/timelock3"/>
+		<movie force="true" path="vo/day1/definta/timelockdone"/>
+		<movie force="true" path="vo/day1/definta/vault"/>
+		<movie force="true" path="vo/day1/definta/vaultopen"/>
+		<movie force="true" path="vo/day1/definta/arrived1"/>
+		<movie force="true" path="vo/day1/definta/arrived2"/>
+		<movie force="true" path="vo/day1/definta/guardheartmonitor"/>
+		<movie force="true" path="vo/day1/definta/moreguards"/>
+		<movie force="true" path="vo/day1/definta/gensecpager1"/>
+		<movie force="true" path="vo/day1/definta/gensecpager2"/>
+		<movie force="true" path="vo/day1/definta/gensecpager3"/>
+		<movie force="true" path="vo/day2/dysphorid/trade"/>
+		<movie force="true" path="vo/day2/hans/badnightvision"/>
+		<movie force="true" path="vo/day2/hans/forklift"/>
+		<movie force="true" path="vo/day2/hans/getbags"/>
+		<movie force="true" path="vo/day2/hans/hidingspot"/>
+		<movie force="true" path="vo/day2/hans/killedmyown"/>
+		<movie force="true" path="vo/day2/hans/nearharbour"/>
+		<movie force="true" path="vo/day2/hans/nowtrust"/>
+		<movie force="true" path="vo/day2/hans/upahead"/>
+		<movie force="true" path="vo/day2/hans/useinfuture"/>
+		<movie force="true" path="vo/day2/definta/advice"/>
+		<movie force="true" path="vo/day2/definta/bait"/>
+		<movie force="true" path="vo/day2/definta/boatbeingsorted"/>
+		<movie force="true" path="vo/day2/definta/boatincoming"/>
+		<movie force="true" path="vo/day2/definta/bollards"/>
+		<movie force="true" path="vo/day2/definta/briefing"/>
+		<movie force="true" path="vo/day2/definta/cutthelights"/>
+		<movie force="true" path="vo/day2/definta/getout"/>
+		<movie force="true" path="vo/day2/definta/hidefromcops"/>
+		<movie force="true" path="vo/day2/definta/howtoescape"/>
+		<movie force="true" path="vo/day2/definta/hurry1"/>
+		<movie force="true" path="vo/day2/definta/hurry2"/>
+		<movie force="true" path="vo/day2/definta/hurry3"/>
+		<movie force="true" path="vo/day2/definta/johnresponse"/>
+		<movie force="true" path="vo/day2/definta/newjobforlater"/>
+		<movie force="true" path="vo/day2/definta/patchin"/>
+		<movie force="true" path="vo/day2/definta/stealthblown"/>
+		<movie force="true" path="vo/day2/definta/stealthintro"/>
+		<movie force="true" path="vo/day2/definta/trap"/>
+		<movie force="true" path="vo/day2/definta/wait"/>
+		<movie force="true" path="vo/day2/definta/whatishappening"/>
+		<movie force="true" path="vo/day2/definta/whatthehell"/>
+		<movie force="true" path="vo/day2/definta/winters"/>
+		<movie force="true" path="vo/day2/definta/wintersdown"/>
+		<movie force="true" path="vo/day2/john/john1"/>
+		<movie force="true" path="vo/day2/john/john2"/>
+		<movie force="true" path="vo/day2/john/john3"/>
+		<movie force="true" path="vo/day2/john/john4"/>
+	</AddFiles>
+	<narrative briefing_event="" contact="quackertree" icon="assets/guis/loading/broker" id="family_jewels_wrapper">
+		<chain>
+			<table level_id="family_jewels_pre" type="d" type_id="heist_type_assault"/>
+			<table level_id="family_jewels" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="8000"/>
+			<value_node value="16000"/>
+			<value_node value="40000"/>
+			<value_node value="60000"/>
+			<value_node value="90000"/>
+			<value_node value="125000"/>
+			<value_node value="175000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="11000"/>
+			<value_node value="11000"/>
+			<value_node value="11000"/>
+			<value_node value="11000"/>
+			<value_node value="11000"/>
+			<value_node value="11000"/>
+			<value_node value="11000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="3000"/>
+			<value_node value="3000"/>
+			<value_node value="3000"/>
+			<value_node value="3000"/>
+			<value_node value="3000"/>
+			<value_node value="3000"/>
+			<value_node value="3000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="65000"/>
+			<value_node value="85000"/>
+			<value_node value="100000"/>
+			<value_node value="150000"/>
+			<value_node value="175000"/>
+		</payout>
+	</narrative>
+	<AssetUpdates id="q010fj" provider="payday2concepts" use_local_dir="true" version="2"/>
+	<level ai_group_type="America" briefing_dialog="" ghost_bonus="0.1" id="family_jewels" load_screen="assets/guis/loading/day1" max_bags="54">
+		<add file="levels/family_store/add.xml"/>
+		<assets>
+			<asset name="bodybags_bag"/>
+		</assets>
+		<hooks>
+			<hook file="hooks/Interactiontweak_local.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="hooks/Charactertweak_local.lua" source_file="lib/tweak_data/charactertweakdata"/>
+		</hooks>
+		<include directory="levels/family_store">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/pd2_pal_indoor.environment" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<intro_event>
+			<value_node value=""/>
+		</intro_event>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/world/world"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world/world"/>
+			<value_node value="levels/narratives/classics/pal/world"/>
+			<value_node value="levels/narratives/bain/diamond_store/pc_only/pc_only"/>
+			<value_node value="levels/instances/unique/pbr/pbr_fastfood/world/world"/>
+			<value_node value="levels/instances/unique/hox_fbi_archive_shelf/world/world"/>
+			<value_node value="levels/instances/unique/moon/crate_shoes/world/world"/>
+			<value_node value="levels/instances/unique/dark/drone/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_flare/world/world"/>
+			<value_node value="levels/instances/unique/cane/cane_trap_flame/world/world"/>
+			<value_node value="levels/narratives/armadillo/arm_hcm/world/world"/>
+			<value_node value="levels/instances/unique/friend/computer_usb/world/world"/>
+			<value_node value="packages/narr_dinner"/>
+			<value_node value="levels/narratives/vlad/jewelry_store/world/world"/>
+			<value_node value="levels/narratives/vlad/nightclub/nightclub_interior/nightclub_interior"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_2/occluders/occluders"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<level ai_group_type="america" id="family_jewels_pre" load_screen="assets/guis/loading/day0" max_bags="54" team_ai_off="true">
+		<add file="levels/family_jewels_pre/add.xml"/>
+		<assets/>
+		<include directory="levels/family_jewels_pre">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/pd2_env_jry_interior_01.environment" type="custom_xml"/>
+		</include>
+		<intro_event/>
+		<outro_event/>
+		<packages>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_1/backdrop/backdrop"/>
+			<value_node value="levels/instances/unique/kenaz/security_room/world/world"/>
+			<value_node value="levels/instances/unique/hox_estate_panic_room/world/world"/>
+			<value_node value="levels/instances/unique/dark/drone/world/world"/>
+			<value_node value="levels/instances/unique/chill/dallas_stage_01/world/world"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world/world"/>
+			<value_node value="levels/narratives/dentist/hox/stage_2/art/art"/>
+			<value_node value="levels/narratives/bain/diamond_store/world/world"/>
+			<value_node value="packages/jolly"/>
+			<value_node value="levels/narratives/h_watchdogs/stage_1/editor_only/editor_only"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<level ai_group_type="america" id="family_jewels_loud" load_screen="assets/guis/loading/day2" max_bags="54">
+		<add file="levels/family_jewels_loud/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<hooks>
+			<hook file="hooks/Interactiontweak_localld.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="hooks/Bagtweak_local.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="hooks/Charactertweak_localld.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="hooks/WintersFix.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+		</hooks>
+		<include directory="levels/family_jewels_loud">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/narratives/h_alex_must_die/stage_2/world"/>
+			<value_node value="levels/narratives/h_alex_must_die/stage_2/world/world"/>
+			<value_node value="levels/narratives/armadillo/arm_cro/world/world"/>
+			<value_node value="levels/narratives/armadillo/arm_for/brolake/brolake"/>
+			<value_node value="levels/narratives/vlad/jolly/world/world"/>
+			<value_node value="levels/narratives/vlad/jolly/graffiti_2/graffiti_2"/>
+			<value_node value="levels/narratives/bain/arena/world/world"/>
+			<value_node value="levels/narratives/continental/spa/world"/>
+			<value_node value="levels/narratives/e_election_day/stage_1/world"/>
+			<value_node value="levels/narratives/vlad/jolly/backdrop/backdrop"/>
+			<value_node value="levels/narratives/elephant/mad/art1/art1"/>
+			<value_node value="levels/narratives/bain/arena/backdrop/backdrop"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_3/marac/marac"/>
+			<value_node value="levels/narratives/short1/stage1/editor_only/editor_only"/>
+			<value_node value="packages/jolly"/>
+			<value_node value="levels/instances/unique/cane/cane_trap_flame/world/world"/>
+			<value_node value="levels/instances/unique/pet_powerbox/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_flare/world/world"/>
+			<value_node value="levels/narratives/classics/pal/lights/lights"/>
+			<value_node value="levels/narratives/bain/cage/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/crojob/veh_police_car_anim01_stage02/world/world"/>
+			<value_node value="levels/instances/unique/hox_breakout_serverroom001/world/world"/>
+			<value_node value="levels/narratives/armadillo/arm_par/world"/>
+			<value_node value="levels/instances/unique/pet_truck_escape/world/world"/>
+			<value_node value="levels/narratives/classics/pal/world"/>
+			<value_node value="levels/narratives/bain/cage/world_sounds"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_2/occluders/occluders"/>
+			<value_node value="levels/instances/unique/dark/drone/world/world"/>
+			<value_node value="levels/narratives/classics/pal/editor_only/editor_only"/>
+			<value_node value="levels/narratives/e_election_day/stage_3/pc_only/pc_only"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+</table>

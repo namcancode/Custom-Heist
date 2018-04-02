@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props_env/hospital_elevator_shaft" orientation_object="rp_elevator_shaft" />
+	<sequence_manager file="units/world/architecture/hospital/props_env/hospital_elevator_shaft"/>
+	
+	<animations>
+		<animation_group name="shaft" enabled="true">		
+			<object name="a_shaft"/>
+			<object name="a_digits_ones" />
+			<object name="a_digits_tens" />	
+		</animation_group>
+	</animations>
+	
+	<bodies>
+		<body name="static_body" enabled="true" template="animated">
+			<object name="a_shaft" />
+			<!-- Lowest Part -->
+			<object name="c_box_shaft_01_beam_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_beam_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_beam_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_beam_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_beam_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_beam_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_beam_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_beam_08" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_beam_09" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_beam_10" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_beam_11" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_beam_12" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_beam_13" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_extra_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_extra_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_extra_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_extra_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_extra_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_extra_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_floor_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_floor_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_floor_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_floor_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_floor_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_walls_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_walls_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_walls_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_walls_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_walls_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_walls_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_01_walls_07" collision_type="box" padding="-2.5"/>
+			
+			<!-- Middle Part -->
+
+			<!-- Top Part -->
+			<object name="c_box_ceiling" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_beam_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_beam_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_beam_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_beam_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_beam_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_beam_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_beam_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_beam_08" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_beam_09" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_beam_10" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_beam_11" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_beam_12" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_beam_13" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_wall_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_wall_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_wall_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_wall_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_wall_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_wall_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_wall_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_xbeam_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_xbeam_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_xbeam_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_xbeam_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_xbeam_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_xbeam_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_plattform_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_plattform_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_plattform_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_plattform_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_plattform_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_shaft_03_plattform_06" collision_type="box" padding="-2.5"/>
+			<object name="c_convex_shaft_03_plattform_01" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_shaft_03_plattform_02" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="nav_mesh" template="nav_walk" enabled="false">
+			<object name="rp_elevator_shaft" />
+			<object name="c_box_nav_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_nav_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_nav_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_nav_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_nav_05" collision_type="box" padding="-2.5"/>
+			<object name="c_convex_navwalk_01" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_navwalk_02" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_navwalk_03" collision_type="convex" padding="-2.5"/>
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="concrete" static="true">
+		<decal_mesh name="dm_concrete_bottom" enabled="true" material="concrete"/>
+		<decal_mesh name="dm_concrete_top" enabled="true" material="concrete"/>
+		<decal_mesh name="dm_metal_beams_bottom" enabled="true" material="metal"/>
+		<decal_mesh name="dm_metal_beams_top" enabled="true" material="metal"/>
+	</decal_surfaces>
+	
+	<graphics>	
+		<object name="g_digits_ones" enabled="true"/>
+		<object name="g_digits_tens" enabled="true"/>	
+		<object name="g_blackout" enabled="true"/>	
+		
+		<object name="g_elevator_shaft_01" enabled="true"/>
+		<object name="g_elevator_shaft_02" enabled="true"/>
+		<object name="g_elevator_shaft_03" enabled="true"/>
+		
+		<object name="g_elevator_shaft_03_beams" enabled="true"/>
+		
+		<object name="s_elevator_shaft_01" enabled="true" shadow_caster="true"/>
+		<object name="s_elevator_shaft_02" enabled="true" shadow_caster="true"/>
+		<object name="s_elevator_shaft_03" enabled="true" shadow_caster="true"/>
+	</graphics>
+	
+	<lights>
+		<light multiplier="identity" editable="true" far_range="1200" name="lo_omni_01" enabled="true" type="omni|specular" />
+		<light multiplier="identity" editable="true" far_range="1200" name="lo_omni_02" enabled="true" type="omni|specular" />
+		<light multiplier="identity" editable="true" far_range="1200" name="lo_omni_03" enabled="true" type="omni|specular" />
+		<light multiplier="identity" editable="true" far_range="1200" name="lo_omni_04" enabled="true" type="omni|specular" />
+		<light multiplier="identity" editable="true" far_range="1200" name="lo_omni_05" enabled="true" type="omni|specular" />
+		<light multiplier="identity" editable="true" far_range="1200" name="lo_omni_06" enabled="true" type="omni|specular" />
+		<light multiplier="identity" editable="true" far_range="1200" name="lo_omni_07" enabled="true" type="omni|specular" />
+		<light multiplier="identity" editable="true" far_range="1200" name="lo_omni_08" enabled="true" type="omni|specular" />
+		<light multiplier="identity" editable="true" far_range="1200" name="lo_omni_09" enabled="true" type="omni|specular" />
+		<light multiplier="identity" editable="true" far_range="1200" name="lo_omni_10" enabled="true" type="omni|specular" />
+		<light multiplier="identity" editable="true" far_range="1200" name="lo_omni_11" enabled="true" type="omni|specular" />
+		<light multiplier="identity" editable="true" far_range="1200" name="lo_omni_12" enabled="true" type="omni|specular" />
+		<light multiplier="identity" editable="true" far_range="1200" name="lo_omni_13" enabled="true" type="omni|specular" />
+		<light multiplier="identity" editable="true" far_range="1200" name="lo_omni_14" enabled="true" type="omni|specular" />
+		<light multiplier="identity" editable="true" far_range="1200" name="lo_omni_15" enabled="true" type="omni|specular" />
+		<light multiplier="identity" editable="true" far_range="1200" name="lo_omni_16" enabled="true" type="omni|specular" />
+		<light multiplier="identity" editable="true" far_range="1000" name="lo_omni_17" enabled="true" type="omni|specular" />
+	</lights>
+	
+</dynamic_object> 

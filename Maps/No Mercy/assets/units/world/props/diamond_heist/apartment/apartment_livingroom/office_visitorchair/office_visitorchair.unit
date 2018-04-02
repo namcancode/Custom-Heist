@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<unit type="diamond" slot="1">
+  <network sync="spawn" />
+  <object file="units/world/props/diamond_heist/apartment/apartment_livingroom/office_visitorchair/office_visitorchair" />
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+    <extension name="damage" class="UnitDamage" />
+  </extensions>
+</unit>

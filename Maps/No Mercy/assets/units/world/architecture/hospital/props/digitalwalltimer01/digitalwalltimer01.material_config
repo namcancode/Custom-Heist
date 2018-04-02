@@ -1,0 +1,7 @@
+<materials version="3" group="digitalwalltimer01">
+    <material name="mat_digitalwalltimer01" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/digitalwalltimer01/digitalwalltimer01_df"/>
+        <self_illumination_texture file="units/world/architecture/hospital/props/digitalwalltimer01/digitalwalltimer01_il"/>
+        <variable value="identity" type="scalar" name="il_multiplier"/>
+    </material>
+</materials>

@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="mtr_present" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/props/christmas_present/christmas_present_df"/>
+    </material>
+</materials>

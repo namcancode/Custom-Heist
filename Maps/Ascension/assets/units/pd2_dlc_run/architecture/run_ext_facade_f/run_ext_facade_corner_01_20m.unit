@@ -1,0 +1,6 @@
+<unit type="run" slot="1">
+	<object file="units/pd2_dlc_run/architecture/run_ext_facade_f/run_ext_facade_corner_01_20m" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

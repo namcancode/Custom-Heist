@@ -1,0 +1,18 @@
+<dynamic_object>
+    <diesel orientation_object="rp_str_bdrop_mechanical_power_tower_a" materials="units/payday2/props/str_bdrop_mechanical_power_tower/str_bdrop_mechanical_power_tower_a" />
+    <bodies>
+        <body enabled="true" template="editor" name="static_body" >
+			<object name="rp_str_bdrop_mechanical_power_tower_a" />
+            <object collision_type="box" name="c_box_01" />
+			<object collision_type="capsule" name="c_capsule_01" />
+			<object collision_type="capsule" name="c_capsule_02" />
+			<object collision_type="capsule" name="c_capsule_03" />
+			<object collision_type="capsule" name="c_capsule_04" />
+			<object collision_type="capsule" name="c_capsule_05" />
+			<object collision_type="capsule" name="c_capsule_06" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

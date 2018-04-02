@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<unit type="gym" slot="1">
+  <object file="units/world/props/gym/stn_prop_dispensercoffee/stn_prop_dispensercoffee" />
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+  </extensions>
+</unit>

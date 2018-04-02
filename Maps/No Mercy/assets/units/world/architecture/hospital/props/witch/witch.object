@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/witch/witch" orientation_object="rp_witch" />
+	<sequence_manager file="units/world/architecture/hospital/props/witch/witch" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_witch" />
+			<object name="g_witch_standing" collision_type="mesh_mopp" />
+			<object name="g_witch_sitting" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="flesh" static="true">
+		<decal_mesh name="g_witch_standing" enabled="true" material="flesh" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_witch_standing" enabled="true"/>
+		<object name="g_witch_standing_hair" enabled="true"/>
+		<object name="g_witch_sitting" enabled="true"/>
+		<object name="g_witch_sitting_hair" enabled="true"/>
+	</graphics>
+</dynamic_object>

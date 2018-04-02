@@ -1,0 +1,6 @@
+<unit type="gov" slot="1" >
+    <object file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_bank_sign_security" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

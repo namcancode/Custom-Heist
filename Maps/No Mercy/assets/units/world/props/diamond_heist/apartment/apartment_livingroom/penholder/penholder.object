@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/diamond_heist/apartment/apartment_livingroom/penholder/penholder" orientation_object="rp_penholder" />
+  <bodies>
+	<body name="default_body" enabled="true" template="editor">
+      <object name="rp_penholder" />
+      <object name="g_penholder" collision_type="box" padding="-2"/>
+    </body>
+  </bodies>
+  
+  <graphics>
+    <object name="g_penholder" enabled="true" />
+  </graphics>
+</dynamic_object> 

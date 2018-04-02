@@ -1,0 +1,25 @@
+<materials version="3" group="suburbia_males">
+    <material name="body" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <diffuse_texture file="units/characters/civilians/textures/suburbia_male_bodies_atlas_df"/>
+        <bump_normal_texture file="units/characters/civilians/textures/suburbia_male_bodies_atlas_nm"/>
+    </material>
+    <material name="suburbia_male1_head" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <diffuse_texture file="units/characters/civilians/textures/suburbia_male1_head_df"/>
+        <bump_normal_texture file="units/characters/civilians/textures/suburbia_male1_head_nm"/>
+    </material>
+    <material name="suburbia_male2_head" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <diffuse_texture file="units/characters/civilians/textures/suburbia_male2_head_df"/>
+        <bump_normal_texture file="units/characters/civilians/textures/suburbia_male2_head_nm"/>
+    </material>
+    <material name="suburbia_male3_head" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <diffuse_texture file="units/characters/civilians/textures/suburbia_male3_head_df"/>
+        <bump_normal_texture file="units/characters/civilians/textures/suburbia_male3_head_nm"/>
+    </material>
+    <material name="suburbia_male4_head" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+        <diffuse_texture file="units/characters/civilians/textures/suburbia_male4_head_df"/>
+        <bump_normal_texture file="units/characters/civilians/textures/suburbia_male4_head_nm"/>
+    </material>
+    <material name="tattoo" render_template="decal:DIFFUSE_TEXTURE:SKINNED_3WEIGHTS" version="2">
+        <diffuse_texture file="units/characters/civilians/textures/suburbia_male4_tattoo_df"/>
+    </material>
+</materials>

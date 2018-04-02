@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+    <diesel orientation_object="rp_diamondheist_sign_stairs_right" materials="units/world/props/diamond_heist/signs/diamondheist_signs" />
+  <bodies enabled="true">
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_diamondheist_sign_stairs_right" />
+      <object name="c_diamondheist_sign_stairs_right" collision_type="box" />
+    </body>
+  </bodies>
+  
+  <decal_surfaces default_material="plastic">
+    <decal_mesh name="dm_diamondheist_sign_stairs_right" enabled="true" material="plastic" />
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_diamondheist_sign_stairs_right" enabled="true" />
+  </graphics>
+</dynamic_object> 

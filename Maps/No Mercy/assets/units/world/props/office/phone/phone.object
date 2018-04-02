@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/office/phone/phone" orientation_object="rp_phone" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="c_phone" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <graphics>
+    <object name="g_phone" enabled="true" shadow_caster="false" />
+  </graphics>
+</dynamic_object>

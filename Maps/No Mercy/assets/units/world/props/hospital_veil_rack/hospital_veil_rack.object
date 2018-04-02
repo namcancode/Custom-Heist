@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/hospital_veil_rack/hospital_veil_rack" orientation_object="rp_hospital_veil_rack" />
+  <sequence_manager file="units/world/props/hospital_veil_rack/hospital_veil_rack" />
+	<bodies>
+		<body name="static_body" enabled="true" template="raycoll_static">
+			<object name="c_box_rack" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="dynamic_body" enabled="false" template="small_prop" pushed_by_mover="false" restitution="1" friction="0.1">
+			<object name="rp_hospital_veil_rack"/>
+			<object name="c_box_rack" collision_type="box" mass="0.1" padding="-2.5"/>
+			<object name="g_tube_rack"/>
+		</body>		
+	</bodies>
+  <decal_surfaces default_material="metal" />
+    <!-- decal_mesh name="g_tube_rack" enabled="true" material="metal" />
+  </decal_surfaces -->
+  <graphics>
+    <object name="g_tube_rack" enabled="true"  />
+    <object name="g_tubes" enabled="true"  />
+  </graphics>
+</dynamic_object>

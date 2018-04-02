@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<unit type="apartment" slot="1">
+  <object file="units/world/props/apartment/take_away_coffe_mug/take_away_coffe_mug" />
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+  </extensions>
+</unit>

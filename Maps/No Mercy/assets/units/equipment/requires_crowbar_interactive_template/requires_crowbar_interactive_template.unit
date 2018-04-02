@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<unit type="static" slot="1">
+<network sync="spawn"/>
+  <object file="units/equipment/requires_crowbar_interactive_template/requires_crowbar_interactive_template" />
+  <dependencies>
+    <depends_on bnk="soundbanks/crowbar" />
+  </dependencies>
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+    <extension name="damage" class="UnitDamage" />
+	<extension name="interaction" class="UseInteractionExt">
+      <var name="tweak_data" value="requires_crowbar_interactive_template" />
+    </extension>
+  </extensions>
+</unit> 

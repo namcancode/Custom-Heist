@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<unit type="Hosp" slot="1">
+<network sync="spawn"/>
+	<object file="units/world/architecture/hospital/hospital_breakable_wall_3x3" />
+	<dependencies>
+		<depends_on effect="effects/particles/explosions/explosion_grenade_wall_destruction" />	
+		<depends_on unit="units/world/architecture/secret_stash/props/wall_destruction" />
+	</dependencies>  
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData"/>
+		<extension name="damage" class="UnitDamage"/>
+	</extensions>
+</unit> 

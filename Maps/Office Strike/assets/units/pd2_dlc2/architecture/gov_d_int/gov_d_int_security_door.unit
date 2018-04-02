@@ -1,0 +1,7 @@
+<unit type="gov" slot="1" >
+    <object file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_security_door" />
+	<extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+		<extension name="damage" class="UnitDamage" />
+    </extensions>
+</unit>

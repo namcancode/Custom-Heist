@@ -1,0 +1,22 @@
+<dynamic_object>
+	<diesel materials="units/payday2/vehicles/str_vehicle_bus_metro/str_vehicle_bus_metro_static" orientation_object="rp_str_vehicle_bus_metro_static" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_str_vehicle_bus_metro_static" />
+			<object name="c_convex_01" collision_type="convex" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="dm_bus_sheet_metal" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_glass_unbreakable" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_rubber" enabled="true" material="rubber" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_str_vehicle_bus_metro" enabled="true" />
+		<object name="g_decals" enabled="true" />
+		<object name="g_glass" enabled="true" />
+		<object name="g_doors" enabled="true" />
+		<object name="g_sign_il" enabled="true" />
+		<object name="s_s" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

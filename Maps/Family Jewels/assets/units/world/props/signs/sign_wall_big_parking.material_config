@@ -1,0 +1,7 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:VERTEX_COLOR" decal_material="sheet_metal" version="2" name="sign_wall_big_parking">
+        <diffuse_texture file="units/world/props/signs/sign_wall_big_parking_df"/>
+        <self_illumination_texture file="units/world/props/signs/sign_wall_big_parking_il"/>
+        <variable value="match" type="scalar" name="il_multiplier"/>
+    </material>
+</materials>

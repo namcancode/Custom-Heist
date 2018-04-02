@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/props" orientation_object="rp_ventbreakable01" />
+	<sequence_manager file="units/world/architecture/hospital/props/ventbreakable01/ventbreakable01" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_ventbreakable01" />
+			<object name="c_box_solid" collision_type="box" padding="-2.5"/>
+		</body>
+		
+		<body name="debris_large_01" enabled="false" template="debris" pushed_by_mover="false">
+			<object name="c_convex_debris_large_01" collision_type="convex" />
+		</body>
+		<body name="debris_large_02" enabled="false" template="debris" pushed_by_mover="false">
+			<object name="c_convex_debris_large_02" collision_type="convex" />
+		</body>
+		<body name="debris_large_03" enabled="false" template="debris" pushed_by_mover="false">
+			<object name="c_box_debris_large_03" collision_type="box" />
+		</body>
+		<body name="debris_small_01" enabled="false" template="debris" pushed_by_mover="false">
+			<object name="c_box_debris_small_01" collision_type="box" />
+		</body>
+		<body name="debris_small_02" enabled="false" template="debris" pushed_by_mover="false">
+			<object name="c_box_debris_small_02" collision_type="box" />
+		</body>
+		
+	</bodies>
+	
+	<decal_surfaces default_material="sheet_metal" static="true">
+		<decal_mesh name="g_ventbreakable01" enabled="true" material="sheet_metal" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_ventbreakable01" enabled="true"/>
+		<object name="g_debris_large_01" enabled="false"/>
+		<object name="g_debris_large_02" enabled="false"/>
+		<object name="g_debris_large_03" enabled="false"/>
+		<object name="g_debris_small_01" enabled="false"/>
+		<object name="g_debris_small_02" enabled="false"/>
+	</graphics>
+</dynamic_object> 

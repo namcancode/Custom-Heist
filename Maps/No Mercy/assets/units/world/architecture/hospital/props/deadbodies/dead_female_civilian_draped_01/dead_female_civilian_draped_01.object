@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/props" orientation_object="rp_dead_female_civilian_draped_01" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_dead_female_civilian_draped_01" />
+			<object name="g_dead_female_civilian_draped_01" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="flesh" static="true">
+		<decal_mesh name="g_dead_female_civilian_draped_01" enabled="true" material="flesh" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_dead_female_civilian_draped_01" enabled="true"/>
+	</graphics>
+</dynamic_object>

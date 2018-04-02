@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<unit type="static" slot="1">
+  <object file="units/world/vegetation/ground_grass/ground_grass_50x50_bd" />
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+  </extensions>
+</unit>

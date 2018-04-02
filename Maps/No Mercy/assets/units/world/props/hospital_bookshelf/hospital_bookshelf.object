@@ -1,0 +1,30 @@
+<dynamic_object>
+    <diesel orientation_object="rp_suburbia_bookshelf" materials="units/world/props/hospital_bookshelf/hospital_bookshelf" />
+	<sequence_manager file="units/world/props/hospital_bookshelf/hospital_bookshelf" />
+    <bodies>
+        <body enabled="true" template="static" name="glass_l_body" >
+            <object collision_type="box" name="g_glass_l" padding="-2" />
+        </body>
+		
+		<body enabled="true" template="static" name="glass_r_body" >
+            <object collision_type="box" name="g_glass_r" padding="-2"/>
+        </body>
+		
+		<body enabled="true" template="static" name="body0">
+            <object collision_type="box" name="c_box_001" padding="-2"/>
+            <object collision_type="box" name="c_box_000" padding="-2"/>
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_wood" material="wood" />
+        <decal_mesh enabled="true" name="g_glass_r" material="glass_breakable" />
+        <decal_mesh enabled="true" name="g_glass_l" material="glass_breakable" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="false" name="g_glass_r_dmg" />
+        <object enabled="false" name="g_glass_l_dmg" />
+        <object enabled="true" name="g_glass_r" />
+        <object enabled="true" name="g_glass_l" />
+        <object enabled="true" name="g_bookshelf" />
+    </graphics>
+</dynamic_object>

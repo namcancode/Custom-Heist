@@ -1,0 +1,15 @@
+{
+   "id":"ERF_DW",
+   "name":"ERF_DW_name",
+   "desc":"ERF_DW_desc",
+   "rank":"bronze",
+   "objective":"ERF_DW_objective",
+   "reward_type":"cc",
+   "reward_amount":2,
+   "number":0,
+   "goal":0,
+   "displayed":true,
+   "unlocked":false,
+   "texture":"default",
+   "hidden":false
+}

@@ -1,0 +1,9 @@
+<materials version="3">
+    <material name="ladder" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/props/diamond_heist/construction_int/ladder_df"/>
+    </material>
+    <material version="2" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF" name="ladder_alpha">
+        <diffuse_texture file="units/world/props/diamond_heist/construction_int/ladder_df"/>
+        <variable value="0.5" type="scalar" name="alpha_ref"/>
+    </material>
+</materials>

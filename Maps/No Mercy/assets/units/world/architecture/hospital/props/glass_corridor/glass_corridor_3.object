@@ -1,0 +1,20 @@
+<dynamic_object>
+    <diesel orientation_object="rp_glass_corridor_3" materials="units/world/architecture/hospital/hospital_scene_1" />
+	<sequence_manager file="units/world/architecture/hospital/props/glass_corridor/glass_corridor_3"/>
+    <bodies>
+        <body enabled="true" remove_ray_type="vis_graph ai_vision" template="static" name="1">
+            <object collision_type="box" name="c_box_1" padding="-2"/>
+        </body>
+
+    </bodies>
+    <decal_surfaces default_material="glass_breakable">
+        <decal_mesh enabled="true" name="dm_glass_breakable_1" material="glass_breakable" />
+
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true"  name="g_bio_sticker" />
+        <object enabled="true"  name="g_1" />
+		<object enabled="false" name="g_1_dmg" />
+
+    </graphics>
+</dynamic_object>

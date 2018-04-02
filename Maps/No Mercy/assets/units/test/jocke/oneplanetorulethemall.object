@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/test/jocke/simple_temp" orientation_object="rp_oneplanetorulethemall" />
+  
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="g_oneplanetorulethemall" collision_type="box" />
+    </body>
+  </bodies>        
+  
+  	<decal_surfaces default_material="thin_layer" enabled="true">
+		<decal_mesh name="g_oneplanetorulethemall" enabled="true" material="plaster" />
+	</decal_surfaces>
+  
+  <graphics>
+    <object name="g_oneplanetorulethemall" enabled="true" />
+  </graphics>
+</dynamic_object> 

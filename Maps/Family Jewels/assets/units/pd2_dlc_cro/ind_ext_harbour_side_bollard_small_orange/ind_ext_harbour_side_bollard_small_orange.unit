@@ -1,0 +1,6 @@
+<unit type="ind" slot="1">
+    <object file="units/pd2_dlc_cro/ind_ext_harbour_side_bollard_small_orange/ind_ext_harbour_side_bollard_small_orange" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

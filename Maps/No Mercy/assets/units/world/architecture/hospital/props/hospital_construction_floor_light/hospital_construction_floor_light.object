@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/hospital_construction_floor_light/hospital_construction_floor_light" orientation_object="rp_hospital_construction_floor_light" />
+	<sequence_manager file="units/world/architecture/hospital/props/hospital_construction_floor_light/hospital_construction_floor_light" />
+	<bodies>
+		<body name="static_body" enabled="true" template="raycoll_static">
+			<object name="rp_hospital_construction_floor_light" />
+			<object name="c_construction_floor_light" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal" static="true"/>
+	<graphics>
+		<object name="g_construction_floor_light" enabled="true" />
+		<object name="g_light_cone" enabled="true" instance_struct="world_tm" />
+	</graphics>
+</dynamic_object> 

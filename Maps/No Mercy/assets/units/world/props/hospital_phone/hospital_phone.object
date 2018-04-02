@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/props/hospital_phone/hospital_phone" orientation_object="rp_hospital_phone"/>
+	<sequence_manager file="units/world/props/hospital_phone/hospital_phone" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_hospital_phone" />
+			<object name="c_box" collision_type="box" padding="-2"/>
+		</body>
+	</bodies>
+	<decal_surfaces default_material="glass_breakable">
+		<decal_mesh name="dm_plastic" enabled="true" material="plastic"/>
+	</decal_surfaces>
+	<graphics>
+		<object name="g_hospital_phone" enabled="true"/>
+		<object name="g_hospital_phone_nocall" enabled="true"/>
+		<object name="g_hospital_phone_call" enabled="false"/>
+	</graphics>
+</dynamic_object>
+
+

@@ -1,0 +1,7 @@
+<materials version="3" group="suburbia_circuitbreaker">
+    <material name="suburbia_circuitbreaker" unique="true" render_template="generic:CONTOUR:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker_df"/>
+        <variable value="1.0 0.5 0.0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+    </material>
+</materials>

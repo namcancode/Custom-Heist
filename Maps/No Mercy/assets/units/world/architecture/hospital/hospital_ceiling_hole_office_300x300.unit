@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<unit type="Hosp" slot="1">
+	<object file="units/world/architecture/hospital/hospital_ceiling_hole_office_300x300" />
+	<network sync="spawn"/>  
+	<dependencies>
+		<depends_on effect="effects/particles/dest/apartment_ceiling_dust" />
+		<depends_on physic_effect="physic_effects/push_sphere" />	
+	</dependencies>	
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData"/>
+		<extension name="damage" class="UnitDamage"/>
+	</extensions>
+</unit> 

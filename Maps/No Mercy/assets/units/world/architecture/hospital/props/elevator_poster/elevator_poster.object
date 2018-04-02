@@ -1,0 +1,21 @@
+<dynamic_object>
+    <diesel orientation_object="rp_elevator_poster" materials="units/world/architecture/hospital/props/elevator_poster/elevator_poster" />
+    <sequence_manager file="units/world/architecture/hospital/props/elevator_poster/elevator_poster" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="c_mesh_background" collision_type="mesh_mopp" />
+        </body>
+        <body enabled="true" template="raycoll_static" name="glass" >
+			<object name="c_mesh_glass" collision_type="mesh_mopp" />
+        </body>
+    </bodies>
+    <decal_surfaces default_material="plastic">
+		<decal_mesh name="dm_plastic" enabled="true" material="plastic"/>
+		<decal_mesh name="dm_glass" enabled="true" material="glass"/>
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_sign" />
+        <object enabled="true" name="g_glass" />
+        <object enabled="false" name="g_glass_dmg" />
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,21 @@
+<dynamic_object>
+    <diesel orientation_object="rp_panic_button" materials="units/world/architecture/hospital/props/panic_button/panic_button" />
+    
+	 <bodies>
+		<body name="static_body" enabled="true" template="editor">
+			<object name="rp_panic_button"/>
+            <object collision_type="box" name="c_box_000" padding="2"/>
+            <object collision_type="box" name="c_box_001" padding="2"/>
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh enabled="true" name="dm_plastic" material="plastic" />
+
+	</decal_surfaces>
+	
+	<graphics>
+        <object enabled="true" name="g_g" />
+        <object enabled="true" name="g_il" />
+    </graphics>
+</dynamic_object>

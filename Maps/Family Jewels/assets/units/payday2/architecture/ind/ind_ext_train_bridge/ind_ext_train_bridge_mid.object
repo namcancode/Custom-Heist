@@ -1,0 +1,62 @@
+<dynamic_object>
+    <diesel orientation_object="rp_ind_ext_train_bridge_mid" materials="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_ind_ext_train_bridge_mid" />
+			<object name="c_box_block_09" collision_type="box" padding="-2.5"/>
+			<object name="c_box_block_10" collision_type="box" padding="-2.5"/>
+			<object name="c_box_block_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_block_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_block_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_block_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_block_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_block_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_block_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_block_08" collision_type="box" padding="-2.5"/>
+			<object name="c_box_bottom" collision_type="box" padding="-2.5"/>
+			<object name="c_box_diag_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_diag_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_diag_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_diag_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_diag_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_diag_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_diag_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_diag_08" collision_type="box" padding="-2.5"/>
+			<object name="c_box_diag_09" collision_type="box" padding="-2.5"/>
+			<object name="c_box_diag_10" collision_type="box" padding="-2.5"/>
+			<object name="c_box_diag_11" collision_type="box" padding="-2.5"/>
+			<object name="c_box_diag_12" collision_type="box" padding="-2.5"/>
+			<object name="c_box_hor_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_hor_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_hor_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_hor_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_hor_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_hor_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_hor_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_thick_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_thick_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_thick_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_thick_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_vert_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_vert_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_vert_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_vert_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_vert_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_vert_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_vert_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_vert_08" collision_type="box" padding="-2.5"/>
+			<object name="c_box_vert_09" collision_type="box" padding="-2.5"/>
+			<object name="c_box_vert_10" collision_type="box" padding="-2.5"/>
+			<object name="c_box_vert_11" collision_type="box" padding="-2.5"/>
+			<object name="c_box_vert_12" collision_type="box" padding="-2.5"/>
+			<object name="c_box_vert_13" collision_type="box" padding="-2.5"/>
+			<object name="c_box_vert_14" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh name="g_g_mid" material="metal" enabled="true"/>
+    </decal_surfaces>
+    <graphics>
+		<object name="g_g_mid" enabled="true" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

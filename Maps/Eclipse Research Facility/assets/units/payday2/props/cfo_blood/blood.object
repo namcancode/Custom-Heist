@@ -1,0 +1,18 @@
+<dynamic_object>
+    <diesel orientation_object="rp_blood" materials="units/payday2/props/cfo_blood/blood" />
+    <animations/>
+    <bodies>
+        <body enabled="true" template="editor" name="body0" >
+            <object enabled="true" collision_type="box" name="c_temp_box" />
+        </body>
+    </bodies>
+    <constraints/>
+    <decal_surfaces/>
+    <effects/>
+    <graphics>
+        <object enabled="true" name="g_blood1" />
+    </graphics>
+    <lights/>
+    <objects/>
+    <occlusions/>
+</dynamic_object>

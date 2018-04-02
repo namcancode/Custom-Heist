@@ -1,0 +1,18 @@
+<dynamic_object>
+    <diesel orientation_object="rp_medical_supplies" materials="units/world/props/medical_supplies/medical_supplies" />
+    
+	 <bodies>
+		<body name="static_body" enabled="true" template="editor">
+			<object name="rp_medical_supplies"/>
+            <object collision_type="box" name="g_g" padding="2"/>
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="thin_layer" static="true">
+
+	</decal_surfaces>
+	
+	<graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<unit type="fwb" slot="1">
+<network sync="spawn"/>
+	<mass><spawn in="1400" method="enable" out="1700" /></mass>
+  <object file="units/world/props/office/light/spotlight_celing_small" />
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+    <extension name="damage" class="UnitDamage" />
+  </extensions>
+</unit>

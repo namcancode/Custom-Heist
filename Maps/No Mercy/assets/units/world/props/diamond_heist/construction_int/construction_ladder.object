@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/props/diamond_heist/construction_int/construction_ladder" orientation_object="rp_construction_ladder" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_construction_ladder" />
+			<object enabled="true" name="c_construction_ladder_box_01" collision_type="box" padding="-3"/>
+			<object enabled="true" name="c_construction_ladder_box_02" collision_type="box" padding="-3"/>
+			<object enabled="true" name="c_construction_ladder_box_03" collision_type="box" padding="-3"/>
+			<object enabled="true" name="c_construction_ladder_box_04" collision_type="box" padding="-3"/>
+			<object enabled="true" name="c_construction_ladder_box_05" collision_type="box" padding="-3"/>
+			<object enabled="true" name="c_construction_ladder_box_06" collision_type="box" padding="-3"/>
+			<object enabled="true" name="c_construction_ladder_box_07" collision_type="box" padding="-3"/>
+			<object enabled="true" name="c_construction_ladder_box_08" collision_type="box" padding="-3"/>
+			<object enabled="true" name="c_construction_ladder_box_09" collision_type="box" padding="-3"/>
+			<object enabled="true" name="c_construction_ladder_box_10" collision_type="box" padding="-3"/>
+			<object enabled="true" name="c_construction_ladder_box_11" collision_type="box" padding="-3"/>
+			<object enabled="true" name="c_construction_ladder_box_12" collision_type="box" padding="-3"/>
+			<object enabled="true" name="c_construction_ladder_box_13" collision_type="box" padding="-3"/>
+			<object enabled="true" name="c_construction_ladder_box_14" collision_type="box" padding="-3"/>
+			<object enabled="true" name="c_construction_ladder_box_15" collision_type="box" padding="-3"/>
+			<object enabled="true" name="c_construction_ladder_box_16" collision_type="box" padding="-3"/>
+			<object enabled="true" name="c_construction_ladder_box_17" collision_type="box" padding="-3"/>
+		</body>
+	</bodies>
+  
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+	</decal_surfaces>
+  
+	<graphics>
+		<object name="g_construction_ladder" enabled="true" />
+	</graphics>
+</dynamic_object> 

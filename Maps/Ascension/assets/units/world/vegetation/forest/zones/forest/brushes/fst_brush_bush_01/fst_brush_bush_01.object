@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/vegetation/forest/zones/forest/brushes/fst_brush_bush_01/fst_brush_bush_01" orientation_object="rp_fst_bush_01" />
+  <!--<bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="c_fst_bush_01" collision_type="box" />
+    </body>
+  </bodies>-->
+  <graphics>
+    <object name="g_fst_bush_01" enabled="true" instance_struct="world_tm"/>
+  </graphics>
+</dynamic_object>

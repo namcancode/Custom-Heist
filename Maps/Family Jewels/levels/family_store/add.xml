@@ -1,0 +1,41 @@
+<table directory="assets">
+	<unit_load name="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2">
+		<cooked_physics force="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2" unload="true"/>
+		<unit force="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2" unload="true"/>
+		<object force="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2" unload="true"/>
+		<material_config force="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plywood" unload="true"/>
+	</unit_load>
+	<unit_load name="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/bor_prop_garage_bike_assembly">
+		<cooked_physics force="true" path="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/bor_prop_garage_bike_assembly" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/bor_prop_garage_bike_assembly" unload="true"/>
+		<object force="true" path="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/bor_prop_garage_bike_assembly" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/thrd_vehicle_bike_1" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/bor_prop_garage_bike_assembly" unload="true"/>
+	</unit_load>
+	<unit_load name="units/world/props/street/plywood_fence/plywood_fence_door">
+		<cooked_physics force="true" path="units/world/props/street/plywood_fence/plywood_fence_door" unload="true"/>
+		<unit force="true" path="units/world/props/street/plywood_fence/plywood_fence_door" unload="true"/>
+		<object force="true" path="units/world/props/street/plywood_fence/plywood_fence_door" unload="true"/>
+		<material_config force="true" path="units/world/props/street/plywood_fence/plywood_fence_io" unload="true"/>
+		<sequence_manager force="true" path="units/world/props/street/plywood_fence/plywood_fence_door" unload="true"/>
+		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/lcm_b/lcm_b_ext_vtile3_4x4m_a_door_notrim">
+		<cooked_physics force="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile3_4x4m_a_door_notrim" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile3_4x4m_a_door_notrim" unload="true"/>
+		<object force="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile3_4x4m_a_door_notrim" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/lcm_b/lcm_b" unload="true"/>
+	</unit_load>
+	<unit_load name="units/payday2/architecture/bnk/bnk_railing_1m">
+		<cooked_physics force="true" path="units/payday2/architecture/bnk/bnk_railing_1m" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/bnk/bnk_railing_1m" unload="true"/>
+		<object force="true" path="units/payday2/architecture/bnk/bnk_railing_1m" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/bnk/bnk_int" unload="true"/>
+	</unit_load>
+	<unit_load name="units/world/architecture/secret_stash/props/secret_stash_light_security_1">
+		<cooked_physics force="true" path="units/world/architecture/secret_stash/props/secret_stash_light_security_1" unload="true"/>
+		<unit force="true" path="units/world/architecture/secret_stash/props/secret_stash_light_security_1" unload="true"/>
+		<object force="true" path="units/world/architecture/secret_stash/props/secret_stash_light_security_1" unload="true"/>
+		<material_config force="true" path="units/world/architecture/secret_stash/props/secret_stash_lights_on" unload="true"/>
+	</unit_load>
+</table>

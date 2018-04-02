@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/props" orientation_object="rp_controlroom_monitor001b" />
+	<sequence_manager file="units/world/architecture/hospital/props/controlroom_monitor001b/controlroom_monitor001b" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_controlroom_monitor001b" />
+			<object name="c_convex" collision_type="convex" padding="-2.5"/>
+    </body>
+  
+    <body name="dmg" enabled="true" template="static">
+      <object name="rp_controlroom_monitor001b" />
+      <object name="g_controlroom_monitor001b_hit" collision_type="convex" />
+    </body>	
+  </bodies>
+  
+  <decal_surfaces default_material="glass_breakable">
+		<decal_mesh name="g_controlroom_monitor001b" enabled="true" material="sheet_metal" />
+		<decal_mesh name="g_controlroom_monitor001b_dst" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="g_controlroom_monitor001b_on" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="g_controlroom_monitor001b_off" enabled="true" material="glass_unbreakable" />
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_controlroom_monitor001b" enabled="true" />
+    <object name="g_controlroom_monitor001b_on" enabled="true" />
+    <object name="g_controlroom_monitor001b_dst" />
+    <object name="g_controlroom_monitor001b_off" />
+    <object name="g_xray_board_dmg" />
+  </graphics>
+  
+</dynamic_object>

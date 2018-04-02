@@ -1,0 +1,15 @@
+<dynamic_object>
+    <diesel orientation_object="rp_gov_c_int_bank_sign_security" materials="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_bank_sign" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_gov_c_int_bank_sign_security" />
+            <object collision_type="box" name="c_box_00" padding="-2.5"/>
+        </body>
+    </bodies>
+    <decal_surfaces default_material="sheet_metal">
+        <decal_mesh enabled="true" name="dm_sheet_metal" material="sheet_metal" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

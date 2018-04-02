@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/shelfs/shelf_book_01_io" orientation_object="rp_shelf_bookpile_medium" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_shelf_bookpile_medium" />
+      <object name="c_shelf_bookpile_medium" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  
+  <decal_surfaces default_material="plastic">
+    <decal_mesh name="g_shelf_bookpile_medium" enabled="true" material="plastic"/>
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_shelf_bookpile_medium" enabled="true" shadow_caster="false"/>
+  </graphics>
+</dynamic_object>

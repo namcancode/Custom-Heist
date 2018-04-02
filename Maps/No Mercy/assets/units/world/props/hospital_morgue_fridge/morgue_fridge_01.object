@@ -1,0 +1,21 @@
+<dynamic_object>
+    <diesel orientation_object="rp_morgue_fridge_01" materials="units/world/props/hospital_morgue_fridge/morgue_fridge" />
+    
+	 <bodies>
+        <body enabled="true" template="static" name="body0" >
+			<object name="rp_morgue_fridge_01"/>
+            <object collision_type="box" name="c_box_000" padding="-2" />
+            <object collision_type="box" name="c_box_001" padding="-2" />
+            <object collision_type="box" name="c_box_002" padding="-2" />
+        </body>
+    </bodies>
+	
+	 <decal_surfaces default_material="sheet_metal">
+		<decal_mesh name="dm_sheet_metal" enabled="true" material="sheet_metal" />
+	</decal_surfaces>
+	
+	<graphics>
+        <object enabled="true" name="g_g" shadow_caster="false" instance_struct="world_tm" />
+		<object enabled="true" name="s_s" shadow_caster="true" instance_struct="world_tm" />
+    </graphics>
+</dynamic_object>

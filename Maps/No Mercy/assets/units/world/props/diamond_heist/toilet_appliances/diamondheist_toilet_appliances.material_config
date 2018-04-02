@@ -1,0 +1,5 @@
+<materials version="3">
+    <material version="2" decal_material="metal" name="diamondheist_toilet_appliances" render_template="generic:DIFFUSE_TEXTURE">
+        <diffuse_texture file="units/world/props/diamond_heist/toilet_appliances/diamondheist_toilet_appliances_df"/>
+    </material>
+</materials>

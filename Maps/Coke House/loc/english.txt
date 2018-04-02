@@ -1,0 +1,14 @@
+{
+"heist_Coke House_name" : "Coke House",
+"heist_cokehouse_name" : "Gang Warehouses",
+"cokehouse_1" : "Break into the warehouses",
+"cokehouse_1_desc" : "Drill open the gang warehouses",
+"cokehouse_2" : "Find coke",
+"cokehouse_2_desc" : "Crack open crates with cocaine.You might need a crowbar",
+"cokehouse_3" : "Secure the loot",
+"cokehouse_3_desc" : "Secure enough loot bags",
+"cokehouse_4" : "Escape Or Secure More Loot",
+"cokehouse_4_desc" : "Escape or secure more loot if you feel like it",
+"heist_cokehouse_brief" : "Cops are about to raid warehouses full of cocaine belonging to mendosa gang. You know what to do guys",
+"heist_Coke House_brief" : "My informant in police department tiped me off about drug raid. We are going to take possesion of white powder first"
+}

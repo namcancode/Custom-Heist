@@ -1,0 +1,8 @@
+<materials version="3">		
+    <material name="mtr_officevisitorchair" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <bump_normal_texture file="units/world/props/diamond_heist/apartment/apartment_livingroom/office_visitorchair/t_chair_nm"/>
+        <diffuse_texture file="units/world/props/diamond_heist/apartment/apartment_livingroom/office_visitorchair/t_chair_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="1.5500000715256 0.37500002980232 0.20000000298023" type="vector3" name="environment_settings"/>
+    </material>
+</material>

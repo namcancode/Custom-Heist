@@ -1,0 +1,20 @@
+<unit type="bry" slot="1">
+	<object file="units/pd2_dlc_berry/pickups/bry_pku_prototype_box/bry_pku_prototype_box" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+
+		<extension name="interaction" class="CarryInteractionExt">
+			<var name="tweak_data" value="bry_pku_prototype" />
+			<var name="_interact_object" value="interaction" />
+			<var name="_remove_on_interact" value="true" />
+			<var name="_ray_object_names" type="table" >
+			</var>
+		</extension>
+		<extension name="carry_data" class="CarryData">
+			<var name="_carry_id" value="prototype" />
+		</extension>
+
+	</extensions>
+</unit>

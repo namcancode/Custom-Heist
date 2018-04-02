@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/props/diamond_heist/apartment/apartment_room/flowerpot/flowerpot" orientation_object="rp_flowerpot" />
+	<sequence_manager file="units/world/props/diamond_heist/apartment/apartment_room/flowerpot/flowerpot" />
+	<bodies>
+		<body name="static_body" enabled="true" template="raycoll_static" >
+			<object name="rp_flowerpot" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+  
+	<decal_surfaces default_material="tile">
+		<decal_mesh name="dm_flowerpot" material="tile"/>
+	</decal_surfaces>
+  
+	<graphics>
+		<object name="g_flowerpot" enabled="true"  />
+	</graphics>
+</dynamic_object> 

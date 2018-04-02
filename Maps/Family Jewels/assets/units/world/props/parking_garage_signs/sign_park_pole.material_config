@@ -1,0 +1,13 @@
+<materials version="3">
+    <material name="parking_signs" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/props/parking_garage_signs/parking_garage_signs_df"/>
+    </material>
+    <material name="glass_breakable" decal_material="glass_breakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" version="2">
+        <variable value="0.48999997973442 0.14000000059605 0.079999998211861" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_clear_vehicle_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_clear_vehicle_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+	<material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+	
+</materials>

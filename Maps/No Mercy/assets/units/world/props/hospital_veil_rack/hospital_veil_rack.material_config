@@ -1,0 +1,11 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE" version="2" name="hospital_veil_material">
+        <diffuse_texture file="units/world/props/hospital_veil_interaction/hospital_veil_interaction_df"/>
+    </material>
+    <material version="2" decal_material="glass_breakable" name="hospital_veil_glass_material" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE">
+        <variable value="1.7999999523163 0.84999996423721 0.099999994039536" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/glass/hospital_glass_indoors_op"/>
+        <diffuse_texture file="units/glass/hospital_glass_indoors_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+</materials>

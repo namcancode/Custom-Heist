@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/hospital_computer_monitor_02/display" orientation_object="rp_patient_computer" />
+	<sequence_manager file="units/world/architecture/hospital/props/hospital_computer_monitor_02/hospital_computer_monitor_02" />
+  
+  <bodies>
+	<body name="static_body" enabled="true" template="static">
+		<object name="rp_patient_computer" />
+		<object name="c_patient_computer_convex_1" collision_type="convex" />
+		<object name="c_patient_computer_convex_2" collision_type="convex" />
+		<object name="c_patient_computer_convex_3" collision_type="convex" />
+		<object name="c_patient_computer_convex_4" collision_type="convex" />
+	</body>
+	<body name="editor" enabled="true" template="editor">
+		<object name="c_patient_computer_convex_1" collision_type="convex" />
+		<object name="c_patient_computer_convex_2" collision_type="convex" />
+		<object name="c_patient_computer_convex_3" collision_type="convex" />
+		<object name="c_patient_computer_convex_4" collision_type="convex" />
+	</body>
+  </bodies>
+  
+  <decal_surfaces default_material="metal_chassis">
+    <decal_mesh name="c_patient_computer_convex_1" enabled="true" material="plastic" />
+    <decal_mesh name="c_patient_computer_convex_2" enabled="true" material="plastic" />
+    <decal_mesh name="c_patient_computer_convex_3" enabled="true" material="plastic" />
+    <decal_mesh name="c_patient_computer_convex_4" enabled="true" material="plastic" />
+</decal_surfaces>
+  
+  <graphics>
+    <object name="g_patient_computer" enabled="true" />
+    <object name="g_display_01" enabled="true" />
+    <object name="g_display_02" enabled="false" />
+	<object name="g_display_03" enabled="false" />
+  </graphics>
+
+  </dynamic_object>	

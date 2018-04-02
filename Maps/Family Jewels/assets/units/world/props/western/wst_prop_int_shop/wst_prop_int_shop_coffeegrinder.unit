@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<unit type="wst" slot="1">
+  <object file="units/world/props/western/wst_prop_int_shop/wst_prop_int_shop_coffeegrinder" />
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+  </extensions>
+</unit>

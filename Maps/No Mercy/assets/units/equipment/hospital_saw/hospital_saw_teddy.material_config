@@ -1,0 +1,7 @@
+<materials version="3">
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE" unique="true" version="2" name="plushie">
+        <diffuse_texture file="units/equipment/hospital_saw/hospital_saw_plush_df"/>
+        <variable value="1 0.5 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+    </material>
+</materials>

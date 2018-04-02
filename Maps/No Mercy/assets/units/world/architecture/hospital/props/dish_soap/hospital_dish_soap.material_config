@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="dish_soap" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/dish_soap/dish_soap_df"/>
+    </material>
+</materials>

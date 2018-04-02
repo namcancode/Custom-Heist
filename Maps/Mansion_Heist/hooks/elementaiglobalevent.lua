@@ -1,0 +1,1 @@
+table.insert(ElementAiGlobalEvent._blames, "charles_alerted")

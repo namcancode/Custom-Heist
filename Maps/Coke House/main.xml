@@ -1,0 +1,117 @@
+<table name="Coke House">
+	<Localization default="english.txt" directory="loc"/>
+	<narrative briefing_event="" contact="custom" id="Coke House">
+		<chain>
+			<table level_id="cokehouse" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="35000"/>
+			<value_node value="42500"/>
+			<value_node value="62500"/>
+			<value_node value="100000"/>
+			<value_node value="125000"/>
+			<value_node value="150000"/>
+			<value_node value="300000"/>
+		</payout>
+	</narrative>
+	<AssetUpdates id="22057" provider="modworkshop" use_local_dir="true" version="3"/>
+	<level ai_group_type="america" id="cokehouse" max_bags="54">
+		<add file="levels/cokehouse/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<include directory="levels/cokehouse">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="levels/narratives/h_watchdogs/stage_2/world/world"/>
+			<value_node value="levels/narratives/bain/shadow_raid/mt_temp/mt_temp"/>
+			<value_node value="levels/narratives/h_firestarter/stage_1/world/world"/>
+			<value_node value="levels/instances/unique/mad/mad_explosive_crate/world/world"/>
+			<value_node value="levels/instances/unique/hox_fbi_it_office/world/world"/>
+			<value_node value="levels/narratives/short2/stage1/world"/>
+			<value_node value="levels/narratives/vlad/jolly/world/world"/>
+			<value_node value="levels/instances/unique/moon/crate_shoes/world/world"/>
+			<value_node value="levels/instances/unique/hlm_box_contraband002/world/world"/>
+			<value_node value="levels/instances/unique/crojob/crowbar_crate/world/world"/>
+			<value_node value="levels/narratives/vlad/peta/stage2/world/world"/>
+			<value_node value="levels/narratives/continental/spa/world"/>
+			<value_node value="levels/narratives/armadillo/arm_cro/world"/>
+			<value_node value="levels/narratives/e_election_day/stage_1/mt_art/mt_art"/>
+			<value_node value="levels/instances/unique/hox_breakout_road001/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_flare/world/world"/>
+			<value_node value="levels/narratives/short1/stage1/editor_only/editor_only"/>
+			<value_node value="levels/narratives/h_watchdogs/stage_1/editor_only/editor_only"/>
+			<value_node value="levels/narratives/vlad/shout/collision/collision"/>
+			<value_node value="levels/narratives/e_election_day/stage_1/pc_only/pc_only"/>
+			<value_node value="levels/narratives/continental/fish/editor_only/editor_only"/>
+			<value_node value="packages/narr_firestarter1"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_2/occluders/occluders"/>
+			<value_node value="levels/narratives/elephant/born/collision/collision"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+</table>

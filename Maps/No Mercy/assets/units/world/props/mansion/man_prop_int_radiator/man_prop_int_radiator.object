@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/mansion/man_prop_int_radiator/man_prop_int_radiator" orientation_object="rp_man_prop_int_radiator" />
+  <bodies>
+    <body remove_ray_type="walk" name="static_body" enabled="true" template="static">
+	  <object name="rp_man_prop_int_radiator"/>
+      <object name="c_man_prop_int_radiator_box" collision_type="box" padding="-2"/>
+    </body>
+  </bodies>
+  <decal_surfaces default_material="metal" static="true">
+    <decal_mesh name="dm_man_prop_int_radiator" enabled="true" material="metal"/>
+  </decal_surfaces>
+  <graphics>
+    <object name="g_man_prop_int_radiator" enabled="true" instance_struct="world_tm" />
+  </graphics>
+</dynamic_object>

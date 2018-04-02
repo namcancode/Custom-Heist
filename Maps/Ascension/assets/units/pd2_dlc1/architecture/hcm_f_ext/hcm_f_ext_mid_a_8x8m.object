@@ -1,0 +1,19 @@
+ <dynamic_object>
+    <diesel orientation_object="rp_hcm_f_ext_mid_a_8x8m" materials="units/pd2_dlc1/architecture/hcm_f_ext/hcm_f_ext_mid_instanced" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_hcm_f_ext_mid_a_8x8m" />
+            <object collision_type="box" name="c_box_00" padding="-2.5"/>
+        </body>
+    </bodies>
+    
+	<decal_surfaces default_material="concrete">
+		<decal_mesh enabled="true" name="dm_concrete" material="concrete" />
+		<decal_mesh enabled="true" name="dm_glass_breakable" material="glass_breakable" />
+	</decal_surfaces>
+	
+    <graphics>
+        <object enabled="true" name="g_g" instance_struct="world_tm" />
+	<object enabled="true" name="s_s" shadow_caster="true" instance_struct="world_tm" />
+    </graphics>
+</dynamic_object>

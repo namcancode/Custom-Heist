@@ -1,0 +1,6 @@
+<unit type="str" slot="1" >
+    <object file="units/payday2/vegetation/str_veg_park_bush_sumac/str_veg_park_bush_sumac" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

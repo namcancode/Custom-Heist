@@ -1,0 +1,210 @@
+<table name="Mansion_Heist">
+	<AssetUpdates id="20920" provider="modworkshop" use_local_dir="true" version="4"/>
+	<Localization default="english.txt" directory="loc"/>
+	<AddFiles directory="assets">
+		<texture path="guis/dlcs/tusk_man/textures/pd2/pre_planning/mission_briefing_tuskmansion"/>
+		<texture path="guis/dlcs/tusk_man/textures/pd2/pre_planning/tusk_man_roof"/>
+		<texture path="guis/dlcs/tusk_man/textures/pd2/pre_planning/tusk_man_second"/>
+		<texture path="guis/dlcs/tusk_man/textures/pd2/pre_planning/tusk_man_first"/>
+		<texture path="guis/dlcs/tusk_man/textures/pd2/pre_planning/tusk_man_street"/>
+		<texture path="guis/dlcs/tusk_man/textures/pd2/pre_planning/tusk_man_basement"/>
+		<object path="units/payday2/characters/civ_male_italian_robe_1/civ_male_italian_robe_1"/>
+		<unit force="false" load="true" path="units/payday2/characters/civ_male_italian_robe_1/civ_male_italian_robe_1"/>
+		<unit force="false" load="true" path="units/payday2/characters/civ_male_italian_robe_1/civ_male_italian_robe_1_husk"/>
+		<model path="units/payday2/characters/civ_male_italian_robe_1/civ_male_italian_robe_1"/>
+		<cooked_physics path="units/payday2/characters/civ_male_italian_robe_1/civ_male_italian_robe_1"/>
+		<material_config path="units/payday2/characters/civ_male_italian_robe_1/civ_male_italian_robe_1"/>
+		<material_config path="units/payday2/characters/civ_male_italian_robe_1/civ_male_italian_robe_1_contour"/>
+		<texture path="units/payday2/characters/shared_textures/italian_body_df"/>
+		<texture path="units/payday2/characters/shared_textures/italian_body_nm"/>
+		<texture path="units/payday2/characters/shared_textures/italian_head_df"/>
+		<texture path="units/payday2/characters/shared_textures/italian_head_nm"/>
+		<unit path="units/custom/notebook_charles/notebook_charles"/>
+		<object path="units/custom/notebook_charles/notebook_charles"/>
+		<material_config path="units/custom/notebook_charles/notebook_charles"/>
+		<model path="units/custom/notebook_charles/notebook_charles"/>
+		<texture path="units/custom/notebook_charles/notebook_charles_df"/>
+		<movie path="sfx/tusk1"/>
+		<movie path="sfx/tusk2"/>
+		<movie path="sfx/tusk2var2"/>
+		<movie path="sfx/tusk3"/>
+		<movie path="sfx/tusk3var2"/>
+		<movie path="sfx/tusk4"/>
+		<movie path="sfx/tusk5"/>
+		<movie path="sfx/tusk6"/>
+		<movie path="sfx/tusk7"/>
+		<movie path="sfx/tusk7var2"/>
+		<movie path="sfx/tusk7var3"/>
+		<movie path="sfx/tusk8"/>
+		<movie path="sfx/tusk8var2"/>
+		<movie path="sfx/tusk8var3_joke"/>
+		<movie path="sfx/tusk9"/>
+		<movie path="sfx/tusk10"/>
+		<movie path="sfx/tusk11"/>
+		<movie path="sfx/tusk12"/>
+		<movie path="sfx/tusk13"/>
+		<movie path="sfx/tusk13var2"/>
+		<movie path="sfx/tusk14"/>
+		<movie path="sfx/tusk15"/>
+		<movie path="sfx/tusk16"/>
+		<movie path="sfx/tusk16var2"/>
+		<movie path="sfx/tusk17"/>
+		<movie path="sfx/tusk18"/>
+		<movie path="sfx/tusk19"/>
+		<movie path="sfx/tusk19var2"/>
+		<movie path="sfx/tusk20"/>
+		<movie path="sfx/charles1"/>
+		<movie path="sfx/charles1var2"/>
+		<movie path="sfx/charles1var3"/>
+		<movie path="sfx/charles2"/>
+		<movie path="sfx/charles2var2"/>
+		<movie path="sfx/charles3"/>
+		<movie path="sfx/charles4"/>
+		<movie path="sfx/charles5"/>
+		<movie path="sfx/charles6"/>
+		<movie path="sfx/charles7"/>
+		<movie path="sfx/charles8"/>
+		<movie path="sfx/charles9"/>
+		<movie path="sfx/charles10"/>
+		<movie path="sfx/charles11"/>
+		<movie path="sfx/charles12"/>
+		<movie path="sfx/charles13"/>
+		<movie path="sfx/charles14"/>
+		<movie path="sfx/charles15"/>
+		<movie path="sfx/charles16"/>
+		<movie path="sfx/charles17"/>
+		<movie path="sfx/charles18"/>
+		<movie path="sfx/charles18var2"/>
+		<movie path="sfx/charles18var3"/>
+		<movie path="sfx/charles19"/>
+		<movie path="sfx/charles20"/>
+	</AddFiles>
+	<contact assets_gui="guis/mission_briefing/preload_contact_hector" id="tusk" name_id="contact_tusk" package="packages/contact_hector"/>
+	<narrative brief_id="Mansion_heist_briefing" briefing_event="" contact="tusk" id="Mansion_Heist">
+		<chain>
+			<table level_id="mansion_stage1" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="14800"/>
+			<value_node value="14800"/>
+			<value_node value="14800"/>
+			<value_node value="14800"/>
+			<value_node value="14800"/>
+			<value_node value="15100"/>
+			<value_node value="16000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="13500"/>
+			<value_node value="13500"/>
+			<value_node value="13500"/>
+			<value_node value="13500"/>
+			<value_node value="13500"/>
+			<value_node value="13500"/>
+			<value_node value="13500"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="6000"/>
+			<value_node value="6000"/>
+			<value_node value="6000"/>
+			<value_node value="6000"/>
+			<value_node value="6000"/>
+			<value_node value="6000"/>
+			<value_node value="6000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="america" brief_id="Mansion_heist_briefing" ghost_bonus="0.1" id="mansion_stage1" max_bags="36" name_id="heist_Mansion_heist">
+		<add file="levels/mansion_stage1/add.xml"/>
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="carrytweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+			<hook file="elementaiglobalevent.lua" source_file="lib/managers/mission/elementaiglobalevent"/>
+			<hook file="groupaistatebase.lua" source_file="lib/managers/group_ai_states/groupaistatebase"/>
+			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
+			<hook file="menucomponentmanager.lua" source_file="lib/managers/menu/menucomponentmanager"/>
+			<hook file="missionmanager.lua" source_file="lib/managers/missionmanager"/>
+		</hooks>
+		<include directory="levels/mansion_stage1">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/mansion_heist_inside_2.environment" type="custom_xml"/>
+			<file file="environments/mansion_heist_basement.environment" type="custom_xml"/>
+			<file file="environments/mansion_heist_inside.environment" type="custom_xml"/>
+			<file file="environments/mansion_heist_outside.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world/world"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_1/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_street/world/world"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_garage/world/world"/>
+			<value_node value="levels/narratives/dentist/mus/art/art"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_vault/world/world"/>
+			<value_node value="levels/narratives/bain/shadow_raid/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_loot_crate/world/world"/>
+			<value_node value="levels/instances/unique/cane/cane_trap_flame/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_garage/artpass/artpass"/>
+			<value_node value="levels/narratives/safehouse/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/rat_methlab_special/world/world"/>
+			<value_node value="packages/narr_watchdogs1_night"/>
+			<value_node value="levels/narratives/short1/stage1/editor_only/editor_only"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_2/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/mus_laser_barrier/world/world"/>
+			<value_node value="packages/narr_firestarter2"/>
+			<value_node value="packages/job_pines"/>
+			<value_node value="levels/instances/unique/spa/spa_elevator/world/world"/>
+			<value_node value="levels/instances/unique/are_elevator/world/world"/>
+			<value_node value="packages/job_branchbank_random"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_2/occluders/occluders"/>
+			<value_node value="levels/narratives/dentist/mus/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="hints.hint" replacement_type="custom_xml" target_ext="hint" target_path="gamedata/hints">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<Hooks directory="hooks">
+		<hook file="menumanager.lua" source_file="lib/managers/menumanager"/>
+	</Hooks>
+</table>

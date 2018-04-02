@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/apartment/take_away_coffe_mug/take_away_coffe_mug" orientation_object="rp_take_away_coffe_mug" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_take_away_coffe_mug" />
+      <object name="c_take_away_coffe_mug" collision_type="convex" padding="-2"/>
+    </body>
+  </bodies>
+  
+  <decal_surfaces default_material="thin_layer"/>
+  
+  <graphics>
+    <object name="g_take_away_coffe_mug" enabled="true" instance_struct="world_tm"/>
+  </graphics>
+</dynamic_object> 

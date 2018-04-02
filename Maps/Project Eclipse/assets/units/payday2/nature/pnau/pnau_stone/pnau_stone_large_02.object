@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/payday2/nature/pnau/pnau_stone/pnau_stone" orientation_object="rp_pnau_stone_large_02" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="c_pnau_stone_large_02" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces>
+    <decal_mesh name="dm_pnau_stone_large_02" enabled="true" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_pnau_stone_large_02" enabled="true" shadow_caster="true"  />
+  </graphics>
+</dynamic_object>

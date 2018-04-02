@@ -1,0 +1,11 @@
+<dynamic_object>
+    <diesel materials="units/custom/notebook_charles/notebook_charles" orientation_object="rp_gen_prop_lab_notebooks" />
+    <bodies>
+        <body enabled="true" template="editor" name="static_body" >
+			<object name="c_box" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

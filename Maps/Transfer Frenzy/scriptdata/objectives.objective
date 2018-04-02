@@ -1,0 +1,14 @@
+<table>
+	<objective description="quack_obj_s_001" id="quack_obj_s_001" level_id="transfer_frenzy" prio="1" text="quack_obj_s_001_short" xp_weight="1"/>
+	<objective description="quack_obj_s_002" id="quack_obj_s_002" level_id="transfer_frenzy" prio="1" text="quack_obj_s_002_short" xp_weight="1"/>
+	<objective description="quack_obj_s_003" id="quack_obj_s_003" level_id="transfer_frenzy" prio="1" text="quack_obj_s_003_short" xp_weight="1"/>
+	<objective description="quack_obj_s_004" id="quack_obj_s_004" level_id="transfer_frenzy" prio="1" text="quack_obj_s_004_short" xp_weight="1"/>
+	<objective description="quack_obj_s_005" id="quack_obj_s_005" level_id="transfer_frenzy" prio="1" text="quack_obj_s_005_short" xp_weight="1"/>
+	<objective description="quack_obj_s_006" id="quack_obj_s_006" level_id="transfer_frenzy" prio="1" text="quack_obj_s_006_short" xp_weight="1"/>
+	<objective description="quack_obj_s_007" id="quack_obj_s_007" level_id="transfer_frenzy" prio="1" text="quack_obj_s_007_short" xp_weight="1"/>
+	<objective description="quack_obj_escape" id="quack_obj_escape" level_id="transfer_frenzy" prio="1" text="quack_obj_escape_short" xp_weight="1"/>
+	
+	<objective description="quack_obj_001" id="quack_obj_001" level_id="transfer_frenzy" prio="1" text="quack_obj_001_short" xp_weight="1"/>
+	<objective description="quack_obj_002" id="quack_obj_002" level_id="transfer_frenzy" prio="1" text="quack_obj_002_short" xp_weight="1"/>
+	<objective description="quack_obj_003" id="quack_obj_003" level_id="transfer_frenzy" prio="1" text="quack_obj_003_short" xp_weight="1"/>
+</table>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/hospital_veil_container_01/hospital_veil_container_01" orientation_object="rp_hospital_veil_container_01" />
+  <sequence_manager file="units/world/props/hospital_veil_container_01/hospital_veil_container_01" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_hospital_veil_container_01" />
+			<object name="c_container" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="g_container" enabled="true" material="metal" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_container" enabled="true"/>
+		<object name="g_veil1" enabled="false"/>
+		<object name="g_veil2" enabled="false"/>
+		<object name="g_veil3" enabled="false"/>
+		<object name="g_veil4" enabled="false"/>
+	</graphics>
+</dynamic_object>

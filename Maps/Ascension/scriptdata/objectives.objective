@@ -1,0 +1,15 @@
+<table>
+	<objective description="1_ascension_secure_loot_desc" id="1_ascension_secure_loot" prio="1" text="1_ascension_secure_loot" xp_weight="1"/>
+	<objective description="2_ascension_fake_escape_desc" id="2_ascension_fake_escape" prio="1" text="2_ascension_fake_escape" xp_weight="1"/>
+	<objective description="3_ascension_get_car_and_move_desc" id="3_ascension_get_car_and_move" prio="1" text="3_ascension_get_car_and_move" xp_weight="1"/>
+	<objective description="4_ascension_keep_driving_desc" id="4_ascension_keep_driving" prio="1" text="4_ascension_keep_driving" xp_weight="1"/>
+	<objective description="5_ascension_meet_point_desc" id="5_ascension_meet_point" prio="1" text="5_ascension_meet_point" xp_weight="1"/>
+	<objective description="6_ascension_long_road_escape_desc" id="6_ascension_long_road_escape" prio="1" text="6_ascension_long_road_escape" xp_weight="1"/>
+	<objective description="7_ascension_drill_door_desc" id="7_ascension_drill_door" prio="1" text="7_ascension_drill_door" xp_weight="1"/>
+	<objective description="8_ascension_cavern_escape_desc" id="8_ascension_cavern_escape" prio="1" text="8_ascension_cavern_escape" xp_weight="1"/>
+	<objective description="9_ascension_look_around_desc" id="9_ascension_look_around" prio="1" text="9_ascension_look_around" xp_weight="1"/>
+	<objective description="10_ascension_get_blood_desc" id="10_ascension_get_blood" prio="1" text="10_ascension_get_blood" xp_weight="1"/>
+	<objective description="11_ascension_wait_alpha_desc" id="11_ascension_wait_alpha" prio="1" text="11_ascension_wait_alpha" xp_weight="1"/>
+	<objective description="12_ascension_real_escape_desc" id="12_ascension_real_escape" prio="1" text="12_ascension_real_escape" xp_weight="1"/>
+	<objective description="13_ascension_end_desc" id="13_ascension_end" prio="1" text="13_ascension_end" xp_weight="1"/>
+</table>

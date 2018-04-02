@@ -1,0 +1,61 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_run/architecture/run_ext_facade_industrial/run_ext_facade_industrial_01_20m" orientation_object="rp_run_ext_facade_industrial_01_20m" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_run_ext_facade_industrial_01_20m" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_08" collision_type="box" padding="-2.5" />
+			<object name="c_box_09" collision_type="box" padding="-2.5" />
+			<object name="c_box_10" collision_type="box" padding="-2.5" />
+			<object name="c_box_11" collision_type="box" padding="-2.5" />
+			<object name="c_box_12" collision_type="box" padding="-2.5" />
+			<object name="c_box_13" collision_type="box" padding="-2.5" />
+			<object name="c_box_14" collision_type="box" padding="-2.5" />
+			<object name="c_box_15" collision_type="box" padding="-2.5" />
+			<object name="c_box_16" collision_type="box" padding="-2.5" />
+			<object name="c_box_17" collision_type="box" padding="-2.5" />
+			<object name="c_box_18" collision_type="box" padding="-2.5" />
+			<object name="c_box_19" collision_type="box" padding="-2.5" />
+			<object name="c_box_20" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="concrete">
+		<decal_mesh name="dm_concrete" enabled="true" material="concrete" />
+		<decal_mesh name="dm_glass_unbreakable" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+	</decal_surfaces>
+	<graphics>
+		<lod_object name="lod_g_concrete">
+			<object name="g_concrete_lod0" enabled="true" max_distance="10000" />
+			<object name="g_concrete_lod1" enabled="true" />
+		</lod_object>
+		<lod_object name="lod_g_door">
+			<object name="g_door_lod0" enabled="true" max_distance="10000" />
+			<object name="g_door_lod1" enabled="true" />
+		</lod_object>
+		<lod_object name="lod_g_metal">
+			<object name="g_metal_lod0" enabled="true" max_distance="10000" />
+			<object name="g_metal_lod1" enabled="true" />
+		</lod_object>
+		<lod_object name="lod_g_porps">
+			<object name="g_porps_lod0" enabled="true" max_distance="10000" />
+			<object name="g_porps_lod1" enabled="true" />
+		</lod_object>
+		<lod_object name="lod_g_wall">
+			<object name="g_wall_lod0" enabled="true" max_distance="10000" />
+			<object name="g_wall_lod1" enabled="true" max_distance="15000" />
+			<object name="g_wall_lod2" enabled="true" />
+		</lod_object>
+		<lod_object name="lod_g_windows">
+			<object name="g_windows_lod0" enabled="true" max_distance="10000" />
+			<object name="g_windows_lod1" enabled="true" />
+		</lod_object>
+		<object name="s_s" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

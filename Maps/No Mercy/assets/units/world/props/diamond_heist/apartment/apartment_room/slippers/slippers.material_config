@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="slippers_material" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/world/props/diamond_heist/apartment/apartment_room/slippers/slippers_df"/>
+    </material>
+</materials>

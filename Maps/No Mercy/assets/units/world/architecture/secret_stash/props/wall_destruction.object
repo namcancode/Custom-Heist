@@ -1,0 +1,48 @@
+<dynamic_object>
+    <diesel orientation_object="rp_wall_destruction_01_arch" materials="units/world/architecture/secret_stash/secret_stash" />
+	<sequence_manager file="units/world/architecture/secret_stash/props/wall_destruction" />	
+    <bodies>
+        <body enabled="true" template="debris" name="dynamic_debris_01" >
+            <object collision_type="convex" enabled="true" material="wood" name="c_convex_01" padding="-2"/>
+			<object enabled="true" name="g_wall_debris_01" />
+        </body>
+        <body enabled="true" template="debris" name="dynamic_debris_02" >
+            <object collision_type="convex" enabled="true" material="wood" name="c_convex_02" padding="-2"/>
+			<object enabled="true" name="g_wall_debris_02" />
+        </body>
+        <body enabled="true" template="debris" name="dynamic_debris_03" >
+            <object collision_type="convex" enabled="true" material="wood" name="c_convex_03" padding="-2"/>
+			<object enabled="true" name="g_wall_debris_03" />
+        </body>
+        <body enabled="true" template="debris" name="dynamic_debris_04" >
+            <object collision_type="convex" enabled="true" material="wood" name="c_convex_04" padding="-2"/>
+			<object enabled="true" name="g_wall_debris_04" />
+        </body>
+        <body enabled="true" template="debris" name="dynamic_debris_05" >
+            <object collision_type="convex" enabled="true" material="wood" name="c_convex_05" padding="-2"/>
+			<object enabled="true" name="g_wall_debris_05" />
+        </body>
+        <body enabled="true" template="debris" name="dynamic_debris_06" >
+            <object collision_type="convex" enabled="true" material="wood" name="c_convex_06" padding="-2"/>
+			<object enabled="true" name="g_wall_debris_06" />
+        </body>
+        <body enabled="true" template="debris" name="dynamic_debris_07" >
+            <object collision_type="convex" enabled="true" material="wood" name="c_convex_07" padding="-2"/>
+			<object enabled="true" name="g_wall_debris_07" />
+        </body>
+        <body enabled="true" template="debris" name="dynamic_debris_08" >
+            <object collision_type="convex" enabled="true" material="wood" name="c_convex_08" padding="-2"/>
+			<object enabled="true" name="g_wall_debris_08" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_wall_debris_01" />
+        <object enabled="true" name="g_wall_debris_02" />
+        <object enabled="true" name="g_wall_debris_03" />
+        <object enabled="true" name="g_wall_debris_04" />
+        <object enabled="true" name="g_wall_debris_05" />
+        <object enabled="true" name="g_wall_debris_06" />
+        <object enabled="true" name="g_wall_debris_07" />
+        <object enabled="true" name="g_wall_debris_08" />
+    </graphics>
+</dynamic_object> 

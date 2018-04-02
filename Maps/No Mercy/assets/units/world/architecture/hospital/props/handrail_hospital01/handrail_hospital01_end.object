@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/props" orientation_object="rp_handrail_hospital01_end" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_handrail_hospital01_end" />
+			<object name="c_convex" collision_type="convex" padding="-2.5"/>
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="hardwood" static="true">
+		<decal_mesh name="g_handrail_hospital01_end" enabled="true" material="hardwood" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_handrail_hospital01_end" enabled="true"/>
+	</graphics>
+</dynamic_object>

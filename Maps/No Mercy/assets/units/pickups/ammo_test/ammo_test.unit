@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<unit type="static" slot="23">
+  <object file="units/pickups/ammo_test/ammo_test" />
+  <network sync="spawn" />
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+    <extension name="base" class="AmmoClip" />
+  </extensions>
+</unit>

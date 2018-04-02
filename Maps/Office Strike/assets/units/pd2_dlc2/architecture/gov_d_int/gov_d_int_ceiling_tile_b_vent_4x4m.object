@@ -1,0 +1,18 @@
+<dynamic_object>
+    <diesel orientation_object="rp_gov_d_int_ceiling_tile_b_vent_4x4m" materials="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_a" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_gov_d_int_ceiling_tile_b_vent_4x4m" />
+            <object collision_type="box" name="c_box_00" />
+            <object collision_type="box" name="c_box_01" />
+            <object collision_type="box" name="c_box_02" />
+            <object collision_type="box" name="c_box_03" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_thin_layer" material="thin_layer" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

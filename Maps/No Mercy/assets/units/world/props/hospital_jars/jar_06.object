@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<dynamic_object>
+    <diesel orientation_object="rp_jar_06" materials="units/world/props/hospital_jars/jar_01" />
+  <sequence_manager file="units/world/props/hospital_jars/jar_06" />
+	<bodies>
+		<body name="static_body" enabled="true" template="raycoll_static">
+			<object name="c_c5" collision_type="box" />
+		</body>
+		<body name="dynamic_body" enabled="false" template="small_prop" pushed_by_mover="false" >
+			<object name="rp_jar_06"/>
+			<object name="c_c5" collision_type="box" mass="0.1" padding="-2"/>
+			<object name="g_jar_06_gib1" />
+		</body>		
+	</bodies>
+  <decal_surfaces default_material="glass_unbreakable" />
+    <!-- decal_mesh name="g_jar_06_gib1" enabled="true" material="glass_unbreakable" />
+  </decal_surfaces -->
+  <graphics>
+    <object name="g_jar_06_gib1" enabled="false" instance_struct="world_tm" />
+    <object name="g_jar_06" enabled="true" instance_struct="world_tm" />
+  </graphics>
+</dynamic_object>

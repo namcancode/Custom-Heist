@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/diamond_heist/apartment/apartment_livingroom/officebooks/office_books" orientation_object="rp_office_books" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="c_office_books" collision_type="box" />
+    </body>
+  </bodies>
+  <decal_surfaces>
+    <decal_mesh name="g_office_books" enabled="true" material="wood" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_office_books" enabled="true" />
+  </graphics>
+</dynamic_object>

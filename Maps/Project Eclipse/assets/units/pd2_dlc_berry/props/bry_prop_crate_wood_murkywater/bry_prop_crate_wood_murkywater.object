@@ -1,0 +1,37 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_berry/props/bry_prop_crate_wood_murkywater/bry_prop_crate_wood_murkywater" orientation_object="rp_bry_prop_crate_wood_murkywater" />
+	<sequence_manager file="units/pd2_dlc_berry/props/bry_prop_crate_wood_murkywater/bry_prop_crate_wood_murkywater" />
+	
+	<bodies>
+		<body name="crate_closed" enabled="true" template="static">
+			<object name="rp_bry_prop_crate_wood_murkywater" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+		</body>
+		
+		<body name="crate_set_true_when_opened" enabled="false" template="static">
+			<object name="rp_bry_prop_crate_wood_murkywater" />
+			<object name="c_box_06" collision_type="box" padding="-2.5" />
+		</body>
+		
+	</bodies>
+	
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_wood_closed" enabled="true" material="wood" />
+		<decal_mesh name="dm_wood_opened" enabled="false" material="wood" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_crate_closed" enabled="true" />
+		<object name="g_lid_closed" enabled="true" />
+		<object name="g_crate_opened" enabled="false" />
+		<object name="g_lid_opened" enabled="false" />
+		<object name="s_crate_opened" enabled="false" shadow_caster="true" />
+		<object name="s_crate_closed" enabled="true" shadow_caster="true" />
+	</graphics>
+	
+</dynamic_object>

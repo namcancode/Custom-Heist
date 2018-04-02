@@ -1,0 +1,15 @@
+{
+   "id":"ERF_OD",
+   "name":"ERF_OD_name",
+   "desc":"ERF_OD_desc",
+   "rank":"silver",
+   "objective":"ERF_OD_objective",
+   "reward_type":"cc",
+   "reward_amount":4,
+   "number":0,
+   "goal":0,
+   "displayed":true,
+   "unlocked":false,
+   "texture":"default",
+   "hidden":false
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/rooftop/props_rooftop" orientation_object="rp_garbage256_composite001a" />
+	<bodies>
+		<body name="static_body" enabled="true" template="editor">
+			<object name="rp_garbage256_composite001a" />
+			<object name="g_garbage256_composite001a" collision_type="box" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="g_garbage256_composite001a" enabled="true" material="metal" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_garbage256_composite001a" enabled="true"/>
+	</graphics>
+</dynamic_object> 

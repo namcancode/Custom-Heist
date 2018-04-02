@@ -1,0 +1,2118 @@
+<generic_scriptdata type="table" metatable="sequence_manager">
+	<entry index="1" type="table" _id="156" metatable="unit">
+		<entry index="1" type="table" _id="155" metatable="variables">
+			<entry index="1" type="table" _id="2" metatable="var_loot_bag">
+				<entry key="value" type="number" value="0"/>
+			</entry>
+			<entry index="2" type="table" _id="1" metatable="var_canvas_bag">
+				<entry key="value" type="number" value="0"/>
+			</entry>
+			<entry key="var_canvas_bag" type="table" _ref="1"/>
+			<entry key="var_loot_bag" type="table" _ref="2"/>
+		</entry>
+		<entry index="2" type="table" _id="153" metatable="filter">
+			<entry index="1" type="table" _id="3" metatable="check">
+				<entry key="value" type="string" value="vars.var_loot_bag == 0"/>
+			</entry>
+			<entry key="check" type="table" _ref="3"/>
+			<entry key="name" type="string" value="'filter_check_loot_bag_0'"/>
+		</entry>
+		<entry index="3" type="table" metatable="filter">
+			<entry index="1" type="table" _id="4" metatable="check">
+				<entry key="value" type="string" value="vars.var_loot_bag == 1"/>
+			</entry>
+			<entry key="check" type="table" _ref="4"/>
+			<entry key="name" type="string" value="'filter_check_loot_bag_1'"/>
+		</entry>
+		<entry index="4" type="table" metatable="filter">
+			<entry index="1" type="table" _id="5" metatable="check">
+				<entry key="value" type="string" value="vars.var_loot_bag == 2"/>
+			</entry>
+			<entry key="check" type="table" _ref="5"/>
+			<entry key="name" type="string" value="'filter_check_loot_bag_2'"/>
+		</entry>
+		<entry index="5" type="table" metatable="filter">
+			<entry index="1" type="table" _id="6" metatable="check">
+				<entry key="value" type="string" value="vars.var_loot_bag == 3"/>
+			</entry>
+			<entry key="check" type="table" _ref="6"/>
+			<entry key="name" type="string" value="'filter_check_loot_bag_3'"/>
+		</entry>
+		<entry index="6" type="table" metatable="filter">
+			<entry index="1" type="table" _id="7" metatable="check">
+				<entry key="value" type="string" value="vars.var_loot_bag == 4"/>
+			</entry>
+			<entry key="check" type="table" _ref="7"/>
+			<entry key="name" type="string" value="'filter_check_loot_bag_4'"/>
+		</entry>
+		<entry index="7" type="table" metatable="filter">
+			<entry index="1" type="table" _id="8" metatable="check">
+				<entry key="value" type="string" value="vars.var_loot_bag == 5"/>
+			</entry>
+			<entry key="check" type="table" _ref="8"/>
+			<entry key="name" type="string" value="'filter_check_loot_bag_5'"/>
+		</entry>
+		<entry index="8" type="table" metatable="filter">
+			<entry index="1" type="table" _id="9" metatable="check">
+				<entry key="value" type="string" value="vars.var_canvas_bag == 0"/>
+			</entry>
+			<entry key="check" type="table" _ref="9"/>
+			<entry key="name" type="string" value="'filter_check_canvas_bag_0'"/>
+		</entry>
+		<entry index="9" type="table" metatable="filter">
+			<entry index="1" type="table" _id="10" metatable="check">
+				<entry key="value" type="string" value="vars.var_canvas_bag == 1"/>
+			</entry>
+			<entry key="check" type="table" _ref="10"/>
+			<entry key="name" type="string" value="'filter_check_canvas_bag_1'"/>
+		</entry>
+		<entry index="10" type="table" metatable="filter">
+			<entry index="1" type="table" _id="11" metatable="check">
+				<entry key="value" type="string" value="vars.var_canvas_bag == 2"/>
+			</entry>
+			<entry key="check" type="table" _ref="11"/>
+			<entry key="name" type="string" value="'filter_check_canvas_bag_2'"/>
+		</entry>
+		<entry index="11" type="table" metatable="filter">
+			<entry index="1" type="table" _id="12" metatable="check">
+				<entry key="value" type="string" value="vars.var_canvas_bag == 3"/>
+			</entry>
+			<entry key="check" type="table" _ref="12"/>
+			<entry key="name" type="string" value="'filter_check_canvas_bag_3'"/>
+		</entry>
+		<entry index="12" type="table" metatable="filter">
+			<entry index="1" type="table" _id="13" metatable="check">
+				<entry key="value" type="string" value="vars.var_canvas_bag == 4"/>
+			</entry>
+			<entry key="check" type="table" _ref="13"/>
+			<entry key="name" type="string" value="'filter_check_canvas_bag_4'"/>
+		</entry>
+		<entry index="13" type="table" metatable="filter">
+			<entry index="1" type="table" _id="14" metatable="check">
+				<entry key="value" type="string" value="vars.var_canvas_bag == 5"/>
+			</entry>
+			<entry key="check" type="table" _ref="14"/>
+			<entry key="name" type="string" value="'filter_check_canvas_bag_5'"/>
+		</entry>
+		<entry index="14" type="table" metatable="filter">
+			<entry index="1" type="table" _id="15" metatable="check">
+				<entry key="value" type="string" value="vars.var_canvas_bag == 6"/>
+			</entry>
+			<entry key="check" type="table" _ref="15"/>
+			<entry key="name" type="string" value="'filter_check_canvas_bag_6'"/>
+		</entry>
+		<entry index="15" type="table" metatable="filter">
+			<entry index="1" type="table" _id="16" metatable="check">
+				<entry key="value" type="string" value="vars.var_canvas_bag == 7"/>
+			</entry>
+			<entry key="check" type="table" _ref="16"/>
+			<entry key="name" type="string" value="'filter_check_canvas_bag_7'"/>
+		</entry>
+		<entry index="16" type="table" metatable="filter">
+			<entry index="1" type="table" _id="17" metatable="check">
+				<entry key="value" type="string" value="vars.var_canvas_bag == 8"/>
+			</entry>
+			<entry key="check" type="table" _ref="17"/>
+			<entry key="name" type="string" value="'filter_check_canvas_bag_8'"/>
+		</entry>
+		<entry index="17" type="table" _id="154" metatable="sequence">
+			<entry index="1" type="table" _id="18" metatable="run_sequence">
+				<entry key="filter" type="string" value="'filter_check_loot_bag_5'"/>
+				<entry key="name" type="string" value="'int_seq_grow_loot_bag_06'"/>
+			</entry>
+			<entry index="2" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'filter_check_loot_bag_4'"/>
+				<entry key="name" type="string" value="'int_seq_grow_loot_bag_05'"/>
+			</entry>
+			<entry index="3" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'filter_check_loot_bag_3'"/>
+				<entry key="name" type="string" value="'int_seq_grow_loot_bag_04'"/>
+			</entry>
+			<entry index="4" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'filter_check_loot_bag_2'"/>
+				<entry key="name" type="string" value="'int_seq_grow_loot_bag_03'"/>
+			</entry>
+			<entry index="5" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'filter_check_loot_bag_1'"/>
+				<entry key="name" type="string" value="'int_seq_grow_loot_bag_02'"/>
+			</entry>
+			<entry index="6" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'filter_check_loot_bag_0'"/>
+				<entry key="name" type="string" value="'int_seq_grow_loot_bag_01'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'state_add_loot_bag'"/>
+			<entry key="run_sequence" type="table" _ref="18"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="18" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="19" metatable="run_sequence">
+				<entry key="filter" type="string" value="'filter_check_canvas_bag_8'"/>
+				<entry key="name" type="string" value="'int_seq_grow_loot_canvas_09'"/>
+			</entry>
+			<entry index="2" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'filter_check_canvas_bag_7'"/>
+				<entry key="name" type="string" value="'int_seq_grow_loot_canvas_08'"/>
+			</entry>
+			<entry index="3" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'filter_check_canvas_bag_6'"/>
+				<entry key="name" type="string" value="'int_seq_grow_loot_canvas_07'"/>
+			</entry>
+			<entry index="4" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'filter_check_canvas_bag_5'"/>
+				<entry key="name" type="string" value="'int_seq_grow_loot_canvas_06'"/>
+			</entry>
+			<entry index="5" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'filter_check_canvas_bag_4'"/>
+				<entry key="name" type="string" value="'int_seq_grow_loot_canvas_05'"/>
+			</entry>
+			<entry index="6" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'filter_check_canvas_bag_3'"/>
+				<entry key="name" type="string" value="'int_seq_grow_loot_canvas_04'"/>
+			</entry>
+			<entry index="7" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'filter_check_canvas_bag_2'"/>
+				<entry key="name" type="string" value="'int_seq_grow_loot_canvas_03'"/>
+			</entry>
+			<entry index="8" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'filter_check_canvas_bag_1'"/>
+				<entry key="name" type="string" value="'int_seq_grow_loot_canvas_02'"/>
+			</entry>
+			<entry index="9" type="table" metatable="run_sequence">
+				<entry key="filter" type="string" value="'filter_check_canvas_bag_0'"/>
+				<entry key="name" type="string" value="'int_seq_grow_loot_canvas_01'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'state_add_canvas_bag'"/>
+			<entry key="run_sequence" type="table" _ref="19"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="19" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="20" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_1'"/>
+			</entry>
+			<entry index="2" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_2'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_3'"/>
+			</entry>
+			<entry index="4" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_4'"/>
+			</entry>
+			<entry index="5" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_5'"/>
+			</entry>
+			<entry index="6" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_6'"/>
+			</entry>
+			<entry index="7" type="table" _id="21" metatable="set_variables">
+				<entry key="var_loot_bag" type="number" value="1"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="name" type="string" value="'int_seq_grow_loot_bag_01'"/>
+			<entry key="object" type="table" _ref="20"/>
+			<entry key="set_variables" type="table" _ref="21"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="20" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="22" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_1'"/>
+			</entry>
+			<entry index="2" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_2'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_3'"/>
+			</entry>
+			<entry index="4" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_4'"/>
+			</entry>
+			<entry index="5" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_5'"/>
+			</entry>
+			<entry index="6" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_6'"/>
+			</entry>
+			<entry index="7" type="table" _id="23" metatable="set_variables">
+				<entry key="var_loot_bag" type="number" value="2"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="name" type="string" value="'int_seq_grow_loot_bag_02'"/>
+			<entry key="object" type="table" _ref="22"/>
+			<entry key="set_variables" type="table" _ref="23"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="21" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="24" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_1'"/>
+			</entry>
+			<entry index="2" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_2'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_3'"/>
+			</entry>
+			<entry index="4" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_4'"/>
+			</entry>
+			<entry index="5" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_5'"/>
+			</entry>
+			<entry index="6" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_6'"/>
+			</entry>
+			<entry index="7" type="table" _id="25" metatable="set_variables">
+				<entry key="var_loot_bag" type="number" value="3"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="name" type="string" value="'int_seq_grow_loot_bag_03'"/>
+			<entry key="object" type="table" _ref="24"/>
+			<entry key="set_variables" type="table" _ref="25"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="22" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="26" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_1'"/>
+			</entry>
+			<entry index="2" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_2'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_3'"/>
+			</entry>
+			<entry index="4" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_4'"/>
+			</entry>
+			<entry index="5" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_5'"/>
+			</entry>
+			<entry index="6" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_6'"/>
+			</entry>
+			<entry index="7" type="table" _id="27" metatable="set_variables">
+				<entry key="var_loot_bag" type="number" value="4"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="name" type="string" value="'int_seq_grow_loot_bag_04'"/>
+			<entry key="object" type="table" _ref="26"/>
+			<entry key="set_variables" type="table" _ref="27"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="23" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="28" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_1'"/>
+			</entry>
+			<entry index="2" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_2'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_3'"/>
+			</entry>
+			<entry index="4" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_4'"/>
+			</entry>
+			<entry index="5" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_5'"/>
+			</entry>
+			<entry index="6" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_6'"/>
+			</entry>
+			<entry index="7" type="table" _id="29" metatable="set_variables">
+				<entry key="var_loot_bag" type="number" value="5"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="name" type="string" value="'int_seq_grow_loot_bag_05'"/>
+			<entry key="object" type="table" _ref="28"/>
+			<entry key="set_variables" type="table" _ref="29"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="24" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="30" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_1'"/>
+			</entry>
+			<entry index="2" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_2'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_3'"/>
+			</entry>
+			<entry index="4" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_4'"/>
+			</entry>
+			<entry index="5" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_5'"/>
+			</entry>
+			<entry index="6" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_lootbag_6'"/>
+			</entry>
+			<entry index="7" type="table" _id="31" metatable="set_variables">
+				<entry key="var_loot_bag" type="number" value="6"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="name" type="string" value="'int_seq_grow_loot_bag_06'"/>
+			<entry key="object" type="table" _ref="30"/>
+			<entry key="set_variables" type="table" _ref="31"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="25" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="32" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_1'"/>
+			</entry>
+			<entry index="2" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_2'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_3'"/>
+			</entry>
+			<entry index="4" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_4'"/>
+			</entry>
+			<entry index="5" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_5'"/>
+			</entry>
+			<entry index="6" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_6'"/>
+			</entry>
+			<entry index="7" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_7'"/>
+			</entry>
+			<entry index="8" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_8'"/>
+			</entry>
+			<entry index="9" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_9'"/>
+			</entry>
+			<entry index="10" type="table" _id="33" metatable="set_variables">
+				<entry key="var_canvas_bag" type="number" value="1"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="name" type="string" value="'int_seq_grow_loot_canvas_01'"/>
+			<entry key="object" type="table" _ref="32"/>
+			<entry key="set_variables" type="table" _ref="33"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="26" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="34" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_1'"/>
+			</entry>
+			<entry index="2" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_2'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_3'"/>
+			</entry>
+			<entry index="4" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_4'"/>
+			</entry>
+			<entry index="5" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_5'"/>
+			</entry>
+			<entry index="6" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_6'"/>
+			</entry>
+			<entry index="7" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_7'"/>
+			</entry>
+			<entry index="8" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_8'"/>
+			</entry>
+			<entry index="9" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_9'"/>
+			</entry>
+			<entry index="10" type="table" _id="35" metatable="set_variables">
+				<entry key="var_canvas_bag" type="number" value="2"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="name" type="string" value="'int_seq_grow_loot_canvas_02'"/>
+			<entry key="object" type="table" _ref="34"/>
+			<entry key="set_variables" type="table" _ref="35"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="27" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="36" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_1'"/>
+			</entry>
+			<entry index="2" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_2'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_3'"/>
+			</entry>
+			<entry index="4" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_4'"/>
+			</entry>
+			<entry index="5" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_5'"/>
+			</entry>
+			<entry index="6" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_6'"/>
+			</entry>
+			<entry index="7" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_7'"/>
+			</entry>
+			<entry index="8" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_8'"/>
+			</entry>
+			<entry index="9" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_9'"/>
+			</entry>
+			<entry index="10" type="table" _id="37" metatable="set_variables">
+				<entry key="var_canvas_bag" type="number" value="3"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="name" type="string" value="'int_seq_grow_loot_canvas_03'"/>
+			<entry key="object" type="table" _ref="36"/>
+			<entry key="set_variables" type="table" _ref="37"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="28" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="38" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_1'"/>
+			</entry>
+			<entry index="2" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_2'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_3'"/>
+			</entry>
+			<entry index="4" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_4'"/>
+			</entry>
+			<entry index="5" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_5'"/>
+			</entry>
+			<entry index="6" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_6'"/>
+			</entry>
+			<entry index="7" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_7'"/>
+			</entry>
+			<entry index="8" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_8'"/>
+			</entry>
+			<entry index="9" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_9'"/>
+			</entry>
+			<entry index="10" type="table" _id="39" metatable="set_variables">
+				<entry key="var_canvas_bag" type="number" value="4"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="name" type="string" value="'int_seq_grow_loot_canvas_04'"/>
+			<entry key="object" type="table" _ref="38"/>
+			<entry key="set_variables" type="table" _ref="39"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="29" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="40" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_1'"/>
+			</entry>
+			<entry index="2" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_2'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_3'"/>
+			</entry>
+			<entry index="4" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_4'"/>
+			</entry>
+			<entry index="5" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_5'"/>
+			</entry>
+			<entry index="6" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_6'"/>
+			</entry>
+			<entry index="7" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_7'"/>
+			</entry>
+			<entry index="8" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_8'"/>
+			</entry>
+			<entry index="9" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_9'"/>
+			</entry>
+			<entry index="10" type="table" _id="41" metatable="set_variables">
+				<entry key="var_canvas_bag" type="number" value="5"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="name" type="string" value="'int_seq_grow_loot_canvas_05'"/>
+			<entry key="object" type="table" _ref="40"/>
+			<entry key="set_variables" type="table" _ref="41"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="30" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="42" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_1'"/>
+			</entry>
+			<entry index="2" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_2'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_3'"/>
+			</entry>
+			<entry index="4" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_4'"/>
+			</entry>
+			<entry index="5" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_5'"/>
+			</entry>
+			<entry index="6" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_6'"/>
+			</entry>
+			<entry index="7" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_7'"/>
+			</entry>
+			<entry index="8" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_8'"/>
+			</entry>
+			<entry index="9" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_9'"/>
+			</entry>
+			<entry index="10" type="table" _id="43" metatable="set_variables">
+				<entry key="var_canvas_bag" type="number" value="6"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="name" type="string" value="'int_seq_grow_loot_canvas_06'"/>
+			<entry key="object" type="table" _ref="42"/>
+			<entry key="set_variables" type="table" _ref="43"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="31" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="44" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_1'"/>
+			</entry>
+			<entry index="2" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_2'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_3'"/>
+			</entry>
+			<entry index="4" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_4'"/>
+			</entry>
+			<entry index="5" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_5'"/>
+			</entry>
+			<entry index="6" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_6'"/>
+			</entry>
+			<entry index="7" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_7'"/>
+			</entry>
+			<entry index="8" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_8'"/>
+			</entry>
+			<entry index="9" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_9'"/>
+			</entry>
+			<entry index="10" type="table" _id="45" metatable="set_variables">
+				<entry key="var_canvas_bag" type="number" value="7"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="name" type="string" value="'int_seq_grow_loot_canvas_07'"/>
+			<entry key="object" type="table" _ref="44"/>
+			<entry key="set_variables" type="table" _ref="45"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="32" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="46" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_1'"/>
+			</entry>
+			<entry index="2" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_2'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_3'"/>
+			</entry>
+			<entry index="4" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_4'"/>
+			</entry>
+			<entry index="5" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_5'"/>
+			</entry>
+			<entry index="6" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_6'"/>
+			</entry>
+			<entry index="7" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_7'"/>
+			</entry>
+			<entry index="8" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_8'"/>
+			</entry>
+			<entry index="9" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_canvasbag_9'"/>
+			</entry>
+			<entry index="10" type="table" _id="47" metatable="set_variables">
+				<entry key="var_canvas_bag" type="number" value="8"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="name" type="string" value="'int_seq_grow_loot_canvas_08'"/>
+			<entry key="object" type="table" _ref="46"/>
+			<entry key="set_variables" type="table" _ref="47"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="33" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="48" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_1'"/>
+			</entry>
+			<entry index="2" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_2'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_3'"/>
+			</entry>
+			<entry index="4" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_4'"/>
+			</entry>
+			<entry index="5" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_5'"/>
+			</entry>
+			<entry index="6" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_6'"/>
+			</entry>
+			<entry index="7" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_7'"/>
+			</entry>
+			<entry index="8" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_8'"/>
+			</entry>
+			<entry index="9" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value="'g_canvasbag_9'"/>
+			</entry>
+			<entry index="10" type="table" _id="49" metatable="set_variables">
+				<entry key="var_canvas_bag" type="number" value="9"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="name" type="string" value="'int_seq_grow_loot_canvas_09'"/>
+			<entry key="object" type="table" _ref="48"/>
+			<entry key="set_variables" type="table" _ref="49"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="34" type="table" metatable="variables">
+			<entry index="1" type="table" _id="50" metatable="var_landing_sequence">
+				<entry key="value" type="number" value="0"/>
+			</entry>
+			<entry key="var_landing_sequence" type="table" _ref="50"/>
+		</entry>
+		<entry index="35" type="table" metatable="filter">
+			<entry index="1" type="table" _id="51" metatable="check">
+				<entry key="value" type="string" value="vars.var_landing_sequence == 1"/>
+			</entry>
+			<entry key="check" type="table" _ref="51"/>
+			<entry key="name" type="string" value=" 'landing_sequence_check' "/>
+		</entry>
+		<entry index="36" type="table" metatable="filter">
+			<entry index="1" type="table" _id="52" metatable="check">
+				<entry key="value" type="string" value="vars.var_landing_sequence == 0"/>
+			</entry>
+			<entry key="check" type="table" _ref="52"/>
+			<entry key="name" type="string" value=" 'check_continue_circulating' "/>
+		</entry>
+		<entry index="37" type="table" _id="152" metatable="body">
+			<entry index="1" type="table" _id="54" metatable="endurance">
+				<entry index="1" type="table" _id="53" metatable="run_sequence">
+					<entry key="name" type="string" value=" 'kill_light' "/>
+				</entry>
+				<entry key="bullet" type="number" value="2"/>
+				<entry key="explosion" type="number" value="1"/>
+				<entry key="run_sequence" type="table" _ref="53"/>
+			</entry>
+			<entry key="endurance" type="table" _ref="54"/>
+			<entry key="name" type="string" value=" 'hitbox' "/>
+		</entry>
+		<entry index="38" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="58" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_light_cone' "/>
+			</entry>
+			<entry index="2" type="table" _id="55" metatable="body">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'hitbox' "/>
+			</entry>
+			<entry index="3" type="table" _id="56" metatable="effect_spawner">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'flashlight' "/>
+			</entry>
+			<entry index="4" type="table" _id="57" metatable="light">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'ls_spotlight' "/>
+			</entry>
+			<entry key="body" type="table" _ref="55"/>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="effect_spawner" type="table" _ref="56"/>
+			<entry key="light" type="table" _ref="57"/>
+			<entry key="name" type="string" value=" 'kill_light' "/>
+			<entry key="object" type="table" _ref="58"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="39" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="59" metatable="animation_group">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'ag_door_left' "/>
+			</entry>
+			<entry index="2" type="table" _id="60" metatable="light">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'lo_omni' "/>
+			</entry>
+			<entry key="animation_group" type="table" _ref="59"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="light" type="table" _ref="60"/>
+			<entry key="name" type="string" value=" 'open_door_left' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="40" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="61" metatable="animation_group">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'ag_door_right' "/>
+			</entry>
+			<entry index="2" type="table" _id="62" metatable="light">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'lo_omni' "/>
+			</entry>
+			<entry key="animation_group" type="table" _ref="61"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="light" type="table" _ref="62"/>
+			<entry key="name" type="string" value=" 'open_door_right' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="41" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="63" metatable="animation_group">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="from" type="string" value="63/30"/>
+				<entry key="name" type="string" value=" 'ag_door_left' "/>
+				<entry key="speed" type="number" value="-1"/>
+				<entry key="to" type="number" value="0"/>
+			</entry>
+			<entry index="2" type="table" _id="64" metatable="light">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'lo_omni' "/>
+			</entry>
+			<entry key="animation_group" type="table" _ref="63"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="light" type="table" _ref="64"/>
+			<entry key="name" type="string" value=" 'close_door_left' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="42" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="65" metatable="animation_group">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="from" type="string" value="63/30"/>
+				<entry key="name" type="string" value=" 'ag_door_right' "/>
+				<entry key="speed" type="number" value="-1"/>
+				<entry key="to" type="number" value="0"/>
+			</entry>
+			<entry index="2" type="table" _id="66" metatable="light">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'lo_omni' "/>
+			</entry>
+			<entry key="animation_group" type="table" _ref="65"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="light" type="table" _ref="66"/>
+			<entry key="name" type="string" value=" 'close_door_right' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="43" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="72" metatable="sound">
+				<entry key="action" type="string" value=" 'stop' "/>
+				<entry key="event" type="string" value=" 'helicopter_police' "/>
+				<entry key="source" type="string" value=" 'body' "/>
+			</entry>
+			<entry index="2" type="table" _id="67" metatable="animation_group">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'ag_door_left' "/>
+			</entry>
+			<entry index="3" type="table" metatable="animation_group">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'ag_door_right' "/>
+			</entry>
+			<entry index="4" type="table" metatable="animation_group">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'ag_main_rotor' "/>
+			</entry>
+			<entry index="5" type="table" metatable="animation_group">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'a_main_animation' "/>
+			</entry>
+			<entry index="6" type="table" _id="68" metatable="body">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'static_body' "/>
+			</entry>
+			<entry index="7" type="table" metatable="body">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'left_door' "/>
+			</entry>
+			<entry index="8" type="table" metatable="body">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'right_door' "/>
+			</entry>
+			<entry index="9" type="table" metatable="body">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'mover_blocker' "/>
+			</entry>
+			<entry index="10" type="table" metatable="body">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'mover_bag_blocker' "/>
+			</entry>
+			<entry index="11" type="table" _id="71" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_door_right_handles' "/>
+			</entry>
+			<entry index="12" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_door_left_handles' "/>
+			</entry>
+			<entry index="13" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_door_right_nypd' "/>
+			</entry>
+			<entry index="14" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_door_left_nypd' "/>
+			</entry>
+			<entry index="15" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_door_left_diamondheist' "/>
+			</entry>
+			<entry index="16" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_door_right_diamondheist' "/>
+			</entry>
+			<entry index="17" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_interior' "/>
+			</entry>
+			<entry index="18" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_interior_hull' "/>
+			</entry>
+			<entry index="19" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_body_nypd' "/>
+			</entry>
+			<entry index="20" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_body_diamondheist' "/>
+			</entry>
+			<entry index="21" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_main_rotor' "/>
+			</entry>
+			<entry index="22" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_second_rotor' "/>
+			</entry>
+			<entry index="23" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_glass' "/>
+			</entry>
+			<entry index="24" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_glass_left_passenger' "/>
+			</entry>
+			<entry index="25" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_glass_right_passenger' "/>
+			</entry>
+			<entry index="26" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_light_holder' "/>
+			</entry>
+			<entry index="27" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_spotlight' "/>
+			</entry>
+			<entry index="28" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_spotlight_shaft' "/>
+			</entry>
+			<entry index="29" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_light_cone' "/>
+			</entry>
+			<entry index="30" type="table" _id="69" metatable="effect_spawner">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'flashlight' "/>
+			</entry>
+			<entry index="31" type="table" _id="70" metatable="light">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'ls_spotlight' "/>
+			</entry>
+			<entry index="32" type="table" metatable="light">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'lo_omni' "/>
+			</entry>
+			<entry index="33" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_blue_halo' "/>
+			</entry>
+			<entry index="34" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_red_halo_down' "/>
+			</entry>
+			<entry index="35" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_red_halo_right' "/>
+			</entry>
+			<entry index="36" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_red_halo_up' "/>
+			</entry>
+			<entry index="37" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_light_source_white' "/>
+			</entry>
+			<entry index="38" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_light_source_red_blink' "/>
+			</entry>
+			<entry index="39" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_light_source_red' "/>
+			</entry>
+			<entry index="40" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_light_source_blue' "/>
+			</entry>
+			<entry key="animation_group" type="table" _ref="67"/>
+			<entry key="body" type="table" _ref="68"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="effect_spawner" type="table" _ref="69"/>
+			<entry key="light" type="table" _ref="70"/>
+			<entry key="name" type="string" value=" 'hidden' "/>
+			<entry key="object" type="table" _ref="71"/>
+			<entry key="sound" type="table" _ref="72"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="44" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="78" metatable="sound">
+				<entry key="action" type="string" value=" 'play' "/>
+				<entry key="event" type="string" value=" 'helicopter_police' "/>
+				<entry key="source" type="string" value=" 'body' "/>
+			</entry>
+			<entry index="2" type="table" _id="73" metatable="animation_group">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'ag_main_rotor' "/>
+			</entry>
+			<entry index="3" type="table" metatable="animation_group">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'ag_main_rotor' "/>
+			</entry>
+			<entry index="4" type="table" _id="74" metatable="body">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'static_body' "/>
+			</entry>
+			<entry index="5" type="table" metatable="body">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'left_door' "/>
+			</entry>
+			<entry index="6" type="table" metatable="body">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'right_door' "/>
+			</entry>
+			<entry index="7" type="table" metatable="body">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'mover_blocker' "/>
+			</entry>
+			<entry index="8" type="table" metatable="body">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'mover_bag_blocker' "/>
+			</entry>
+			<entry index="9" type="table" _id="77" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_door_left_handles' "/>
+			</entry>
+			<entry index="10" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_door_right_handles' "/>
+			</entry>
+			<entry index="11" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_door_left_nypd' "/>
+			</entry>
+			<entry index="12" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_door_right_nypd' "/>
+			</entry>
+			<entry index="13" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_door_left_diamondheist' "/>
+			</entry>
+			<entry index="14" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_door_right_diamondheist' "/>
+			</entry>
+			<entry index="15" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_interior' "/>
+			</entry>
+			<entry index="16" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_interior_hull' "/>
+			</entry>
+			<entry index="17" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_glass' "/>
+			</entry>
+			<entry index="18" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_glass_left_passenger' "/>
+			</entry>
+			<entry index="19" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_glass_right_passenger' "/>
+			</entry>
+			<entry index="20" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_main_rotor' "/>
+			</entry>
+			<entry index="21" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_second_rotor' "/>
+			</entry>
+			<entry index="22" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_body_nypd' "/>
+			</entry>
+			<entry index="23" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_body_diamondheist' "/>
+			</entry>
+			<entry index="24" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_light_holder' "/>
+			</entry>
+			<entry index="25" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_spotlight' "/>
+			</entry>
+			<entry index="26" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_spotlight_shaft' "/>
+			</entry>
+			<entry index="27" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_light_cone' "/>
+			</entry>
+			<entry index="28" type="table" _id="75" metatable="effect_spawner">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'flashlight' "/>
+			</entry>
+			<entry index="29" type="table" _id="76" metatable="light">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'ls_spotlight' "/>
+			</entry>
+			<entry key="animation_group" type="table" _ref="73"/>
+			<entry key="body" type="table" _ref="74"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="effect_spawner" type="table" _ref="75"/>
+			<entry key="light" type="table" _ref="76"/>
+			<entry key="name" type="string" value=" 'nypd' "/>
+			<entry key="object" type="table" _ref="77"/>
+			<entry key="sound" type="table" _ref="78"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="45" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="84" metatable="sound">
+				<entry key="action" type="string" value=" 'play' "/>
+				<entry key="event" type="string" value=" 'helicopter_police' "/>
+				<entry key="source" type="string" value=" 'body' "/>
+			</entry>
+			<entry index="2" type="table" _id="79" metatable="animation_group">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'ag_main_rotor' "/>
+			</entry>
+			<entry index="3" type="table" metatable="animation_group">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'ag_main_rotor' "/>
+			</entry>
+			<entry index="4" type="table" _id="80" metatable="body">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'static_body' "/>
+			</entry>
+			<entry index="5" type="table" metatable="body">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'left_door' "/>
+			</entry>
+			<entry index="6" type="table" metatable="body">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'right_door' "/>
+			</entry>
+			<entry index="7" type="table" metatable="body">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'mover_blocker' "/>
+			</entry>
+			<entry index="8" type="table" metatable="body">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'mover_bag_blocker' "/>
+			</entry>
+			<entry index="9" type="table" _id="83" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_door_left_handles' "/>
+			</entry>
+			<entry index="10" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_door_right_handles' "/>
+			</entry>
+			<entry index="11" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_door_left_nypd' "/>
+			</entry>
+			<entry index="12" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_door_right_nypd' "/>
+			</entry>
+			<entry index="13" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_door_left_diamondheist' "/>
+			</entry>
+			<entry index="14" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_door_right_diamondheist' "/>
+			</entry>
+			<entry index="15" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_interior' "/>
+			</entry>
+			<entry index="16" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_interior_hull' "/>
+			</entry>
+			<entry index="17" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_glass' "/>
+			</entry>
+			<entry index="18" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_glass_left_passenger' "/>
+			</entry>
+			<entry index="19" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_glass_right_passenger' "/>
+			</entry>
+			<entry index="20" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_main_rotor' "/>
+			</entry>
+			<entry index="21" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_second_rotor' "/>
+			</entry>
+			<entry index="22" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_body_nypd' "/>
+			</entry>
+			<entry index="23" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_body_diamondheist' "/>
+			</entry>
+			<entry index="24" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_light_holder' "/>
+			</entry>
+			<entry index="25" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_spotlight' "/>
+			</entry>
+			<entry index="26" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_spotlight_shaft' "/>
+			</entry>
+			<entry index="27" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_light_cone' "/>
+			</entry>
+			<entry index="28" type="table" _id="81" metatable="effect_spawner">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'flashlight' "/>
+			</entry>
+			<entry index="29" type="table" _id="82" metatable="light">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'ls_spotlight' "/>
+			</entry>
+			<entry index="30" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_blue_halo' "/>
+			</entry>
+			<entry index="31" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_red_halo_down' "/>
+			</entry>
+			<entry index="32" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_red_halo_right' "/>
+			</entry>
+			<entry index="33" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_red_halo_up' "/>
+			</entry>
+			<entry index="34" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_light_source_white' "/>
+			</entry>
+			<entry index="35" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_light_source_red_blink' "/>
+			</entry>
+			<entry index="36" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_light_source_red' "/>
+			</entry>
+			<entry index="37" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_light_source_blue' "/>
+			</entry>
+			<entry key="animation_group" type="table" _ref="79"/>
+			<entry key="body" type="table" _ref="80"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="effect_spawner" type="table" _ref="81"/>
+			<entry key="light" type="table" _ref="82"/>
+			<entry key="name" type="string" value=" 'nypd_night' "/>
+			<entry key="object" type="table" _ref="83"/>
+			<entry key="sound" type="table" _ref="84"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="46" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="90" metatable="sound">
+				<entry key="action" type="string" value=" 'play' "/>
+				<entry key="event" type="string" value=" 'helicopter_police' "/>
+				<entry key="source" type="string" value=" 'body' "/>
+			</entry>
+			<entry index="2" type="table" _id="85" metatable="animation_group">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'ag_main_rotor' "/>
+			</entry>
+			<entry index="3" type="table" metatable="animation_group">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'ag_main_rotor' "/>
+			</entry>
+			<entry index="4" type="table" _id="86" metatable="body">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'static_body' "/>
+			</entry>
+			<entry index="5" type="table" metatable="body">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'left_door' "/>
+			</entry>
+			<entry index="6" type="table" metatable="body">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'right_door' "/>
+			</entry>
+			<entry index="7" type="table" metatable="body">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'mover_blocker' "/>
+			</entry>
+			<entry index="8" type="table" metatable="body">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'mover_bag_blocker' "/>
+			</entry>
+			<entry index="9" type="table" _id="89" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_door_left_handles' "/>
+			</entry>
+			<entry index="10" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_door_right_handles' "/>
+			</entry>
+			<entry index="11" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_door_left_nypd' "/>
+			</entry>
+			<entry index="12" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_door_right_nypd' "/>
+			</entry>
+			<entry index="13" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_door_left_diamondheist' "/>
+			</entry>
+			<entry index="14" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_door_right_diamondheist' "/>
+			</entry>
+			<entry index="15" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_interior' "/>
+			</entry>
+			<entry index="16" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_interior_hull' "/>
+			</entry>
+			<entry index="17" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_main_rotor' "/>
+			</entry>
+			<entry index="18" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_second_rotor' "/>
+			</entry>
+			<entry index="19" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_glass' "/>
+			</entry>
+			<entry index="20" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_glass_left_passenger' "/>
+			</entry>
+			<entry index="21" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_glass_right_passenger' "/>
+			</entry>
+			<entry index="22" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_body_nypd' "/>
+			</entry>
+			<entry index="23" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'g_body_diamondheist' "/>
+			</entry>
+			<entry index="24" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_light_holder' "/>
+			</entry>
+			<entry index="25" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_spotlight' "/>
+			</entry>
+			<entry index="26" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_spotlight_shaft' "/>
+			</entry>
+			<entry index="27" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'g_light_cone' "/>
+			</entry>
+			<entry index="28" type="table" _id="87" metatable="effect_spawner">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'flashlight' "/>
+			</entry>
+			<entry index="29" type="table" _id="88" metatable="light">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value=" 'ls_spotlight' "/>
+			</entry>
+			<entry key="animation_group" type="table" _ref="85"/>
+			<entry key="body" type="table" _ref="86"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="effect_spawner" type="table" _ref="87"/>
+			<entry key="light" type="table" _ref="88"/>
+			<entry key="name" type="string" value=" 'diamondheist' "/>
+			<entry key="object" type="table" _ref="89"/>
+			<entry key="sound" type="table" _ref="90"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="47" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="91" metatable="run_sequence">
+				<entry key="name" type="string" value=" 'nypd' "/>
+			</entry>
+			<entry key="name" type="string" value=" 'default' "/>
+			<entry key="reset_editable_state" type="boolean" value="true"/>
+			<entry key="run_sequence" type="table" _ref="91"/>
+		</entry>
+		<entry index="48" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="92" metatable="animation_group">
+				<entry key="enabled" type="boolean" value="true"/>
+				<entry key="name" type="string" value=" 'ag_main_rotor' "/>
+			</entry>
+			<entry key="animation_group" type="table" _ref="92"/>
+			<entry key="name" type="string" value=" 'main_rotor' "/>
+			<entry key="startup" type="boolean" value="true"/>
+		</entry>
+		<entry index="49" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="93" metatable="run_sequence">
+				<entry key="name" type="string" value=" 'nypd' "/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'swat' "/>
+			<entry key="run_sequence" type="table" _ref="93"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="50" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="94" metatable="run_sequence">
+				<entry key="name" type="string" value="'nypd_night'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'swat_night' "/>
+			<entry key="run_sequence" type="table" _ref="94"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="51" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="95" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'flyin_left_to_hover' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="95"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'redi_flyin_left' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="52" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="96" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'flyin_right_to_hover' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="96"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'redi_flyin_right' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="53" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="97" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'hover' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="97"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'redi_hover' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="54" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="98" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'circulate' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="98"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'redi_circulate' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="55" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="99" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'hover_to_flyout_left' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="99"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'redi_hover_flyout' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="56" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="100" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'hover_to_flyout_backward' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="100"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'redi_flyout_back' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="57" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="101" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'circulate_to_hover' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="101"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'redi_criculate_hover' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="58" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="102" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'flyin_forward_to_hover' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="102"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'flyin_fwd_hover' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="59" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="103" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'flyin_left_to_hover' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="103"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'flyin_left_hover' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="60" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="104" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'flyin_right_to_hover' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="104"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'flyin_right_hover' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="61" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="105" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'circulate' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="105"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'circulate' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="62" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="106" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'circulate_to_hover' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="106"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'criculate_hover' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="63" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="107" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'hover' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="107"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'hover_idle' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="64" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="108" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'hover_to_land' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="108"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'hover_land' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="65" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="109" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'hover_to_land2' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="109"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'hover_land2' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="66" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="110" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'hover_to_flyout_right' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="110"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'hover_flyout_right' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="67" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="111" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'hover_to_flyout_left' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="111"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'hover_flyout_left' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="68" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="112" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'hover_to_flyout_backward' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="112"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'hover_flyout_back' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="69" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="113" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'takeoff_forward' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="113"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'takeoff_fwd' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="70" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="114" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'takeoff_backwards' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="114"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'takeoff_bwd' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="71" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="115" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'takeoff_left' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="115"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'takeoff_to_left' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="72" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="116" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'takeoff_right' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="116"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'takeoff_to_right' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="73" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="117" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'takeoff_to_hover' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="117"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'takeoff_hover' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="74" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="118" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_end_enter' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="118"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_end_enter' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="75" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="119" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_end_1_land' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="119"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_end_1_land' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="76" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="120" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_end_backout' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="120"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_end_backout' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="77" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="121" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_end_2_land' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="121"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_end_2_land' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="78" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="122" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_first_flyin' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="122"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_first_flyin' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="79" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="123" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_first_flyout' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="123"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_first_flyout' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="80" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="124" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_second_flyin' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="124"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_second_flyin' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="81" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="125" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_second_flyout' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="125"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_second_flyout' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="82" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="126" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_third_flyin' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="126"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_third_flyin' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="83" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="127" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_third_flyout' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="127"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_third_flyout' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="84" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="128" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_third_flyin2' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="128"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_third_flyin2' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="85" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="129" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_third_flyout2' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="129"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_third_flyout2' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="86" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="130" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_fourth_flyin' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="130"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_fourth_flyin' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="87" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="131" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_fourth_flyout' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="131"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_fourth_flyout' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="88" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="132" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_fifth_flyin' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="132"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_fifth_flyin' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="89" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="133" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_fifth_flyout' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="133"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_fifth_flyout' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="90" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="134" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_sixth_flyin' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="134"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_sixth_flyin' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="91" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="135" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_sixth_flyout' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="135"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_sixth_flyout' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="92" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="136" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_seventh_flyin' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="136"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_seventh_flyin' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="93" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="137" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_seventh_flyout' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="137"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_seventh_flyout' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="94" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="138" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'street_news_sweep' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="138"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_street_news_sweep' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="95" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="139" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'pos_pickup' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="139"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'helper_pos_pickup' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="96" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="140" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'suburbia_flyin' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="140"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_suburbia_flyin' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="97" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="141" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'suburbia_hover' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="141"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_suburbia_hover' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="98" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="142" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'suburbia_flyaway' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="142"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_suburbia_flyaway' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="99" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="143" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'dh_circulate' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="143"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_dh_circulate' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="100" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="144" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'dh_circulate_2' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="144"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_dh_circulate_2' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="101" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="145" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'framing3_flyin_1' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="145"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_framing3_flyin_1' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="102" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="146" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'framing3_flyin_2' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="146"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_framing3_flyin_2' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="103" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="147" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'framing3_flyin_3' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="147"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_framing3_flyin_3' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="104" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="148" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'framing3_circulate_1' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="148"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_framing3_circulate_1' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="105" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="149" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'framing3_circulate_2' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="149"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_framing3_circulate_2' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="106" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="150" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'framing3_circulate_3' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="150"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_framing3_circulate_3' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		<entry index="107" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="151" metatable="animation_redirect">
+				<entry key="name" type="string" value=" 'framing3_flyin_4' "/>
+			</entry>
+			<entry key="animation_redirect" type="table" _ref="151"/>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value=" 'heli_framing3_flyin_4' "/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		
+		<entry index="108" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="157" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_1'"/>
+			</entry>
+			<entry index="2" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_2'"/>
+			</entry>
+			<entry index="3" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_3'"/>
+			</entry>
+			<entry index="4" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_4'"/>
+			</entry>
+			<entry index="5" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_5'"/>
+			</entry>
+			<entry index="6" type="table" metatable="object">
+				<entry key="enabled" type="boolean" value="false"/>
+				<entry key="name" type="string" value="'g_lootbag_6'"/>
+			</entry>
+			<entry index="7" type="table" _id="158" metatable="set_variables">
+				<entry key="var_loot_bag" type="number" value="0"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="false"/>
+			<entry key="name" type="string" value="'int_reset_loot_bag'"/>
+			<entry key="object" type="table" _ref="157"/>
+			<entry key="set_variables" type="table" _ref="158"/>
+			<entry key="triggable" type="boolean" value="false"/>
+		</entry>
+		<entry index="109" type="table" metatable="sequence">
+			<entry index="1" type="table" _id="159" metatable="run_sequence">
+				<entry key="name" type="string" value="'int_reset_loot_bag'"/>
+			</entry>
+			<entry key="editable_state" type="boolean" value="true"/>
+			<entry key="name" type="string" value="'state_reset_canvas_bag'"/>
+			<entry key="run_sequence" type="table" _ref="159"/>
+			<entry key="triggable" type="boolean" value="true"/>
+		</entry>
+		
+		<entry key="body" type="table" _ref="152"/>
+		<entry key="filter" type="table" _ref="153"/>
+		<entry key="sequence" type="table" _ref="154"/>
+		<entry key="variables" type="table" _ref="155"/>
+	</entry>
+	<entry key="unit" type="table" _ref="156"/>
+</generic_scriptdata>

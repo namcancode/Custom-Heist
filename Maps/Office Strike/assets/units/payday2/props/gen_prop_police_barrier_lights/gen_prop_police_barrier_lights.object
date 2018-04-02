@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/payday2/props/gen_prop_police_barrier_lights/gen_prop_police_barrier_lights" orientation_object="rp_gen_prop_police_barrier_lights" />
+  <sequence_manager file="units/payday2/props/gen_prop_police_barrier_lights/gen_prop_police_barrier_lights"/>
+  
+  <bodies>
+    <body remove_ray_type="ai_vision vis_graph" name="gen_prop_police_barrier_lights" enabled="true" template="static">
+      <object name="rp_gen_prop_police_barrier_lights" />
+			<object name="c_box" collision_type="box" padding="-2.5"/>
+			<object name="c_convex_1" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_2" collision_type="convex" padding="-2.5"/>
+    </body>
+	<body name="graph_blocker" enabled="true" template="graph_blocker">
+      <object name="c_graph_blocker" collision_type="box" />
+	  </body>
+    <body enabled="false" name="dynamic_body" template="dynamic" pushed_by_mover="false" collides_with_mover="true" ang_damping="0.5" collides_with_wheels="true">
+            <object name="rp_gen_prop_police_barrier_lights" />
+            <object collision_type="box" name="c_box" mass="10" />
+            <object collision_type="convex" name="c_convex_1" mass="10"/>
+            <object collision_type="convex" name="c_convex_2" mass="10"/>
+        </body>   
+  </bodies>
+  
+  <decal_surfaces default_material="plastic" static="true">
+    <decal_mesh name="dm_plastic" enabled="true" material="plastic" />
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_g" enabled="true" />
+    <object name="s_s" enabled="true"  shadow_caster="true"/>
+  </graphics>
+  
+  <lights>
+    <light multiplier="0.1" editable="true" name="li_light1" far_range="350" falloff="4" enabled="true" type="omni|specular" />
+    <light multiplier="0.1" editable="true" name="li_light2" far_range="350" falloff="4" enabled="true" type="omni|specular" />
+  </lights>
+  
+</dynamic_object>

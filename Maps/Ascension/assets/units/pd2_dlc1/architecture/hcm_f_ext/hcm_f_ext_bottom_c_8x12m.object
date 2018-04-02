@@ -1,0 +1,15 @@
+<dynamic_object>
+    <diesel orientation_object="rp_hcm_f_ext_bottom_c_8x12m" materials="units/pd2_dlc1/architecture/hcm_f_ext/hcm_f_ext_bottom" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_hcm_f_ext_bottom_c_8x12m" />
+            <object collision_type="box" name="c_box_00" padding="-2.5"/>
+        </body>
+    </bodies>
+	<decal_surfaces default_material="concrete">
+        <decal_mesh enabled="true" name="dm_concrete" material="concrete" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

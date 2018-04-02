@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/equipment/hospital_saw/hospital_saw" orientation_object="rp_hospital_drill" />
+	<sequence_manager file="units/equipment/hospital_saw/hospital_saw" />
+	<animations>
+		<animation_group name="drilling">
+			<object name="a_shake_head" enabled="true" />
+			<object name="a_shake_body" enabled="true" />
+		</animation_group>
+	</animations>
+		
+	<bodies>  
+		<body name="player_blocker" enabled="true" template="mover_blocker">
+			<object name="c_sphere_donkey" collision_type="sphere" padding="-2.5"/>
+		</body>
+		<body name="static_body" enabled="true" template="raycoll_static" collides_with_mover="false">
+			<object name="rp_hospital_drill"/>
+			<object name="c_donkey_head" collision_type="mesh_mopp" />
+			<object name="c_donkey_body" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="g_donkey_body" enabled="true" material="cloth" />
+		<decal_mesh name="g_donkey_head" enabled="true" material="cloth" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_drill" enabled="false" />
+		<object name="g_drill_outline" enabled="true" />
+		<object name="g_donkey_outline" enabled="true" />
+		<object name="g_donkey_body" enabled="false"/>
+		<object name="g_donkey_head" enabled="false"/>
+		<object name="timer_gui" enabled="false" />
+	</graphics>
+	
+	<objects>
+		<align_point name="e_drill_particles" parent="rp_hospital_drill" position="0 0 0" rotation="0 0 0" />
+	</objects>
+	<!-- <effect name="'effects/particles/equipment/hospital_drill/hospital_drill_smoke'" position="v()" parent="object('e_smoke_2')" /> -->
+	<effects>
+		<effect_spawner name="smoke_1" object="e_smoke_1" enabled="false" effect="effects/particles/equipment/hospital_drill/hospital_drill_smoke" />
+		<effect_spawner name="smoke_2" object="e_smoke_2" enabled="false" effect="effects/particles/equipment/hospital_drill/hospital_drill_smoke" />
+	</effects>
+</dynamic_object> 

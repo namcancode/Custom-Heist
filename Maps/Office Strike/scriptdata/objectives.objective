@@ -1,0 +1,23 @@
+<table>
+	<objective description="tj_os_obj_000_desc" id="tj_os_obj_000" prio="1" text="tj_os_obj_000" xp_weight="1"/>
+	<objective description="tj_os_obj_001_desc" id="tj_os_obj_001" prio="1" text="tj_os_obj_001" xp_weight="1"/>
+	<objective description="tj_os_obj_002_desc" id="tj_os_obj_002" prio="1" text="tj_os_obj_002" xp_weight="1"/>
+	<objective description="tj_os_obj_003_desc" id="tj_os_obj_003" prio="1" text="tj_os_obj_003" xp_weight="1"/>
+	<objective description="tj_os_obj_003_a_desc" id="tj_os_obj_003_a" prio="1" text="tj_os_obj_003_a" xp_weight="1"/>
+	<objective description="tj_os_obj_003_b_desc" id="tj_os_obj_003_b" prio="1" text="tj_os_obj_003_b" xp_weight="1"/>
+	<objective description="tj_os_obj_003_c_desc" id="tj_os_obj_003_c" prio="1" text="tj_os_obj_003_c" xp_weight="1"/>
+	<objective description="tj_os_obj_004_desc" id="tj_os_obj_004" prio="1" text="tj_os_obj_004" xp_weight="1"/>
+	<objective description="tj_os_obj_005_desc" id="tj_os_obj_005" prio="1" text="tj_os_obj_005" xp_weight="1"/>
+	<objective description="tj_os_obj_006_desc" id="tj_os_obj_006" prio="1" text="tj_os_obj_006" xp_weight="1"/>
+	<objective description="tj_os_obj_006_a_desc" id="tj_os_obj_006_a" prio="1" text="tj_os_obj_006_a" xp_weight="1"/>
+	<objective description="tj_os_obj_006_a_i_desc" id="tj_os_obj_006_a_i" prio="1" text="tj_os_obj_006_a_i" xp_weight="1"/>
+	<objective description="tj_os_obj_006_a_ii_desc" id="tj_os_obj_006_a_ii" prio="1" text="tj_os_obj_006_a_ii" xp_weight="1"/>
+	<objective description="tj_os_obj_006_a_iii_desc" id="tj_os_obj_006_a_iii" prio="1" text="tj_os_obj_006_a_iii" xp_weight="1"/>
+	<objective description="tj_os_obj_006_b_desc" id="tj_os_obj_006_b" prio="1" text="tj_os_obj_006_b" xp_weight="1"/>
+	<objective description="tj_os_obj_006_c_desc" id="tj_os_obj_006_c" prio="1" text="tj_os_obj_006_c" xp_weight="1"/>
+	<objective description="tj_os_obj_007_desc" id="tj_os_obj_007" prio="1" text="tj_os_obj_007" xp_weight="1"/>
+	<objective description="tj_os_obj_008_desc" id="tj_os_obj_008" prio="1" text="tj_os_obj_008" xp_weight="1"/>
+	<objective description="tj_os_obj_009_desc" id="tj_os_obj_009" prio="1" text="tj_os_obj_009" xp_weight="1"/>
+	<objective description="tj_os_obj_010_desc" id="tj_os_obj_010" prio="1" text="tj_os_obj_010" xp_weight="1"/>
+	<objective description="tj_os_obj_011_desc" id="tj_os_obj_011" prio="1" text="tj_os_obj_011" xp_weight="1"/>
+</table>

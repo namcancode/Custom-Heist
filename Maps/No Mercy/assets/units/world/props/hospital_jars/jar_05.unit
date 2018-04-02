@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<unit type="Hosp" slot="1">
+    <object file="units/world/props/hospital_jars/jar_05" />
+    <dependencies>
+		<depends_on effect="effects/particles/dest/veil_tube" />
+	</dependencies>
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+	<extension name="damage" class="UnitDamage" />
+  </extensions>
+</unit>

@@ -1,0 +1,22 @@
+{
+	"contact_nepgearsy_name" : "Nepgearsy",
+	"contact_nepgearsy_desc" : "",
+	"heist_eclipse_name" : "Project Eclipse",
+	"heist_eclipse_brief" : "Some german travelers found an old train in the middle of the forest. It's been there for a while, probably derailed years ago. Your job is simple, go there, and check the place. I'm pretty sure there are some valuables to steal, maybe more. With a train in this situation who knows. Be careful though, the police have already started their swarm to check things out. You have two options, either go loud or sneaky-beaky like. Your choice. Oh, and I hope you have flashlights. It's dark in there...",
+	"1_nep_eclipse_get_through" : "Inspect the forest",
+	"1_nep_eclipse_get_through_desc" : "We've found the location. Now we need to go there and see what's inside!",
+	"2_nep_eclipse_check_trains" : "Check the trains",
+	"2_nep_eclipse_check_trains_desc" : "There it is. Let's look inside.",
+	"3_nep_eclipse_secure_loot" : "Secure at least 8 bags of valuables",
+	"3b_nep_eclipse_secure_loot_myhm" : "Secure at least 10 bags of valuables",
+	"3b_nep_eclipse_secure_loot_myhm_desc" : "Let's get everything back to the van!",
+	"3c_nep_eclipse_secure_loot_dw" : "Secure at least 12 bags of valuables",
+	"3c_nep_eclipse_secure_loot_dw_desc" : "Let's get everything back to the van!",
+	"3d_nep_eclipse_secure_loot_od" : "Secure at least 16 bags of valuables",
+	"3d_nep_eclipse_secure_loot_od_desc" : "Let's get everything back to the van!",
+	"3e_nep_eclipse_secure_loot_vhard_below" : "Secure at least 4 bags of valuables",
+	"3e_nep_eclipse_secure_loot_vhard_below_desc" : "Let's get everything back to the van!",
+	"3_nep_eclipse_secure_loot_desc" : "Let's get everything back to the van!",
+	"4_nep_eclipse_escape" : "Secure more loot or escape",
+	"4_nep_eclipse_escape_desc" : "We're done, let's move!"
+}

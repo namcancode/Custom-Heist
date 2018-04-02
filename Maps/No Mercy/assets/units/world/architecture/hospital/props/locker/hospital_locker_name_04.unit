@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<unit type="Hosp" slot="1">
+  <object file="units/world/architecture/hospital/props/locker/hospital_locker_name_04" />
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+  </extensions>
+</unit> 

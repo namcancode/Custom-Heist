@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/elevator_buttons/elevator_buttons" orientation_object="rp_elevator_buttons" />
+	<sequence_manager file="units/world/architecture/hospital/props/elevator_buttons/elevator_buttons" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_elevator_buttons" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="c_box_01" enabled="true" material="metal" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_elevator_buttons" enabled="true"/>
+	</graphics>
+</dynamic_object> 

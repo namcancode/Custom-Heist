@@ -1,0 +1,14 @@
+<materials version="3" group="suit_male">
+    <material name="suit_set" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS:VERTEX_COLOR:VERTEX_COLOR_ALPHA:VERTEX_COLOR_CHARACTER" version="2">
+        <bump_normal_texture file="units/characters/civilians/textures/suit_set_nm"/>
+        <diffuse_texture file="units/characters/civilians/textures/suit_set_df"/>
+    </material>
+    <material name="bankman_suit_set" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS:VERTEX_COLOR:VERTEX_COLOR_ALPHA:VERTEX_COLOR_CHARACTER" version="2">
+        <bump_normal_texture file="units/characters/civilians/textures/suit_set_nm"/>
+        <diffuse_texture file="units/characters/npc/textures/player_suit_df"/>
+    </material>
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS:VERTEX_COLOR:VERTEX_COLOR_ALPHA:VERTEX_COLOR_CHARACTER" name="bank_manager_head">
+        <bump_normal_texture file="units/characters/bank_manager/bank_manager_head_nm"/>
+        <diffuse_texture file="units/characters/bank_manager/bank_manager_head_df"/>
+    </material>
+</materials>

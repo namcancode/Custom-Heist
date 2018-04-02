@@ -1,0 +1,10 @@
+<materials version="3">
+    <material name="mat_witch" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/witch/witch_df"/>
+        <bump_normal_texture file="units/world/architecture/hospital/props/witch/witch_nm"/>
+    </material>
+    <material name="mat_witch_hair" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF" version="2">
+        <diffuse_texture file="units/world/architecture/hospital/props/witch/witch_hair_df"/>
+        <variable value="0.1410000026226" type="scalar" name="alpha_ref"/>
+    </material>
+</materials>

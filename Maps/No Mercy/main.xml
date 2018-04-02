@@ -1,0 +1,105 @@
+<table name="No Mercy">
+	<Localization default="english.txt" directory="loc"/>
+	<narrative brief_id="nomercy_briefing" briefing_event="Play_bot_watchdogs_new_stage2_01" contact="bain" id="nomercy" name_id="heist_nomercy">
+		<chain>
+			<table level_id="nomercy" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="15000"/>
+			<value_node value="17000"/>
+			<value_node value="35000"/>
+			<value_node value="58000"/>
+			<value_node value="90000"/>
+			<value_node value="100000"/>
+			<value_node value="115000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="Play_bot_watchdogs_new_stage2_02"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<experience_mul>
+			<value_node value="1.2"/>
+			<value_node value="1.2"/>
+			<value_node value="1.2"/>
+			<value_node value="1.5"/>
+			<value_node value="2.5"/>
+			<value_node value="3"/>
+			<value_node value="4.5"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="30000"/>
+			<value_node value="40000"/>
+			<value_node value="50000"/>
+			<value_node value="58000"/>
+			<value_node value="65000"/>
+			<value_node value="75000"/>
+			<value_node value="90000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="10000"/>
+			<value_node value="20000"/>
+			<value_node value="30000"/>
+			<value_node value="35000"/>
+			<value_node value="40000"/>
+			<value_node value="50000"/>
+			<value_node value="65000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="22000"/>
+			<value_node value="25000"/>
+			<value_node value="44000"/>
+			<value_node value="66000"/>
+			<value_node value="99000"/>
+			<value_node value="115000"/>
+			<value_node value="130000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="america" brief_id="nomercy_briefing" briefing_dialog="Play_bot_watchdogs_new_stage2_07" id="nomercy" max_bags="54" name_id="heist_nomercy" outro_event="Play_plt_watchdogs_stage1_04">
+		<add file="world/add.xml"/>
+		<hooks directory="hooks">
+			<hook file="elementdialogue.lua" source_file="lib/managers/mission/elementdialogue"/>
+			<hook file="character_map.lua" source_file="lib/tweak_data"/>
+			<hook file="ElementSpawnEnemyDummy.lua" source_file="lib/managers/mission/elementspawnenemydummy"/>
+			<hook file="interactionext.lua" source_file="lib/units/interactions/interactionext"/>
+		</hooks>
+		<include directory="world">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="art_light/art_light.continent" type="binary"/>
+			<file file="art_light/art_light.mission" type="binary"/>
+			<file file="env/env.continent" type="binary"/>
+			<file file="env/env.mission" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="lights/lights.continent" type="binary"/>
+			<file file="lights/lights.mission" type="binary"/>
+			<file file="navlinks/navlinks.continent" type="binary"/>
+			<file file="navlinks/navlinks.mission" type="binary"/>
+			<file file="mission/mission.continent" type="binary"/>
+			<file file="mission/mission.mission" type="binary"/>
+			<file file="art/art.continent" type="binary"/>
+			<file file="art/art.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/env_l4d.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/world/world"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/world/world_init"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/world"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/world_init"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+</table>

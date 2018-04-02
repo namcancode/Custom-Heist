@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<unit type="Hosp" slot="1">
+  <object file="units/world/architecture/hospital/props/rooftop/garbage256_composite/garbage256_composite001a" />
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+  </extensions>
+</unit>

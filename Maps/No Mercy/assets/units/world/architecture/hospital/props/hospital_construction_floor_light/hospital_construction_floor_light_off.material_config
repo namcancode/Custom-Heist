@@ -1,0 +1,10 @@
+<materials version="3" group="hospital_construction_floor_light">
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" decal_material="sheet_metal" version="2" name="mat_construction_lights">
+        <diffuse_texture file="units/world/architecture/hospital/props/hospital_construction_floor_light/hospital_construction_floor_light_df"/>
+    </material>
+    <material name="light_cone" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DOUBLE_SIDED:INSTANCED:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/world/street/street_lights/cone_light_df"/>
+        <variable value="2" type="scalar" name="falloff_exp"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+    </material>
+</materials>

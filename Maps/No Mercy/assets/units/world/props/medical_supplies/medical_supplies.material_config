@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="medical_supplies" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/props/medical_supplies/medical_supplies_df"/>
+    </material>
+</materials>

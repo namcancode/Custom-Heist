@@ -1,0 +1,6 @@
+<unit type="static" slot="1" >
+    <object file="units/world/props/paper_towel_dispenser/paper_towel_dispenser" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

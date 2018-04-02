@@ -1,0 +1,10 @@
+<table>
+	<objective description="1_nep_eclipse_get_through_desc" id="1_nep_eclipse_get_through" prio="1" text="1_nep_eclipse_get_through" xp_weight="1"/>
+	<objective description="2_nep_eclipse_check_trains_desc" id="2_nep_eclipse_check_trains" prio="1" text="2_nep_eclipse_check_trains" xp_weight="1"/>
+	<objective description="3_nep_eclipse_secure_loot_desc" id="3_nep_eclipse_secure_loot" prio="1" text="3_nep_eclipse_secure_loot" xp_weight="1"/>
+	<objective description="4_nep_eclipse_escape_desc" id="4_nep_eclipse_escape" prio="1" text="4_nep_eclipse_escape" xp_weight="1"/>
+	<objective description="3b_nep_eclipse_secure_loot_myhm_desc" id="3b_nep_eclipse_secure_loot_myhm" prio="1" text="3b_nep_eclipse_secure_loot_myhm" xp_weight="1"/>
+	<objective description="3c_nep_eclipse_secure_loot_dw_desc" id="3c_nep_eclipse_secure_loot_dw" prio="1" text="3c_nep_eclipse_secure_loot_dw" xp_weight="1"/>
+	<objective description="3d_nep_eclipse_secure_loot_od_desc" id="3d_nep_eclipse_secure_loot_od" prio="1" text="3d_nep_eclipse_secure_loot_od" xp_weight="1"/>
+	<objective description="3e_nep_eclipse_secure_loot_vhard_below_desc" id="3e_nep_eclipse_secure_loot_vhard_below" prio="1" text="3e_nep_eclipse_secure_loot_vhard_below" xp_weight="1"/>
+</table>

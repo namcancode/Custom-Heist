@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/props" orientation_object="rp_toilet" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_toilet" />
+			<object name="g_toilet" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="tile" static="true">
+		<decal_mesh name="g_toilet" enabled="true" material="tile" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_toilet" enabled="true"/>
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,1 @@
+{	"id":"ERF_Punishment",	"desc":"ERF_Punishment_desc",	"rank":"gold",	"goal":0,	"hidden":false,	"number":0,	"reward_amount":0,	"unlocked":false,	"reward_type":"none",	"objective":"ERF_Punishment_objective",	"displayed":true,	"name":"ERF_Punishment_name",	"texture":"default"}

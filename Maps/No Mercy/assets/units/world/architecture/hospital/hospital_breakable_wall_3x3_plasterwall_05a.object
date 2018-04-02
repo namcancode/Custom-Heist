@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/hospital_scene_1" orientation_object="rp_hospital_breakable_wall_3x3_plasterwall_05a" />
+	<sequence_manager file="units/world/architecture/hospital/hospital_breakable_wall_3x3_plasterwall_05a" />
+	<bodies>
+		<body name="static_body" remove_ray_type="walk" enabled="true" template="static">
+			<object name="rp_hospital_breakable_wall_3x3_plasterwall_05a"/>
+			<object name="g_hospital_wall" collision_type="box"/>     
+		</body>
+		<body name="static_body_destroyed" enabled="false" template="static">
+			<object name="g_hospital_wall_destroyed" collision_type="mesh_mopp"/>               
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="concrete" static="true">
+		<decal_mesh name="g_hospital_wall" enabled="true"  material="concrete"/>
+		<decal_mesh name="g_hospital_wall_destroyed" enabled="false" material="concrete"/>
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_hospital_wall" enabled="true" />
+		<object name="g_hospital_wall_destroyed" enabled="false" />
+	</graphics>
+</dynamic_object> 

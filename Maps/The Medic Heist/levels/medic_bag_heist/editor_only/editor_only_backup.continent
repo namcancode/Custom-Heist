@@ -1,0 +1,90 @@
+<table>
+	<editor_groups/>
+	<statics>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_001" only_exists_in_editor="true" position="517.57 190.03 -45" rotation="0 0 -0.707107 -0.707107" unit_id="100439"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_002" only_exists_in_editor="true" position="42.5699 -509.97 -45" rotation="0 0 0 -1" unit_id="100492"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_003" only_exists_in_editor="true" position="1077.57 2240.03 -60" rotation="0 0 -0.707107 -0.707107" unit_id="100493"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_004" only_exists_in_editor="true" position="1333.99 455.03 -0" rotation="-0 0 -0 -1" unit_id="100494"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_005" only_exists_in_editor="true" position="2917.99 455.03 0" rotation="0 0 0 -1" unit_id="100495"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_006" only_exists_in_editor="true" position="3717.99 1446.03 0" rotation="0 0 -0.707107 -0.707107" unit_id="100496"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_007" only_exists_in_editor="true" position="3717.99 2258.03 0" rotation="0 0 -0.707107 -0.707107" unit_id="100497"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_008" only_exists_in_editor="true" position="2915.99 2802.03 0" rotation="0 0 1 -0" unit_id="100498"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_010" only_exists_in_editor="true" position="-507.43 3835.03 -60" rotation="0 0 -0.707107 -0.707107" unit_id="100499"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="542.57 4850.03 -12" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_011" only_exists_in_editor="true" position="542.57 4850.03 -12" rotation="0 0 1 -4.37114e-008" unit_id="100500"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2092.57 4869.03 227" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="1550 19 239" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_012" only_exists_in_editor="true" position="2092.57 4869.03 227" rotation="0 0 1 -4.37114e-008" unit_id="100501"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3681.57 4869.03 436" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="3139 19 448" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_013" only_exists_in_editor="true" position="3681.57 4869.03 436" rotation="0 0 1 -4.37114e-008" unit_id="100502"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_014" only_exists_in_editor="true" position="3681.57 2831.03 436" rotation="0 0 1 -4.37114e-008" unit_id="100503"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_015" only_exists_in_editor="true" position="2081.57 2831.03 436" rotation="0 0 1 -0" unit_id="100504"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_016" only_exists_in_editor="true" position="495.57 2831.03 436" rotation="0 0 1 -0" unit_id="100505"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_017" only_exists_in_editor="true" position="-481.43 3857.03 436" rotation="0 0 -0.707107 -0.707107" unit_id="100506"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_019" only_exists_in_editor="true" position="2843.99 1267.03 -486" rotation="0 0 0 -1" unit_id="100507"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_020" only_exists_in_editor="true" position="3888.99 628.03 -486" rotation="0 0 0.707107 -0.707107" unit_id="100508"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_021" only_exists_in_editor="true" position="3888.99 2245.03 -486" rotation="0 0 0.707107 -0.707107" unit_id="100509"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_022" only_exists_in_editor="true" position="2874.99 3095.03 -486" rotation="0 0 0 -1" unit_id="100510"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_023" only_exists_in_editor="true" position="1275.99 3095.03 -486" rotation="0 0 0 -1" unit_id="100511"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_024" only_exists_in_editor="true" position="-416.01 3841.03 -486" rotation="0 0 0.707107 -0.707107" unit_id="100512"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="542.57 4850.03 -12" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_025" only_exists_in_editor="true" position="542.57 4850.03 -534" rotation="0 0 1 -4.37114e-008" unit_id="100513"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2092.57 4869.03 227" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="1550 19 239" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_026" only_exists_in_editor="true" position="2092.57 4869.03 -295" rotation="0 0 1 -4.37114e-008" unit_id="100514"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3681.57 4869.03 436" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_027" only_exists_in_editor="true" position="3681.57 4869.03 -86" rotation="0 0 1 -4.37114e-008" unit_id="100515"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_028" only_exists_in_editor="true" position="4683.57 3826.03 -86" rotation="0 0 0.707107 -0.707107" unit_id="100516"/>
+		</table>
+		<table>
+			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_20" name_id="navigation_blocker_20_029" only_exists_in_editor="true" position="4631.57 3780.03 436" rotation="0 0 0.707107 -0.707107" unit_id="100517"/>
+		</table>
+	<statics>
+	<values>
+		<workviews/>
+	</values>
+	<instances/>
+</table>
