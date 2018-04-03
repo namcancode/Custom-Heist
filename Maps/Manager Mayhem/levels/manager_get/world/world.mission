@@ -1129,6 +1129,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="2"/>
+							<entry key="id" type="number" value="200127"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="313 -2583 0"/>
 					<entry key="rotation" type="quaternion" value="-0 -0 0.707107 -0.707107"/>
@@ -6756,6 +6760,27 @@
 					</entry>
 					<entry key="position" type="vector3" value="-2724.97 -772.57 1162.41"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="236" type="table">
+				<entry key="class" type="string" value="ElementInvulnerable"/>
+				<entry key="editor_name" type="string" value="invulnerable"/>
+				<entry key="id" type="number" value="200127"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100039"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="immortal" type="boolean" value="false"/>
+					<entry key="invulnerable" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="278.849 -2717.44 588.472"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>

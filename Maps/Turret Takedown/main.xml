@@ -4,7 +4,38 @@
 	<Hooks>
 		<hook file="hooks/CrimeSpreeHook.lua" source_file="lib/tweak_data/crimespreetweakdata"/>
 	</Hooks>
-	<narrative contact="quackertree" id="turret_takedown_wrapper">
+	<AddFiles>
+		<texture force="true" path="assets/guis/loading/broker"/>
+		<texture force="true" path="assets/guis/loading/day1"/>
+		<movie force="true" path="vo/briefing"/>
+		<movie force="true" path="vo/brea_arrived"/>
+		<movie force="true" path="vo/brea_arrived2"/>
+		<movie force="true" path="vo/brea_boardwindow"/>
+		<movie force="true" path="vo/brea_cameradown"/>
+		<movie force="true" path="vo/brea_hackcomputer"/>
+		<movie force="true" path="vo/brea_leave"/>
+		<movie force="true" path="vo/brea_nearcamera"/>
+		<movie force="true" path="vo/brea_planks"/>
+		<movie force="true" path="vo/brea_server"/>
+		<movie force="true" path="vo/brea_server2"/>
+		<movie force="true" path="vo/brea_server3"/>
+		<movie force="true" path="vo/brea_spotted"/>
+		<movie force="true" path="vo/brea_warehouseopen"/>
+		<movie force="true" path="vo/brea_windowpowerdown"/>
+		<movie force="true" path="vo/davey_goodjob"/>
+		<movie force="true" path="vo/davey_hackcomputer"/>
+		<movie force="true" path="vo/davey_hello"/>
+		<movie force="true" path="vo/davey_keycard"/>
+		<movie force="true" path="vo/davey_loot"/>
+		<movie force="true" path="vo/davey_overhang"/>
+		<movie force="true" path="vo/davey_planks"/>
+		<movie force="true" path="vo/dysphorid_gotit"/>
+		<movie force="true" path="vo/dysphorid_gotit2"/>
+		<movie force="true" path="vo/dysphorid_gotit3"/>
+		<movie force="true" path="vo/dysphorid_gotit4"/>
+		<movie force="true" path="vo/dysphorid_gotit5"/>
+	</AddFiles>
+	<narrative contact="quackertree" id="turret_takedown_wrapper" icon="assets/guis/loading/broker">
 		<chain>
 			<table level_id="turret_takedown" type="d" type_id="heist_type_assault"/>
 		</chain>
@@ -61,8 +92,8 @@
 			<value_node value="100000"/>
 		</payout>
 	</narrative>
-	<level ai_group_type="Russia" briefing_dialog="" ghost_bonus="0.1" id="turret_takedown" max_bags="10">
-		<add directory="assets"/>
+	<level ai_group_type="Russia" briefing_dialog="" ghost_bonus="0.1" id="turret_takedown" load_screen="assets/guis/loading/day1" max_bags="10">
+		<add file="levels/turret_takedown/add.xml"/>
 		<assets>
 			<asset name="bodybags_bag"/>
 			<asset name="planks"/>
@@ -75,10 +106,10 @@
 			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world_sounds.world_sounds" type="generic_xml"/>
 			<file file="world_cameras.world_cameras" type="custom_xml"/>
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
 			<file file="editor_only/editor_only.continent" type="custom_xml"/>
 			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
 			<file file="cover_data.cover_data" type="custom_xml"/>
 		</include>
 		<intro_event>
@@ -110,5 +141,5 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<AssetUpdates id="20440" provider="modworkshop" use_local_dir="true" version="1.2"/>
+	<AssetUpdates id="20440" provider="modworkshop" use_local_dir="true" version="1.3"/>
 </table>
