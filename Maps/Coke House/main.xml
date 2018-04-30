@@ -59,7 +59,7 @@
 			<value_node value="300000"/>
 		</payout>
 	</narrative>
-	<AssetUpdates id="22057" provider="modworkshop" use_local_dir="true" version="3"/>
+	<AssetUpdates id="22057" provider="modworkshop" use_local_dir="true" version="1.1.0"/>
 	<level ai_group_type="america" id="cokehouse" max_bags="54">
 		<add file="levels/cokehouse/add.xml"/>
 		<assets>

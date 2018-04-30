@@ -28,5 +28,5 @@ function InteractionTweakData:init(...)
 	self.quack_hack_power = {}
 	self.quack_hack_power.text_id = "quack_interact_hack_power"
 	self.quack_hack_power.action_text_id = "quack_interact_hack_action"
-	self.quack_hack_power.timer = 15
+	self.quack_hack_power.timer = 30
 end

@@ -1,7 +1,46 @@
 <table name="Cold Gold">
 	<contact assets_gui="guis/dlcs/big_bank/guis/preload_contact_the_dentist" id="quackertree" name_id="heist_contact_quackertree" package="packages/contact_the_dentist"/>
 	<Localization default="english.txt" directory="loc"/>
-	<narrative briefing_event="" contact="quackertree" id="cold_gold_wrapper">
+	<AddFiles>
+		<texture force="true" path="assets/guis/loading/coldgold_broker"/>
+		<texture force="true" path="assets/guis/loading/coldgold_day1"/>
+		<movie force="true" path="vo/briefing_cg"/>
+		<movie force="true" path="vo/alex_bag1"/>
+		<movie force="true" path="vo/alex_bag2"/>
+		<movie force="true" path="vo/alex_bag3"/>
+		<movie force="true" path="vo/alex_chopperhere1"/>
+		<movie force="true" path="vo/alex_chopperhere2"/>
+		<movie force="true" path="vo/alex_chopperin1"/>
+		<movie force="true" path="vo/alex_chopperin2"/>
+		<movie force="true" path="vo/alex_chopperin3"/>
+		<movie force="true" path="vo/aory_cablecut"/>
+		<movie force="true" path="vo/aory_chopper"/>
+		<movie force="true" path="vo/aory_container"/>
+		<movie force="true" path="vo/aory_escape"/>
+		<movie force="true" path="vo/aory_forklift"/>
+		<movie force="true" path="vo/aory_forkliftdone"/>
+		<movie force="true" path="vo/aory_hackdone"/>
+		<movie force="true" path="vo/aory_nearvault"/>
+		<movie force="true" path="vo/aory_vaultcorrect"/>
+		<movie force="true" path="vo/aory_vaultwrong"/>
+		<movie force="true" path="vo/slavik_c4"/>
+		<movie force="true" path="vo/slavik_container1"/>
+		<movie force="true" path="vo/slavik_container2"/>
+		<movie force="true" path="vo/slavik_container3"/>
+		<movie force="true" path="vo/slavik_cutred"/>
+		<movie force="true" path="vo/slavik_cutyellow"/>
+		<movie force="true" path="vo/slavik_forklift"/>
+		<movie force="true" path="vo/slavik_forklift_slow"/>
+		<movie force="true" path="vo/slavik_hackrestart1"/>
+		<movie force="true" path="vo/slavik_hackrestart2"/>
+		<movie force="true" path="vo/slavik_hackstart"/>
+		<movie force="true" path="vo/slavik_keycard"/>
+		<movie force="true" path="vo/slavik_killciv"/>
+		<movie force="true" path="vo/slavik_snipers"/>
+		<movie force="true" path="vo/slavik_vaultcorrect"/>
+		<movie force="true" path="vo/slavik_vaultwrong"/>
+	</AddFiles>
+	<narrative briefing_event="" contact="quackertree" icon="assets/guis/loading/coldgold_broker" id="cold_gold_wrapper">
 		<chain>
 			<table level_id="cold_gold" type="d" type_id="heist_type_assault"/>
 		</chain>
@@ -60,8 +99,8 @@
 			<value_node value="90000"/>
 		</payout>
 	</narrative>
-	<level ai_group_type="America" briefing_dialog="" id="cold_gold" max_bags="9">
-		<add directory="assets"/>
+	<level ai_group_type="America" briefing_dialog="" id="cold_gold" load_screen="assets/guis/loading/coldgold_day1" max_bags="9">
+		<add file="levels/cold_gold/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
@@ -76,10 +115,10 @@
 			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world_sounds.world_sounds" type="generic_xml"/>
 			<file file="world_cameras.world_cameras" type="custom_xml"/>
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
 			<file file="editor_only/editor_only.continent" type="custom_xml"/>
 			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
 			<file file="cover_data.cover_data" type="custom_xml"/>
 			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
@@ -112,5 +151,5 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<AssetUpdates id="20469" provider="modworkshop" use_local_dir="true" version="1.1"/>
+	<AssetUpdates id="20469" provider="modworkshop" use_local_dir="true" version="2.0"/>
 </table>

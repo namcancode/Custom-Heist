@@ -1,4 +1,76 @@
 <table>
-	<positions/>
-	<rotations/>
+	<positions>
+		<value_node value="171 341 1000"/>
+		<value_node value="496 491 1000"/>
+		<value_node value="696 91 1000"/>
+		<value_node value="1271 291 1000"/>
+		<value_node value="771 1116 1000"/>
+		<value_node value="1296 766 1000"/>
+		<value_node value="-454 1491 1000"/>
+		<value_node value="-129 1591 1000"/>
+		<value_node value="971 1441 1000"/>
+		<value_node value="96 1791 1000"/>
+		<value_node value="-704 1691 1000"/>
+		<value_node value="621 1791 1000"/>
+		<value_node value="-104 1941 1000"/>
+		<value_node value="-429 1916 1000"/>
+		<value_node value="-1054 1766 1000"/>
+		<value_node value="1046 1816 1000"/>
+		<value_node value="1296 1691 1000"/>
+		<value_node value="321 2116 1000"/>
+		<value_node value="21 2141 1000"/>
+		<value_node value="-704 2066 1000"/>
+		<value_node value="-1029 1966 1000"/>
+		<value_node value="-1604 1591 1000"/>
+		<value_node value="-929 2191 1000"/>
+		<value_node value="-429 2341 1000"/>
+		<value_node value="-1579 1841 1000"/>
+		<value_node value="496 2391 1000"/>
+		<value_node value="846 2291 1000"/>
+		<value_node value="-279 2491 1000"/>
+		<value_node value="121 2516 1000"/>
+		<value_node value="-1204 2216 1000"/>
+		<value_node value="-1729 1866 1000"/>
+		<value_node value="796 2466 1000"/>
+		<value_node value="-1504 2216 1000"/>
+		<value_node value="-1554 2366 1000"/>
+		<value_node value="-1654 2366 1000"/>
+	</positions>
+	<rotations>
+		<value_node value="0"/>
+		<value_node value="0"/>
+		<value_node value="0"/>
+		<value_node value="0"/>
+		<value_node value="0"/>
+		<value_node value="0"/>
+		<value_node value="0"/>
+		<value_node value="0"/>
+		<value_node value="0"/>
+		<value_node value="70"/>
+		<value_node value="70"/>
+		<value_node value="0"/>
+		<value_node value="70"/>
+		<value_node value="0"/>
+		<value_node value="30"/>
+		<value_node value="70"/>
+		<value_node value="70"/>
+		<value_node value="-170"/>
+		<value_node value="80"/>
+		<value_node value="-80"/>
+		<value_node value="70"/>
+		<value_node value="-20"/>
+		<value_node value="-80"/>
+		<value_node value="-180"/>
+		<value_node value="-30"/>
+		<value_node value="100"/>
+		<value_node value="-180"/>
+		<value_node value="170"/>
+		<value_node value="140"/>
+		<value_node value="100"/>
+		<value_node value="-50"/>
+		<value_node value="100"/>
+		<value_node value="-110"/>
+		<value_node value="-130"/>
+		<value_node value="-130"/>
+	</rotations>
 </table>

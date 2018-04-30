@@ -4,7 +4,37 @@
 	<Hooks>
 		<hook file="hooks/CrimeSpreeHook.lua" source_file="lib/tweak_data/crimespreetweakdata"/>
 	</Hooks>
-	<narrative contact="quackertree" id="transfer_frenzy_wrapper">
+	<AddFiles>
+		<texture force="true" path="assets/guis/loading/tranfren_broker"/>
+		<texture force="true" path="assets/guis/loading/tranfren_day1"/>
+		<movie force="true" path="vo/briefing_tf"/>
+		<movie force="true" path="vo/crab_alarm"/>
+		<movie force="true" path="vo/crab_cablecut"/>
+		<movie force="true" path="vo/crab_hello"/>
+		<movie force="true" path="vo/crab_hurry"/>
+		<movie force="true" path="vo/crab_moneyhere"/>
+		<movie force="true" path="vo/crab_notdone"/>
+		<movie force="true" path="vo/crab_tastemoney"/>
+		<movie force="true" path="vo/hazz_alarm"/>
+		<movie force="true" path="vo/hazz_camerabroke"/>
+		<movie force="true" path="vo/hazz_cameras"/>
+		<movie force="true" path="vo/hazz_copymachine"/>
+		<movie force="true" path="vo/hazz_copymachinedone"/>
+		<movie force="true" path="vo/hazz_escape"/>
+		<movie force="true" path="vo/hazz_forcehack"/>
+		<movie force="true" path="vo/hazz_hackdone"/>
+		<movie force="true" path="vo/hazz_intro"/>
+		<movie force="true" path="vo/hazz_leave"/>
+		<movie force="true" path="vo/hazz_phone"/>
+		<movie force="true" path="vo/hazz_phoneanswer"/>
+		<movie force="true" path="vo/hazz_phoneintro"/>
+		<movie force="true" path="vo/hazz_restarthack"/>
+		<movie force="true" path="vo/hazz_transactionstart"/>
+		<movie force="true" path="vo/tonis_tacobell"/>
+		<movie force="true" path="vo/tonis_undermurder"/>
+		<movie force="true" path="vo/tonis_wrongnumber"/>
+	</AddFiles>
+	<narrative contact="quackertree" id="transfer_frenzy_wrapper" icon="assets/guis/loading/tranfren_broker">
 		<chain>
 			<table level_id="transfer_frenzy" type="d" type_id="heist_type_assault"/>
 		</chain>
@@ -61,8 +91,8 @@
 			<value_node value="60000"/>
 		</payout>
 	</narrative>
-	<level ai_group_type="America" briefing_dialog="" ghost_bonus="0.1" id="transfer_frenzy" max_bags="1">
-		<add directory="assets"/>
+	<level ai_group_type="America" briefing_dialog="" ghost_bonus="0.1" id="transfer_frenzy" load_screen="assets/guis/loading/tranfren_day1" max_bags="1">
+		<add file="levels/transfer_frenzy/add.xml"/>
 		<assets>
 			<asset name="grenade_crate"/>
 			<asset name="bodybags_bag"/>
@@ -78,12 +108,11 @@
 			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world_sounds.world_sounds" type="generic_xml"/>
 			<file file="world_cameras.world_cameras" type="custom_xml"/>
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
 			<file file="editor_only/editor_only.continent" type="custom_xml"/>
 			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
 			<file file="cover_data.cover_data" type="custom_xml"/>
-			<file file="environments/soft_blue.environment" type="custom_xml"/>
 		</include>
 		<intro_event>
 			<value_node value=""/>
@@ -116,5 +145,5 @@
 			<mod replacement="pc.sequence_manager" replacement_type="generic_xml" target_ext="sequence_manager" target_path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b"/>
 		</script_data_mods>
 	</level>
-	<AssetUpdates id="20533" provider="modworkshop" use_local_dir="true" version="1.2"/>
+	<AssetUpdates id="20533" provider="modworkshop" use_local_dir="true" version="2"/>
 </table>
