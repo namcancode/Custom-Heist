@@ -1,6 +1,6 @@
 <table name="Eclipse Research Facility">
 	<Localization default="english.txt" directory="loc"/>
-	<AssetUpdates id="20588" provider="modworkshop" use_local_dir="true" version="13"/>
+	<AssetUpdates id="20588" provider="modworkshop" use_local_dir="true" version="14"/>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" desc_id="contact_nepgearsy_desc" id="nepgearsy" name_id="contact_nepgearsy_name" package="packages/contact_bain"/>
 	<narrative briefing_event="" contact="nepgearsy" icon="icons/ERFIcon" id="eclipse_research_facility">
 		<chain>

@@ -57,5 +57,4 @@
 	"ERF_Punishment_name" : "I do not fear punishments", 
 	"ERF_Punishment_desc" : "", 
 	"ERF_Punishment_objective" : "In the ERF heist, have 10 punishments alive at the same time, then kill them all. (Overkill difficulty or more)."
-
 }

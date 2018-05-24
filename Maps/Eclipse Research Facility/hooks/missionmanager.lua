@@ -1,2 +1,2 @@
- dofile(ModPath .. "/elementcustommusic.lua")
- dofile(ModPath .. "/elementsimplemessage.lua")
+ dofile(ModPath .. "hooks/elementcustommusic.lua")
+ dofile(ModPath .. "hooks/elementsimplemessage.lua")

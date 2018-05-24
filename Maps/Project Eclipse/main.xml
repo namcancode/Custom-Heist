@@ -1,6 +1,6 @@
 <table name="eclipse">
 	<Localization default="english.txt" directory="loc"/>
-	<AssetUpdates id="20441" provider="modworkshop" use_local_dir="true" version="6"/>
+	<AssetUpdates id="20441" provider="modworkshop" use_local_dir="true" version="7"/>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" desc_id="contact_nepgearsy_desc" id="nepgearsy" name_id="contact_nepgearsy_name" package="packages/contact_bain"/>
 	<narrative briefing_event="" contact="nepgearsy" id="eclipse" icon="icon/PEIcon">
 		<chain>
